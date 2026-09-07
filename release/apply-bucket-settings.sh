@@ -8,6 +8,26 @@ BUCKET="freburg-immune-data-viewer-544227292049-us-east-1-an"
 REGION="us-east-1"
 HERE="$(cd "$(dirname "$0")" && pwd)"
 
+# Fail early and legibly: a stale key otherwise surfaces as a raw
+# InvalidAccessKeyId from whichever API call happens to run first.
+command -v aws >/dev/null || { echo "aws CLI not found" >&2; exit 1; }
+
+AWS_ERR=$(mktemp)
+trap 'rm -f "$AWS_ERR"' EXIT
+if ! WHO=$(aws sts get-caller-identity --query Account --output text 2>"$AWS_ERR"); then
+  echo "AWS credentials are not working:" >&2
+  sed 's/^/  /' "$AWS_ERR" >&2
+  echo >&2
+  echo "Fix with 'aws configure' (access key) or 'aws configure sso', then re-run." >&2
+  exit 1
+fi
+if [ -n "544227292049" ] && [ "$WHO" != "544227292049" ]; then
+  echo "Signed in to AWS account $WHO, but the bucket belongs to 544227292049." >&2
+  echo "Switch profile (AWS_PROFILE=...) or credentials, then re-run." >&2
+  exit 1
+fi
+echo "AWS account $WHO"
+
 # Public-read requires the account-level block to allow bucket policies.
 aws s3api put-public-access-block \
   --bucket "$BUCKET" --region "$REGION" \
