@@ -1,0 +1,70 @@
+{
+  "R": {
+    "Version": "4.4.1",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "Seurat": {
+      "Package": "Seurat",
+      "Version": "5.3.1.9999",
+      "Source": "github",
+      "RemoteRef": "spaceranger-4.0",
+      "RemoteSha": "6f38bfa109b33febe8699897e0bb8f0e4f65d449",
+      "RemoteRepo": "seurat",
+      "RemoteUsername": "satijalab"
+    },
+    "SeuratObject": {
+      "Package": "SeuratObject",
+      "Version": "5.1.9999",
+      "Source": "github",
+      "RemoteRef": "spaceranger-4.0",
+      "RemoteSha": "bc5fd0c0e8cfe98a3aeca819bb9ddc1f69ba9222",
+      "RemoteRepo": "seurat-object",
+      "RemoteUsername": "satijalab"
+    },
+    "Matrix": {
+      "Package": "Matrix",
+      "Version": "1.7.4",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "jsonlite": {
+      "Package": "jsonlite",
+      "Version": "2.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "reticulate": {
+      "Package": "reticulate",
+      "Version": "1.45.0",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "sceasy": {
+      "Package": "sceasy",
+      "Version": "0.0.7",
+      "Source": "github",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "c1c0bf973b0b3b67e013c01bf583d1fcc4c9f8cc",
+      "RemoteRepo": "sceasy",
+      "RemoteUsername": "cellgeni"
+    },
+    "sp": {
+      "Package": "sp",
+      "Version": "2.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "qs": {
+      "Package": "qs",
+      "Version": "0.27.3",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    }
+  }
+}

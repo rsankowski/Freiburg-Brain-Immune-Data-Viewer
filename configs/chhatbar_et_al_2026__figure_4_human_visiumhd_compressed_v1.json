@@ -1,0 +1,2566 @@
+{
+  "version": "1.0.16",
+  "name": "Visium HD human brain",
+  "description": "96,409 spatial spots across five tissue microarrays, binned and annotated by cell type.",
+  "datasets": [
+    {
+      "uid": "chhatbar_et_al_2026__figure_4_hu",
+      "name": "Visium HD human brain",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_4_human_visiumhd_compressed_v1.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_spatial",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "SPATIAL"
+              },
+              {
+                "path": "obsm/X_umap",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "UMAP"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "Final celltype",
+                "path": "obs/Final_celltype"
+              },
+              {
+                "name": "orig.ident",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "Sample id",
+                "path": "obs/Sample_id"
+              },
+              {
+                "name": "Tissue Region",
+                "path": "obs/Tissue_Region"
+              },
+              {
+                "name": "Tissue Type",
+                "path": "obs/Tissue_Type"
+              },
+              {
+                "name": "Reported Sex",
+                "path": "obs/Reported_Sex"
+              },
+              {
+                "name": "Clinical Brain Diagnosis",
+                "path": "obs/Clinical_Brain_Diagnosis"
+              },
+              {
+                "name": "Clinical Brain Diagnosis Short",
+                "path": "obs/Clinical_Brain_Diagnosis_Short"
+              },
+              {
+                "name": "Region",
+                "path": "obs/Region"
+              },
+              {
+                "name": "Disease region",
+                "path": "obs/Disease_region"
+              },
+              {
+                "name": "Subject ID",
+                "path": "obs/Subject_ID"
+              },
+              {
+                "name": "Class id",
+                "path": "obs/Class_id"
+              },
+              {
+                "name": "Subclass id",
+                "path": "obs/Subclass_id"
+              },
+              {
+                "name": "module label",
+                "path": "obs/module_label"
+              },
+              {
+                "name": "Sample id disease",
+                "path": "obs/Sample_id_disease"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "chhatbar_et_al_2026__figure_4_hu"
+    },
+    "embeddingType": {
+      "A": "SPATIAL",
+      "B": "SPATIAL"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2RY12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "Final celltype",
+            "Astrocytes"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Bergmann glia CBL"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "CAM"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "CD4 TRM"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "CD8 TRM"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Dysmorphic neurons"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Endothelial cells"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Erythrocytes"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Excitatory Neuron"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Fibroblasts"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Granule neuron CBL"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Inhibitory Neuron"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "MDM"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Microglia"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "OPC"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Oligodendrocytes"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "PC CBL"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Pericytes"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Plasmablasts"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "SMC"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Schwann cells"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Final celltype",
+            "Tumor"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "TMA_1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "TMA_2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "TMA_3"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "TMA_4_new"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "TMA_5_old"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "183_CTX_GBM"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "233_CTX_GBM"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "254_CTX_GBM"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "465_FCD_II_B_CTX"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "567_FCD_II_b_CTX"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "2003-014_SPC"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "2003-033_SPC"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "2008-072_SPC"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "2011-069_SPC"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "2011-081_SPC"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "2014-001_Mri1_CTX"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "2014-007_PLA_CTX"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "2016-019_Mri6_CTX"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "2016-019_SPC"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "4135_BA17"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "4668_Hip"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "5410_BA17"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "5410_Hip"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "5789_Hip"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "5801_BA17"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB18073_BA17"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB18073_Hip"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB18120_BA17"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB18120_Hip"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB18124_BA17"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB18124_Hip"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB19036_BA17"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB19036_Hip"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB19072_BA17"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB19072_Hip"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "BEB19074_Hip"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "CBL_CTRL_1"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "CBL_CTRL_2"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "HBIG_BA17"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "HCT17HEY_BA17"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "HCT17HEY_Hip"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Sample id",
+            "N_976_17_BG_AGS"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Tissue Region",
+            "Basal ganglia"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Tissue Region",
+            "Cerebellum"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue Region",
+            "Cortex"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Tissue Region",
+            "Hippocampus"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue Region",
+            "Occipital--Primary_Visual_Cortex_(Brodmann_area_17)"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Tissue Region",
+            "Spinal_cord"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Tissue Type",
+            "Brain"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Tissue Type",
+            "Spinal_cord"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Reported Sex",
+            "Female"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Reported Sex",
+            "Male"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Reported Sex",
+            "NA"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis",
+            "AD early"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis",
+            "AD late"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis",
+            "AGS"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis",
+            "Controls"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis",
+            "FCD"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis",
+            "GBM"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis",
+            "MS"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "AD"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "AGS"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "Control"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "FCD"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "GBM"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "MS"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Basal_ganglia"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Cerebellum"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Cerebral_cortex"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Hippocampus"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Occipital_cortex"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Spinal_cord"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "AD_early_Hippocampus"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "AD_early_Occipital_cortex"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "AD_late_Hippocampus"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "AD_late_Occipital_cortex"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "AGS_Basal_ganglia"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "Control_Cerebellum"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "Control_Hippocampus"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "Control_Occipital_cortex"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "Control_Spinal_cord"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "FCD_Cerebral_cortex"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "GBM_Cerebral_cortex"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "MS_Cerebral_cortex"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Disease region",
+            "MS_Spinal_cord"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "183_CTX_GBM"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "233_CTX_GBM"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "254_CTX_GBM"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "465_FCD_II_B_CTX"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "567_FCD_II_b_CTX"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2003-014_SPC"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2003-033_SPC"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2008-072_SPC"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2011-069_SPC"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2011-081_SPC"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2014-001_Mri1_CTX"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2014-007_PLA_CTX"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2016-019_Mri6_CTX"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2016-019_SPC"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4135_BA17"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4668_Hip"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5410_BA17"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5410_Hip"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5789_Hip"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5801_BA17"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18073_BA17"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18073_Hip"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18120_BA17"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18120_Hip"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18124_BA17"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18124_Hip"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19036_BA17"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19036_Hip"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19072_BA17"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19072_Hip"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19074_Hip"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "CBL_CTRL_1"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "CBL_CTRL_2"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "HBIG_BA17"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "HCT17HEY_BA17"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "HCT17HEY_Hip"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "N_976_17_BG_AGS"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Class id",
+            "Misc"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Class id",
+            "NA"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Class id",
+            "Neuronal"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Class id",
+            "Non-Neuronal"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subclass id",
+            "Astro-like"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Subclass id",
+            "GABA Neuron"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subclass id",
+            "Glut Neuron"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Subclass id",
+            "Immune"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subclass id",
+            "Misc"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Subclass id",
+            "Oligo-like"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Subclass id",
+            "Structural"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Subclass id",
+            "Vascular"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "module label",
+            "Cytokine"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "module label",
+            "IFN"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "module label",
+            "Inflammation"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "module label",
+            "MHC"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "module label",
+            "NA"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "module label",
+            "Neuroprotection"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "module label",
+            "Phagocytosis"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "module label",
+            "Proliferation"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "module label",
+            "Surveillance"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "183_CTX_GBM_GBM"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "233_CTX_GBM_GBM"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "254_CTX_GBM_GBM"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "465_FCD_II_B_CTX_FCD"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "567_FCD_II_b_CTX_FCD"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "2003-014_SPC_MS"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "2003-033_SPC_Control"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "2008-072_SPC_MS"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "2011-069_SPC_Control"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "2011-081_SPC_Control"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "2014-001_Mri1_CTX_MS"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "2014-007_PLA_CTX_MS"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "2016-019_Mri6_CTX_MS"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "2016-019_SPC_MS"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "4135_BA17_Control"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "4668_Hip_AD"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "5410_BA17_Control"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "5410_Hip_Control"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "5789_Hip_Control"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "5801_BA17_Control"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB18073_BA17_AD"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB18073_Hip_AD"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB18120_BA17_AD"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB18120_Hip_AD"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB18124_BA17_AD"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB18124_Hip_AD"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB19036_BA17_AD"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB19036_Hip_AD"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB19072_BA17_AD"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB19072_Hip_AD"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "BEB19074_Hip_AD"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "CBL_CTRL_1_Control"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "CBL_CTRL_2_Control"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "HBIG_BA17_AD"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "HCT17HEY_BA17_Control"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "HCT17HEY_Hip_Control"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Sample id disease",
+            "N_976_17_BG_AGS_AGS"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "Final celltype",
+          "Astrocytes"
+        ],
+        [
+          "Final celltype",
+          "Bergmann glia CBL"
+        ],
+        [
+          "Final celltype",
+          "CAM"
+        ],
+        [
+          "Final celltype",
+          "CD4 TRM"
+        ],
+        [
+          "Final celltype",
+          "CD8 TRM"
+        ],
+        [
+          "Final celltype",
+          "Dysmorphic neurons"
+        ],
+        [
+          "Final celltype",
+          "Endothelial cells"
+        ],
+        [
+          "Final celltype",
+          "Erythrocytes"
+        ],
+        [
+          "Final celltype",
+          "Excitatory Neuron"
+        ],
+        [
+          "Final celltype",
+          "Fibroblasts"
+        ],
+        [
+          "Final celltype",
+          "Granule neuron CBL"
+        ],
+        [
+          "Final celltype",
+          "Inhibitory Neuron"
+        ],
+        [
+          "Final celltype",
+          "MDM"
+        ],
+        [
+          "Final celltype",
+          "Microglia"
+        ],
+        [
+          "Final celltype",
+          "OPC"
+        ],
+        [
+          "Final celltype",
+          "Oligodendrocytes"
+        ],
+        [
+          "Final celltype",
+          "PC CBL"
+        ],
+        [
+          "Final celltype",
+          "Pericytes"
+        ],
+        [
+          "Final celltype",
+          "Plasmablasts"
+        ],
+        [
+          "Final celltype",
+          "SMC"
+        ],
+        [
+          "Final celltype",
+          "Schwann cells"
+        ],
+        [
+          "Final celltype",
+          "Tumor"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": false
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "Final celltype"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

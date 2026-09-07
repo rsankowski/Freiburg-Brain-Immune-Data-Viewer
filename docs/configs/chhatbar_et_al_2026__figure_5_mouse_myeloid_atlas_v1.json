@@ -1,0 +1,2671 @@
+{
+  "version": "1.0.16",
+  "name": "Mouse myeloid atlas",
+  "description": "172,497 mouse myeloid cells across ten CNS regions and two conditions.",
+  "datasets": [
+    {
+      "uid": "chhatbar_et_al_2026__figure_5_mo",
+      "name": "Mouse myeloid atlas",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_5_mouse_myeloid_atlas_v1.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_umap",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "UMAP"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "Subclass label",
+                "path": "obs/Subclass_label"
+              },
+              {
+                "name": "orig.ident",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "condition",
+                "path": "obs/condition"
+              },
+              {
+                "name": "Region",
+                "path": "obs/Region"
+              },
+              {
+                "name": "Condition",
+                "path": "obs/Condition"
+              },
+              {
+                "name": "Tissue",
+                "path": "obs/Tissue"
+              },
+              {
+                "name": "Context stagewise",
+                "path": "obs/Context_stagewise"
+              },
+              {
+                "name": "Context stagewise Controls merged",
+                "path": "obs/Context_stagewise_Controls_merged"
+              },
+              {
+                "name": "Tissue label",
+                "path": "obs/Tissue_label"
+              },
+              {
+                "name": "Condition label",
+                "path": "obs/Condition_label"
+              },
+              {
+                "name": "Module label",
+                "path": "obs/Module_label"
+              },
+              {
+                "name": "Context region",
+                "path": "obs/Context_region"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "chhatbar_et_al_2026__figure_5_mo"
+    },
+    "embeddingType": {
+      "A": "UMAP",
+      "B": "UMAP"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2ry12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "Subclass label",
+            "CAM"
+          ],
+          "color": [
+            160,
+            32,
+            240
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "CD4 Th17"
+          ],
+          "color": [
+            255,
+            181,
+            197
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "CD8 TRM"
+          ],
+          "color": [
+            238,
+            154,
+            73
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "Granulocyte"
+          ],
+          "color": [
+            205,
+            133,
+            63
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "MAIT"
+          ],
+          "color": [
+            70,
+            130,
+            180
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "MDM"
+          ],
+          "color": [
+            210,
+            180,
+            140
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "Microglia"
+          ],
+          "color": [
+            154,
+            205,
+            50
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "NK"
+          ],
+          "color": [
+            208,
+            32,
+            144
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "Plamablasts"
+          ],
+          "color": [
+            106,
+            90,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "TEx"
+          ],
+          "color": [
+            0,
+            229,
+            238
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "Treg"
+          ],
+          "color": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subclass label",
+            "cDC1"
+          ],
+          "color": [
+            0,
+            0,
+            238
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "APP23_Hip"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Aging_2_years_CTX"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Aging_control_CTX"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Cup_DE_CC"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Cup_RE_CC"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Cup_control_CC"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "E16_control_brain"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "EAE_chronic_SPC"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "EAE_control_SPC"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "EAE_naive_control_brainstem"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "EAE_naive_control_cerebellum"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "EAE_onset_SPC"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "EAE_peak_SPC"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "EAE_peak_brainstem"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "EAE_peak_cerebellum"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "FAD_16_week_Hip"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "FAD_16_week_control_Hip"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "FAD_40_week_Hip"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "FAD_40_week_control_Hip"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "FMF_control_CTX"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "FMF_disease_CTX"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "FnX_7d_FN"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "FnX_30d_FN"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "FnX_control_FN"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "GL261_IDH_WT_BL6_F_CTX"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Germ_free_2_years_CTX"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Germ_free_CTX"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Germ_free_control_CTX"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "GvHD_CTX"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "GvHD_control_CTX"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Huntingtons_model_control_striatum"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Huntingtons_model_striatum"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "LPS_24_hr_CTX"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "LPS_PBS_24_h_control_CTX"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "MuMT_CTX"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "MuMT_control_CTX"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Rnaset2_KO_CTX"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Rnaset2_control_CTX"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "SOD1_Tg_CTX"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "SOD1_Tg_SPC"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "SOD1_WT_control_CTX"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "SOD1_WT_control_SPC"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Stroke_7d_2ndRun_CTX"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Stroke_7d_2ndRun_control_CTX"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Stroke_14d_2ndRun_CTX"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Stroke_14d_2ndRun_control_CTX"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "VSV_7d_CTX"
+          ],
+          "color": [
+            161,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "VSV_7d_OB"
+          ],
+          "color": [
+            54,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "VSV_15d_CTX"
+          ],
+          "color": [
+            166,
+            48,
+            102
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "VSV_15d_OB"
+          ],
+          "color": [
+            26,
+            147,
+            187
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "VSV_control_CTX"
+          ],
+          "color": [
+            206,
+            201,
+            88
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "VSV_control_OB"
+          ],
+          "color": [
+            174,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Homeostatic"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Non-homeostatic"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "CC"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "CTX"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "FN"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Hip"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "OB"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "SPC"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "brain"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "brainstem"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "cerebellum"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "striatum"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Condition",
+            "Homeostatic"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Condition",
+            "Non-homeostatic"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Brainstem"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "CC"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Cerebellum"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Cortex"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Encephalon"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Facial nucleus"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Hippocampus"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "OB"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Spinal cord"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Striatum"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "APP23"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Aging"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Aging_Homeostatic"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Cup_Homeostatic"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Cup_early"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Cup_late"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "E16"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "EAE_Homeostatic"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "EAE_chronic"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "EAE_onset"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "EAE_peak"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FAD_control_early"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FAD_control_late"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FAD_early"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FAD_late"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FMF"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FMF_Homeostatic"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FNX_Homeostatic"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FNX_early"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FNX_late"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GF_Homeostatic"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GF_early"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GF_late"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GL261"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GvHD"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GvHD_Homeostatic"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "LPS"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "LPS_Homeostatic"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MCAO_Homeostatic"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MCAO_early"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MCAO_late"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MuMT"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MuMT_Homeostatic"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "R6/2"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "R6/2_Homeostatic"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Rnaset2"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Rnaset2_Homeostatic"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "SOD1"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "SOD1_Homeostatic"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "VSV_Homeostatic"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "VSV_early"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "VSV_late"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "APP23"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Aging"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Controls"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Cup De."
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Cup Re."
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "EAE chronic"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "EAE onset"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "EAE peak"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FAD early"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FAD late"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FMF"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FNX early"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FNX late"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GF old"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GF young"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GL261"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GvHD"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "LPS"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "MCAO early"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "MCAO late"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "R6/2"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Rnaset2"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "SOD1"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "SPF E16"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "VSV early"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "VSV late"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "\u00b5MT"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Brainstem"
+          ],
+          "color": [
+            127,
+            127,
+            127
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "CC"
+          ],
+          "color": [
+            44,
+            160,
+            44
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Cerebellum"
+          ],
+          "color": [
+            188,
+            189,
+            34
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Cortex"
+          ],
+          "color": [
+            148,
+            103,
+            189
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Encephalon"
+          ],
+          "color": [
+            255,
+            187,
+            120
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Facial nucleus"
+          ],
+          "color": [
+            23,
+            190,
+            207
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Hippocampus"
+          ],
+          "color": [
+            147,
+            95,
+            80
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "OB"
+          ],
+          "color": [
+            214,
+            39,
+            40
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Spinal cord"
+          ],
+          "color": [
+            174,
+            199,
+            232
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Striatum"
+          ],
+          "color": [
+            227,
+            119,
+            194
+          ]
+        },
+        {
+          "path": [
+            "Condition label",
+            "Homeostasis"
+          ],
+          "color": [
+            0,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Condition label",
+            "Non-homeostasis"
+          ],
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Cytokine"
+          ],
+          "color": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "IFN"
+          ],
+          "color": [
+            238,
+            130,
+            238
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Inflammation"
+          ],
+          "color": [
+            255,
+            165,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "MHC"
+          ],
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Neuroprotection"
+          ],
+          "color": [
+            0,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Phagocytosis"
+          ],
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Proliferation"
+          ],
+          "color": [
+            255,
+            192,
+            203
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Surveillance"
+          ],
+          "color": [
+            0,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "APP23_Hip"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Aging_CTX"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Cup_early_CC"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Cup_late_CC"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "E16_brain"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "EAE_chronic_SPC"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "EAE_onset_SPC"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "EAE_peak_SPC"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "EAE_peak_brainstem"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "EAE_peak_cerebellum"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "FAD_early_Hip"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "FAD_late_Hip"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "FMF_CTX"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "FNX_early_FN"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "FNX_late_FN"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "GF_early_CTX"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "GF_late_CTX"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "GL261_CTX"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "GvHD_CTX"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Homeostatic_CC"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Homeostatic_CTX"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Homeostatic_FN"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Homeostatic_Hip"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Homeostatic_OB"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Homeostatic_SPC"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Homeostatic_brainstem"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Homeostatic_cerebellum"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Homeostatic_striatum"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "LPS_CTX"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "MCAO_early_CTX"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "MCAO_late_CTX"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "MuMT_CTX"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "R6/2_striatum"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "Rnaset2_CTX"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "SOD1_CTX"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "SOD1_SPC"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "VSV_early_CTX"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "VSV_early_OB"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "VSV_late_CTX"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context region",
+            "VSV_late_OB"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "Subclass label",
+          "CAM"
+        ],
+        [
+          "Subclass label",
+          "CD4 Th17"
+        ],
+        [
+          "Subclass label",
+          "CD8 TRM"
+        ],
+        [
+          "Subclass label",
+          "Granulocyte"
+        ],
+        [
+          "Subclass label",
+          "MAIT"
+        ],
+        [
+          "Subclass label",
+          "MDM"
+        ],
+        [
+          "Subclass label",
+          "Microglia"
+        ],
+        [
+          "Subclass label",
+          "NK"
+        ],
+        [
+          "Subclass label",
+          "Plamablasts"
+        ],
+        [
+          "Subclass label",
+          "TEx"
+        ],
+        [
+          "Subclass label",
+          "Treg"
+        ],
+        [
+          "Subclass label",
+          "cDC1"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "Subclass label"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

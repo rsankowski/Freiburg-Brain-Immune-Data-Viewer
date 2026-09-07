@@ -1,0 +1,6272 @@
+{
+  "version": "1.0.16",
+  "name": "Cross-species microglia",
+  "description": "270,493 microglia from human and mouse, integrated with RPCA.",
+  "datasets": [
+    {
+      "uid": "chhatbar_et_al_2026__figure_6_cr",
+      "name": "Cross-species microglia",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_6_cross_species_microglia_integrated.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_integrated_rpca",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "INTEGRATED RPCA"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "Species",
+                "path": "obs/Species"
+              },
+              {
+                "name": "Subject ID",
+                "path": "obs/Subject_ID"
+              },
+              {
+                "name": "Age original",
+                "path": "obs/Age_original"
+              },
+              {
+                "name": "Hemisphere",
+                "path": "obs/Hemisphere"
+              },
+              {
+                "name": "Clinical Brain Diagnosis Short",
+                "path": "obs/Clinical_Brain_Diagnosis_Short"
+              },
+              {
+                "name": "Region",
+                "path": "obs/Region"
+              },
+              {
+                "name": "Final Sex",
+                "path": "obs/Final_Sex"
+              },
+              {
+                "name": "condition",
+                "path": "obs/condition"
+              },
+              {
+                "name": "Disease.condition",
+                "path": "obs/Disease.condition"
+              },
+              {
+                "name": "Tissue label",
+                "path": "obs/Tissue_label"
+              },
+              {
+                "name": "Condition",
+                "path": "obs/Condition"
+              },
+              {
+                "name": "Condition label",
+                "path": "obs/Condition_label"
+              },
+              {
+                "name": "Module label",
+                "path": "obs/Module_label"
+              },
+              {
+                "name": "Context stagewise Controls merged",
+                "path": "obs/Context_stagewise_Controls_merged"
+              },
+              {
+                "name": "Context",
+                "path": "obs/Context"
+              },
+              {
+                "name": "Tissue",
+                "path": "obs/Tissue"
+              },
+              {
+                "name": "Context stagewise",
+                "path": "obs/Context_stagewise"
+              },
+              {
+                "name": "relabelled clusters mouse",
+                "path": "obs/relabelled_clusters_mouse"
+              },
+              {
+                "name": "RNA snn res.2",
+                "path": "obs/RNA_snn_res.2"
+              },
+              {
+                "name": "seurat clusters",
+                "path": "obs/seurat_clusters"
+              },
+              {
+                "name": "Human Module",
+                "path": "obs/Human_Module"
+              },
+              {
+                "name": "Mouse Module",
+                "path": "obs/Mouse_Module"
+              },
+              {
+                "name": "Merged Module",
+                "path": "obs/Merged_Module"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "chhatbar_et_al_2026__figure_6_cr"
+    },
+    "embeddingType": {
+      "A": "INTEGRATED RPCA",
+      "B": "INTEGRATED RPCA"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2RY12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "Species",
+            "Human"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Species",
+            "Mouse"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "241"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "293"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "310"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "465"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "480_15"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "508"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "527"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "564"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "567"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "644"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "663-17-31r"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "696"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "939"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "971"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "976_17"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "1206"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "1593"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2003-014"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2003-033"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2008-072"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2010-039"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2011-035"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2011-044"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2011-069"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2011-081"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2012-002"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2012-052"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2012-071"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2013-015"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2014-007"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2014-043"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2016-019"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2017-005"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2399"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2515"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2603"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2714"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "3003"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "3403"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "3406"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "3590"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4176"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4179"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4349"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4371"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4436"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4668"
+          ],
+          "color": [
+            161,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4730"
+          ],
+          "color": [
+            54,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4775"
+          ],
+          "color": [
+            166,
+            48,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "4859"
+          ],
+          "color": [
+            26,
+            147,
+            187
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5289"
+          ],
+          "color": [
+            206,
+            201,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5410"
+          ],
+          "color": [
+            174,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5549"
+          ],
+          "color": [
+            88,
+            206,
+            132
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5632"
+          ],
+          "color": [
+            238,
+            146,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5711"
+          ],
+          "color": [
+            152,
+            167,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5737"
+          ],
+          "color": [
+            189,
+            238,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5766"
+          ],
+          "color": [
+            166,
+            48,
+            142
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5789"
+          ],
+          "color": [
+            26,
+            187,
+            173
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5801"
+          ],
+          "color": [
+            166,
+            121,
+            48
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5817"
+          ],
+          "color": [
+            120,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "5906"
+          ],
+          "color": [
+            88,
+            206,
+            93
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "6265"
+          ],
+          "color": [
+            228,
+            67,
+            108
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "11938"
+          ],
+          "color": [
+            152,
+            192,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "13800"
+          ],
+          "color": [
+            222,
+            238,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "13885"
+          ],
+          "color": [
+            215,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "13927"
+          ],
+          "color": [
+            26,
+            187,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "14159"
+          ],
+          "color": [
+            166,
+            81,
+            48
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "14572"
+          ],
+          "color": [
+            26,
+            27,
+            187
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "14773"
+          ],
+          "color": [
+            124,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "15895"
+          ],
+          "color": [
+            228,
+            67,
+            162
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "15982"
+          ],
+          "color": [
+            88,
+            192,
+            206
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "17724"
+          ],
+          "color": [
+            238,
+            221,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "19074"
+          ],
+          "color": [
+            191,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "201472"
+          ],
+          "color": [
+            138,
+            238,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "201573"
+          ],
+          "color": [
+            166,
+            48,
+            53
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "201582"
+          ],
+          "color": [
+            26,
+            81,
+            187
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "2017139"
+          ],
+          "color": [
+            122,
+            166,
+            48
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "A129-CL2A"
+          ],
+          "color": [
+            228,
+            67,
+            216
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18037"
+          ],
+          "color": [
+            88,
+            206,
+            181
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18045"
+          ],
+          "color": [
+            228,
+            146,
+            67
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18073"
+          ],
+          "color": [
+            166,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18088"
+          ],
+          "color": [
+            148,
+            238,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18120"
+          ],
+          "color": [
+            225,
+            152,
+            180
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18121"
+          ],
+          "color": [
+            26,
+            135,
+            187
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18124"
+          ],
+          "color": [
+            162,
+            166,
+            48
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB18140"
+          ],
+          "color": [
+            145,
+            26,
+            187
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19030"
+          ],
+          "color": [
+            88,
+            206,
+            141
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19036"
+          ],
+          "color": [
+            228,
+            92,
+            67
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19072"
+          ],
+          "color": [
+            88,
+            104,
+            206
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19074"
+          ],
+          "color": [
+            181,
+            238,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "BEB19080"
+          ],
+          "color": [
+            225,
+            152,
+            204
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "C048"
+          ],
+          "color": [
+            138,
+            238,
+            237
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "C064"
+          ],
+          "color": [
+            166,
+            130,
+            48
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "HBIG"
+          ],
+          "color": [
+            92,
+            26,
+            187
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "HCT17HEY"
+          ],
+          "color": [
+            48,
+            166,
+            61
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "Hct15HBM"
+          ],
+          "color": [
+            228,
+            67,
+            95
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "HctYH"
+          ],
+          "color": [
+            88,
+            144,
+            206
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "HctYP"
+          ],
+          "color": [
+            189,
+            228,
+            67
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "HctYR"
+          ],
+          "color": [
+            221,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "HctZZH"
+          ],
+          "color": [
+            138,
+            238,
+            204
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "NA"
+          ],
+          "color": [
+            225,
+            178,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "P21_17"
+          ],
+          "color": [
+            38,
+            26,
+            187
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "P23_21"
+          ],
+          "color": [
+            74,
+            166,
+            48
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "P24_17"
+          ],
+          "color": [
+            187,
+            26,
+            108
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "P27_21"
+          ],
+          "color": [
+            88,
+            183,
+            206
+          ]
+        },
+        {
+          "path": [
+            "Subject ID",
+            "P36_17"
+          ],
+          "color": [
+            228,
+            213,
+            67
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "5"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "9"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "15"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "16"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "21"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "22"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "23"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "25"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "26"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "27"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "30"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "31"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "32"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "34"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "39"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "44"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "45"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "46"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "47"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "48"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "49"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "50"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "51"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "53"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "54"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "55"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "56"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "57"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "58"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "60"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "61"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "63"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "64"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "65"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "68"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "70"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "71"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "72"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "74"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "75"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "76"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "78"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "79"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "81"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "83"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "84"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "85"
+          ],
+          "color": [
+            161,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "90"
+          ],
+          "color": [
+            54,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "91"
+          ],
+          "color": [
+            166,
+            48,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "96"
+          ],
+          "color": [
+            26,
+            147,
+            187
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "NA"
+          ],
+          "color": [
+            206,
+            201,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "Pcw_7"
+          ],
+          "color": [
+            174,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "Pcw_11"
+          ],
+          "color": [
+            88,
+            206,
+            132
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "Pcw_12"
+          ],
+          "color": [
+            238,
+            146,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "Pcw_14"
+          ],
+          "color": [
+            152,
+            167,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "Pcw_15"
+          ],
+          "color": [
+            189,
+            238,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "Pcw_17"
+          ],
+          "color": [
+            166,
+            48,
+            142
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "Pcw_19"
+          ],
+          "color": [
+            26,
+            187,
+            173
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "Pcw_20"
+          ],
+          "color": [
+            166,
+            121,
+            48
+          ]
+        },
+        {
+          "path": [
+            "Age original",
+            "pcw_9"
+          ],
+          "color": [
+            120,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Hemisphere",
+            "Left"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Hemisphere",
+            "NA"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Hemisphere",
+            "Right"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "AD_early"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "AD_late"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "AGS"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "ALS"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "Astrocytoma 4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "BMET (NSCLC)"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "FCD"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "GBM"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "GBM recurrence"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "HD"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "Hippocampal_Sclerosis"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "Homeostasis"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "MS"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "NA"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "Oligodendroglioma 3"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Clinical Brain Diagnosis Short",
+            "PD"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "CC"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "CTX"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Caudate_nucleus"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Cerebellum"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Cerebral_cortex"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Cortex"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "FN"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Fetal_brain"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Frontal_cortex"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Hip"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Hippocampus"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Motor_cortex"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "OB"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Occipital_cortex"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "SPC"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Spinal_cord"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Substantia_nigra"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Thalamus"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "Tumor"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "brain"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "brainstem"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "cerebellum"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Region",
+            "striatum"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Final Sex",
+            "Female"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Final Sex",
+            "Male"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Final Sex",
+            "NA"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Homeostasis"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Homeostatic"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Non-homeostasis"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Non-homeostatic"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "AD_early_Disease"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "AD_late_Disease"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "AD_unspecified_Disease"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "AGS_Disease"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "ALS_Disease"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "Astrocytoma_Disease"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "Control_Control"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "FCD_Disease"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "GBM_Disease"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "HD_Disease"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "Hippocampal_Sclerosis_Disease"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "Lung_Disease"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "MS_Disease"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "MS_NAWM_Disease"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "NA"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "Oligodendroglioma_Disease"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Disease.condition",
+            "PD_Disease"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Brainstem"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "CC"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Caudate_nucleus"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Cerebellum"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Cerebral_cortex"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Cortex"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Encephalon"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Facial nucleus"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Frontal_cortex"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Hippocampus"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Motor_cortex"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "OB"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Occipital_cortex"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Spinal cord"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Spinal_cord"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Striatum"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Substantia_nigra"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Tissue label",
+            "Thalamus"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Condition",
+            "Homeostasis"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Condition",
+            "Homeostatic"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Condition",
+            "Non-homeostasis"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Condition",
+            "Non-homeostatic"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Condition label",
+            "Homeostasis"
+          ],
+          "color": [
+            0,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Condition label",
+            "Non-homeostasis"
+          ],
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Cytokine"
+          ],
+          "color": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "IFN"
+          ],
+          "color": [
+            238,
+            130,
+            238
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Inflammation"
+          ],
+          "color": [
+            255,
+            165,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "MHC"
+          ],
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Neuroprotection"
+          ],
+          "color": [
+            0,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Phagocytosis"
+          ],
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Proliferation"
+          ],
+          "color": [
+            255,
+            192,
+            203
+          ]
+        },
+        {
+          "path": [
+            "Module label",
+            "Surveillance"
+          ],
+          "color": [
+            0,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "AD_early"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "AD_late"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "AGS"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "ALS"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "APP23"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Aging"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Astrocytoma 4"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Controls"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Cup De."
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Cup Re."
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "EAE chronic"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "EAE onset"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "EAE peak"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FAD early"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FAD late"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FCD"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FMF"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FNX early"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "FNX late"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Fetal brain"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GBM"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GBM recurrence"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GF old"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GF young"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GL261"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "GvHD"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "HD"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Hippocampal_Sclerosis"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "LPS"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "MCAO early"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "MCAO late"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "MS lesion"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "MS_NAWM"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Metastasis (lung)"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Oligodendroglioma 3"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "PD"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "R6/2"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "Rnaset2"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "SOD1"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "SPF E16"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "VSV early"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "VSV late"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise Controls merged",
+            "\u00b5MT"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "AD_early"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "AD_late"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "AGS"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "ALS"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "Astrocytoma 4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "BMET (NSCLC)"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "FCD"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "Fetal brain"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "GBM"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "GBM recurrence"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "HD"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "Hippocampal_Sclerosis"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "Homeostasis"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "MS"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "MS_NAWM"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "NA"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "Oligodendroglioma 3"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Context",
+            "PD"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Brainstem"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "CC"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Cerebellum"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Cortex"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Encephalon"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Facial nucleus"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Hippocampus"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "NA"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "OB"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Spinal cord"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Tissue",
+            "Striatum"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "APP23"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Aging"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Aging_Homeostatic"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Cup_Homeostatic"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Cup_early"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Cup_late"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "E16"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "EAE_Homeostatic"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "EAE_chronic"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "EAE_onset"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "EAE_peak"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FAD_control_early"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FAD_control_late"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FAD_early"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FAD_late"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FMF"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FMF_Homeostatic"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FNX_Homeostatic"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FNX_early"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "FNX_late"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GF_Homeostatic"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GF_early"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GF_late"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GL261"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GvHD"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "GvHD_Homeostatic"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "LPS"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "LPS_Homeostatic"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MCAO_Homeostatic"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MCAO_early"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MCAO_late"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MuMT"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "MuMT_Homeostatic"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "NA"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "R6/2"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "R6/2_Homeostatic"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Rnaset2"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "Rnaset2_Homeostatic"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "SOD1"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "SOD1_Homeostatic"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "VSV_Homeostatic"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "VSV_early"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Context stagewise",
+            "VSV_late"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "3"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "4"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "5"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "6"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "7"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "8"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "9"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "10"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "11"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "12"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "13"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "14"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "15"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "16"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "17"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "18"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "19"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "20"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "21"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "22"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "23"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "24"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "25"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "26"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "27"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "28"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "29"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "30"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "31"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "32"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "33"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "34"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "35"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "36"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "37"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "38"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "39"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "40"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "41"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "42"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "43"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "44"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "45"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "46"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "47"
+          ],
+          "color": [
+            161,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "48"
+          ],
+          "color": [
+            54,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "49"
+          ],
+          "color": [
+            166,
+            48,
+            102
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "50"
+          ],
+          "color": [
+            26,
+            147,
+            187
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "51"
+          ],
+          "color": [
+            206,
+            201,
+            88
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "52"
+          ],
+          "color": [
+            174,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "53"
+          ],
+          "color": [
+            88,
+            206,
+            132
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "54"
+          ],
+          "color": [
+            238,
+            146,
+            138
+          ]
+        },
+        {
+          "path": [
+            "relabelled clusters mouse",
+            "NA"
+          ],
+          "color": [
+            152,
+            167,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "32"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "33"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "34"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "35"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "36"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "37"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "38"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "39"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "40"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "32"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "33"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "34"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "35"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "36"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "37"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "38"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "39"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "40"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "Human Module",
+            "Cytokine"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Human Module",
+            "IFN"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Human Module",
+            "Inflammation"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Human Module",
+            "MHC"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Human Module",
+            "NA"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Human Module",
+            "Neuroprotection"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Human Module",
+            "Phagocytosis"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Human Module",
+            "Proliferation"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Human Module",
+            "Surveillance"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Mouse Module",
+            "Cytokine"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Mouse Module",
+            "IFN"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Mouse Module",
+            "Inflammation"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Mouse Module",
+            "MHC"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Mouse Module",
+            "NA"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Mouse Module",
+            "Neuroprotection"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Mouse Module",
+            "Phagocytosis"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Mouse Module",
+            "Proliferation"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Mouse Module",
+            "Surveillance"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Merged Module",
+            "Cytokine"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Merged Module",
+            "IFN"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Merged Module",
+            "Inflammation"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Merged Module",
+            "MHC"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Merged Module",
+            "Neuroprotection"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Merged Module",
+            "Phagocytosis"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Merged Module",
+            "Proliferation"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Merged Module",
+            "Surveillance"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "Species",
+          "Human"
+        ],
+        [
+          "Species",
+          "Mouse"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "Species"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

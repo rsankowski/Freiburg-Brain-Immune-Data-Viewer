@@ -1,0 +1,379 @@
+{
+  "base_url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com",
+  "s3_bucket": "freburg-immune-data-viewer-544227292049-us-east-1-an",
+  "s3_region": "us-east-1",
+  "s3_prefix": "",
+  "site_origins": [
+    "https://rsankowski.github.io",
+    "http://localhost:8000"
+  ],
+  "hvg_target": 4000,
+  "max_categorical_cardinality": 100,
+  "embedding_pattern": "^(umap|tsne|ref\\.umap|spatial)",
+  "license": "CC-BY-4.0",
+  "collection_title": "Freiburg Brain Immune Data Viewer",
+  "datasets": {
+    "chhatbar_et_al_2026__immune_final_2_23012025": {
+      "title": "Human brain immune atlas",
+      "paper": "Chhatbar et al. 2026",
+      "description": "135,067 immune cells from human brain across regions and neuropathological conditions.",
+      "skip": false,
+      "obs_keep_extra": [
+        "MajoritySinglet_Individual_Assignment",
+        "Subject_ID",
+        "relabelled_clusters"
+      ],
+      "obs_drop": [
+        "Non_Brain_Diagnosis"
+      ],
+      "default_obs_set": "Subclass_label_final",
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ],
+      "default_gene": "P2RY12"
+    },
+    "chhatbar_et_al_2026__human_myeloid_atlas_v2": {
+      "title": "Human myeloid atlas v2",
+      "paper": "Chhatbar et al. 2026",
+      "description": "Re-export of the same 135,067 cells as immune_final_2 with a reduced metadata set.",
+      "skip": true,
+      "duplicate_of": "chhatbar_et_al_2026__immune_final_2_23012025",
+      "duplicate_evidence": "identical cell-barcode, feature and UMAP md5 fingerprints (stage 1)",
+      "obs_keep_extra": [
+        "MajoritySinglet_Individual_Assignment",
+        "Subject_ID",
+        "relabelled_clusters"
+      ],
+      "obs_drop": [
+        "Non_Brain_Diagnosis"
+      ],
+      "default_obs_set": "Subclass_label_final",
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ],
+      "default_gene": "P2RY12"
+    },
+    "chhatbar_et_al_2026__figure_2_nanostring_cosmx_v1": {
+      "title": "CosMx spatial transcriptomics",
+      "paper": "Chhatbar et al. 2026",
+      "description": "68,327 cells profiled in situ with a 990-gene Nanostring CosMx panel across 73 fields of view (GBM, MS, AD, AGS, FCD and control brain).",
+      "assay": "Nanostring",
+      "default_obs_set": "Subclass_label",
+      "default_gene": "P2RY12",
+      "obs_keep_extra": [
+        "Idents_with_mg_clusters",
+        "new_identity"
+      ],
+      "skip": false,
+      "obs_drop": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ],
+      "default_embedding": "X_spatial",
+      "spatial_group": "Sample"
+    },
+    "chhatbar_et_al_2026__figure_4_human_visiumhd_compressed_v1": {
+      "title": "Visium HD human brain",
+      "paper": "Chhatbar et al. 2026",
+      "description": "96,409 spatial spots across five tissue microarrays, binned and annotated by cell type.",
+      "default_obs_set": "Final_celltype",
+      "default_gene": "P2RY12",
+      "obs_keep_extra": [
+        "Subject_ID"
+      ],
+      "skip": false,
+      "obs_drop": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ],
+      "default_embedding": "X_spatial"
+    },
+    "chhatbar_et_al_2026__figure_5_mouse_myeloid_atlas_v1": {
+      "title": "Mouse myeloid atlas",
+      "paper": "Chhatbar et al. 2026",
+      "description": "172,497 mouse myeloid cells across ten CNS regions and two conditions.",
+      "default_obs_set": "Subclass_label",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "chhatbar_et_al_2026__figure_6_cross_species_microglia_integrated": {
+      "title": "Cross-species microglia",
+      "paper": "Chhatbar et al. 2026",
+      "description": "270,493 microglia from human and mouse, integrated with RPCA.",
+      "default_obs_set": "Species",
+      "default_gene": "P2RY12",
+      "obs_keep_extra": [
+        "Subject_ID"
+      ],
+      "skip": false,
+      "obs_drop": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "chhatbar_et_al_2026__figure_7_eae_microglia_manipulation": {
+      "title": "EAE microglia manipulation",
+      "paper": "Chhatbar et al. 2026",
+      "description": "17,760 mouse microglia from EAE and control, across pathway manipulations.",
+      "default_obs_set": "relabelled_clusters",
+      "default_gene": "P2ry12",
+      "obs_keep_extra": [
+        "relabelled_clusters",
+        "Idents_with_mg_clusters"
+      ],
+      "skip": false,
+      "obs_drop": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "chhatbar_et_al_2026__figure_e10_a_pathways_manipulation_mouse": {
+      "title": "Pathway manipulation (mouse)",
+      "paper": "Chhatbar et al. 2026",
+      "description": "64,066 mouse cells across three pathway manipulation models.",
+      "default_obs_set": "clusters_IC3",
+      "default_gene": "P2ry12",
+      "obs_keep_extra": [
+        "merged_clusters_Paris"
+      ],
+      "skip": false,
+      "obs_drop": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "chhatbar_et_al_2026__figure_e10_d_lps_microglia_manipuliation": {
+      "title": "LPS microglia manipulation",
+      "paper": "Chhatbar et al. 2026",
+      "description": "26,433 mouse microglia after LPS challenge across pathway manipulations.",
+      "default_obs_set": "relabelled_clusters",
+      "default_gene": "P2ry12",
+      "obs_keep_extra": [
+        "relabelled_clusters"
+      ],
+      "skip": false,
+      "obs_drop": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2024__figure_1_gse245311_multimodal_harmony_integrated_controls": {
+      "title": "Multimodal control atlas (Fig. 1)",
+      "paper": "Sankowski et al. 2024",
+      "description": "11,166 cells from control brain profiled with paired RNA and antibody-derived tags, Harmony-integrated across five experiments.",
+      "assay": "RNA",
+      "default_obs_set": "predicted.celltype",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2024__figure_2_gse245311_reference_mapped_celseq2_ctrl_cd206_gate_no_lowq_cells": {
+      "title": "CD206-gated CEL-Seq2 controls (Fig. 2)",
+      "paper": "Sankowski et al. 2024",
+      "description": "1,962 index-sorted CD206-gated cells from control brain, reference-mapped.",
+      "assay": "RNA",
+      "default_obs_set": "celltype_azimuth",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2024__figure_4_d_gse245311_immune_combined_with_braun_yang_et_al": {
+      "title": "Immune cells with Braun & Yang et al. (Fig. 4d)",
+      "paper": "Sankowski et al. 2024",
+      "description": "13,807 immune cells combined with two published fetal datasets.",
+      "assay": "RNA",
+      "default_obs_set": "predicted.id",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2024__figure_5_i_gse245311_micr_ffpe": {
+      "title": "FFPE microglia (Fig. 5i)",
+      "paper": "Sankowski et al. 2024",
+      "description": "363 microglia recovered from FFPE tissue.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2024__figure_6_g_gse245311_reference_mapped_fetal": {
+      "title": "Fetal reference-mapped cells (Fig. 6g)",
+      "paper": "Sankowski et al. 2024",
+      "description": "4,332 fetal brain cells mapped onto the multimodal reference.",
+      "assay": "RNA",
+      "default_obs_set": "predicted.celltype",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2024__figure_6_gse245311_multimodal_harmony_integrated_gb": {
+      "title": "Multimodal glioblastoma atlas (Fig. 6)",
+      "paper": "Sankowski et al. 2024",
+      "description": "11,681 cells from glioblastoma profiled with paired RNA and antibody-derived tags.",
+      "assay": "RNA",
+      "default_obs_set": "predicted.celltype",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2024__figure_e7_gse245311_all_cells_ffpe": {
+      "title": "All cells, FFPE (Fig. E7)",
+      "paper": "Sankowski et al. 2024",
+      "description": "9,035 cells recovered from FFPE tissue.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "ardura_fabregat_et_al_2025__dataset_1": {
+      "title": "Dataset 1",
+      "paper": "Ardura-Fabregat et al. 2025",
+      "assay": "RNA",
+      "description": "2,003 cells across treatment groups and stages.",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "ardura_fabregat_et_al_2025__dataset_2_with_index_data": {
+      "title": "Dataset 2 (with index data)",
+      "paper": "Ardura-Fabregat et al. 2025",
+      "assay": "RNA",
+      "description": "2,520 cells with index-sort data across genotypes and treatments.",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "masuda_et_al_2022": {
+      "title": "Masuda et al. 2022",
+      "paper": "Masuda et al. 2022",
+      "assay": "RNA",
+      "description": "483 cells.",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "amann_et_al_2024": {
+      "title": "Harmony-integrated atlas",
+      "paper": "Amann et al. 2024",
+      "description": "24,497 cells across ten samples and four conditions, Harmony-integrated.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2024__figure_4_b_gse245311_harmony_integrated_nucseq_all_cells": {
+      "title": "Single-nucleus atlas (Fig. 4b)",
+      "paper": "Sankowski et al. 2024",
+      "description": "59,053 nuclei, Harmony-integrated across patients and timepoints.",
+      "assay": "RNA",
+      "default_obs_set": "predicted.id",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [
+        "Pat_ID"
+      ],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    }
+  },
+  "view_layout": "dual-umap"
+}

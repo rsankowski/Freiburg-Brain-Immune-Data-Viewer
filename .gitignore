@@ -1,0 +1,32 @@
+# Data and build artifacts — never commit
+data/
+build/
+*.zarr/
+*.h5ad
+*.rds
+*.RDS
+*.qs
+*.qs2
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Local verification screenshots
+index_page.png
+viewer_day.png
+viewer_night.png
+shot_*.png

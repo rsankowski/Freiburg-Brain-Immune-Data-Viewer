@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sankowski et al. 2024 — Freiburg Brain Immune Data Viewer</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #fbfaf8; --panel: #ffffff; --ink: #1a1a19; --muted: #6b6a66;
+  --line: #e4e2dd; --accent: #7b4bd8; --accent-ink: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14141a; --panel: #1c1c24; --ink: #eceaf0; --muted: #9a98a6;
+    --line: #2c2c36; --accent: #a284f0; --accent-ink: #14141a;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14141a; --panel: #1c1c24; --ink: #eceaf0; --muted: #9a98a6;
+  --line: #2c2c36; --accent: #a284f0; --accent-ink: #14141a;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif;
+}
+a { color: var(--accent); }
+.wrap { max-width: 940px; margin: 0 auto; padding: 48px 24px 72px; }
+header h1 { font-size: 30px; letter-spacing: -0.02em; margin: 0 0 8px; }
+header p.lede { color: var(--muted); margin: 0 0 6px; max-width: 62ch; }
+.card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+  padding: 22px 24px; margin: 22px 0;
+}
+.card h2 { margin: 0 0 4px; font-size: 20px; letter-spacing: -0.01em; }
+.card .paper { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+.stats { display: flex; flex-wrap: wrap; gap: 26px; margin: 16px 0 20px; }
+.stat .n { font-size: 20px; font-variant-numeric: tabular-nums; font-weight: 600; }
+.stat .k { font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
+.btn {
+  display: inline-block; background: var(--accent); color: var(--accent-ink);
+  text-decoration: none; padding: 9px 18px; border-radius: 8px; font-weight: 600; font-size: 14px;
+}
+.btn.sec { background: transparent; color: var(--ink); border: 1px solid var(--line); font-weight: 500; }
+.crumb { margin: 0 0 10px; font-size: 13px; }
+.crumb a { text-decoration: none; }
+.card h2 a { color: inherit; text-decoration: none; }
+.card h2 a:hover { color: var(--accent); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px; }
+.tag {
+  font-size: 12px; color: var(--muted); border: 1px solid var(--line);
+  border-radius: 999px; padding: 2px 10px; white-space: nowrap;
+}
+pre {
+  background: var(--bg); border: 1px solid var(--line); border-radius: 8px;
+  padding: 12px 14px; overflow-x: auto; font-size: 12.5px; margin: 10px 0 0;
+}
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.themebtn {
+  position: fixed; top: 16px; right: 16px; background: var(--panel); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 7px; padding: 5px 12px;
+  font: inherit; font-size: 12.5px; cursor: pointer;
+}
+.themebtn:hover { border-color: var(--accent); color: var(--accent); }
+footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 18px; margin-top: 34px; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+td, th { text-align: left; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 500; }
+</style>
+</head>
+<body>
+<button class="themebtn" id="themebtn" type="button">theme</button>
+<div class="wrap">
+  <header>
+    <p class="crumb"><a href="./index.html">&larr; All publications</a></p>
+    <h1>Sankowski et al. 2024</h1>
+    <p class="lede">8 datasets, 111,399 cells in total.</p>
+  </header>
+  
+    <section class="card">
+      <h2>All cells, FFPE (Fig. E7)</h2>
+      <p>9,035 cells recovered from FFPE tissue.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">9,035</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">18,082</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">5</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">6.9 MB</div><div class="k">zarr store</div></div>
+      </div>
+      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">condition</span><span class="tag">sample</span><span class="tag">SCT snn res.0.8</span><span class="tag">sub.cluster</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=sankowski_et_al_2024__figure_e7_gse245311_all_cells_ffpe">Open viewer</a>
+        <a class="btn sec" href="./configs/sankowski_et_al_2024__figure_e7_gse245311_all_cells_ffpe.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2024__figure_e7_gse245311_all_cells_ffpe.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.5 ms,
+        p95 1.0 ms &middot; X chunked [9035, 10]
+      </p>
+    </section>
+    <section class="card">
+      <h2>CD206-gated CEL-Seq2 controls (Fig. 2)</h2>
+      <p>1,962 index-sorted CD206-gated cells from control brain, reference-mapped.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">1,962</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">60,649</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">17</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">5.3 MB</div><div class="k">zarr store</div></div>
+      </div>
+      <div class="tags"><span class="tag">celltype azimuth</span><span class="tag">orig.ident</span><span class="tag">sample</span><span class="tag">batch</span><span class="tag">compartment</span><span class="tag">diagnosis</span><span class="tag">predicted.celltype</span><span class="tag">predicted.celltype2</span><span class="tag">predicted.celltype3</span><span class="tag">SCT snn res.1</span><span class="tag">+7 more</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=sankowski_et_al_2024__figure_2_gse245311_reference_mapped_celseq2_ctrl_cd206_gate_no_lowq_cells">Open viewer</a>
+        <a class="btn sec" href="./configs/sankowski_et_al_2024__figure_2_gse245311_reference_mapped_celseq2_ctrl_cd206_gate_no_lowq_cells.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2024__figure_2_gse245311_reference_mapped_celseq2_ctrl_cd206_gate_no_lowq_cells.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.7 ms,
+        p95 0.9 ms &middot; X chunked [1962, 10]
+      </p>
+    </section>
+    <section class="card">
+      <h2>FFPE microglia (Fig. 5i)</h2>
+      <p>363 microglia recovered from FFPE tissue.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">363</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">18,082</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">6</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">400.5 KB</div><div class="k">zarr store</div></div>
+      </div>
+      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">condition</span><span class="tag">sample</span><span class="tag">sub.cluster</span><span class="tag">SCT snn res.0.9</span><span class="tag">Phase</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=sankowski_et_al_2024__figure_5_i_gse245311_micr_ffpe">Open viewer</a>
+        <a class="btn sec" href="./configs/sankowski_et_al_2024__figure_5_i_gse245311_micr_ffpe.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2024__figure_5_i_gse245311_micr_ffpe.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.5 ms,
+        p95 0.7 ms &middot; X chunked [363, 50]
+      </p>
+    </section>
+    <section class="card">
+      <h2>Fetal reference-mapped cells (Fig. 6g)</h2>
+      <p>4,332 fetal brain cells mapped onto the multimodal reference.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">4,332</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">27,723</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">10</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">17.8 MB</div><div class="k">zarr store</div></div>
+      </div>
+      <div class="tags"><span class="tag">predicted.celltype</span><span class="tag">sample</span><span class="tag">compartment</span><span class="tag">predicted.celltype2</span><span class="tag">predicted.celltype3</span><span class="tag">SCT snn res.1.5</span><span class="tag">seurat clusters</span><span class="tag">SCT snn res.1</span><span class="tag">timepoint</span><span class="tag">Phase</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=sankowski_et_al_2024__figure_6_g_gse245311_reference_mapped_fetal">Open viewer</a>
+        <a class="btn sec" href="./configs/sankowski_et_al_2024__figure_6_g_gse245311_reference_mapped_fetal.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2024__figure_6_g_gse245311_reference_mapped_fetal.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.7 ms,
+        p95 1.6 ms &middot; X chunked [4332, 10]
+      </p>
+    </section>
+    <section class="card">
+      <h2>Immune cells with Braun &amp; Yang et al. (Fig. 4d)</h2>
+      <p>13,807 immune cells combined with two published fetal datasets.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">13,807</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">36,601</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">12</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">191.0 MB</div><div class="k">zarr store</div></div>
+      </div>
+      <div class="tags"><span class="tag">predicted.id</span><span class="tag">sample</span><span class="tag">experiment</span><span class="tag">timepoint</span><span class="tag">compartment</span><span class="tag">RNA snn res.0.8</span><span class="tag">seurat clusters</span><span class="tag">CP predicted.id</span><span class="tag">celltypes fetal</span><span class="tag">compartment cor</span><span class="tag">+2 more</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=sankowski_et_al_2024__figure_4_d_gse245311_immune_combined_with_braun_yang_et_al">Open viewer</a>
+        <a class="btn sec" href="./configs/sankowski_et_al_2024__figure_4_d_gse245311_immune_combined_with_braun_yang_et_al.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2024__figure_4_d_gse245311_immune_combined_with_braun_yang_et_al.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.9 ms,
+        p95 4.6 ms &middot; X chunked [13807, 10]
+      </p>
+    </section>
+    <section class="card">
+      <h2>Multimodal control atlas (Fig. 1)</h2>
+      <p>11,166 cells from control brain profiled with paired RNA and antibody-derived tags, Harmony-integrated across five experiments.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">11,166</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">30,512</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">12</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP, WNN UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">134.1 MB</div><div class="k">zarr store</div></div>
+      </div>
+      <div class="tags"><span class="tag">predicted.celltype</span><span class="tag">sample</span><span class="tag">experiment</span><span class="tag">compartment</span><span class="tag">predicted.celltype2</span><span class="tag">predicted.celltype3</span><span class="tag">wsnn res.2</span><span class="tag">seurat clusters</span><span class="tag">RNA snn res.1.5</span><span class="tag">wsnn res.1.5</span><span class="tag">+2 more</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=sankowski_et_al_2024__figure_1_gse245311_multimodal_harmony_integrated_controls">Open viewer</a>
+        <a class="btn sec" href="./configs/sankowski_et_al_2024__figure_1_gse245311_multimodal_harmony_integrated_controls.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2024__figure_1_gse245311_multimodal_harmony_integrated_controls.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.8 ms,
+        p95 4.6 ms &middot; X chunked [11166, 10]
+      </p>
+    </section>
+    <section class="card">
+      <h2>Multimodal glioblastoma atlas (Fig. 6)</h2>
+      <p>11,681 cells from glioblastoma profiled with paired RNA and antibody-derived tags.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">11,681</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">30,071</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">14</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP, WNN UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">132.6 MB</div><div class="k">zarr store</div></div>
+      </div>
+      <div class="tags"><span class="tag">predicted.celltype</span><span class="tag">sample</span><span class="tag">experiment</span><span class="tag">compartment</span><span class="tag">diagnosis</span><span class="tag">predicted.celltype2</span><span class="tag">predicted.celltype3</span><span class="tag">SCT snn res.1.5</span><span class="tag">seurat clusters</span><span class="tag">SCT snn res.0.8</span><span class="tag">+4 more</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=sankowski_et_al_2024__figure_6_gse245311_multimodal_harmony_integrated_gb">Open viewer</a>
+        <a class="btn sec" href="./configs/sankowski_et_al_2024__figure_6_gse245311_multimodal_harmony_integrated_gb.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2024__figure_6_gse245311_multimodal_harmony_integrated_gb.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.8 ms,
+        p95 4.4 ms &middot; X chunked [11681, 10]
+      </p>
+    </section>
+    <section class="card">
+      <h2>Single-nucleus atlas (Fig. 4b)</h2>
+      <p>59,053 nuclei, Harmony-integrated across patients and timepoints.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">59,053</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">36,601</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">9</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">819.3 MB</div><div class="k">zarr store</div></div>
+      </div>
+      <div class="tags"><span class="tag">predicted.id</span><span class="tag">Pat ID</span><span class="tag">sample</span><span class="tag">experiment</span><span class="tag">timepoint</span><span class="tag">compartment</span><span class="tag">RNA snn res.0.8</span><span class="tag">seurat clusters</span><span class="tag">CP predicted.id</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=sankowski_et_al_2024__figure_4_b_gse245311_harmony_integrated_nucseq_all_cells">Open viewer</a>
+        <a class="btn sec" href="./configs/sankowski_et_al_2024__figure_4_b_gse245311_harmony_integrated_nucseq_all_cells.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2024__figure_4_b_gse245311_harmony_integrated_nucseq_all_cells.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.9 ms,
+        p95 1.3 ms &middot; X chunked [59053, 10]
+      </p>
+    </section>
+  <footer>
+    Embeddings and annotations are the published ones &mdash; no re-clustering or
+    re-embedding was performed. Built with Vitessce 3.4.9.
+    Last updated 2026-09-07.
+  </footer>
+</div>
+<script>
+  // Same three-step resolution as the viewer: saved choice, else OS setting.
+  (function () {
+    var el = document.documentElement, btn = document.getElementById("themebtn");
+    var theme;
+    try { theme = localStorage.getItem("theme"); } catch (e) { /* private window */ }
+    if (theme !== "light" && theme !== "dark") {
+      theme = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    }
+    function apply(t) {
+      el.dataset.theme = t;
+      btn.textContent = t === "dark" ? "☀ Day mode" : "☾ Night mode";
+    }
+    apply(theme);
+    btn.addEventListener("click", function () {
+      theme = theme === "dark" ? "light" : "dark";
+      try { localStorage.setItem("theme", theme); } catch (e) { /* ignore */ }
+      apply(theme);
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freiburg Brain Immune Data Viewer</title>
+<style>
+  :root {
+    --bg: #14141a; --panel: #1c1c24; --line: #2c2c36; --ink: #eceaf0;
+    --muted: #9a98a6; --faint: #6f6d7a; --accent: #a284f0;
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfaf8; --panel: #ffffff; --line: #e4e2dd; --ink: #1a1a19;
+    --muted: #6b6a66; --faint: #8a8884; --accent: #7b4bd8;
+  }
+  html, body { margin: 0; }
+  html, body, #root { min-height: 100%; }
+  body { background: var(--bg); color: var(--ink);
+         font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+  #msg { padding: 40px 28px; max-width: 720px; }
+  #msg h1 { font-size: 20px; margin: 0 0 10px; }
+  #msg p { color: var(--muted); }
+  #msg pre { background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+             padding: 12px; overflow-x: auto; font-size: 12.5px; }
+  #msg a { color: var(--accent); }
+  .bar { padding: 10px 16px; background: var(--panel); border-bottom: 1px solid var(--line);
+         display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap; }
+  .bar b { font-weight: 600; }
+  .bar span { color: var(--muted); font-size: 12.5px; }
+  .bar .hint { color: var(--faint); font-size: 12px; }
+  .bar label { color: var(--ink); font-size: 12.5px; display: flex; align-items: center;
+               gap: 6px; cursor: pointer; user-select: none; }
+  .bar .right { margin-left: auto; display: flex; gap: 14px; align-items: center; }
+  .bar a { color: var(--accent); font-size: 13px; }
+  .bar button {
+    background: transparent; color: var(--ink); border: 1px solid var(--line);
+    border-radius: 6px; padding: 3px 10px; font: inherit; font-size: 12.5px; cursor: pointer;
+  }
+  .bar button:hover { border-color: var(--accent); color: var(--accent); }
+  #legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px;
+            padding: 8px 16px; background: var(--panel); border-bottom: 1px solid var(--line);
+            max-height: 76px; overflow-y: auto; }
+  #legend .lg-title { color: var(--faint); font-size: 11px; text-transform: uppercase;
+                      letter-spacing: 0.07em; margin-right: 4px; }
+  #legend .lg { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--ink); }
+  #legend .sw { width: 11px; height: 11px; border-radius: 2px; flex: none;
+                border: 1px solid rgba(128,128,128,0.4); }
+  #legend .none { color: var(--faint); font-size: 12.5px; }
+  #vit { min-height: 200px; }
+</style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react-dom": "https://esm.sh/react-dom@18.3.1?deps=react@18.3.1",
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client?deps=react@18.3.1",
+    "vitessce": "https://cdn.jsdelivr.net/npm/vitessce@3.4.9/dist/index.min.js"
+  }
+}
+</script>
+</head>
+<body>
+<div id="root"><div id="msg"><h1>Loading viewer&hellip;</h1></div></div>
+<script type="module">
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { Vitessce } from "vitessce";
+
+const INDEX_URL = "./configs/index.json";
+const params = new URLSearchParams(location.search);
+const root = createRoot(document.getElementById("root"));
+
+// --- theme -----------------------------------------------------------------
+// Order of precedence: ?theme= in the URL, then the viewer's own saved choice,
+// then the operating system setting.
+function initialTheme() {
+  const q = params.get("theme");
+  if (q === "light" || q === "dark") return q;
+  try {
+    const saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") return saved;
+  } catch (e) { /* private window */ }
+  return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+}
+let theme = initialTheme();
+document.documentElement.dataset.theme = theme;
+
+function panel(title, bodyHtml) {
+  document.getElementById("root").innerHTML =
+    `<div id="msg"><h1>${title}</h1>${bodyHtml}</div>`;
+}
+
+// Point the config's file URLs at a different host (e.g. a local preview
+// server) without regenerating the config.
+function rebase(config, base) {
+  if (!base) return config;
+  const clean = base.replace(/\/$/, "");
+  for (const ds of config.datasets || []) {
+    for (const f of ds.files || []) {
+      f.url = f.url.replace(/^.*\/([^/]+\.zarr)/, `${clean}/$1`);
+    }
+  }
+  return config;
+}
+
+async function reachable(url) {
+  try {
+    const r = await fetch(`${url}/.zattrs`, { method: "GET", mode: "cors" });
+    return r.ok;
+  } catch (e) {
+    return false;
+  }
+}
+
+(async function main() {
+  const index = await (await fetch(INDEX_URL)).json();
+  const key = params.get("dataset") || (index.datasets[0] || {}).key;
+  const entry = index.datasets.find(d => d.key === key);
+  if (!entry) {
+    panel("Unknown dataset", `<p>No dataset <code>${key}</code> in the index.</p>
+      <p><a href="./index.html">Back to the dataset list</a></p>`);
+    return;
+  }
+
+  const config = rebase(await (await fetch(`./configs/${key}.json`)).json(), params.get("base"));
+  const storeUrl = config.datasets[0].files[0].url;
+
+  if (!(await reachable(storeUrl))) {
+    panel("Data store not reachable", `
+      <p>The viewer loaded, but the expression data at</p>
+      <pre>${storeUrl}</pre>
+      <p>could not be fetched. Either the S3 sync has not run yet, or CORS is not
+      configured for this origin.</p>
+      <p><b>To present from this machine right now:</b></p>
+      <pre>python scripts/serve_local.py</pre>
+      <p>then open
+      <a href="./viewer.html?dataset=${key}&base=http://localhost:8787/zarr">this local link</a>.</p>
+      <p><a href="./index.html">Back to the dataset list</a></p>`);
+    return;
+  }
+
+  document.getElementById("root").innerHTML =
+    `<div class="bar"><b>${entry.title}</b><span>${entry.n_cells.toLocaleString()} cells &middot;
+      ${entry.n_genes.toLocaleString()} genes &middot; ${entry.paper || ""}</span>
+      <span class="hint">left UMAP: metadata &middot; right UMAP: gene expression</span>
+      <label><input type="checkbox" id="summary"> Summary plots</label>
+      <span class="right">
+        <button id="themeBtn" type="button"></button>
+        <a href="./index.html">All datasets</a>
+      </span></div>
+      <div id="legend"></div><div id="vit"></div>`;
+
+  const SUMMARY_VIEWS = ["obsSetSizes", "obsSetFeatureValueDistribution"];
+  let showSummary = true;
+  try {
+    const saved = localStorage.getItem("summaryPlots");
+    if (saved !== null) showSummary = saved === "1";
+  } catch (e) { /* private window: fall back to the default */ }
+
+  // The config ships with the violin row; hiding it means dropping that view
+  // and giving the rows above their space back.
+  function withSummary(cfg, show) {
+    const c = JSON.parse(JSON.stringify(cfg));
+    if (show) return c;
+    c.layout = c.layout.filter(v => !SUMMARY_VIEWS.includes(v.component));
+    for (const v of c.layout) {
+      if (v.component === "scatterplot") { v.y = 0; v.h = 8; }
+      else { v.y = 8; v.h = 4; }
+    }
+    return c;
+  }
+
+  // Legend for the metadata map. Vitessce keeps the active set selection and its
+  // colours in the coordination space, so reading them back on every config
+  // change keeps the legend correct even after the user picks another column.
+  const legendEl = document.getElementById("legend");
+
+  function firstScope(obj) {
+    if (!obj) return null;
+    const k = Object.keys(obj)[0];
+    return k === undefined ? null : obj[k];
+  }
+
+  function renderLegend(cfg) {
+    const cs = (cfg && cfg.coordinationSpace) || {};
+    const selection = firstScope(cs.obsSetSelection) || [];
+    const colours = firstScope(cs.obsSetColor) || [];
+    const byPath = new Map(colours.map(c => [c.path.join(""), c.color]));
+    if (!selection.length) {
+      legendEl.innerHTML = '<span class="none">No cell sets selected &mdash; pick a column in '
+        + 'Cell Sets to colour the left map.</span>';
+      return;
+    }
+    const group = selection[0][0];
+    const items = selection.map(path => {
+      const name = path[path.length - 1];
+      const rgb = byPath.get(path.join(""));
+      const sw = rgb
+        ? `<span class="sw" style="background: rgb(${rgb.join(",")})"></span>`
+        : '<span class="sw" style="background: transparent; border-style: dashed"></span>';
+      return `<span class="lg">${sw}${name}</span>`;
+    }).join("");
+    legendEl.innerHTML = `<span class="lg-title">${group}</span>${items}`;
+  }
+
+  let latestConfig = config;
+  renderLegend(config);
+
+  // Vitessce lays its grid out from an explicit pixel height; without one the
+  // react-grid-layout collapses to 0 and every view stacks in the corner.
+  const mount = createRoot(document.getElementById("vit"));
+  const chrome = () => document.querySelector(".bar").offsetHeight + legendEl.offsetHeight;
+  const draw = () => mount.render(React.createElement(Vitessce, {
+    config: withSummary(latestConfig, showSummary),
+    theme,
+    height: Math.max(showSummary ? 1000 : 480, window.innerHeight - chrome()),
+    onConfigChange: (cfg) => { latestConfig = cfg; renderLegend(cfg); },
+  }));
+
+  const box = document.getElementById("summary");
+  box.checked = showSummary;
+  box.addEventListener("change", () => {
+    showSummary = box.checked;
+    try { localStorage.setItem("summaryPlots", showSummary ? "1" : "0"); } catch (e) { /* ignore */ }
+    draw();
+  });
+
+  const themeBtn = document.getElementById("themeBtn");
+  const labelFor = t => t === "dark" ? "☀ Day mode" : "☾ Night mode";
+  themeBtn.textContent = labelFor(theme);
+  themeBtn.addEventListener("click", () => {
+    theme = theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = theme;
+    themeBtn.textContent = labelFor(theme);
+    try { localStorage.setItem("theme", theme); } catch (e) { /* ignore */ }
+    draw();
+  });
+
+  draw();
+  let t = null;
+  window.addEventListener("resize", () => {
+    clearTimeout(t);
+    t = setTimeout(draw, 150);
+  });
+})().catch(err => {
+  panel("Viewer failed to start", `<pre>${String(err && err.stack || err)}</pre>
+    <p><a href="./index.html">Back to the dataset list</a></p>`);
+  console.error(err);
+});
+</script>
+</body>
+</html>
