@@ -44,6 +44,12 @@ write_direct <- function(obj, path) {
   pd <- import("pandas", convert = FALSE)
 
   X <- Matrix::t(LayerData(obj, assay = "RNA", layer = "data"))   # cells x genes
+  # Some sources (RaceID) hold the matrix densely; reticulate would hand that to
+  # Python as a plain ndarray, which has no .tocsr().
+  if (!methods::is(X, "sparseMatrix")) {
+    log_msg("X is dense; converting to sparse before export")
+    X <- methods::as(methods::as(X, "generalMatrix"), "CsparseMatrix")
+  }
   log_msg(sprintf("X: %d cells x %d genes, %.0fM non-zero", nrow(X), ncol(X), Matrix::nnzero(X) / 1e6))
   Xpy <- r_to_py(X)$tocsr()$astype(np$float32)                    # CSR float32: one row = one cell
 

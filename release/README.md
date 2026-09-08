@@ -19,7 +19,24 @@ without downloading the whole store.
 | `chhatbar_et_al_2026__figure_e10_a_pathways_manipulation_mouse.zarr` | Pathway manipulation (mouse) | 64,066 | 56,884 | 967.5 MB | Chhatbar et al. 2026 |
 | `chhatbar_et_al_2026__figure_e10_d_lps_microglia_manipuliation.zarr` | LPS microglia manipulation | 26,433 | 56,884 | 271.9 MB | Chhatbar et al. 2026 |
 | `chhatbar_et_al_2026__immune_final_2_23012025.zarr` | Human brain immune atlas | 135,067 | 59,462 | 1.4 GB | Chhatbar et al. 2026 |
+| `fliegauf_et_al_2026__fig2_scrnaseq.zarr` | CNS macrophages after injury (Fig. 2) | 39,838 | 35,918 | 556.0 MB | Fliegauf et al. 2026 |
+| `fliegauf_et_al_2026__fig5_scrnaseq_full_dataset.zarr` | Full scRNA-seq dataset (Fig. 5) | 21,402 | 56,888 | 228.3 MB | Fliegauf et al. 2026 |
+| `fliegauf_et_al_2026__fig5_scrnaseq_microglia.zarr` | Microglia (Fig. 5) | 11,147 | 56,888 | 127.2 MB | Fliegauf et al. 2026 |
+| `fliegauf_et_al_2026__fig5_scrnaseq_sdcams.zarr` | sdCAMs (Fig. 5) | 8,683 | 56,888 | 81.9 MB | Fliegauf et al. 2026 |
+| `fliegauf_et_al_2026__fig6_scatacseq.zarr` | scATAC-seq gene activity (Fig. 6) | 10,224 | 21,821 | 459.7 MB | Fliegauf et al. 2026 |
+| `friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.zarr` | Myeloid cells in IDH-mutant glioma | 4,460 | 23,183 | 27.8 MB | Friedrich et al. 2021 |
+| `friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.zarr` | 10x integration, wild-type and IDH-mutant | 55,754 | 16,726 | 174.3 MB | Friedrich et al. 2021 |
+| `frosch_et_al_2025__all_cells_001.zarr` | All cells | 44,957 | 33,709 | 491.0 MB | Frosch et al. 2025 |
+| `frosch_et_al_2025__immune_cells.zarr` | Immune cells | 3,371 | 33,697 | 29.8 MB | Frosch et al. 2025 |
+| `frosch_et_al_2025__microglia.zarr` | Microglia | 3,097 | 33,697 | 27.5 MB | Frosch et al. 2025 |
+| `masuda_et_al_2020.zarr` | Hexb-based microglia atlas | 3,825 | 30,956 | 78.8 MB | Masuda et al. 2020 |
 | `masuda_et_al_2022.zarr` | Masuda et al. 2022 | 483 | 14,610 | 5.7 MB | Masuda et al. 2022 |
+| `petry_et_al_2025.zarr` | Embryonic microglia progenitors | 483 | 14,610 | 5.7 MB | Petry et al. 2025 |
+| `sankowski_et_al_2021__seurat_all_without_doublets.zarr` | All myeloid cells | 2,745 | 19,488 | 17.7 MB | Sankowski et al. 2021 |
+| `sankowski_et_al_2021__seurat_cp.zarr` | Choroid plexus | 487 | 19,488 | 3.6 MB | Sankowski et al. 2021 |
+| `sankowski_et_al_2021__seurat_men.zarr` | Meninges | 545 | 19,488 | 3.9 MB | Sankowski et al. 2021 |
+| `sankowski_et_al_2021__seurat_micr.zarr` | Microglia | 828 | 19,488 | 5.6 MB | Sankowski et al. 2021 |
+| `sankowski_et_al_2021__seurat_pvm.zarr` | Perivascular macrophages | 885 | 19,488 | 5.8 MB | Sankowski et al. 2021 |
 | `sankowski_et_al_2024__figure_1_gse245311_multimodal_harmony_integrated_controls.zarr` | Multimodal control atlas (Fig. 1) | 11,166 | 30,512 | 134.1 MB | Sankowski et al. 2024 |
 | `sankowski_et_al_2024__figure_2_gse245311_reference_mapped_celseq2_ctrl_cd206_gate_no_lowq_cells.zarr` | CD206-gated CEL-Seq2 controls (Fig. 2) | 1,962 | 60,649 | 5.3 MB | Sankowski et al. 2024 |
 | `sankowski_et_al_2024__figure_4_b_gse245311_harmony_integrated_nucseq_all_cells.zarr` | Single-nucleus atlas (Fig. 4b) | 59,053 | 36,601 | 819.3 MB | Sankowski et al. 2024 |
@@ -28,6 +45,8 @@ without downloading the whole store.
 | `sankowski_et_al_2024__figure_6_g_gse245311_reference_mapped_fetal.zarr` | Fetal reference-mapped cells (Fig. 6g) | 4,332 | 27,723 | 17.8 MB | Sankowski et al. 2024 |
 | `sankowski_et_al_2024__figure_6_gse245311_multimodal_harmony_integrated_gb.zarr` | Multimodal glioblastoma atlas (Fig. 6) | 11,681 | 30,071 | 132.6 MB | Sankowski et al. 2024 |
 | `sankowski_et_al_2024__figure_e7_gse245311_all_cells_ffpe.zarr` | All cells, FFPE (Fig. E7) | 9,035 | 18,082 | 6.9 MB | Sankowski et al. 2024 |
+| `wieghofer_et_al_2021__cb_cornea.zarr` | Cornea and ciliary body | 432 | 32,760 | 5.5 MB | Wieghofer et al. 2021 |
+| `wieghofer_et_al_2021__retina.zarr` | Retina | 530 | 32,936 | 7.0 MB | Wieghofer et al. 2021 |
 
 ## Layout
 

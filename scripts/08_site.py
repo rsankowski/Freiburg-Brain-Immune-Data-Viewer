@@ -37,6 +37,7 @@ from common import (  # noqa: E402
 
 STAGE = "08_site"
 DOCS = ROOT / "docs"
+ASSETS = DOCS / "assets"
 VITESSCE_VERSION = "3.4.9"
 REACT_VERSION = "18.3.1"
 
@@ -80,6 +81,27 @@ header p.lede { color: var(--muted); margin: 0 0 6px; max-width: 62ch; }
 }
 .btn.sec { background: transparent; color: var(--ink); border: 1px solid var(--line); font-weight: 500; }
 .crumb { margin: 0 0 10px; font-size: 13px; }
+.pubcard { display: grid; grid-template-columns: 210px 1fr; gap: 22px; align-items: start; }
+@media (max-width: 640px) { .pubcard { grid-template-columns: 1fr; } }
+.ga { display: block; border: 1px solid var(--line); border-radius: 8px; overflow: hidden;
+      background: #fff; }
+.ga img { display: block; width: 100%; height: auto; }
+.ga.wide { max-width: 100%; margin: 0 0 22px; padding: 10px; }
+.cite { font-size: 12.5px; color: var(--muted); margin: 0 0 6px;
+        text-transform: uppercase; letter-spacing: 0.06em; }
+.arttitle { margin: 0 0 12px; font-size: 15.5px; line-height: 1.45; }
+.arttitle a { text-decoration: none; }
+.arttitle a:hover { text-decoration: underline; }
+.datasetlist { color: var(--muted); font-size: 14px; }
+.modality { display: inline-block; font-size: 12px; color: var(--accent);
+            border: 1px solid var(--accent); border-radius: 999px;
+            padding: 2px 10px; margin: 0 0 10px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 14px; }
+.acc { font-size: 12px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+       color: var(--muted); border: 1px solid var(--line); border-radius: 6px;
+       padding: 4px 9px; text-decoration: none; }
+.acc:hover { border-color: var(--accent); color: var(--accent); }
+.acc.more { border-style: dashed; }
 .crumb a { text-decoration: none; }
 .card h2 a { color: inherit; text-decoration: none; }
 .card h2 a:hover { color: var(--accent); }
@@ -251,7 +273,7 @@ async function reachable(url) {
   document.getElementById("root").innerHTML =
     `<div class="bar"><b>${entry.title}</b><span>${entry.n_cells.toLocaleString()} cells &middot;
       ${entry.n_genes.toLocaleString()} genes &middot; ${entry.paper || ""}</span>
-      <span class="hint">left UMAP: metadata &middot; right UMAP: gene expression</span>
+      <span class="hint">left: metadata &middot; right: ${entry.modality || "gene expression"}</span>
       <label><input type="checkbox" id="summary"> Summary plots</label>
       <span class="right">
         <button id="themeBtn" type="button"></button>
@@ -375,6 +397,8 @@ def dataset_card(entry: dict, validate: dict, cfg: dict) -> str:
     if len(sets) > len(shown):
         tags += f'<span class="tag">+{len(sets) - len(shown)} more</span>'
     timing = (validate or {}).get("single_gene_fetch", {})
+    modality = (f'<p class="modality">{html.escape(entry["modality"])}</p>'
+                if entry.get("modality") else "")
     return f"""
     <section class="card">
       <h2>{html.escape(entry['title'])}</h2>
@@ -386,6 +410,7 @@ def dataset_card(entry: dict, validate: dict, cfg: dict) -> str:
         <div class="stat"><div class="n">{', '.join(entry['embeddings'])}</div><div class="k">embeddings</div></div>
         <div class="stat"><div class="n">{entry['store_size']}</div><div class="k">zarr store</div></div>
       </div>
+      {modality}
       <div class="tags">{tags}</div>
       <p>
         <a class="btn" href="./viewer.html?dataset={entry['key']}">Open viewer</a>
@@ -400,21 +425,60 @@ adata = ad.read_zarr("{entry['url']}")</code></pre>
     </section>"""
 
 
-def paper_card(paper: str, slug: str, entries: list) -> str:
+def paper_card(paper: str, slug: str, entries: list, pub: dict | None = None) -> str:
     cells = sum(e["n_cells"] for e in entries)
     titles = ", ".join(e["title"] for e in entries[:4])
     if len(entries) > 4:
         titles += f", +{len(entries) - 4} more"
+    pub = pub or {}
+    art = pub.get("title")
+    journal = pub.get("journal_short") or ""
+    year = pub.get("year") or ""
+    img = (f'<a class="ga" href="./{slug}.html">'
+           f'<img src="./assets/{pub["image"]}" alt="Graphical abstract, {html.escape(paper)}" '
+           f'loading="lazy"></a>') if pub.get("image") else ""
+    head = (f'<p class="cite">{html.escape(journal)}'
+            + (f' &middot; {year}' if year else '') + '</p>') if journal else ""
+    art_html = (f'<p class="arttitle"><a href="{html.escape(pub["paper_url"])}" '
+                f'target="_blank" rel="noopener">{html.escape(art)}</a></p>') if art else ""
     return f"""
-    <section class="card">
-      <h2><a href="./{slug}.html">{html.escape(paper)}</a></h2>
-      <div class="stats">
-        <div class="stat"><div class="n">{len(entries)}</div><div class="k">datasets</div></div>
-        <div class="stat"><div class="n">{cells:,}</div><div class="k">cells total</div></div>
+    <section class="card pubcard">
+      {img}
+      <div class="pubbody">
+        <h2><a href="./{slug}.html">{html.escape(paper)}</a></h2>
+        {head}
+        {art_html}
+        <div class="stats">
+          <div class="stat"><div class="n">{len(entries)}</div><div class="k">datasets</div></div>
+          <div class="stat"><div class="n">{cells:,}</div><div class="k">cells total</div></div>
+        </div>
+        <p class="datasetlist">{html.escape(titles)}</p>
+        <p class="actions">
+          <a class="btn" href="./{slug}.html">Browse datasets</a>
+          {links_html(pub)}
+        </p>
       </div>
-      <p style="color:var(--muted)">{html.escape(titles)}</p>
-      <p><a class="btn" href="./{slug}.html">Browse datasets</a></p>
     </section>"""
+
+
+def links_html(pub: dict) -> str:
+    """Paper and data-repository links, deduplicated across raw and processed."""
+    out = []
+    if pub.get("paper_url"):
+        out.append(f'<a class="btn sec" href="{html.escape(pub["paper_url"])}" '
+                   f'target="_blank" rel="noopener">Paper</a>')
+    seen, acc = set(), []
+    for row in (pub.get("raw_data") or []) + (pub.get("processed_data") or []):
+        if row["url"] in seen:
+            continue
+        seen.add(row["url"])
+        acc.append(row)
+    for row in acc[:8]:
+        out.append(f'<a class="acc" href="{html.escape(row["url"])}" target="_blank" '
+                   f'rel="noopener">{html.escape(row["label"])}</a>')
+    if len(acc) > 8:
+        out.append(f'<span class="acc more">+{len(acc) - 8}</span>')
+    return "\n          ".join(out)
 
 
 def page_shell(title: str, body: str, cfg: dict) -> str:
@@ -462,9 +526,10 @@ def page_shell(title: str, body: str, cfg: dict) -> str:
 """
 
 
-def build_index(index: dict, cfg: dict, by_paper: dict) -> str:
+def build_index(index: dict, cfg: dict, by_paper: dict, pubs: dict) -> str:
     cards = "".join(
-        paper_card(paper, slug, entries) for paper, (slug, entries) in by_paper.items()
+        paper_card(paper, slug, entries, pubs.get(slug))
+        for paper, (slug, entries) in by_paper.items()
     )
     n_cells = sum(e["n_cells"] for _slug, entries in by_paper.values() for e in entries)
     n_sets = sum(len(entries) for _slug, entries in by_paper.values())
@@ -494,18 +559,35 @@ def build_index(index: dict, cfg: dict, by_paper: dict) -> str:
     return page_shell(index.get("title", "Datasets"), body, cfg)
 
 
-def build_paper_page(paper: str, entries: list, index: dict, cfg: dict) -> str:
+def build_paper_page(paper: str, entries: list, index: dict, cfg: dict,
+                     pub: dict | None = None) -> str:
     cards = "".join(
         dataset_card(e, read_json(CHECK_DIR / f"{e['key']}_validate.json", {}), cfg)
         for e in entries
     )
     cells = sum(e["n_cells"] for e in entries)
     plural = "s" if len(entries) != 1 else ""
+    pub = pub or {}
+    art = pub.get("title")
+    meta = []
+    if pub.get("journal_short"):
+        meta.append(html.escape(pub["journal_short"]) + (f" &middot; {pub['year']}" if pub.get("year") else ""))
+    if pub.get("doi"):
+        meta.append(f'<a href="https://doi.org/{html.escape(pub["doi"])}" target="_blank" '
+                    f'rel="noopener">doi:{html.escape(pub["doi"])}</a>')
+    art_html = (f'<p class="arttitle"><a href="{html.escape(pub.get("paper_url", "#"))}" '
+                f'target="_blank" rel="noopener">{html.escape(art)}</a></p>') if art else ""
+    img = (f'<img class="ga wide" src="./assets/{pub["image"]}" '
+           f'alt="Graphical abstract, {html.escape(paper)}">') if pub.get("image") else ""
     body = f"""  <header>
     <p class="crumb"><a href="./index.html">&larr; All publications</a></p>
     <h1>{html.escape(paper)}</h1>
+    {art_html}
+    <p class="cite">{' &middot; '.join(meta)}</p>
     <p class="lede">{len(entries)} dataset{plural}, {cells:,} cells in total.</p>
+    <p class="actions">{links_html(pub)}</p>
   </header>
+  {img}
   {cards}"""
     return page_shell(f"{paper} \u2014 {index.get('title', 'Datasets')}", body, cfg)
 
@@ -539,9 +621,13 @@ def main() -> int:
     for paper, (slug, entries) in by_paper.items():
         entries.sort(key=lambda e: e["title"])
 
-    (DOCS / "index.html").write_text(build_index(index, cfg, by_paper))
+    pubs = read_json(ASSETS / "publications.json", {}) or {}
+    pubs = {paper_slug(k): v for k, v in pubs.items()}
+
+    (DOCS / "index.html").write_text(build_index(index, cfg, by_paper, pubs))
     for paper, (slug, entries) in by_paper.items():
-        (DOCS / f"{slug}.html").write_text(build_paper_page(paper, entries, index, cfg))
+        (DOCS / f"{slug}.html").write_text(
+            build_paper_page(paper, entries, index, cfg, pubs.get(slug)))
         log(f"  {slug}.html - {paper}: {len(entries)} dataset(s)")
     viewer = (VIEWER_HTML
               .replace("__TITLE__", html.escape(index.get("title", "Viewer")))

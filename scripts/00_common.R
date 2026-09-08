@@ -74,7 +74,7 @@ slugify <- function(x) {
 # the path relative to data/. Directory components are joined with "__"; the
 # file stem is appended only when a directory holds more than one object
 # (otherwise the directory alone names the dataset).
-OBJECT_EXT_RE <- "\\.(rds|qs|qs2|h5seurat|rdata|rda)(\\.gz)?$"
+OBJECT_EXT_RE <- "\\.(rds|qs|qs2|h5seurat|rdata|rda|robj)(\\.gz)?$"
 
 discover_datasets <- function(data_dir = DATA_DIR) {
   files <- list.files(
@@ -117,14 +117,17 @@ read_object <- function(path) {
   ext <- tolower(regmatches(basename(path),
                             regexpr(OBJECT_EXT_RE, basename(path), ignore.case = TRUE)))
   ext <- sub("\\.gz$", "", ext)
-  if (ext == ".rds") return(readRDS(path))
+  if (ext == ".rds") {
+    obj <- readRDS(path)
+    return(if (inherits(obj, "SCseq")) raceid_to_seurat(obj) else maybe_update_seurat(obj))
+  }
   if (ext == ".qs")  { suppressPackageStartupMessages(library(qs));  return(qs::qread(path))  }
   if (ext == ".qs2") { suppressPackageStartupMessages(library(qs2)); return(qs2::qs_read(path)) }
   if (ext == ".h5seurat") {
     suppressPackageStartupMessages(library(SeuratDisk))
-    return(SeuratDisk::LoadH5Seurat(path, verbose = FALSE))
+    return(maybe_update_seurat(SeuratDisk::LoadH5Seurat(path, verbose = FALSE)))
   }
-  if (ext %in% c(".rdata", ".rda")) {
+  if (ext %in% c(".rdata", ".rda", ".robj")) {
     # load() peels a single layer of gzip on its own. Some of these files are
     # gzipped twice (an already-compressed .RData that was then gzipped again),
     # which leaves gzip bytes where load() expects the serialisation magic --
@@ -137,7 +140,9 @@ read_object <- function(path) {
       load(con, envir = e)
     })
     is_seurat <- vapply(nms, function(n) inherits(get(n, envir = e), "Seurat"), logical(1))
-    if (!any(is_seurat)) stop("No Seurat object in ", basename(path),
+      is_seurat <- is_seurat | vapply(nms, function(n) inherits(get(n, envir = e), "SCseq"),
+                                    logical(1))
+  if (!any(is_seurat)) stop("No Seurat or RaceID object in ", basename(path),
                               " (contains: ", paste(nms, collapse = ", "), ")")
     hits <- nms[is_seurat]
     if (length(hits) > 1) {
@@ -146,9 +151,100 @@ read_object <- function(path) {
       log_msg("note: ", basename(path), " holds ", length(hits),
               " Seurat objects (", paste(nms[is_seurat], collapse = ", "), "); using ", hits[1])
     }
-    return(get(hits[1], envir = e))
+    obj <- get(hits[1], envir = e)
+    return(if (inherits(obj, "SCseq")) raceid_to_seurat(obj) else maybe_update_seurat(obj))
   }
   stop("Unsupported extension: ", ext)
+}
+
+
+# Objects saved by older Seurat versions lack slots the current class expects
+# (`images` was added in v3.2), and accessing them errors rather than returning
+# NULL. Update those on load; leave current objects untouched.
+maybe_update_seurat <- function(obj) {
+  if (!inherits(obj, "Seurat")) return(obj)
+  ok <- tryCatch({ obj@images; TRUE }, error = function(e) FALSE)
+  if (ok) return(obj)
+  log_msg("object predates the current Seurat class; running UpdateSeuratObject()")
+  suppressPackageStartupMessages(library(Seurat))
+  suppressWarnings(Seurat::UpdateSeuratObject(obj))
+}
+
+# --- RaceID -----------------------------------------------------------------
+
+# RaceID stores its results in an S4 SCseq object rather than a Seurat object.
+# Convert on load so the rest of the pipeline is unaware of the difference.
+#
+# Two details matter. `ndata` holds normalised *fractions* (they sum to 1 per
+# cell), so they are scaled back to counts by RaceID's own factor before the log
+# transform -- otherwise every value lands in [0, 0.4] and the colour scale is
+# meaningless. And `expdata` retains cells that filtering later removed, so the
+# raw counts are subset to the cells `ndata` actually kept.
+raceid_to_seurat <- function(sc) {
+  suppressPackageStartupMessages({ library(Seurat); library(SeuratObject); library(Matrix) })
+  nd <- slot(sc, "ndata")
+  cells <- colnames(nd)
+  ed <- slot(sc, "expdata")
+  ed <- ed[rownames(nd), intersect(cells, colnames(ed)), drop = FALSE]
+  if (!identical(colnames(ed), cells)) {
+    log_msg("RaceID: expdata covers ", ncol(ed), "/", length(cells),
+            " of the retained cells; using ndata cells only")
+    cells <- colnames(ed)
+    nd <- nd[, cells, drop = FALSE]
+  }
+
+  totals <- tryCatch(as.numeric(slot(sc, "counts")), error = function(e) numeric(0))
+  sf <- if (length(totals)) min(totals[totals > 0]) else 1
+  dat <- nd * sf
+  # RaceID writes ndata as either a dgCMatrix or a base matrix depending on
+  # version; only the sparse one has an @x slot to transform in place.
+  if (methods::is(dat, "sparseMatrix")) dat@x <- log1p(dat@x) else dat <- log1p(dat)
+  if (!methods::is(ed, "sparseMatrix")) ed <- methods::as(as.matrix(ed), "dgCMatrix")
+  log_msg("RaceID: ", nrow(nd), " genes x ", length(cells),
+          " cells; ndata rescaled by ", format(round(sf)), " then log1p")
+
+  obj <- CreateSeuratObject(counts = ed, project = "raceid")
+  obj <- SetAssayData(obj, assay = "RNA", layer = "data", new.data = dat)
+
+  # Cluster partition, and the palette RaceID assigned to it.
+  cpart <- slot(sc, "cpart")
+  colours <- list()
+  if (length(cpart)) {
+    cl <- as.character(cpart[cells])
+    obj$cluster <- factor(cl, levels = as.character(sort(unique(as.integer(cl)))))
+    fcol <- tryCatch(slot(sc, "fcol"), error = function(e) character(0))
+    if (length(fcol)) {
+      ids <- as.integer(levels(obj$cluster))
+      ok <- ids >= 1 & ids <= length(fcol)
+      if (any(ok)) colours$cluster <- as.list(stats::setNames(fcol[ids[ok]],
+                                                              as.character(ids[ok])))
+    }
+  }
+
+  # Cell names carry the sample: P1_CNV_3d_1_2 -> P1_CNV_3d_1, P212_A10 -> P212.
+  for (pat in c("_[0-9]+$", "_[A-Z][0-9]+$")) {
+    cand <- sub(pat, "", cells)
+    n <- length(unique(cand))
+    if (n >= 2 && n <= 100 && n < length(cells)) { obj$sample <- cand; break }
+  }
+  if (length(totals) == length(cells)) obj$total_counts_raceid <- as.numeric(totals)
+
+  # Whichever 2-D layouts this RaceID version stored and that match the cells.
+  for (s in c("umap", "tsne", "fr")) {
+    if (!(.hasSlot(sc, s))) next
+    m <- tryCatch(slot(sc, s), error = function(e) NULL)
+    if (is.null(m) || !is.matrix(as.matrix(m)) || nrow(m) != length(cells) || ncol(m) < 2) next
+    m <- as.matrix(m)[, 1:2, drop = FALSE]
+    rownames(m) <- cells
+    colnames(m) <- paste0(s, "_", 1:2)
+    obj[[s]] <- SeuratObject::CreateDimReducObject(embeddings = m, key = paste0(s, "_"),
+                                                   assay = "RNA")
+  }
+  if (!length(SeuratObject::Reductions(obj)))
+    log_msg("RaceID: WARNING no 2-D layout matches the retained cells")
+
+  obj@misc <- c(obj@misc, list(raceid_colours = colours))
+  obj
 }
 
 # --- json --------------------------------------------------------------------

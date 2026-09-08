@@ -373,6 +373,309 @@
         "PMI_.hours.",
         "RIN"
       ]
+    },
+    "fliegauf_et_al_2026__fig2_scrnaseq": {
+      "title": "CNS macrophages after injury (Fig. 2)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "39,838 cells across timepoints, tissues and conditions.",
+      "assay": "RNA",
+      "default_obs_set": "annotation",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "fliegauf_et_al_2026__fig5_scrnaseq_full_dataset": {
+      "title": "Full scRNA-seq dataset (Fig. 5)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "21,402 cells across two conditions, annotated by cell type.",
+      "assay": "RNA",
+      "default_obs_set": "cell_type",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "fliegauf_et_al_2026__fig5_scrnaseq_microglia": {
+      "title": "Microglia (Fig. 5)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "11,147 microglia across two conditions.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "fliegauf_et_al_2026__fig5_scrnaseq_sdcams": {
+      "title": "sdCAMs (Fig. 5)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "8,683 subdural CNS-associated macrophages across two conditions.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "fliegauf_et_al_2026__fig6_scatacseq": {
+      "title": "scATAC-seq gene activity (Fig. 6)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "10,224 nuclei profiled by scATAC-seq. Shown as gene activity derived from chromatin accessibility, not RNA expression; the 155,819 called peaks are in the source object.",
+      "assay": "RNA_called_peaks",
+      "default_obs_set": "cell_type",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ],
+      "modality": "scATAC-seq (gene activity)"
+    },
+    "friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final": {
+      "title": "Myeloid cells in IDH-mutant glioma",
+      "paper": "Friedrich et al. 2021",
+      "description": "4,460 cells across diagnoses, annotated by cell type.",
+      "assay": "RNA",
+      "default_obs_set": "Celltype",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm": {
+      "title": "10x integration, wild-type and IDH-mutant",
+      "paper": "Friedrich et al. 2021",
+      "description": "55,754 cells across genotypes and timepoints.",
+      "assay": "RNA",
+      "default_obs_set": "integrated_snn_res.0.1",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "frosch_et_al_2025__all_cells_001": {
+      "title": "All cells",
+      "paper": "Frosch et al. 2025",
+      "description": "44,957 cells across twelve samples and four conditions.",
+      "assay": "RNA",
+      "default_obs_set": "cell_type",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "frosch_et_al_2025__immune_cells": {
+      "title": "Immune cells",
+      "paper": "Frosch et al. 2025",
+      "description": "3,371 immune cells across four conditions.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "frosch_et_al_2025__microglia": {
+      "title": "Microglia",
+      "paper": "Frosch et al. 2025",
+      "description": "3,097 microglia across four conditions.",
+      "assay": "RNA",
+      "default_obs_set": "RNA_snn_res.1",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2021__seurat_all_without_doublets": {
+      "title": "All myeloid cells",
+      "paper": "Sankowski et al. 2021",
+      "description": "2,745 cells across CNS compartments, doublets removed.",
+      "assay": "RNA",
+      "default_obs_set": "SCT_snn_res.0.8",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2021__seurat_cp": {
+      "title": "Choroid plexus",
+      "paper": "Sankowski et al. 2021",
+      "description": "487 choroid plexus cells.",
+      "assay": "RNA",
+      "default_obs_set": "SCT_snn_res.0.8",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2021__seurat_men": {
+      "title": "Meninges",
+      "paper": "Sankowski et al. 2021",
+      "description": "545 meningeal cells.",
+      "assay": "RNA",
+      "default_obs_set": "SCT_snn_res.0.8",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2021__seurat_micr": {
+      "title": "Microglia",
+      "paper": "Sankowski et al. 2021",
+      "description": "828 microglia.",
+      "assay": "RNA",
+      "default_obs_set": "SCT_snn_res.0.8",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "sankowski_et_al_2021__seurat_pvm": {
+      "title": "Perivascular macrophages",
+      "paper": "Sankowski et al. 2021",
+      "description": "885 perivascular macrophages.",
+      "assay": "RNA",
+      "default_obs_set": "SCT_snn_res.0.8",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "wieghofer_et_al_2021__cb_cornea": {
+      "title": "Cornea and ciliary body",
+      "paper": "Wieghofer et al. 2021",
+      "description": "432 myeloid cells from cornea and ciliary body, clustered with RaceID; the authors' cluster palette is preserved.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "wieghofer_et_al_2021__retina": {
+      "title": "Retina",
+      "paper": "Wieghofer et al. 2021",
+      "description": "530 myeloid cells from retina, clustered with RaceID; the authors' cluster palette is preserved.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "petry_et_al_2025": {
+      "title": "Embryonic microglia progenitors",
+      "paper": "Petry et al. 2025",
+      "description": "483 cells; the same dataset the authors deposited under GSE195437, which is also part of Masuda et al. 2022.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age"
+      ]
+    },
+    "masuda_et_al_2020": {
+      "title": "Hexb-based microglia atlas",
+      "paper": "Masuda et al. 2020",
+      "description": "3,825 cells clustered with RaceID; the authors' cluster palette is preserved.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
     }
   },
   "view_layout": "dual-umap"

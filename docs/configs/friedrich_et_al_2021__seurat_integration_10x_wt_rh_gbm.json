@@ -1,0 +1,3573 @@
+{
+  "version": "1.0.16",
+  "name": "10x integration, wild-type and IDH-mutant",
+  "description": "55,754 cells across genotypes and timepoints.",
+  "datasets": [
+    {
+      "uid": "friedrich_et_al_2021__seurat_int",
+      "name": "10x integration, wild-type and IDH-mutant",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_umap",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "UMAP"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "integrated snn res.0.1",
+                "path": "obs/integrated_snn_res.0.1"
+              },
+              {
+                "name": "batch",
+                "path": "obs/batch"
+              },
+              {
+                "name": "genotype",
+                "path": "obs/genotype"
+              },
+              {
+                "name": "id",
+                "path": "obs/id"
+              },
+              {
+                "name": "timepoint",
+                "path": "obs/timepoint"
+              },
+              {
+                "name": "integrated snn res.0.5",
+                "path": "obs/integrated_snn_res.0.5"
+              },
+              {
+                "name": "integrated snn res.1",
+                "path": "obs/integrated_snn_res.1"
+              },
+              {
+                "name": "integrated snn res.1.5",
+                "path": "obs/integrated_snn_res.1.5"
+              },
+              {
+                "name": "integrated snn res.2",
+                "path": "obs/integrated_snn_res.2"
+              },
+              {
+                "name": "integrated snn res.2.5",
+                "path": "obs/integrated_snn_res.2.5"
+              },
+              {
+                "name": "integrated snn res.3",
+                "path": "obs/integrated_snn_res.3"
+              },
+              {
+                "name": "seurat clusters",
+                "path": "obs/seurat_clusters"
+              },
+              {
+                "name": "Cell type",
+                "path": "obs/Cell_type"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "friedrich_et_al_2021__seurat_int"
+    },
+    "embeddingType": {
+      "A": "UMAP",
+      "B": "UMAP"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2ry12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.1",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "batch",
+            "round0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "batch",
+            "round2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "genotype",
+            "RH"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "genotype",
+            "WT"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "fRH1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "fRH2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "fRH3"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "fWT1"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "fWT2"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "fWT4"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "nRH1"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "nRH2"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "nRH3"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "nRH4"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "nWT1"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "nWT2"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "nWT3"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "id",
+            "nWT4"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "timepoint",
+            "early"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "timepoint",
+            "late"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.0.5",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.1.5",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "32"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "33"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "34"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "35"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2",
+            "36"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "32"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "33"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "34"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "35"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "36"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "37"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "38"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "39"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "40"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "41"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "42"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "43"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "44"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.2.5",
+            "45"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "32"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "33"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "34"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "35"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "36"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "37"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "38"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "39"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "40"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "41"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "42"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "43"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "44"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "45"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "46"
+          ],
+          "color": [
+            161,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "47"
+          ],
+          "color": [
+            54,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "48"
+          ],
+          "color": [
+            166,
+            48,
+            102
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "49"
+          ],
+          "color": [
+            26,
+            147,
+            187
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "50"
+          ],
+          "color": [
+            206,
+            201,
+            88
+          ]
+        },
+        {
+          "path": [
+            "integrated snn res.3",
+            "51"
+          ],
+          "color": [
+            174,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "32"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "33"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "34"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "35"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "36"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "37"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "38"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "39"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "40"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "41"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "42"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "43"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "44"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "45"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Cell type",
+            "B_cells"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Cell type",
+            "DCs"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cell type",
+            "Glial_cells"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Cell type",
+            "Granulocytes"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cell type",
+            "Mast_cells"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Cell type",
+            "Microglia"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Cell type",
+            "Mo_der_Cells"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Cell type",
+            "Monocytes"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Cell type",
+            "T_cells"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "integrated snn res.0.1",
+          "0"
+        ],
+        [
+          "integrated snn res.0.1",
+          "1"
+        ],
+        [
+          "integrated snn res.0.1",
+          "2"
+        ],
+        [
+          "integrated snn res.0.1",
+          "3"
+        ],
+        [
+          "integrated snn res.0.1",
+          "4"
+        ],
+        [
+          "integrated snn res.0.1",
+          "5"
+        ],
+        [
+          "integrated snn res.0.1",
+          "6"
+        ],
+        [
+          "integrated snn res.0.1",
+          "7"
+        ],
+        [
+          "integrated snn res.0.1",
+          "8"
+        ],
+        [
+          "integrated snn res.0.1",
+          "9"
+        ],
+        [
+          "integrated snn res.0.1",
+          "10"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "integrated snn res.0.1"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

@@ -1,0 +1,1116 @@
+{
+  "version": "1.0.16",
+  "name": "Embryonic microglia progenitors",
+  "description": "483 cells; the same dataset the authors deposited under GSE195437, which is also part of Masuda et al. 2022.",
+  "datasets": [
+    {
+      "uid": "petry_et_al_2025",
+      "name": "Embryonic microglia progenitors",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/petry_et_al_2025.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_umap",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "UMAP"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "seurat clusters",
+                "path": "obs/seurat_clusters"
+              },
+              {
+                "name": "orig.ident",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "SCT snn res.0.1",
+                "path": "obs/SCT_snn_res.0.1"
+              },
+              {
+                "name": "SCT snn res.0.2",
+                "path": "obs/SCT_snn_res.0.2"
+              },
+              {
+                "name": "SCT snn res.0.3",
+                "path": "obs/SCT_snn_res.0.3"
+              },
+              {
+                "name": "SCT snn res.0.4",
+                "path": "obs/SCT_snn_res.0.4"
+              },
+              {
+                "name": "SCT snn res.0.5",
+                "path": "obs/SCT_snn_res.0.5"
+              },
+              {
+                "name": "SCT snn res.0.6",
+                "path": "obs/SCT_snn_res.0.6"
+              },
+              {
+                "name": "SCT snn res.0.7",
+                "path": "obs/SCT_snn_res.0.7"
+              },
+              {
+                "name": "SCT snn res.0.8",
+                "path": "obs/SCT_snn_res.0.8"
+              },
+              {
+                "name": "SCT snn res.0.9",
+                "path": "obs/SCT_snn_res.0.9"
+              },
+              {
+                "name": "SCT snn res.1",
+                "path": "obs/SCT_snn_res.1"
+              },
+              {
+                "name": "SCT snn res.1.5",
+                "path": "obs/SCT_snn_res.1.5"
+              },
+              {
+                "name": "SCT snn res.2",
+                "path": "obs/SCT_snn_res.2"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "petry_et_al_2025"
+    },
+    "embeddingType": {
+      "A": "UMAP",
+      "B": "UMAP"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2ry12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "seurat clusters",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P3"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P4"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.1",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.1",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.1",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.1",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.2",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.2",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.2",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.2",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.3",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.3",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.3",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.3",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.4",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.4",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.4",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.4",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.5",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.5",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.5",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.5",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.6",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.6",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.6",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.6",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.7",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.7",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.7",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.7",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.7",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.7",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.8",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.8",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.8",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.8",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.8",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.8",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.9",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.9",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.9",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.9",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.9",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.0.9",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1.5",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1.5",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1.5",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1.5",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1.5",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.1.5",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.2",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.2",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.2",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.2",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.2",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.2",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.2",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.2",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "SCT snn res.2",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "seurat clusters",
+          "0"
+        ],
+        [
+          "seurat clusters",
+          "1"
+        ],
+        [
+          "seurat clusters",
+          "2"
+        ],
+        [
+          "seurat clusters",
+          "3"
+        ],
+        [
+          "seurat clusters",
+          "4"
+        ],
+        [
+          "seurat clusters",
+          "5"
+        ],
+        [
+          "seurat clusters",
+          "6"
+        ],
+        [
+          "seurat clusters",
+          "7"
+        ],
+        [
+          "seurat clusters",
+          "8"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "seurat clusters"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

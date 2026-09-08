@@ -124,6 +124,13 @@ inspect <- function(obj) {
 # ---------------------------------------------------------------------------
 
 run_worker <- function(key) {
+  # Load Seurat before the object rather than on demand. Loading it afterwards
+  # can fail while initialising RcppAnnoy's modules ("attempt to apply
+  # non-function"); the later stages never hit this because they attach Seurat
+  # at start-up.
+  suppressWarnings(suppressPackageStartupMessages(
+    tryCatch(library(Seurat), error = function(e)
+      log_msg("note: Seurat not attached up front (", conditionMessage(e), ")"))))
   ds <- discover_datasets()[[key]]
   if (is.null(ds)) stop("Unknown dataset key: ", key)
   log_msg("worker: ", key, "  <- ", ds$rel_path)

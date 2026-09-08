@@ -44,6 +44,27 @@ header p.lede { color: var(--muted); margin: 0 0 6px; max-width: 62ch; }
 }
 .btn.sec { background: transparent; color: var(--ink); border: 1px solid var(--line); font-weight: 500; }
 .crumb { margin: 0 0 10px; font-size: 13px; }
+.pubcard { display: grid; grid-template-columns: 210px 1fr; gap: 22px; align-items: start; }
+@media (max-width: 640px) { .pubcard { grid-template-columns: 1fr; } }
+.ga { display: block; border: 1px solid var(--line); border-radius: 8px; overflow: hidden;
+      background: #fff; }
+.ga img { display: block; width: 100%; height: auto; }
+.ga.wide { max-width: 100%; margin: 0 0 22px; padding: 10px; }
+.cite { font-size: 12.5px; color: var(--muted); margin: 0 0 6px;
+        text-transform: uppercase; letter-spacing: 0.06em; }
+.arttitle { margin: 0 0 12px; font-size: 15.5px; line-height: 1.45; }
+.arttitle a { text-decoration: none; }
+.arttitle a:hover { text-decoration: underline; }
+.datasetlist { color: var(--muted); font-size: 14px; }
+.modality { display: inline-block; font-size: 12px; color: var(--accent);
+            border: 1px solid var(--accent); border-radius: 999px;
+            padding: 2px 10px; margin: 0 0 10px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 14px; }
+.acc { font-size: 12px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+       color: var(--muted); border: 1px solid var(--line); border-radius: 6px;
+       padding: 4px 9px; text-decoration: none; }
+.acc:hover { border-color: var(--accent); color: var(--accent); }
+.acc.more { border-style: dashed; }
 .crumb a { text-decoration: none; }
 .card h2 a { color: inherit; text-decoration: none; }
 .card h2 a:hover { color: var(--accent); }
@@ -75,8 +96,17 @@ th { color: var(--muted); font-weight: 500; }
   <header>
     <p class="crumb"><a href="./index.html">&larr; All publications</a></p>
     <h1>Masuda et al. 2022</h1>
+    <p class="arttitle"><a href="https://www.nature.com/articles/s41586-022-04596-2" target="_blank" rel="noopener">Specification of CNS macrophage subsets occurs postnatally in defined niches</a></p>
+    <p class="cite">Nature &middot; 2022 &middot; <a href="https://doi.org/10.1038/s41586-022-04596-2" target="_blank" rel="noopener">doi:10.1038/s41586-022-04596-2</a></p>
     <p class="lede">1 dataset, 483 cells in total.</p>
+    <p class="actions"><a class="btn sec" href="https://www.nature.com/articles/s41586-022-04596-2" target="_blank" rel="noopener">Paper</a>
+          <a class="acc" href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194432" target="_blank" rel="noopener">GSE194432</a>
+          <a class="acc" href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194433" target="_blank" rel="noopener">GSE194433</a>
+          <a class="acc" href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195437" target="_blank" rel="noopener">GSE195437</a>
+          <a class="acc" href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192510" target="_blank" rel="noopener">GSE192510</a>
+          <a class="acc" href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192511" target="_blank" rel="noopener">GSE192511</a></p>
   </header>
+  <img class="ga wide" src="./assets/masuda-et-al-2022.jpg" alt="Graphical abstract, Masuda et al. 2022">
   
     <section class="card">
       <h2>Masuda et al. 2022</h2>
@@ -88,6 +118,7 @@ th { color: var(--muted); font-weight: 500; }
         <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
         <div class="stat"><div class="n">5.7 MB</div><div class="k">zarr store</div></div>
       </div>
+      
       <div class="tags"><span class="tag">seurat clusters</span><span class="tag">orig.ident</span><span class="tag">SCT snn res.0.1</span><span class="tag">SCT snn res.0.2</span><span class="tag">SCT snn res.0.3</span><span class="tag">SCT snn res.0.4</span><span class="tag">SCT snn res.0.5</span><span class="tag">SCT snn res.0.6</span><span class="tag">SCT snn res.0.7</span><span class="tag">SCT snn res.0.8</span><span class="tag">+4 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=masuda_et_al_2022">Open viewer</a>
@@ -96,8 +127,8 @@ th { color: var(--muted); font-weight: 500; }
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/masuda_et_al_2022.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 1.7 ms,
-        p95 2.0 ms &middot; X chunked [483, 40]
+        Single-gene fetch measured locally: p50 1.8 ms,
+        p95 2.9 ms &middot; X chunked [483, 40]
       </p>
     </section>
   <footer>

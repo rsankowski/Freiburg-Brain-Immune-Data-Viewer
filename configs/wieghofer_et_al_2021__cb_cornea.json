@@ -1,0 +1,665 @@
+{
+  "version": "1.0.16",
+  "name": "Cornea and ciliary body",
+  "description": "432 myeloid cells from cornea and ciliary body, clustered with RaceID; the authors' cluster palette is preserved.",
+  "datasets": [
+    {
+      "uid": "wieghofer_et_al_2021__cb_cornea",
+      "name": "Cornea and ciliary body",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/wieghofer_et_al_2021__cb_cornea.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_fr",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "FR"
+              },
+              {
+                "path": "obsm/X_tsne",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "TSNE"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "cluster",
+                "path": "obs/cluster"
+              },
+              {
+                "name": "orig.ident",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "sample",
+                "path": "obs/sample"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "wieghofer_et_al_2021__cb_cornea"
+    },
+    "embeddingType": {
+      "A": "FR",
+      "B": "FR"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2ry12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "cluster",
+            "1"
+          ],
+          "color": [
+            0,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "2"
+          ],
+          "color": [
+            0,
+            255,
+            255
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "3"
+          ],
+          "color": [
+            255,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "4"
+          ],
+          "color": [
+            0,
+            255,
+            85
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "5"
+          ],
+          "color": [
+            85,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "6"
+          ],
+          "color": [
+            170,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "7"
+          ],
+          "color": [
+            0,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "8"
+          ],
+          "color": [
+            170,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "9"
+          ],
+          "color": [
+            0,
+            85,
+            255
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "10"
+          ],
+          "color": [
+            255,
+            0,
+            85
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "11"
+          ],
+          "color": [
+            255,
+            85,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "12"
+          ],
+          "color": [
+            0,
+            170,
+            255
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "13"
+          ],
+          "color": [
+            255,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "14"
+          ],
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "15"
+          ],
+          "color": [
+            255,
+            0,
+            170
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "16"
+          ],
+          "color": [
+            85,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "17"
+          ],
+          "color": [
+            255,
+            170,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "18"
+          ],
+          "color": [
+            0,
+            255,
+            170
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P3"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P4"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P5"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P1_Ret_Mg_1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P1_Ret_Mg_2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P2_Cornea_1"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P2_Cornea_2"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P2_Ret_Mg_3"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P2_Ret_Mg_4"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P3_CB_1"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P3_CB_2"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P4_CB_3"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P4_CB_4"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P5_Cornea_3"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P5_Cornea_4"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "cluster",
+          "1"
+        ],
+        [
+          "cluster",
+          "2"
+        ],
+        [
+          "cluster",
+          "3"
+        ],
+        [
+          "cluster",
+          "4"
+        ],
+        [
+          "cluster",
+          "5"
+        ],
+        [
+          "cluster",
+          "6"
+        ],
+        [
+          "cluster",
+          "7"
+        ],
+        [
+          "cluster",
+          "8"
+        ],
+        [
+          "cluster",
+          "9"
+        ],
+        [
+          "cluster",
+          "10"
+        ],
+        [
+          "cluster",
+          "11"
+        ],
+        [
+          "cluster",
+          "12"
+        ],
+        [
+          "cluster",
+          "13"
+        ],
+        [
+          "cluster",
+          "14"
+        ],
+        [
+          "cluster",
+          "15"
+        ],
+        [
+          "cluster",
+          "16"
+        ],
+        [
+          "cluster",
+          "17"
+        ],
+        [
+          "cluster",
+          "18"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "cluster"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

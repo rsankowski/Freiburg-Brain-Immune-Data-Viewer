@@ -272,6 +272,248 @@ aws s3 cp \
   --metadata-directive REPLACE \
   --region "$REGION"
 
+# fliegauf_et_al_2026__fig2_scrnaseq: 39838 cells x 35918 genes, 556.0 MB in 3810 files
+echo "==> fliegauf_et_al_2026__fig2_scrnaseq"
+aws s3 sync \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig2_scrnaseq.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig2_scrnaseq.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig2_scrnaseq.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig2_scrnaseq.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# fliegauf_et_al_2026__fig5_scrnaseq_full_dataset: 21402 cells x 56888 genes, 228.3 MB in 5806 files
+echo "==> fliegauf_et_al_2026__fig5_scrnaseq_full_dataset"
+aws s3 sync \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig5_scrnaseq_full_dataset.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig5_scrnaseq_full_dataset.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig5_scrnaseq_full_dataset.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig5_scrnaseq_full_dataset.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# fliegauf_et_al_2026__fig5_scrnaseq_microglia: 11147 cells x 56888 genes, 127.2 MB in 5798 files
+echo "==> fliegauf_et_al_2026__fig5_scrnaseq_microglia"
+aws s3 sync \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig5_scrnaseq_microglia.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig5_scrnaseq_microglia.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig5_scrnaseq_microglia.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig5_scrnaseq_microglia.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# fliegauf_et_al_2026__fig5_scrnaseq_sdcams: 8683 cells x 56888 genes, 81.9 MB in 5798 files
+echo "==> fliegauf_et_al_2026__fig5_scrnaseq_sdcams"
+aws s3 sync \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig5_scrnaseq_sdcams.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig5_scrnaseq_sdcams.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig5_scrnaseq_sdcams.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig5_scrnaseq_sdcams.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# fliegauf_et_al_2026__fig6_scatacseq: 10224 cells x 21821 genes, 459.7 MB in 2423 files
+echo "==> fliegauf_et_al_2026__fig6_scatacseq"
+aws s3 sync \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig6_scatacseq.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig6_scatacseq.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/fliegauf_et_al_2026__fig6_scatacseq.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/fliegauf_et_al_2026__fig6_scatacseq.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final: 4460 cells x 23183 genes, 27.8 MB in 2498 files
+echo "==> friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final"
+aws s3 sync \
+  "$ROOT/build/zarr/friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm: 55754 cells x 16726 genes, 174.3 MB in 1835 files
+echo "==> friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm"
+aws s3 sync \
+  "$ROOT/build/zarr/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# frosch_et_al_2025__all_cells_001: 44957 cells x 33709 genes, 491.0 MB in 3472 files
+echo "==> frosch_et_al_2025__all_cells_001"
+aws s3 sync \
+  "$ROOT/build/zarr/frosch_et_al_2025__all_cells_001.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__all_cells_001.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/frosch_et_al_2025__all_cells_001.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__all_cells_001.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# frosch_et_al_2025__immune_cells: 3371 cells x 33697 genes, 29.8 MB in 3533 files
+echo "==> frosch_et_al_2025__immune_cells"
+aws s3 sync \
+  "$ROOT/build/zarr/frosch_et_al_2025__immune_cells.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__immune_cells.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/frosch_et_al_2025__immune_cells.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__immune_cells.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# frosch_et_al_2025__microglia: 3097 cells x 33697 genes, 27.5 MB in 3560 files
+echo "==> frosch_et_al_2025__microglia"
+aws s3 sync \
+  "$ROOT/build/zarr/frosch_et_al_2025__microglia.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__microglia.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/frosch_et_al_2025__microglia.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__microglia.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# masuda_et_al_2020: 3825 cells x 30956 genes, 78.8 MB in 3167 files
+echo "==> masuda_et_al_2020"
+aws s3 sync \
+  "$ROOT/build/zarr/masuda_et_al_2020.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/masuda_et_al_2020.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/masuda_et_al_2020.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/masuda_et_al_2020.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
 # masuda_et_al_2022: 483 cells x 14610 genes, 5.7 MB in 531 files
 echo "==> masuda_et_al_2022"
 aws s3 sync \
@@ -287,6 +529,138 @@ aws s3 sync \
 aws s3 cp \
   "$ROOT/build/zarr/masuda_et_al_2022.zarr" \
   "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/masuda_et_al_2022.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# petry_et_al_2025: 483 cells x 14610 genes, 5.7 MB in 531 files
+echo "==> petry_et_al_2025"
+aws s3 sync \
+  "$ROOT/build/zarr/petry_et_al_2025.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/petry_et_al_2025.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/petry_et_al_2025.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/petry_et_al_2025.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# sankowski_et_al_2021__seurat_all_without_doublets: 2745 cells x 19488 genes, 17.7 MB in 2117 files
+echo "==> sankowski_et_al_2021__seurat_all_without_doublets"
+aws s3 sync \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_all_without_doublets.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_all_without_doublets.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_all_without_doublets.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_all_without_doublets.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# sankowski_et_al_2021__seurat_cp: 487 cells x 19488 genes, 3.6 MB in 648 files
+echo "==> sankowski_et_al_2021__seurat_cp"
+aws s3 sync \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_cp.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_cp.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_cp.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_cp.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# sankowski_et_al_2021__seurat_men: 545 cells x 19488 genes, 3.9 MB in 768 files
+echo "==> sankowski_et_al_2021__seurat_men"
+aws s3 sync \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_men.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_men.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_men.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_men.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# sankowski_et_al_2021__seurat_micr: 828 cells x 19488 genes, 5.6 MB in 1135 files
+echo "==> sankowski_et_al_2021__seurat_micr"
+aws s3 sync \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_micr.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_micr.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_micr.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_micr.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# sankowski_et_al_2021__seurat_pvm: 885 cells x 19488 genes, 5.8 MB in 1135 files
+echo "==> sankowski_et_al_2021__seurat_pvm"
+aws s3 sync \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_pvm.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_pvm.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/sankowski_et_al_2021__seurat_pvm.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2021__seurat_pvm.zarr" \
   --recursive --exclude "*" \
   --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
   --content-type "application/json" \
@@ -463,6 +837,50 @@ aws s3 sync \
 aws s3 cp \
   "$ROOT/build/zarr/sankowski_et_al_2024__figure_e7_gse245311_all_cells_ffpe.zarr" \
   "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/sankowski_et_al_2024__figure_e7_gse245311_all_cells_ffpe.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# wieghofer_et_al_2021__cb_cornea: 432 cells x 32760 genes, 5.5 MB in 894 files
+echo "==> wieghofer_et_al_2021__cb_cornea"
+aws s3 sync \
+  "$ROOT/build/zarr/wieghofer_et_al_2021__cb_cornea.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/wieghofer_et_al_2021__cb_cornea.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/wieghofer_et_al_2021__cb_cornea.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/wieghofer_et_al_2021__cb_cornea.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# wieghofer_et_al_2021__retina: 530 cells x 32936 genes, 7.0 MB in 902 files
+echo "==> wieghofer_et_al_2021__retina"
+aws s3 sync \
+  "$ROOT/build/zarr/wieghofer_et_al_2021__retina.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/wieghofer_et_al_2021__retina.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/wieghofer_et_al_2021__retina.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/wieghofer_et_al_2021__retina.zarr" \
   --recursive --exclude "*" \
   --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
   --content-type "application/json" \

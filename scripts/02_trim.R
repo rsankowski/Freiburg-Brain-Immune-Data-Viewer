@@ -291,7 +291,32 @@ run_worker <- function(key) {
     obj <- NormalizeData(obj, verbose = FALSE)
     rna <- obj[[keep_assay]]
   }
+  # Highly variable genes are computed here, before the assay is rebuilt: vst
+  # needs counts, and silently falls back to a data-slot path that produces a
+  # table without the column it then tries to sort on.
+  target <- cfg$hvg_target %||% 4000
+  hvg <- tryCatch(VariableFeatures(obj, assay = keep_assay), error = function(e) character(0))
+  if (length(hvg) >= target) {
+    hvg <- utils::head(hvg, target)
+    log_msg("HVG: using top ", length(hvg), " of the object's existing variable features")
+  } else {
+    log_msg("HVG: computing ", target, " variable features (object had ", length(hvg), ")")
+    hvg <- tryCatch({
+      tmp <- FindVariableFeatures(obj, assay = keep_assay, nfeatures = target, verbose = FALSE)
+      utils::head(VariableFeatures(tmp, assay = keep_assay), target)
+    }, error = function(e) {
+      log_msg("  vst failed (", conditionMessage(e), "); falling back to dispersion")
+      tmp <- FindVariableFeatures(obj, assay = keep_assay, nfeatures = target,
+                                  selection.method = "dispersion", verbose = FALSE)
+      utils::head(VariableFeatures(tmp, assay = keep_assay), target)
+    })
+  }
+
   data_mat <- LayerData(rna, layer = "data")
+  if (!methods::is(data_mat, "sparseMatrix")) {
+    log_msg("data layer is dense; storing it sparse")
+    data_mat <- methods::as(methods::as(data_mat, "generalMatrix"), "CsparseMatrix")
+  }
   # Rebuild as a plain v3 Assay holding only `data`: it is what the h5ad writer
   # expects and it drops scale.data/counts without slot surgery.
   new_assay <- SeuratObject::CreateAssayObject(data = data_mat)
@@ -326,6 +351,18 @@ run_worker <- function(key) {
 
   # --- metadata -------------------------------------------------------------
   cur <- curate_metadata(obj@meta.data, cfg, dcfg)
+  # RaceID keeps its cluster palette in a slot rather than an obs column, so it
+  # never passes through the colour-column lifting above.
+  rc <- obj@misc$raceid_colours
+  if (length(rc)) {
+    for (nm in names(rc)) {
+      if (nm %in% cur$kept && length(rc[[nm]])) {
+        cur$colours[[nm]] <- as.list(stats::setNames(as_hex(unlist(rc[[nm]])),
+                                                     names(rc[[nm]])))
+        log_msg("  RaceID palette kept for ", nm, " (", length(rc[[nm]]), " clusters)")
+      }
+    }
+  }
   n_before <- ncol(obj@meta.data)
   obj@meta.data <- cur$md
   log_msg(sprintf("metadata: %d -> %d columns", n_before, ncol(cur$md)))
@@ -335,20 +372,11 @@ run_worker <- function(key) {
   }
 
   # --- highly variable genes ------------------------------------------------
-  target <- cfg$hvg_target %||% 4000
-  hvg <- tryCatch(VariableFeatures(obj), error = function(e) character(0))
-  if (length(hvg) >= target) {
-    hvg <- utils::head(hvg, target)
-    log_msg("HVG: using top ", length(hvg), " of the object's existing variable features")
-  } else {
-    log_msg("HVG: computing ", target, " variable features (object had ", length(hvg), ")")
-    obj <- FindVariableFeatures(obj, nfeatures = target, verbose = FALSE)
-    hvg <- utils::head(VariableFeatures(obj), target)
-  }
   hvg <- intersect(hvg, rownames(obj))
   obj@misc <- list(hvg = hvg, colours = cur$colours,
                    dataset_key = key, title = dcfg$title %||% key)
   VariableFeatures(obj) <- hvg
+  log_msg("HVG: ", length(hvg), " genes flagged")
 
   gc(full = TRUE)
   size_after <- as.numeric(utils::object.size(obj))

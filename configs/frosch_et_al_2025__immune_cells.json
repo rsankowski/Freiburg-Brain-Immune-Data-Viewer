@@ -1,0 +1,3421 @@
+{
+  "version": "1.0.16",
+  "name": "Immune cells",
+  "description": "3,371 immune cells across four conditions.",
+  "datasets": [
+    {
+      "uid": "frosch_et_al_2025__immune_cells",
+      "name": "Immune cells",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__immune_cells.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_harmony",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "HARMONY"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "seurat clusters",
+                "path": "obs/seurat_clusters"
+              },
+              {
+                "name": "orig.ident",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "sample",
+                "path": "obs/sample"
+              },
+              {
+                "name": "condition",
+                "path": "obs/condition"
+              },
+              {
+                "name": "RNA snn res.1",
+                "path": "obs/RNA_snn_res.1"
+              },
+              {
+                "name": "RNA snn res.2",
+                "path": "obs/RNA_snn_res.2"
+              },
+              {
+                "name": "RNA snn res.3",
+                "path": "obs/RNA_snn_res.3"
+              },
+              {
+                "name": "RNA snn res.4",
+                "path": "obs/RNA_snn_res.4"
+              },
+              {
+                "name": "RNA snn res.5",
+                "path": "obs/RNA_snn_res.5"
+              },
+              {
+                "name": "RNA snn res.6",
+                "path": "obs/RNA_snn_res.6"
+              },
+              {
+                "name": "RNA snn res.7",
+                "path": "obs/RNA_snn_res.7"
+              },
+              {
+                "name": "RNA snn res.8",
+                "path": "obs/RNA_snn_res.8"
+              },
+              {
+                "name": "cell type",
+                "path": "obs/cell_type"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "frosch_et_al_2025__immune_cells"
+    },
+    "embeddingType": {
+      "A": "HARMONY",
+      "B": "HARMONY"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2ry12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "seurat clusters",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_Het_1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_Het_2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_Het_3"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_Het_T1"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_Het_T2"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_Het_T3"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_KO_1"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_KO_2"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_KO_3"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_KO_T1"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_KO_T2"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Hexb_KO_T3"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_Het_1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_Het_2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_Het_3"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_Het_T1"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_Het_T2"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_Het_T3"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_KO_1"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_KO_2"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_KO_3"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_KO_T1"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_KO_T2"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "Hexb_KO_T3"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Hexb_Het"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Hexb_Het_T"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Hexb_KO"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "condition",
+            "Hexb_KO_T"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.2",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.3",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.4",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.5",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "32"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "33"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "34"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "35"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "36"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.6",
+            "37"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "32"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "33"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "34"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "35"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "36"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "37"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "38"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "39"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "40"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "41"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "42"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "43"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "44"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "45"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.7",
+            "46"
+          ],
+          "color": [
+            161,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "24"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "25"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "26"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "27"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "28"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "29"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "30"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "31"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "32"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "33"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "34"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "35"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "36"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "37"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "38"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "39"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "40"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "41"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "42"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "43"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "44"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "45"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "46"
+          ],
+          "color": [
+            161,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "47"
+          ],
+          "color": [
+            54,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "48"
+          ],
+          "color": [
+            166,
+            48,
+            102
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "49"
+          ],
+          "color": [
+            26,
+            147,
+            187
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "50"
+          ],
+          "color": [
+            206,
+            201,
+            88
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "51"
+          ],
+          "color": [
+            174,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "52"
+          ],
+          "color": [
+            88,
+            206,
+            132
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "53"
+          ],
+          "color": [
+            238,
+            146,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "54"
+          ],
+          "color": [
+            152,
+            167,
+            225
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "55"
+          ],
+          "color": [
+            189,
+            238,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "56"
+          ],
+          "color": [
+            166,
+            48,
+            142
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.8",
+            "57"
+          ],
+          "color": [
+            26,
+            187,
+            173
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "B"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "CAM"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "DC"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "MG"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "T"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "seurat clusters",
+          "0"
+        ],
+        [
+          "seurat clusters",
+          "1"
+        ],
+        [
+          "seurat clusters",
+          "2"
+        ],
+        [
+          "seurat clusters",
+          "3"
+        ],
+        [
+          "seurat clusters",
+          "4"
+        ],
+        [
+          "seurat clusters",
+          "5"
+        ],
+        [
+          "seurat clusters",
+          "6"
+        ],
+        [
+          "seurat clusters",
+          "7"
+        ],
+        [
+          "seurat clusters",
+          "8"
+        ],
+        [
+          "seurat clusters",
+          "9"
+        ],
+        [
+          "seurat clusters",
+          "10"
+        ],
+        [
+          "seurat clusters",
+          "11"
+        ],
+        [
+          "seurat clusters",
+          "12"
+        ],
+        [
+          "seurat clusters",
+          "13"
+        ],
+        [
+          "seurat clusters",
+          "14"
+        ],
+        [
+          "seurat clusters",
+          "15"
+        ],
+        [
+          "seurat clusters",
+          "16"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "seurat clusters"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

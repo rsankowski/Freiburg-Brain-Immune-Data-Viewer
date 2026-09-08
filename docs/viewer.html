@@ -144,7 +144,7 @@ async function reachable(url) {
   document.getElementById("root").innerHTML =
     `<div class="bar"><b>${entry.title}</b><span>${entry.n_cells.toLocaleString()} cells &middot;
       ${entry.n_genes.toLocaleString()} genes &middot; ${entry.paper || ""}</span>
-      <span class="hint">left UMAP: metadata &middot; right UMAP: gene expression</span>
+      <span class="hint">left: metadata &middot; right: ${entry.modality || "gene expression"}</span>
       <label><input type="checkbox" id="summary"> Summary plots</label>
       <span class="right">
         <button id="themeBtn" type="button"></button>

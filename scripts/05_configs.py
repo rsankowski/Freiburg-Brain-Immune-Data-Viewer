@@ -306,6 +306,7 @@ def build_config(key: str, cfg: dict, manifest: dict) -> dict:
             "colour_columns": sorted(palette_cols),
             "published_palette_columns": sorted(published_cols),
             "default_gene": dcfg.get("default_gene"),
+            "modality": dcfg.get("modality"),
             "view_layout": layout_kind,
             "config_path": f"configs/{key}.json",
         },

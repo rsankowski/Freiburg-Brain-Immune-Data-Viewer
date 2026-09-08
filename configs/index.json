@@ -2,7 +2,7 @@
   "title": "Freiburg Brain Immune Data Viewer",
   "base_url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com",
   "license": "CC-BY-4.0",
-  "n_datasets": 20,
+  "n_datasets": 39,
   "datasets": [
     {
       "key": "amann_et_al_2024",
@@ -36,6 +36,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/amann_et_al_2024.json"
     },
@@ -71,6 +72,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2ry12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/ardura_fabregat_et_al_2025__dataset_1.json"
     },
@@ -104,6 +106,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2ry12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/ardura_fabregat_et_al_2025__dataset_2_with_index_data.json"
     },
@@ -142,6 +145,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/chhatbar_et_al_2026__figure_2_nanostring_cosmx_v1.json"
     },
@@ -194,6 +198,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/chhatbar_et_al_2026__figure_4_human_visiumhd_compressed_v1.json"
     },
@@ -244,6 +249,7 @@
         "Tissue_label"
       ],
       "default_gene": "P2ry12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/chhatbar_et_al_2026__figure_5_mouse_myeloid_atlas_v1.json"
     },
@@ -314,6 +320,7 @@
         "Module_label"
       ],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/chhatbar_et_al_2026__figure_6_cross_species_microglia_integrated.json"
     },
@@ -353,6 +360,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2ry12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/chhatbar_et_al_2026__figure_7_eae_microglia_manipulation.json"
     },
@@ -408,6 +416,7 @@
         "Subclass_label"
       ],
       "default_gene": "P2ry12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/chhatbar_et_al_2026__figure_e10_a_pathways_manipulation_mouse.json"
     },
@@ -449,6 +458,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2ry12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/chhatbar_et_al_2026__figure_e10_d_lps_microglia_manipuliation.json"
     },
@@ -550,8 +560,482 @@
         "Tissue_label"
       ],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/chhatbar_et_al_2026__immune_final_2_23012025.json"
+    },
+    {
+      "key": "fliegauf_et_al_2026__fig2_scrnaseq",
+      "title": "CNS macrophages after injury (Fig. 2)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "39,838 cells across timepoints, tissues and conditions.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig2_scrnaseq.zarr",
+      "n_cells": 39838,
+      "n_genes": 35918,
+      "store_size": "556.0 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "annotation",
+        "orig.ident",
+        "condition",
+        "timepoint",
+        "sex",
+        "mouse",
+        "RNA_snn_res.1",
+        "seurat_clusters",
+        "library",
+        "tissue",
+        "SingleR_labels",
+        "Lane",
+        "CMO_label",
+        "run",
+        "sample",
+        "Phase",
+        "RNA_snn_res.1.7",
+        "cell_subtype_final"
+      ],
+      "colour_columns": [
+        "CMO_label",
+        "Lane",
+        "Phase",
+        "RNA_snn_res.1",
+        "RNA_snn_res.1.7",
+        "SingleR_labels",
+        "annotation",
+        "cell_subtype_final",
+        "condition",
+        "library",
+        "mouse",
+        "orig.ident",
+        "run",
+        "sample",
+        "seurat_clusters",
+        "sex",
+        "timepoint",
+        "tissue"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/fliegauf_et_al_2026__fig2_scrnaseq.json"
+    },
+    {
+      "key": "fliegauf_et_al_2026__fig5_scrnaseq_full_dataset",
+      "title": "Full scRNA-seq dataset (Fig. 5)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "21,402 cells across two conditions, annotated by cell type.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig5_scrnaseq_full_dataset.zarr",
+      "n_cells": 21402,
+      "n_genes": 56888,
+      "store_size": "228.3 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "cell_type",
+        "orig.ident",
+        "condition",
+        "RNA_snn_res.0.9",
+        "seurat_clusters",
+        "integrated_snn_res.1"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.0.9",
+        "cell_type",
+        "condition",
+        "integrated_snn_res.1",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/fliegauf_et_al_2026__fig5_scrnaseq_full_dataset.json"
+    },
+    {
+      "key": "fliegauf_et_al_2026__fig5_scrnaseq_microglia",
+      "title": "Microglia (Fig. 5)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "11,147 microglia across two conditions.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig5_scrnaseq_microglia.zarr",
+      "n_cells": 11147,
+      "n_genes": 56888,
+      "store_size": "127.2 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "seurat_clusters",
+        "orig.ident",
+        "condition",
+        "RNA_snn_res.0.4",
+        "integrated_snn_res.0.25"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.0.4",
+        "condition",
+        "integrated_snn_res.0.25",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/fliegauf_et_al_2026__fig5_scrnaseq_microglia.json"
+    },
+    {
+      "key": "fliegauf_et_al_2026__fig5_scrnaseq_sdcams",
+      "title": "sdCAMs (Fig. 5)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "8,683 subdural CNS-associated macrophages across two conditions.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig5_scrnaseq_sdcams.zarr",
+      "n_cells": 8683,
+      "n_genes": 56888,
+      "store_size": "81.9 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "seurat_clusters",
+        "orig.ident",
+        "condition",
+        "RNA_snn_res.0.5",
+        "integrated_snn_res.0.25"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.0.5",
+        "condition",
+        "integrated_snn_res.0.25",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/fliegauf_et_al_2026__fig5_scrnaseq_sdcams.json"
+    },
+    {
+      "key": "fliegauf_et_al_2026__fig6_scatacseq",
+      "title": "scATAC-seq gene activity (Fig. 6)",
+      "paper": "Fliegauf et al. 2026",
+      "description": "10,224 nuclei profiled by scATAC-seq. Shown as gene activity derived from chromatin accessibility, not RNA expression; the 155,819 called peaks are in the source object.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig6_scatacseq.zarr",
+      "n_cells": 10224,
+      "n_genes": 21821,
+      "store_size": "459.7 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "cell_type",
+        "sample",
+        "doublet_class",
+        "peaks_snn_res.0.25",
+        "seurat_clusters",
+        "treatment",
+        "sort_gate",
+        "peaks_snn_res.0.2",
+        "origin",
+        "seurat_clusters_original",
+        "predicted.id",
+        "called_peaks_snn_res.0.2",
+        "annotation",
+        "Phase"
+      ],
+      "colour_columns": [
+        "Phase",
+        "annotation",
+        "called_peaks_snn_res.0.2",
+        "cell_type",
+        "doublet_class",
+        "origin",
+        "peaks_snn_res.0.2",
+        "peaks_snn_res.0.25",
+        "predicted.id",
+        "sample",
+        "seurat_clusters",
+        "seurat_clusters_original",
+        "sort_gate",
+        "treatment"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": "scATAC-seq (gene activity)",
+      "view_layout": "dual-umap",
+      "config_path": "configs/fliegauf_et_al_2026__fig6_scatacseq.json"
+    },
+    {
+      "key": "friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final",
+      "title": "Myeloid cells in IDH-mutant glioma",
+      "paper": "Friedrich et al. 2021",
+      "description": "4,460 cells across diagnoses, annotated by cell type.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.zarr",
+      "n_cells": 4460,
+      "n_genes": 23183,
+      "store_size": "27.8 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "Celltype",
+        "orig.ident",
+        "Batch",
+        "integrated_snn_res.0.1",
+        "integrated_snn_res.0.2",
+        "integrated_snn_res.0.6",
+        "integrated_snn_res.0.8",
+        "integrated_snn_res.1",
+        "integrated_snn_res.1.5",
+        "integrated_snn_res.2",
+        "seurat_clusters",
+        "Diagnosis",
+        "Localization",
+        "Gender",
+        "ID"
+      ],
+      "colour_columns": [
+        "Batch",
+        "Celltype",
+        "Diagnosis",
+        "Gender",
+        "ID",
+        "Localization",
+        "integrated_snn_res.0.1",
+        "integrated_snn_res.0.2",
+        "integrated_snn_res.0.6",
+        "integrated_snn_res.0.8",
+        "integrated_snn_res.1",
+        "integrated_snn_res.1.5",
+        "integrated_snn_res.2",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.json"
+    },
+    {
+      "key": "friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm",
+      "title": "10x integration, wild-type and IDH-mutant",
+      "paper": "Friedrich et al. 2021",
+      "description": "55,754 cells across genotypes and timepoints.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.zarr",
+      "n_cells": 55754,
+      "n_genes": 16726,
+      "store_size": "174.3 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "integrated_snn_res.0.1",
+        "batch",
+        "genotype",
+        "id",
+        "timepoint",
+        "integrated_snn_res.0.5",
+        "integrated_snn_res.1",
+        "integrated_snn_res.1.5",
+        "integrated_snn_res.2",
+        "integrated_snn_res.2.5",
+        "integrated_snn_res.3",
+        "seurat_clusters",
+        "Cell_type"
+      ],
+      "colour_columns": [
+        "Cell_type",
+        "batch",
+        "genotype",
+        "id",
+        "integrated_snn_res.0.1",
+        "integrated_snn_res.0.5",
+        "integrated_snn_res.1",
+        "integrated_snn_res.1.5",
+        "integrated_snn_res.2",
+        "integrated_snn_res.2.5",
+        "integrated_snn_res.3",
+        "seurat_clusters",
+        "timepoint"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.json"
+    },
+    {
+      "key": "frosch_et_al_2025__all_cells_001",
+      "title": "All cells",
+      "paper": "Frosch et al. 2025",
+      "description": "44,957 cells across twelve samples and four conditions.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__all_cells_001.zarr",
+      "n_cells": 44957,
+      "n_genes": 33709,
+      "store_size": "491.0 MB",
+      "embeddings": [
+        "HARMONY"
+      ],
+      "obs_sets": [
+        "cell_type",
+        "orig.ident",
+        "sample",
+        "condition",
+        "RNA_snn_res.1",
+        "seurat_clusters"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.1",
+        "cell_type",
+        "condition",
+        "orig.ident",
+        "sample",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/frosch_et_al_2025__all_cells_001.json"
+    },
+    {
+      "key": "frosch_et_al_2025__immune_cells",
+      "title": "Immune cells",
+      "paper": "Frosch et al. 2025",
+      "description": "3,371 immune cells across four conditions.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__immune_cells.zarr",
+      "n_cells": 3371,
+      "n_genes": 33697,
+      "store_size": "29.8 MB",
+      "embeddings": [
+        "HARMONY"
+      ],
+      "obs_sets": [
+        "seurat_clusters",
+        "orig.ident",
+        "sample",
+        "condition",
+        "RNA_snn_res.1",
+        "RNA_snn_res.2",
+        "RNA_snn_res.3",
+        "RNA_snn_res.4",
+        "RNA_snn_res.5",
+        "RNA_snn_res.6",
+        "RNA_snn_res.7",
+        "RNA_snn_res.8",
+        "cell_type"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.1",
+        "RNA_snn_res.2",
+        "RNA_snn_res.3",
+        "RNA_snn_res.4",
+        "RNA_snn_res.5",
+        "RNA_snn_res.6",
+        "RNA_snn_res.7",
+        "RNA_snn_res.8",
+        "cell_type",
+        "condition",
+        "orig.ident",
+        "sample",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/frosch_et_al_2025__immune_cells.json"
+    },
+    {
+      "key": "frosch_et_al_2025__microglia",
+      "title": "Microglia",
+      "paper": "Frosch et al. 2025",
+      "description": "3,097 microglia across four conditions.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__microglia.zarr",
+      "n_cells": 3097,
+      "n_genes": 33697,
+      "store_size": "27.5 MB",
+      "embeddings": [
+        "UMAP",
+        "HARMONY"
+      ],
+      "obs_sets": [
+        "RNA_snn_res.1",
+        "orig.ident",
+        "sample",
+        "condition",
+        "seurat_clusters",
+        "RNA_snn_res.2",
+        "RNA_snn_res.3",
+        "RNA_snn_res.4",
+        "RNA_snn_res.5",
+        "RNA_snn_res.6",
+        "RNA_snn_res.7",
+        "RNA_snn_res.8",
+        "RNA_snn_res.0.45",
+        "RNA_snn_res.0.2",
+        "Gfp_positive",
+        "cluster"
+      ],
+      "colour_columns": [
+        "Gfp_positive",
+        "RNA_snn_res.0.2",
+        "RNA_snn_res.0.45",
+        "RNA_snn_res.1",
+        "RNA_snn_res.2",
+        "RNA_snn_res.3",
+        "RNA_snn_res.4",
+        "RNA_snn_res.5",
+        "RNA_snn_res.6",
+        "RNA_snn_res.7",
+        "RNA_snn_res.8",
+        "cluster",
+        "condition",
+        "orig.ident",
+        "sample",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/frosch_et_al_2025__microglia.json"
+    },
+    {
+      "key": "masuda_et_al_2020",
+      "title": "Hexb-based microglia atlas",
+      "paper": "Masuda et al. 2020",
+      "description": "3,825 cells clustered with RaceID; the authors' cluster palette is preserved.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/masuda_et_al_2020.zarr",
+      "n_cells": 3825,
+      "n_genes": 30956,
+      "store_size": "78.8 MB",
+      "embeddings": [
+        "TSNE"
+      ],
+      "obs_sets": [
+        "cluster",
+        "orig.ident",
+        "sample"
+      ],
+      "colour_columns": [
+        "cluster",
+        "orig.ident",
+        "sample"
+      ],
+      "published_palette_columns": [
+        "cluster"
+      ],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/masuda_et_al_2020.json"
     },
     {
       "key": "masuda_et_al_2022",
@@ -599,8 +1083,331 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2ry12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/masuda_et_al_2022.json"
+    },
+    {
+      "key": "petry_et_al_2025",
+      "title": "Embryonic microglia progenitors",
+      "paper": "Petry et al. 2025",
+      "description": "483 cells; the same dataset the authors deposited under GSE195437, which is also part of Masuda et al. 2022.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/petry_et_al_2025.zarr",
+      "n_cells": 483,
+      "n_genes": 14610,
+      "store_size": "5.7 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "seurat_clusters",
+        "orig.ident",
+        "SCT_snn_res.0.1",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.3",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.5",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.0.7",
+        "SCT_snn_res.0.8",
+        "SCT_snn_res.0.9",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.5",
+        "SCT_snn_res.2"
+      ],
+      "colour_columns": [
+        "SCT_snn_res.0.1",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.3",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.5",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.0.7",
+        "SCT_snn_res.0.8",
+        "SCT_snn_res.0.9",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.5",
+        "SCT_snn_res.2",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/petry_et_al_2025.json"
+    },
+    {
+      "key": "sankowski_et_al_2021__seurat_all_without_doublets",
+      "title": "All myeloid cells",
+      "paper": "Sankowski et al. 2021",
+      "description": "2,745 cells across CNS compartments, doublets removed.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2021__seurat_all_without_doublets.zarr",
+      "n_cells": 2745,
+      "n_genes": 19488,
+      "store_size": "17.7 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "SCT_snn_res.0.8",
+        "orig.ident",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "seurat_clusters",
+        "Condition",
+        "Compartment"
+      ],
+      "colour_columns": [
+        "Compartment",
+        "Condition",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.0.8",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/sankowski_et_al_2021__seurat_all_without_doublets.json"
+    },
+    {
+      "key": "sankowski_et_al_2021__seurat_cp",
+      "title": "Choroid plexus",
+      "paper": "Sankowski et al. 2021",
+      "description": "487 choroid plexus cells.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2021__seurat_cp.zarr",
+      "n_cells": 487,
+      "n_genes": 19488,
+      "store_size": "3.6 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "SCT_snn_res.0.8",
+        "orig.ident",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "seurat_clusters",
+        "Condition"
+      ],
+      "colour_columns": [
+        "Condition",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.0.8",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/sankowski_et_al_2021__seurat_cp.json"
+    },
+    {
+      "key": "sankowski_et_al_2021__seurat_men",
+      "title": "Meninges",
+      "paper": "Sankowski et al. 2021",
+      "description": "545 meningeal cells.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2021__seurat_men.zarr",
+      "n_cells": 545,
+      "n_genes": 19488,
+      "store_size": "3.9 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "SCT_snn_res.0.8",
+        "orig.ident",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "seurat_clusters",
+        "Condition",
+        "SCT_snn_res.2.2",
+        "SCT_snn_res.2.4",
+        "SCT_snn_res.2.6",
+        "SCT_snn_res.2.8",
+        "SCT_snn_res.3",
+        "SCT_snn_res.3.2",
+        "SCT_snn_res.3.4",
+        "SCT_snn_res.3.6",
+        "SCT_snn_res.3.8",
+        "SCT_snn_res.4",
+        "SCT_snn_res.4.2",
+        "SCT_snn_res.4.4",
+        "SCT_snn_res.4.6",
+        "SCT_snn_res.4.8",
+        "SCT_snn_res.5"
+      ],
+      "colour_columns": [
+        "Condition",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.0.8",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "SCT_snn_res.2.2",
+        "SCT_snn_res.2.4",
+        "SCT_snn_res.2.6",
+        "SCT_snn_res.2.8",
+        "SCT_snn_res.3",
+        "SCT_snn_res.3.2",
+        "SCT_snn_res.3.4",
+        "SCT_snn_res.3.6",
+        "SCT_snn_res.3.8",
+        "SCT_snn_res.4",
+        "SCT_snn_res.4.2",
+        "SCT_snn_res.4.4",
+        "SCT_snn_res.4.6",
+        "SCT_snn_res.4.8",
+        "SCT_snn_res.5",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/sankowski_et_al_2021__seurat_men.json"
+    },
+    {
+      "key": "sankowski_et_al_2021__seurat_micr",
+      "title": "Microglia",
+      "paper": "Sankowski et al. 2021",
+      "description": "828 microglia.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2021__seurat_micr.zarr",
+      "n_cells": 828,
+      "n_genes": 19488,
+      "store_size": "5.6 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "SCT_snn_res.0.8",
+        "orig.ident",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "seurat_clusters",
+        "Condition"
+      ],
+      "colour_columns": [
+        "Condition",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.0.8",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/sankowski_et_al_2021__seurat_micr.json"
+    },
+    {
+      "key": "sankowski_et_al_2021__seurat_pvm",
+      "title": "Perivascular macrophages",
+      "paper": "Sankowski et al. 2021",
+      "description": "885 perivascular macrophages.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/sankowski_et_al_2021__seurat_pvm.zarr",
+      "n_cells": 885,
+      "n_genes": 19488,
+      "store_size": "5.8 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "SCT_snn_res.0.8",
+        "orig.ident",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "seurat_clusters",
+        "Condition"
+      ],
+      "colour_columns": [
+        "Condition",
+        "SCT_snn_res.0.2",
+        "SCT_snn_res.0.4",
+        "SCT_snn_res.0.6",
+        "SCT_snn_res.0.8",
+        "SCT_snn_res.1",
+        "SCT_snn_res.1.2",
+        "SCT_snn_res.1.4",
+        "SCT_snn_res.1.6",
+        "SCT_snn_res.1.8",
+        "SCT_snn_res.2",
+        "orig.ident",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/sankowski_et_al_2021__seurat_pvm.json"
     },
     {
       "key": "sankowski_et_al_2024__figure_1_gse245311_multimodal_harmony_integrated_controls",
@@ -645,6 +1452,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/sankowski_et_al_2024__figure_1_gse245311_multimodal_harmony_integrated_controls.json"
     },
@@ -700,6 +1508,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/sankowski_et_al_2024__figure_2_gse245311_reference_mapped_celseq2_ctrl_cd206_gate_no_lowq_cells.json"
     },
@@ -739,6 +1548,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/sankowski_et_al_2024__figure_4_b_gse245311_harmony_integrated_nucseq_all_cells.json"
     },
@@ -784,6 +1594,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/sankowski_et_al_2024__figure_4_d_gse245311_immune_combined_with_braun_yang_et_al.json"
     },
@@ -817,6 +1628,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/sankowski_et_al_2024__figure_5_i_gse245311_micr_ffpe.json"
     },
@@ -858,6 +1670,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/sankowski_et_al_2024__figure_6_g_gse245311_reference_mapped_fetal.json"
     },
@@ -908,6 +1721,7 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/sankowski_et_al_2024__figure_6_gse245311_multimodal_harmony_integrated_gb.json"
     },
@@ -939,8 +1753,72 @@
       ],
       "published_palette_columns": [],
       "default_gene": "P2RY12",
+      "modality": null,
       "view_layout": "dual-umap",
       "config_path": "configs/sankowski_et_al_2024__figure_e7_gse245311_all_cells_ffpe.json"
+    },
+    {
+      "key": "wieghofer_et_al_2021__cb_cornea",
+      "title": "Cornea and ciliary body",
+      "paper": "Wieghofer et al. 2021",
+      "description": "432 myeloid cells from cornea and ciliary body, clustered with RaceID; the authors' cluster palette is preserved.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/wieghofer_et_al_2021__cb_cornea.zarr",
+      "n_cells": 432,
+      "n_genes": 32760,
+      "store_size": "5.5 MB",
+      "embeddings": [
+        "FR",
+        "TSNE"
+      ],
+      "obs_sets": [
+        "cluster",
+        "orig.ident",
+        "sample"
+      ],
+      "colour_columns": [
+        "cluster",
+        "orig.ident",
+        "sample"
+      ],
+      "published_palette_columns": [
+        "cluster"
+      ],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/wieghofer_et_al_2021__cb_cornea.json"
+    },
+    {
+      "key": "wieghofer_et_al_2021__retina",
+      "title": "Retina",
+      "paper": "Wieghofer et al. 2021",
+      "description": "530 myeloid cells from retina, clustered with RaceID; the authors' cluster palette is preserved.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/wieghofer_et_al_2021__retina.zarr",
+      "n_cells": 530,
+      "n_genes": 32936,
+      "store_size": "7.0 MB",
+      "embeddings": [
+        "UMAP",
+        "FR",
+        "TSNE"
+      ],
+      "obs_sets": [
+        "cluster",
+        "orig.ident",
+        "sample"
+      ],
+      "colour_columns": [
+        "cluster",
+        "orig.ident",
+        "sample"
+      ],
+      "published_palette_columns": [
+        "cluster"
+      ],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/wieghofer_et_al_2021__retina.json"
     }
   ]
 }

@@ -1,0 +1,1204 @@
+{
+  "version": "1.0.16",
+  "name": "scATAC-seq gene activity (Fig. 6)",
+  "description": "10,224 nuclei profiled by scATAC-seq. Shown as gene activity derived from chromatin accessibility, not RNA expression; the 155,819 called peaks are in the source object.",
+  "datasets": [
+    {
+      "uid": "fliegauf_et_al_2026__fig6_scatac",
+      "name": "scATAC-seq gene activity (Fig. 6)",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig6_scatacseq.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_umap",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "UMAP"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "cell type",
+                "path": "obs/cell_type"
+              },
+              {
+                "name": "sample",
+                "path": "obs/sample"
+              },
+              {
+                "name": "doublet class",
+                "path": "obs/doublet_class"
+              },
+              {
+                "name": "peaks snn res.0.25",
+                "path": "obs/peaks_snn_res.0.25"
+              },
+              {
+                "name": "seurat clusters",
+                "path": "obs/seurat_clusters"
+              },
+              {
+                "name": "treatment",
+                "path": "obs/treatment"
+              },
+              {
+                "name": "sort gate",
+                "path": "obs/sort_gate"
+              },
+              {
+                "name": "peaks snn res.0.2",
+                "path": "obs/peaks_snn_res.0.2"
+              },
+              {
+                "name": "origin",
+                "path": "obs/origin"
+              },
+              {
+                "name": "seurat clusters original",
+                "path": "obs/seurat_clusters_original"
+              },
+              {
+                "name": "predicted.id",
+                "path": "obs/predicted.id"
+              },
+              {
+                "name": "called peaks snn res.0.2",
+                "path": "obs/called_peaks_snn_res.0.2"
+              },
+              {
+                "name": "annotation",
+                "path": "obs/annotation"
+              },
+              {
+                "name": "Phase",
+                "path": "obs/Phase"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "fliegauf_et_al_2026__fig6_scatac"
+    },
+    "embeddingType": {
+      "A": "UMAP",
+      "B": "UMAP"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2ry12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "cell type",
+            "clMonocyte"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "homDM"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "homMG"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "hom_ysCAM"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "hscCAM"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "hscDM"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "repopDM"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "repopMG"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "cell type",
+            "repop_ysCAM"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "CB_minus"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "CB_plus"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "CV_plus"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "DB_minus"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "DB_plus"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "DV_plus"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "MGBandBLB"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "MGVandBLV"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "doublet class",
+            "doublet"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "doublet class",
+            "singlet"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.25",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.25",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.25",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.25",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.25",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.25",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.25",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.25",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "treatment",
+            "BLZ"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "treatment",
+            "V"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sort gate",
+            "MG+Mono"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "sort gate",
+            "tdT+"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sort gate",
+            "tdT-"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.2",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.2",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.2",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.2",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.2",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.2",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.2",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.2",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "peaks snn res.0.2",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "origin",
+            "HSC"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "origin",
+            "YS"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "origin",
+            "YS/HSC"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters original",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters original",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters original",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters original",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters original",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters original",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "predicted.id",
+            "Lyve1_CAM"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "predicted.id",
+            "MHCII_CAM"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "predicted.id",
+            "clMonocyte"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "predicted.id",
+            "duralCAM"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "predicted.id",
+            "homMG"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "called peaks snn res.0.2",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "annotation",
+            "CAM"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "annotation",
+            "DM"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "annotation",
+            "MG"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "annotation",
+            "Mono"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Phase",
+            "G1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Phase",
+            "G2M"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Phase",
+            "S"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "cell type",
+          "clMonocyte"
+        ],
+        [
+          "cell type",
+          "homDM"
+        ],
+        [
+          "cell type",
+          "homMG"
+        ],
+        [
+          "cell type",
+          "hom_ysCAM"
+        ],
+        [
+          "cell type",
+          "hscCAM"
+        ],
+        [
+          "cell type",
+          "hscDM"
+        ],
+        [
+          "cell type",
+          "repopDM"
+        ],
+        [
+          "cell type",
+          "repopMG"
+        ],
+        [
+          "cell type",
+          "repop_ysCAM"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "cell type"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

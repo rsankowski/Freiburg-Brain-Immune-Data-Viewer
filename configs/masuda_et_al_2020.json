@@ -1,0 +1,1034 @@
+{
+  "version": "1.0.16",
+  "name": "Hexb-based microglia atlas",
+  "description": "3,825 cells clustered with RaceID; the authors' cluster palette is preserved.",
+  "datasets": [
+    {
+      "uid": "masuda_et_al_2020",
+      "name": "Hexb-based microglia atlas",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/masuda_et_al_2020.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_tsne",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "TSNE"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "cluster",
+                "path": "obs/cluster"
+              },
+              {
+                "name": "orig.ident",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "sample",
+                "path": "obs/sample"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "masuda_et_al_2020"
+    },
+    "embeddingType": {
+      "A": "TSNE",
+      "B": "TSNE"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2ry12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "cluster",
+            "1"
+          ],
+          "color": [
+            141,
+            211,
+            199
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "2"
+          ],
+          "color": [
+            255,
+            255,
+            179
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "3"
+          ],
+          "color": [
+            190,
+            186,
+            218
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "4"
+          ],
+          "color": [
+            251,
+            128,
+            114
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "5"
+          ],
+          "color": [
+            128,
+            177,
+            211
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "6"
+          ],
+          "color": [
+            253,
+            180,
+            98
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "7"
+          ],
+          "color": [
+            179,
+            222,
+            105
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "8"
+          ],
+          "color": [
+            252,
+            205,
+            229
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "9"
+          ],
+          "color": [
+            217,
+            217,
+            217
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "10"
+          ],
+          "color": [
+            188,
+            128,
+            189
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "11"
+          ],
+          "color": [
+            204,
+            235,
+            197
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "12"
+          ],
+          "color": [
+            230,
+            25,
+            75
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "13"
+          ],
+          "color": [
+            60,
+            180,
+            75
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "14"
+          ],
+          "color": [
+            255,
+            225,
+            25
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "15"
+          ],
+          "color": [
+            0,
+            130,
+            200
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "16"
+          ],
+          "color": [
+            245,
+            130,
+            49
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "17"
+          ],
+          "color": [
+            145,
+            30,
+            180
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "18"
+          ],
+          "color": [
+            70,
+            240,
+            240
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "19"
+          ],
+          "color": [
+            240,
+            50,
+            230
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "20"
+          ],
+          "color": [
+            210,
+            245,
+            60
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "21"
+          ],
+          "color": [
+            250,
+            190,
+            190
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "22"
+          ],
+          "color": [
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "23"
+          ],
+          "color": [
+            230,
+            190,
+            255
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "24"
+          ],
+          "color": [
+            170,
+            110,
+            40
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "25"
+          ],
+          "color": [
+            255,
+            250,
+            200
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "26"
+          ],
+          "color": [
+            128,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "27"
+          ],
+          "color": [
+            170,
+            255,
+            195
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "28"
+          ],
+          "color": [
+            128,
+            128,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "29"
+          ],
+          "color": [
+            255,
+            216,
+            177
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "30"
+          ],
+          "color": [
+            0,
+            0,
+            128
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "31"
+          ],
+          "color": [
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "32"
+          ],
+          "color": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "33"
+          ],
+          "color": [
+            70,
+            130,
+            180
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "34"
+          ],
+          "color": [
+            119,
+            17,
+            85
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "35"
+          ],
+          "color": [
+            170,
+            68,
+            136
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "36"
+          ],
+          "color": [
+            204,
+            153,
+            187
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "37"
+          ],
+          "color": [
+            17,
+            68,
+            119
+          ]
+        },
+        {
+          "path": [
+            "cluster",
+            "38"
+          ],
+          "color": [
+            68,
+            119,
+            170
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P212"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P213"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P214"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P215"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P216"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P217"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "P218"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "S364"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "S365"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "S366"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "S367"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "S368"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P212"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P213"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P214"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P215"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P216"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P217"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "P218"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "S364"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "S365"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "S366"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "S367"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "sample",
+            "S368"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "cluster",
+          "1"
+        ],
+        [
+          "cluster",
+          "2"
+        ],
+        [
+          "cluster",
+          "3"
+        ],
+        [
+          "cluster",
+          "4"
+        ],
+        [
+          "cluster",
+          "5"
+        ],
+        [
+          "cluster",
+          "6"
+        ],
+        [
+          "cluster",
+          "7"
+        ],
+        [
+          "cluster",
+          "8"
+        ],
+        [
+          "cluster",
+          "9"
+        ],
+        [
+          "cluster",
+          "10"
+        ],
+        [
+          "cluster",
+          "11"
+        ],
+        [
+          "cluster",
+          "12"
+        ],
+        [
+          "cluster",
+          "13"
+        ],
+        [
+          "cluster",
+          "14"
+        ],
+        [
+          "cluster",
+          "15"
+        ],
+        [
+          "cluster",
+          "16"
+        ],
+        [
+          "cluster",
+          "17"
+        ],
+        [
+          "cluster",
+          "18"
+        ],
+        [
+          "cluster",
+          "19"
+        ],
+        [
+          "cluster",
+          "20"
+        ],
+        [
+          "cluster",
+          "21"
+        ],
+        [
+          "cluster",
+          "22"
+        ],
+        [
+          "cluster",
+          "23"
+        ],
+        [
+          "cluster",
+          "24"
+        ],
+        [
+          "cluster",
+          "25"
+        ],
+        [
+          "cluster",
+          "26"
+        ],
+        [
+          "cluster",
+          "27"
+        ],
+        [
+          "cluster",
+          "28"
+        ],
+        [
+          "cluster",
+          "29"
+        ],
+        [
+          "cluster",
+          "30"
+        ],
+        [
+          "cluster",
+          "31"
+        ],
+        [
+          "cluster",
+          "32"
+        ],
+        [
+          "cluster",
+          "33"
+        ],
+        [
+          "cluster",
+          "34"
+        ],
+        [
+          "cluster",
+          "35"
+        ],
+        [
+          "cluster",
+          "36"
+        ],
+        [
+          "cluster",
+          "37"
+        ],
+        [
+          "cluster",
+          "38"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": false
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "cluster"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}
