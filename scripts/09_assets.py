@@ -79,6 +79,16 @@ def main() -> int:
         entry = {k: rec[k] for k in
                  ("title", "journal_short", "year", "doi", "paper_url",
                   "raw_data", "processed_data")}
+        # The folder name carries the year the lab cites the paper by. CrossRef
+        # reports the online-first year, which differs for issue-delayed papers
+        # (Sankowski et al. is online 2023, in the 2024 issue), so the folder
+        # wins and CrossRef is the fallback.
+        m = re.search(r"(19|20)\d{2}", paper)
+        if m:
+            folder_year = int(m.group(0))
+            if entry.get("year") and int(entry["year"]) != folder_year:
+                log(f"  {paper}: year {entry['year']} (CrossRef) -> {folder_year} (folder name)")
+            entry["year"] = folder_year
         ga = rec.get("graphical_abstract")
         if ga:
             got = prepare(paper, ga, args.width)

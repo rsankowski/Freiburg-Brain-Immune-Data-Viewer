@@ -611,6 +611,9 @@ def main() -> int:
 
     # Group datasets by publication: the landing page lists publications, and each
     # publication gets its own page listing its datasets.
+    pubs = read_json(ASSETS / "publications.json", {}) or {}
+    pubs = {paper_slug(k): v for k, v in pubs.items()}
+
     by_paper = {}
     manifest = read_json(BUILD_DIR / "manifest.json", {}) or {}
     for entry in index["datasets"]:
@@ -620,9 +623,10 @@ def main() -> int:
         by_paper.setdefault(paper, (slug, []))[1].append(entry)
     for paper, (slug, entries) in by_paper.items():
         entries.sort(key=lambda e: e["title"])
-
-    pubs = read_json(ASSETS / "publications.json", {}) or {}
-    pubs = {paper_slug(k): v for k, v in pubs.items()}
+    # Publications newest first; datasets within a publication stay alphabetical.
+    by_paper = dict(sorted(
+        by_paper.items(),
+        key=lambda kv: (-(pubs.get(kv[1][0], {}).get("year") or 0), kv[0])))
 
     (DOCS / "index.html").write_text(build_index(index, cfg, by_paper, pubs))
     for paper, (slug, entries) in by_paper.items():

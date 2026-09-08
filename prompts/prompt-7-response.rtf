@@ -1,0 +1,37 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+All three tasks done. 12  1,205,647 cells, all 39validating. Committed as a5f791b.\
+\
+A. Paper links, titles and abstracts\
+\
+Publication cards now carry the graphical abstract, the article title linked to the paper, journal andenodo accession as a chip.Same metadata heads each publication page.\
+\
+Titles weren't in the CSV, so I resolved them via CrossRef \'97 nature.com redirects to an auth proviable route. Petry had only a Cell PII, matched by search: "Early microglia progenitors colonize the embryonic CNS via integrithe pial surface". Threeabstracts were PDFs and got rasterised.\
+\
+B. Wieghofer / RaceID\
+\
+SCseq objects are converted to Seurat on load, so nothing downstream knows the difference. Three things ld have produced quietlywrong output:\
+\
+- ndata holds normalised fractions (max ~0.4). Without rescaling by RaceID's own factor before log1p have been meaningless.\
+- expdata retains cells that filtering later removed \'97 936 vs 530 in retina \'97 so counts are subset to\
+- Older objects have no umap slot at all, so layouts are probed defensively.\
+\
+RaceID's fcol palette is preserved, which is why the retina view shows the authors' own 20 cluster c out to be RaceID as well.\
+\
+C. Fliegauf scATAC\
+\
+The object carries RNA_care gene-activity matrix,alongside its 155,819 peaks. That's what the viewer exposes \'97 peak coordiaren't searchable by namewould be ~25 GB. It'slabelled "scATAC-seq (gene activity)" in the header and on its card so nomistakes it for RNA. Veriighest in homeostaticmicroglia.                                                               \
+Four bugs this data exposed                                              \
+Your Seurat v3 note was right \'97 those objects lack the images slot and nopass through UpdateSeurat't a recognised extension;HVGs were computed after counts were stripped, so vst fell back to a pathproducing a table withoutnd dense matrices reached a writer that assumed sparse.                                              \
+Two things you should know                                               \
+Masuda 2020's key changed. You removed sc_fnx and sc_cupr, so that folderholds one file \'97 which chet_al_2020__sc tomasuda_et_al_2020. I migrated it and deleted the stale store; the old S3 would have been orphaned\
+                                                                         Petry is a byte-identical.RData (same size, samemtime), and GSE195437 is listed under both papers. It's built as its own 483-cell dataset with a der than silentlydeduplicated \'97 you asked for it to appear under Petry.\
+\
+Upload is now 10.8 GB. release/sync.sh covers all 39 stores.\
+}
