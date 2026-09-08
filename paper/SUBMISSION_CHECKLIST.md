@@ -19,7 +19,7 @@ resolved before submission; the draft carries `_[...]_` placeholders at each spo
       to be unpublished; publishing a viewer over it may precede the primary
       paper. Confirm the timing with those authors.
 - [ ] **Verify all references.** Items 1, 3 and 7 are flagged in the draft — the
-      Vitesske, anndata and CELLxGENE citations need volume/pages/DOI confirmed
+      Vitessce, anndata and CELLxGENE citations need volume/pages/DOI confirmed
       against the actual publications.
 
 ## Blocking — availability (journal requirement)
