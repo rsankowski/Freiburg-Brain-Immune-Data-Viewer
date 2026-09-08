@@ -30,3 +30,6 @@ index_page.png
 viewer_day.png
 viewer_night.png
 shot_*.png
+
+# Generated review page (1 MB, rebuild with /tmp build script)
+paper/review.html
