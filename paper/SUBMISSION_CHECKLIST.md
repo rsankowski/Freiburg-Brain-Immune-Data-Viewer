@@ -54,6 +54,16 @@ resolved before submission; the draft carries `_[...]_` placeholders at each spo
       ask why not; having done both turns the question into a strength.
 - [ ] **Suggested reviewers** (3–5), avoiding conflicts.
 
+## LaTeX
+
+The Overleaf project is in `paper/overleaf/` (see its README). It compiles;
+the current PDF is 3 pages against a 2-page limit, and the README lists what to
+cut, in order, after accounting for Times and the OUP class.
+
+- [ ] Check `pdffonts main.pdf` reports no Type 3 fonts.
+- [ ] Re-run `python scripts/make_benchmarks.py --latex` immediately before
+      submission so the quoted numbers match Table 1.
+
 ## Formatting
 
 - [ ] Two-page limit. The draft body is ~1,120 words plus abstract, one figure,

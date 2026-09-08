@@ -33,3 +33,14 @@ shot_*.png
 
 # Generated review page (1 MB, rebuild with /tmp build script)
 paper/review.html
+
+# LaTeX build artefacts
+paper/overleaf/*.aux
+paper/overleaf/*.bbl
+paper/overleaf/*.blg
+paper/overleaf/*.fdb_latexmk
+paper/overleaf/*.fls
+paper/overleaf/*.log
+paper/overleaf/*.out
+paper/overleaf/*.pdf
+paper/overleaf-project.zip
