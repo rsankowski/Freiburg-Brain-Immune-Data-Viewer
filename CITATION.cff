@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Freiburg Brain Immune Data Viewer"
+abstract: >-
+  A pipeline that converts collections of Seurat objects into cloud-optimised
+  AnnData-Zarr stores and generates a static Vitessce viewer over them, so
+  published single-cell and spatial datasets can be browsed without a backend
+  server.
+type: software
+license: MIT
+repository-code: "https://github.com/rsankowski/Freiburg-Brain-Immune-Data-Viewer"
+authors:
+  - family-names: Sankowski
+    given-names: Roman
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
+  # TODO: add co-authors before submission
+keywords:
+  - single-cell RNA-seq
+  - spatial transcriptomics
+  - data visualization
+  - Zarr
+  - Vitessce
+# TODO after archiving the release on Zenodo:
+# doi: 10.5281/zenodo.XXXXXXX
+# version: 1.0.0
+# date-released: 2026-XX-XX

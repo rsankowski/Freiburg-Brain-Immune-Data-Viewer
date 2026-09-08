@@ -19,7 +19,13 @@ def find_root(start: Path | None = None) -> Path:
         d = d.parent
 
 
-ROOT = find_root(Path(__file__).parent)
+# Resolve from the working directory first so the R and Python halves agree:
+# the R stages derive the project root from getwd(), and the self-test runs both
+# inside a sandbox whose scripts/ is a symlink back here.
+try:
+    ROOT = find_root(Path.cwd())
+except SystemExit:
+    ROOT = find_root(Path(__file__).parent)
 DATA_DIR = ROOT / "data"
 BUILD_DIR = ROOT / "build"
 LOG_DIR = BUILD_DIR / "logs"

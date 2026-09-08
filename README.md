@@ -29,6 +29,18 @@ python3 -m venv .venv
 `vitessce` is pinned to **3.4.0**: 3.8.x hard-imports `spatialdata` and `negspy`
 in `data_utils/__init__`, which drags in a zarr 3 stack.
 
+## Self-test
+
+No real data needed — builds a synthetic dataset, runs all eight stages in a
+sandbox under `build/selftest/`, and asserts on the outputs:
+
+```bash
+bash scripts/selftest.sh
+```
+
+Set `RSCRIPT_BIN` / `PYTHON_BIN` if your interpreters live elsewhere;
+`PIPELINE_VENV_PYTHON` points the R stages at the Python used for conversion.
+
 ## Running
 
 ```bash
@@ -189,3 +201,25 @@ python scripts/serve_local.py
 
 which serves `docs/` and `build/zarr/` with CORS on port 8787 and opens the
 viewer pointed at the local store.
+
+## Paper
+
+`paper/` holds the draft *Bioinformatics* Application Note, its figure, the
+benchmark table and a submission checklist. Figure and table are regenerated
+from the build rather than hand-copied:
+
+```bash
+python scripts/serve_local.py &
+bash scripts/capture_screenshots.sh
+python scripts/make_figure.py
+python scripts/make_benchmarks.py
+```
+
+## Citing
+
+See `CITATION.cff`. Add the Zenodo DOI once a release is archived.
+
+## Licence
+
+Code: MIT (`LICENSE`). Converted data: CC-BY-4.0 (`release/LICENSE`); cite the
+source publication for each dataset.

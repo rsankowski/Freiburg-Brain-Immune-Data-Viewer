@@ -77,4 +77,4 @@ expression matrix, plottable cell metadata and the published embeddings.
 
 CC-BY-4.0 — see `LICENSE`. Please cite the source publication.
 
-Last updated: 2026-09-07
+Last updated: 2026-09-08

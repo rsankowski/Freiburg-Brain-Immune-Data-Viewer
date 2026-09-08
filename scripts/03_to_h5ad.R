@@ -18,7 +18,10 @@ TRIM_DIR  <- file.path(BUILD_DIR, "trimmed")
 H5AD_DIR  <- file.path(BUILD_DIR, "h5ad")
 CHECK_DIR <- file.path(BUILD_DIR, "checks")
 h5ad_out  <- function(k) file.path(H5AD_DIR, paste0(k, ".h5ad"))
-VENV_PY   <- file.path(ROOT, ".venv", "bin", "python")
+# Override with PIPELINE_VENV_PYTHON when the venv is not inside the project
+# (the self-test runs the stages from a sandbox directory).
+VENV_PY   <- Sys.getenv("PIPELINE_VENV_PYTHON",
+                        unset = file.path(ROOT, ".venv", "bin", "python"))
 
 # obsm keys must be X_-prefixed and free of dots for Vitessce/scanpy.
 obsm_key <- function(reduction) paste0("X_", gsub("[^a-z0-9]+", "_", tolower(reduction)))
