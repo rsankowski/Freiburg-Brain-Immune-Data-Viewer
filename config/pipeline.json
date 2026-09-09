@@ -487,54 +487,6 @@
         "RIN"
       ]
     },
-    "frosch_et_al_2025__all_cells_001": {
-      "title": "All cells",
-      "paper": "Frosch et al. 2025",
-      "description": "44,957 cells across twelve samples and four conditions.",
-      "assay": "RNA",
-      "default_obs_set": "cell_type",
-      "default_gene": "P2ry12",
-      "skip": false,
-      "obs_drop": [],
-      "obs_keep_extra": [],
-      "obs_numeric_coerce": [
-        "Age",
-        "PMI_.hours.",
-        "RIN"
-      ]
-    },
-    "frosch_et_al_2025__immune_cells": {
-      "title": "Immune cells",
-      "paper": "Frosch et al. 2025",
-      "description": "3,371 immune cells across four conditions.",
-      "assay": "RNA",
-      "default_obs_set": "seurat_clusters",
-      "default_gene": "P2ry12",
-      "skip": false,
-      "obs_drop": [],
-      "obs_keep_extra": [],
-      "obs_numeric_coerce": [
-        "Age",
-        "PMI_.hours.",
-        "RIN"
-      ]
-    },
-    "frosch_et_al_2025__microglia": {
-      "title": "Microglia",
-      "paper": "Frosch et al. 2025",
-      "description": "3,097 microglia across four conditions.",
-      "assay": "RNA",
-      "default_obs_set": "RNA_snn_res.1",
-      "default_gene": "P2ry12",
-      "skip": false,
-      "obs_drop": [],
-      "obs_keep_extra": [],
-      "obs_numeric_coerce": [
-        "Age",
-        "PMI_.hours.",
-        "RIN"
-      ]
-    },
     "sankowski_et_al_2021__seurat_all_without_doublets": {
       "title": "All myeloid cells",
       "paper": "Sankowski et al. 2021",
@@ -675,6 +627,124 @@
         "Age",
         "PMI_.hours.",
         "RIN"
+      ]
+    },
+    "frosch_et_al_2025__ext_figure_5_all_cells_001": {
+      "title": "All cells (Ext. Fig. 5)",
+      "paper": "Frosch et al. 2025",
+      "description": "44,957 cells across twelve samples and four conditions.",
+      "assay": "RNA",
+      "default_obs_set": "cell_type",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "frosch_et_al_2025__ext_figure_5_immune_cells": {
+      "title": "Immune cells (Ext. Fig. 5)",
+      "paper": "Frosch et al. 2025",
+      "description": "3,371 immune cells across four conditions.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "frosch_et_al_2025__ext_figure_5_microglia": {
+      "title": "Microglia (Ext. Fig. 5)",
+      "paper": "Frosch et al. 2025",
+      "description": "3,097 microglia across four conditions.",
+      "assay": "RNA",
+      "default_obs_set": "RNA_snn_res.1",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age",
+        "PMI_.hours.",
+        "RIN"
+      ]
+    },
+    "frosch_et_al_2025__figure_3_hexb_all_cells": {
+      "title": "All cells, Hexb (Fig. 3)",
+      "paper": "Frosch et al. 2025",
+      "description": "103,201 cells across genotypes, ages and 22 samples, annotated by cell type.",
+      "assay": "RNA",
+      "default_obs_set": "celltype",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age"
+      ]
+    },
+    "frosch_et_al_2025__figure_3_immune_object": {
+      "title": "Immune cells (Fig. 3)",
+      "paper": "Frosch et al. 2025",
+      "description": "3,884 immune cells across genotypes and ages.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age"
+      ]
+    },
+    "frosch_et_al_2025__figure_3_microglia_object": {
+      "title": "Microglia (Fig. 3)",
+      "paper": "Frosch et al. 2025",
+      "description": "3,595 microglia across genotypes and ages.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age"
+      ]
+    },
+    "hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype": {
+      "title": "Fly immune cells (Fig. 1A)",
+      "paper": "Hersperger et al. 2024",
+      "description": "8,360 Drosophila immune cells across treatments, annotated by cell type.",
+      "assay": "RNA",
+      "default_obs_set": "celltype",
+      "default_gene": "Hml",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age"
+      ]
+    },
+    "hersperger_et_al_2024__figure_1c_hemocytes_3_final": {
+      "title": "Hemocytes (Fig. 1C)",
+      "paper": "Hersperger et al. 2024",
+      "description": "1,364 Drosophila hemocytes across treatments.",
+      "assay": "RNA",
+      "default_obs_set": "seurat_clusters",
+      "default_gene": "Hml",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": [
+        "Age"
       ]
     }
   },

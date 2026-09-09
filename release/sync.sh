@@ -426,11 +426,11 @@ aws s3 cp \
   --metadata-directive REPLACE \
   --region "$REGION"
 
-# frosch_et_al_2025__all_cells_001: 44957 cells x 33709 genes, 491.0 MB in 3472 files
-echo "==> frosch_et_al_2025__all_cells_001"
+# frosch_et_al_2025__ext_figure_5_all_cells_001: 44957 cells x 33709 genes, 491.0 MB in 3472 files
+echo "==> frosch_et_al_2025__ext_figure_5_all_cells_001"
 aws s3 sync \
-  "$ROOT/build/zarr/frosch_et_al_2025__all_cells_001.zarr" \
-  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__all_cells_001.zarr" \
+  "$ROOT/build/zarr/frosch_et_al_2025__ext_figure_5_all_cells_001.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__ext_figure_5_all_cells_001.zarr" \
   --size-only \
   --exclude ".DS_Store" \
   --cache-control "public, max-age=31536000, immutable" \
@@ -439,8 +439,8 @@ aws s3 sync \
 # Zarr metadata files change when a store is rebuilt, so they must not be
 # cached for a year alongside the chunks.
 aws s3 cp \
-  "$ROOT/build/zarr/frosch_et_al_2025__all_cells_001.zarr" \
-  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__all_cells_001.zarr" \
+  "$ROOT/build/zarr/frosch_et_al_2025__ext_figure_5_all_cells_001.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__ext_figure_5_all_cells_001.zarr" \
   --recursive --exclude "*" \
   --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
   --content-type "application/json" \
@@ -448,11 +448,11 @@ aws s3 cp \
   --metadata-directive REPLACE \
   --region "$REGION"
 
-# frosch_et_al_2025__immune_cells: 3371 cells x 33697 genes, 29.8 MB in 3533 files
-echo "==> frosch_et_al_2025__immune_cells"
+# frosch_et_al_2025__ext_figure_5_immune_cells: 3371 cells x 33697 genes, 29.8 MB in 3533 files
+echo "==> frosch_et_al_2025__ext_figure_5_immune_cells"
 aws s3 sync \
-  "$ROOT/build/zarr/frosch_et_al_2025__immune_cells.zarr" \
-  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__immune_cells.zarr" \
+  "$ROOT/build/zarr/frosch_et_al_2025__ext_figure_5_immune_cells.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__ext_figure_5_immune_cells.zarr" \
   --size-only \
   --exclude ".DS_Store" \
   --cache-control "public, max-age=31536000, immutable" \
@@ -461,8 +461,8 @@ aws s3 sync \
 # Zarr metadata files change when a store is rebuilt, so they must not be
 # cached for a year alongside the chunks.
 aws s3 cp \
-  "$ROOT/build/zarr/frosch_et_al_2025__immune_cells.zarr" \
-  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__immune_cells.zarr" \
+  "$ROOT/build/zarr/frosch_et_al_2025__ext_figure_5_immune_cells.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__ext_figure_5_immune_cells.zarr" \
   --recursive --exclude "*" \
   --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
   --content-type "application/json" \
@@ -470,11 +470,11 @@ aws s3 cp \
   --metadata-directive REPLACE \
   --region "$REGION"
 
-# frosch_et_al_2025__microglia: 3097 cells x 33697 genes, 27.5 MB in 3560 files
-echo "==> frosch_et_al_2025__microglia"
+# frosch_et_al_2025__ext_figure_5_microglia: 3097 cells x 33697 genes, 27.5 MB in 3560 files
+echo "==> frosch_et_al_2025__ext_figure_5_microglia"
 aws s3 sync \
-  "$ROOT/build/zarr/frosch_et_al_2025__microglia.zarr" \
-  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__microglia.zarr" \
+  "$ROOT/build/zarr/frosch_et_al_2025__ext_figure_5_microglia.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__ext_figure_5_microglia.zarr" \
   --size-only \
   --exclude ".DS_Store" \
   --cache-control "public, max-age=31536000, immutable" \
@@ -483,8 +483,118 @@ aws s3 sync \
 # Zarr metadata files change when a store is rebuilt, so they must not be
 # cached for a year alongside the chunks.
 aws s3 cp \
-  "$ROOT/build/zarr/frosch_et_al_2025__microglia.zarr" \
-  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__microglia.zarr" \
+  "$ROOT/build/zarr/frosch_et_al_2025__ext_figure_5_microglia.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__ext_figure_5_microglia.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# frosch_et_al_2025__figure_3_hexb_all_cells: 103201 cells x 19928 genes, 1.4 GB in 2121 files
+echo "==> frosch_et_al_2025__figure_3_hexb_all_cells"
+aws s3 sync \
+  "$ROOT/build/zarr/frosch_et_al_2025__figure_3_hexb_all_cells.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__figure_3_hexb_all_cells.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/frosch_et_al_2025__figure_3_hexb_all_cells.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__figure_3_hexb_all_cells.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# frosch_et_al_2025__figure_3_immune_object: 3884 cells x 19928 genes, 34.1 MB in 2130 files
+echo "==> frosch_et_al_2025__figure_3_immune_object"
+aws s3 sync \
+  "$ROOT/build/zarr/frosch_et_al_2025__figure_3_immune_object.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__figure_3_immune_object.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/frosch_et_al_2025__figure_3_immune_object.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__figure_3_immune_object.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# frosch_et_al_2025__figure_3_microglia_object: 3595 cells x 19928 genes, 31.5 MB in 2138 files
+echo "==> frosch_et_al_2025__figure_3_microglia_object"
+aws s3 sync \
+  "$ROOT/build/zarr/frosch_et_al_2025__figure_3_microglia_object.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__figure_3_microglia_object.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/frosch_et_al_2025__figure_3_microglia_object.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/frosch_et_al_2025__figure_3_microglia_object.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype: 8360 cells x 11929 genes, 51.0 MB in 1340 files
+echo "==> hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype"
+aws s3 sync \
+  "$ROOT/build/zarr/hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.zarr" \
+  --recursive --exclude "*" \
+  --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
+  --content-type "application/json" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE \
+  --region "$REGION"
+
+# hersperger_et_al_2024__figure_1c_hemocytes_3_final: 1364 cells x 11929 genes, 6.3 MB in 736 files
+echo "==> hersperger_et_al_2024__figure_1c_hemocytes_3_final"
+aws s3 sync \
+  "$ROOT/build/zarr/hersperger_et_al_2024__figure_1c_hemocytes_3_final.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/hersperger_et_al_2024__figure_1c_hemocytes_3_final.zarr" \
+  --size-only \
+  --exclude ".DS_Store" \
+  --cache-control "public, max-age=31536000, immutable" \
+  --region "$REGION"
+
+# Zarr metadata files change when a store is rebuilt, so they must not be
+# cached for a year alongside the chunks.
+aws s3 cp \
+  "$ROOT/build/zarr/hersperger_et_al_2024__figure_1c_hemocytes_3_final.zarr" \
+  "s3://freburg-immune-data-viewer-544227292049-us-east-1-an/hersperger_et_al_2024__figure_1c_hemocytes_3_final.zarr" \
   --recursive --exclude "*" \
   --include "*.zattrs" --include "*.zgroup" --include "*.zarray" \
   --content-type "application/json" \

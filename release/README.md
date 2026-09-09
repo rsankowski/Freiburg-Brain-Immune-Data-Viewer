@@ -26,9 +26,14 @@ without downloading the whole store.
 | `fliegauf_et_al_2026__fig6_scatacseq.zarr` | scATAC-seq gene activity (Fig. 6) | 10,224 | 21,821 | 459.7 MB | Fliegauf et al. 2026 |
 | `friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.zarr` | Myeloid cells in IDH-mutant glioma | 4,460 | 23,183 | 27.8 MB | Friedrich et al. 2021 |
 | `friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.zarr` | 10x integration, wild-type and IDH-mutant | 55,754 | 16,726 | 174.3 MB | Friedrich et al. 2021 |
-| `frosch_et_al_2025__all_cells_001.zarr` | All cells | 44,957 | 33,709 | 491.0 MB | Frosch et al. 2025 |
-| `frosch_et_al_2025__immune_cells.zarr` | Immune cells | 3,371 | 33,697 | 29.8 MB | Frosch et al. 2025 |
-| `frosch_et_al_2025__microglia.zarr` | Microglia | 3,097 | 33,697 | 27.5 MB | Frosch et al. 2025 |
+| `frosch_et_al_2025__ext_figure_5_all_cells_001.zarr` | All cells (Ext. Fig. 5) | 44,957 | 33,709 | 491.0 MB | Frosch et al. 2025 |
+| `frosch_et_al_2025__ext_figure_5_immune_cells.zarr` | Immune cells (Ext. Fig. 5) | 3,371 | 33,697 | 29.8 MB | Frosch et al. 2025 |
+| `frosch_et_al_2025__ext_figure_5_microglia.zarr` | Microglia (Ext. Fig. 5) | 3,097 | 33,697 | 27.5 MB | Frosch et al. 2025 |
+| `frosch_et_al_2025__figure_3_hexb_all_cells.zarr` | All cells, Hexb (Fig. 3) | 103,201 | 19,928 | 1.4 GB | Frosch et al. 2025 |
+| `frosch_et_al_2025__figure_3_immune_object.zarr` | Immune cells (Fig. 3) | 3,884 | 19,928 | 34.1 MB | Frosch et al. 2025 |
+| `frosch_et_al_2025__figure_3_microglia_object.zarr` | Microglia (Fig. 3) | 3,595 | 19,928 | 31.5 MB | Frosch et al. 2025 |
+| `hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.zarr` | Fly immune cells (Fig. 1A) | 8,360 | 11,929 | 51.0 MB | Hersperger et al. 2024 |
+| `hersperger_et_al_2024__figure_1c_hemocytes_3_final.zarr` | Hemocytes (Fig. 1C) | 1,364 | 11,929 | 6.3 MB | Hersperger et al. 2024 |
 | `masuda_et_al_2020.zarr` | Hexb-based microglia atlas | 3,825 | 30,956 | 78.8 MB | Masuda et al. 2020 |
 | `masuda_et_al_2022.zarr` | Masuda et al. 2022 | 483 | 14,610 | 5.7 MB | Masuda et al. 2022 |
 | `petry_et_al_2025.zarr` | Embryonic microglia progenitors | 483 | 14,610 | 5.7 MB | Petry et al. 2025 |
@@ -96,4 +101,4 @@ expression matrix, plottable cell metadata and the published embeddings.
 
 CC-BY-4.0 — see `LICENSE`. Please cite the source publication.
 
-Last updated: 2026-09-08
+Last updated: 2026-09-09

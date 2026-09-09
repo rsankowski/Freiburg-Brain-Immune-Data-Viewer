@@ -168,7 +168,7 @@
     "image": "fliegauf-et-al-2026.jpg",
     "image_size": [
       1200,
-      358
+      2242
     ]
   },
   "Friedrich-et-al-2021": {
@@ -191,8 +191,8 @@
     ],
     "image": "friedrich-et-al-2021.jpg",
     "image_size": [
-      1200,
-      545
+      542,
+      963
     ]
   },
   "Frosch-et-al-2025": {
@@ -240,7 +240,7 @@
     "image": "frosch-et-al-2025.jpg",
     "image_size": [
       1200,
-      448
+      3615
     ]
   },
   "Masuda-et-al-2020": {
@@ -409,6 +409,30 @@
     "image_size": [
       1200,
       815
+    ]
+  },
+  "Hersperger-et-al-2024": {
+    "title": "DNA damage signaling in Drosophila macrophages modulates systemic cytokine levels in response to oxidative stress",
+    "journal_short": "eLife",
+    "year": 2024,
+    "doi": "10.7554/elife.86700",
+    "paper_url": "https://elifesciences.org/articles/86700",
+    "raw_data": [
+      {
+        "label": "GSE244295",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE244295"
+      }
+    ],
+    "processed_data": [
+      {
+        "label": "GSE244295",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE244295"
+      }
+    ],
+    "image": "hersperger-et-al-2024.jpg",
+    "image_size": [
+      1200,
+      655
     ]
   }
 }

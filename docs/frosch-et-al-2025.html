@@ -98,7 +98,7 @@ th { color: var(--muted); font-weight: 500; }
     <h1>Frosch et al. 2025</h1>
     <p class="arttitle"><a href="https://www.nature.com/articles/s41586-025-09477-y" target="_blank" rel="noopener">Microglia–neuron crosstalk through Hex–GM2–MGL2 maintains brain homeostasis</a></p>
     <p class="cite">Nature &middot; 2025 &middot; <a href="https://doi.org/10.1038/s41586-025-09477-y" target="_blank" rel="noopener">doi:10.1038/s41586-025-09477-y</a></p>
-    <p class="lede">3 datasets, 51,425 cells in total.</p>
+    <p class="lede">6 datasets, 162,105 cells in total.</p>
     <p class="actions"><a class="btn sec" href="https://www.nature.com/articles/s41586-025-09477-y" target="_blank" rel="noopener">Paper</a>
           <a class="acc" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300762" target="_blank" rel="noopener">GSE300762</a>
           <a class="acc" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300356" target="_blank" rel="noopener">GSE300356</a>
@@ -108,7 +108,7 @@ th { color: var(--muted); font-weight: 500; }
   <img class="ga wide" src="./assets/frosch-et-al-2025.jpg" alt="Graphical abstract, Frosch et al. 2025">
   
     <section class="card">
-      <h2>All cells</h2>
+      <h2>All cells (Ext. Fig. 5)</h2>
       <p>44,957 cells across twelve samples and four conditions.</p>
       <div class="stats">
         <div class="stat"><div class="n">44,957</div><div class="k">cells</div></div>
@@ -120,18 +120,41 @@ th { color: var(--muted); font-weight: 500; }
       
       <div class="tags"><span class="tag">cell type</span><span class="tag">orig.ident</span><span class="tag">sample</span><span class="tag">condition</span><span class="tag">RNA snn res.1</span><span class="tag">seurat clusters</span></div>
       <p>
-        <a class="btn" href="./viewer.html?dataset=frosch_et_al_2025__all_cells_001">Open viewer</a>
-        <a class="btn sec" href="./configs/frosch_et_al_2025__all_cells_001.json">View config JSON</a>
+        <a class="btn" href="./viewer.html?dataset=frosch_et_al_2025__ext_figure_5_all_cells_001">Open viewer</a>
+        <a class="btn sec" href="./configs/frosch_et_al_2025__ext_figure_5_all_cells_001.json">View config JSON</a>
       </p>
       <pre><code>import anndata as ad
-adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__all_cells_001.zarr")</code></pre>
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__ext_figure_5_all_cells_001.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 0.8 ms,
-        p95 4.3 ms &middot; X chunked [44957, 10]
+        Single-gene fetch measured locally: p50 5.8 ms,
+        p95 6.9 ms &middot; X chunked [44957, 10]
       </p>
     </section>
     <section class="card">
-      <h2>Immune cells</h2>
+      <h2>All cells, Hexb (Fig. 3)</h2>
+      <p>103,201 cells across genotypes, ages and 22 samples, annotated by cell type.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">103,201</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">19,928</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">8</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">1.4 GB</div><div class="k">zarr store</div></div>
+      </div>
+      
+      <div class="tags"><span class="tag">celltype</span><span class="tag">orig.ident</span><span class="tag">genotype</span><span class="tag">run</span><span class="tag">sample id</span><span class="tag">age</span><span class="tag">RNA snn res.1.2</span><span class="tag">seurat clusters</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=frosch_et_al_2025__figure_3_hexb_all_cells">Open viewer</a>
+        <a class="btn sec" href="./configs/frosch_et_al_2025__figure_3_hexb_all_cells.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__figure_3_hexb_all_cells.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 2.3 ms,
+        p95 8.7 ms &middot; X chunked [103201, 10]
+      </p>
+    </section>
+    <section class="card">
+      <h2>Immune cells (Ext. Fig. 5)</h2>
       <p>3,371 immune cells across four conditions.</p>
       <div class="stats">
         <div class="stat"><div class="n">3,371</div><div class="k">cells</div></div>
@@ -143,18 +166,41 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       
       <div class="tags"><span class="tag">seurat clusters</span><span class="tag">orig.ident</span><span class="tag">sample</span><span class="tag">condition</span><span class="tag">RNA snn res.1</span><span class="tag">RNA snn res.2</span><span class="tag">RNA snn res.3</span><span class="tag">RNA snn res.4</span><span class="tag">RNA snn res.5</span><span class="tag">RNA snn res.6</span><span class="tag">+3 more</span></div>
       <p>
-        <a class="btn" href="./viewer.html?dataset=frosch_et_al_2025__immune_cells">Open viewer</a>
-        <a class="btn sec" href="./configs/frosch_et_al_2025__immune_cells.json">View config JSON</a>
+        <a class="btn" href="./viewer.html?dataset=frosch_et_al_2025__ext_figure_5_immune_cells">Open viewer</a>
+        <a class="btn sec" href="./configs/frosch_et_al_2025__ext_figure_5_immune_cells.json">View config JSON</a>
       </p>
       <pre><code>import anndata as ad
-adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__immune_cells.zarr")</code></pre>
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__ext_figure_5_immune_cells.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 0.3 ms,
-        p95 1.0 ms &middot; X chunked [3371, 10]
+        Single-gene fetch measured locally: p50 1.5 ms,
+        p95 2.6 ms &middot; X chunked [3371, 10]
       </p>
     </section>
     <section class="card">
-      <h2>Microglia</h2>
+      <h2>Immune cells (Fig. 3)</h2>
+      <p>3,884 immune cells across genotypes and ages.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">3,884</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">19,928</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">9</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">34.1 MB</div><div class="k">zarr store</div></div>
+      </div>
+      
+      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">orig.ident</span><span class="tag">genotype</span><span class="tag">run</span><span class="tag">sample id</span><span class="tag">age</span><span class="tag">RNA snn res.1.2</span><span class="tag">RNA snn res.0.6</span><span class="tag">RNA snn res.0.7</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=frosch_et_al_2025__figure_3_immune_object">Open viewer</a>
+        <a class="btn sec" href="./configs/frosch_et_al_2025__figure_3_immune_object.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__figure_3_immune_object.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.4 ms,
+        p95 0.7 ms &middot; X chunked [3884, 10]
+      </p>
+    </section>
+    <section class="card">
+      <h2>Microglia (Ext. Fig. 5)</h2>
       <p>3,097 microglia across four conditions.</p>
       <div class="stats">
         <div class="stat"><div class="n">3,097</div><div class="k">cells</div></div>
@@ -166,20 +212,43 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       
       <div class="tags"><span class="tag">RNA snn res.1</span><span class="tag">orig.ident</span><span class="tag">sample</span><span class="tag">condition</span><span class="tag">seurat clusters</span><span class="tag">RNA snn res.2</span><span class="tag">RNA snn res.3</span><span class="tag">RNA snn res.4</span><span class="tag">RNA snn res.5</span><span class="tag">RNA snn res.6</span><span class="tag">+6 more</span></div>
       <p>
-        <a class="btn" href="./viewer.html?dataset=frosch_et_al_2025__microglia">Open viewer</a>
-        <a class="btn sec" href="./configs/frosch_et_al_2025__microglia.json">View config JSON</a>
+        <a class="btn" href="./viewer.html?dataset=frosch_et_al_2025__ext_figure_5_microglia">Open viewer</a>
+        <a class="btn sec" href="./configs/frosch_et_al_2025__ext_figure_5_microglia.json">View config JSON</a>
       </p>
       <pre><code>import anndata as ad
-adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__microglia.zarr")</code></pre>
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__ext_figure_5_microglia.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 0.3 ms,
-        p95 0.5 ms &middot; X chunked [3097, 10]
+        Single-gene fetch measured locally: p50 1.4 ms,
+        p95 2.2 ms &middot; X chunked [3097, 10]
+      </p>
+    </section>
+    <section class="card">
+      <h2>Microglia (Fig. 3)</h2>
+      <p>3,595 microglia across genotypes and ages.</p>
+      <div class="stats">
+        <div class="stat"><div class="n">3,595</div><div class="k">cells</div></div>
+        <div class="stat"><div class="n">19,928</div><div class="k">genes</div></div>
+        <div class="stat"><div class="n">10</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
+        <div class="stat"><div class="n">31.5 MB</div><div class="k">zarr store</div></div>
+      </div>
+      
+      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">orig.ident</span><span class="tag">genotype</span><span class="tag">run</span><span class="tag">sample id</span><span class="tag">age</span><span class="tag">RNA snn res.1.2</span><span class="tag">RNA snn res.0.6</span><span class="tag">RNA snn res.0.7</span><span class="tag">RNA snn res.0.4</span></div>
+      <p>
+        <a class="btn" href="./viewer.html?dataset=frosch_et_al_2025__figure_3_microglia_object">Open viewer</a>
+        <a class="btn sec" href="./configs/frosch_et_al_2025__figure_3_microglia_object.json">View config JSON</a>
+      </p>
+      <pre><code>import anndata as ad
+adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__figure_3_microglia_object.zarr")</code></pre>
+      <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
+        Single-gene fetch measured locally: p50 0.4 ms,
+        p95 2.2 ms &middot; X chunked [3595, 10]
       </p>
     </section>
   <footer>
     Embeddings and annotations are the published ones &mdash; no re-clustering or
     re-embedding was performed. Built with Vitessce 3.4.9.
-    Last updated 2026-09-08.
+    Last updated 2026-09-09.
   </footer>
 </div>
 <script>

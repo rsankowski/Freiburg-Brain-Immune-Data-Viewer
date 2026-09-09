@@ -1,15 +1,15 @@
 {
   "version": "1.0.16",
-  "name": "Immune cells",
+  "name": "Immune cells (Ext. Fig. 5)",
   "description": "3,371 immune cells across four conditions.",
   "datasets": [
     {
-      "uid": "frosch_et_al_2025__immune_cells",
-      "name": "Immune cells",
+      "uid": "frosch_et_al_2025__ext_figure_5_",
+      "name": "Immune cells (Ext. Fig. 5)",
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__immune_cells.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__ext_figure_5_immune_cells.zarr",
           "options": {
             "obsEmbedding": [
               {
@@ -86,7 +86,7 @@
   ],
   "coordinationSpace": {
     "dataset": {
-      "A": "frosch_et_al_2025__immune_cells"
+      "A": "frosch_et_al_2025__ext_figure_5_"
     },
     "embeddingType": {
       "A": "HARMONY",

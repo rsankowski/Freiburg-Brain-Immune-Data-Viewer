@@ -23,6 +23,11 @@ from common import ROOT, log, read_json, write_json  # noqa: E402
 
 from PIL import Image  # noqa: E402
 
+# These are the lab's own figures, read from disk, so the decompression-bomb
+# guard is not protecting us from anything here -- and one of them is a
+# 93-megapixel PNG that trips the default limit.
+Image.MAX_IMAGE_PIXELS = None
+
 DOCS = ROOT / "docs"
 ASSETS = DOCS / "assets"
 PUBS = ROOT / "config" / "publications.json"
@@ -46,11 +51,30 @@ def rasterise_pdf(src: Path, width: int) -> Image.Image:
         return Image.open(pages[0]).convert("RGB")
 
 
-def prepare(paper: str, rel: str, width: int) -> tuple[str, list[int]] | None:
+SUPPORTED = (".png", ".jpg", ".jpeg", ".tif", ".tiff", ".pdf")
+
+
+def resolve_abstract(rel: str) -> Path | None:
+    """The CSV records one filename, but the file's extension changes when a
+    figure is re-exported (a PDF replaced by a PNG). Fall back to any sibling
+    with the same stem."""
     src = ROOT / rel
-    if not src.exists():
+    if src.exists():
+        return src
+    for ext in SUPPORTED:
+        alt = src.with_suffix(ext)
+        if alt.exists():
+            return alt
+    return None
+
+
+def prepare(paper: str, rel: str, width: int) -> tuple[str, list[int]] | None:
+    src = resolve_abstract(rel)
+    if src is None:
         log(f"  {paper}: graphical abstract missing: {rel}")
         return None
+    if src != ROOT / rel:
+        log(f"  {paper}: CSV says {Path(rel).name}, using {src.name}")
     if src.suffix.lower() == ".pdf":
         im = rasterise_pdf(src, width)
         log(f"  {paper}: rasterised {src.name} ({im.width}x{im.height})")

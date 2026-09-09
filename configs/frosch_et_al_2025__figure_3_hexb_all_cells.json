@@ -1,0 +1,1488 @@
+{
+  "version": "1.0.16",
+  "name": "All cells, Hexb (Fig. 3)",
+  "description": "103,201 cells across genotypes, ages and 22 samples, annotated by cell type.",
+  "datasets": [
+    {
+      "uid": "frosch_et_al_2025__figure_3_hexb",
+      "name": "All cells, Hexb (Fig. 3)",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__figure_3_hexb_all_cells.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_umap",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "UMAP"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "celltype",
+                "path": "obs/celltype"
+              },
+              {
+                "name": "orig.ident",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "genotype",
+                "path": "obs/genotype"
+              },
+              {
+                "name": "run",
+                "path": "obs/run"
+              },
+              {
+                "name": "sample id",
+                "path": "obs/sample_id"
+              },
+              {
+                "name": "age",
+                "path": "obs/age"
+              },
+              {
+                "name": "RNA snn res.1.2",
+                "path": "obs/RNA_snn_res.1.2"
+              },
+              {
+                "name": "seurat clusters",
+                "path": "obs/seurat_clusters"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "frosch_et_al_2025__figure_3_hexb"
+    },
+    "embeddingType": {
+      "A": "UMAP",
+      "B": "UMAP"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2ry12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "celltype",
+            "Astrocytes"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "celltype",
+            "COPs"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "celltype",
+            "Ependymal Cells"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "celltype",
+            "Immune Cells"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "celltype",
+            "NFOs"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "celltype",
+            "Neurons"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "celltype",
+            "OPCs"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "celltype",
+            "Oligodendrocytes"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "celltype",
+            "VLMCs"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha6"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha7"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha8"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha9"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha10"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha11"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha12"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha13"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha14"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha15"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha38"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha39"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha41"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha42"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha43"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha44"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha90"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha154"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha155"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha854"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha1384"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "orig.ident",
+            "Tha1385"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "genotype",
+            "Hetero"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "genotype",
+            "Knockout"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "run",
+            "run1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "run",
+            "run2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "run",
+            "run3"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "run",
+            "run4"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "run",
+            "run5"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "run",
+            "run6"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "run",
+            "run7"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_1"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_2"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_4"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_5"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_6"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_7"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_8"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_9"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_10"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_11"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_12"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_13"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_14"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_15"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_16"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_17"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_18"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_19"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_20"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_21"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_22"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "sample id",
+            "sample_id_23"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "age",
+            "17weeks"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "age",
+            "P7"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "RNA snn res.1.2",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "0"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "1"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "2"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "3"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "4"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "5"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "8"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "9"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "10"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "11"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "12"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "13"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "14"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "15"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "16"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "17"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "18"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "19"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "20"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "21"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "22"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "seurat clusters",
+            "23"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "celltype",
+          "Astrocytes"
+        ],
+        [
+          "celltype",
+          "COPs"
+        ],
+        [
+          "celltype",
+          "Ependymal Cells"
+        ],
+        [
+          "celltype",
+          "Immune Cells"
+        ],
+        [
+          "celltype",
+          "NFOs"
+        ],
+        [
+          "celltype",
+          "Neurons"
+        ],
+        [
+          "celltype",
+          "OPCs"
+        ],
+        [
+          "celltype",
+          "Oligodendrocytes"
+        ],
+        [
+          "celltype",
+          "VLMCs"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "celltype"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

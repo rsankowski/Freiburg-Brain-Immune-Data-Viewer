@@ -1,15 +1,15 @@
 {
   "version": "1.0.16",
-  "name": "Microglia",
+  "name": "Microglia (Ext. Fig. 5)",
   "description": "3,097 microglia across four conditions.",
   "datasets": [
     {
-      "uid": "frosch_et_al_2025__microglia",
-      "name": "Microglia",
+      "uid": "frosch_et_al_2025__ext_figure_5_",
+      "name": "Microglia (Ext. Fig. 5)",
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__microglia.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__ext_figure_5_microglia.zarr",
           "options": {
             "obsEmbedding": [
               {
@@ -106,7 +106,7 @@
   ],
   "coordinationSpace": {
     "dataset": {
-      "A": "frosch_et_al_2025__microglia"
+      "A": "frosch_et_al_2025__ext_figure_5_"
     },
     "embeddingType": {
       "A": "UMAP",

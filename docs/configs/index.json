@@ -2,7 +2,7 @@
   "title": "Freiburg Brain Immune Data Viewer",
   "base_url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com",
   "license": "CC-BY-4.0",
-  "n_datasets": 39,
+  "n_datasets": 44,
   "datasets": [
     {
       "key": "amann_et_al_2024",
@@ -871,11 +871,11 @@
       "config_path": "configs/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.json"
     },
     {
-      "key": "frosch_et_al_2025__all_cells_001",
-      "title": "All cells",
+      "key": "frosch_et_al_2025__ext_figure_5_all_cells_001",
+      "title": "All cells (Ext. Fig. 5)",
       "paper": "Frosch et al. 2025",
       "description": "44,957 cells across twelve samples and four conditions.",
-      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__all_cells_001.zarr",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__ext_figure_5_all_cells_001.zarr",
       "n_cells": 44957,
       "n_genes": 33709,
       "store_size": "491.0 MB",
@@ -902,14 +902,14 @@
       "default_gene": "P2ry12",
       "modality": null,
       "view_layout": "dual-umap",
-      "config_path": "configs/frosch_et_al_2025__all_cells_001.json"
+      "config_path": "configs/frosch_et_al_2025__ext_figure_5_all_cells_001.json"
     },
     {
-      "key": "frosch_et_al_2025__immune_cells",
-      "title": "Immune cells",
+      "key": "frosch_et_al_2025__ext_figure_5_immune_cells",
+      "title": "Immune cells (Ext. Fig. 5)",
       "paper": "Frosch et al. 2025",
       "description": "3,371 immune cells across four conditions.",
-      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__immune_cells.zarr",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__ext_figure_5_immune_cells.zarr",
       "n_cells": 3371,
       "n_genes": 33697,
       "store_size": "29.8 MB",
@@ -950,14 +950,14 @@
       "default_gene": "P2ry12",
       "modality": null,
       "view_layout": "dual-umap",
-      "config_path": "configs/frosch_et_al_2025__immune_cells.json"
+      "config_path": "configs/frosch_et_al_2025__ext_figure_5_immune_cells.json"
     },
     {
-      "key": "frosch_et_al_2025__microglia",
-      "title": "Microglia",
+      "key": "frosch_et_al_2025__ext_figure_5_microglia",
+      "title": "Microglia (Ext. Fig. 5)",
       "paper": "Frosch et al. 2025",
       "description": "3,097 microglia across four conditions.",
-      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__microglia.zarr",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__ext_figure_5_microglia.zarr",
       "n_cells": 3097,
       "n_genes": 33697,
       "store_size": "27.5 MB",
@@ -1005,7 +1005,213 @@
       "default_gene": "P2ry12",
       "modality": null,
       "view_layout": "dual-umap",
-      "config_path": "configs/frosch_et_al_2025__microglia.json"
+      "config_path": "configs/frosch_et_al_2025__ext_figure_5_microglia.json"
+    },
+    {
+      "key": "frosch_et_al_2025__figure_3_hexb_all_cells",
+      "title": "All cells, Hexb (Fig. 3)",
+      "paper": "Frosch et al. 2025",
+      "description": "103,201 cells across genotypes, ages and 22 samples, annotated by cell type.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__figure_3_hexb_all_cells.zarr",
+      "n_cells": 103201,
+      "n_genes": 19928,
+      "store_size": "1.4 GB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "celltype",
+        "orig.ident",
+        "genotype",
+        "run",
+        "sample_id",
+        "age",
+        "RNA_snn_res.1.2",
+        "seurat_clusters"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.1.2",
+        "age",
+        "celltype",
+        "genotype",
+        "orig.ident",
+        "run",
+        "sample_id",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/frosch_et_al_2025__figure_3_hexb_all_cells.json"
+    },
+    {
+      "key": "frosch_et_al_2025__figure_3_immune_object",
+      "title": "Immune cells (Fig. 3)",
+      "paper": "Frosch et al. 2025",
+      "description": "3,884 immune cells across genotypes and ages.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__figure_3_immune_object.zarr",
+      "n_cells": 3884,
+      "n_genes": 19928,
+      "store_size": "34.1 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "seurat_clusters",
+        "orig.ident",
+        "genotype",
+        "run",
+        "sample_id",
+        "age",
+        "RNA_snn_res.1.2",
+        "RNA_snn_res.0.6",
+        "RNA_snn_res.0.7"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.0.6",
+        "RNA_snn_res.0.7",
+        "RNA_snn_res.1.2",
+        "age",
+        "genotype",
+        "orig.ident",
+        "run",
+        "sample_id",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/frosch_et_al_2025__figure_3_immune_object.json"
+    },
+    {
+      "key": "frosch_et_al_2025__figure_3_microglia_object",
+      "title": "Microglia (Fig. 3)",
+      "paper": "Frosch et al. 2025",
+      "description": "3,595 microglia across genotypes and ages.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/frosch_et_al_2025__figure_3_microglia_object.zarr",
+      "n_cells": 3595,
+      "n_genes": 19928,
+      "store_size": "31.5 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "seurat_clusters",
+        "orig.ident",
+        "genotype",
+        "run",
+        "sample_id",
+        "age",
+        "RNA_snn_res.1.2",
+        "RNA_snn_res.0.6",
+        "RNA_snn_res.0.7",
+        "RNA_snn_res.0.4"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.0.4",
+        "RNA_snn_res.0.6",
+        "RNA_snn_res.0.7",
+        "RNA_snn_res.1.2",
+        "age",
+        "genotype",
+        "orig.ident",
+        "run",
+        "sample_id",
+        "seurat_clusters"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "P2ry12",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/frosch_et_al_2025__figure_3_microglia_object.json"
+    },
+    {
+      "key": "hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype",
+      "title": "Fly immune cells (Fig. 1A)",
+      "paper": "Hersperger et al. 2024",
+      "description": "8,360 Drosophila immune cells across treatments, annotated by cell type.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.zarr",
+      "n_cells": 8360,
+      "n_genes": 11929,
+      "store_size": "51.0 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "celltype",
+        "orig.ident",
+        "treatment",
+        "RNA_snn_res.0.8",
+        "RNA_snn_res.1",
+        "RNA_snn_res.1.2",
+        "RNA_snn_res.1.5",
+        "RNA_snn_res.1.8",
+        "RNA_snn_res.2",
+        "seurat_clusters",
+        "old.ident"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.0.8",
+        "RNA_snn_res.1",
+        "RNA_snn_res.1.2",
+        "RNA_snn_res.1.5",
+        "RNA_snn_res.1.8",
+        "RNA_snn_res.2",
+        "celltype",
+        "old.ident",
+        "orig.ident",
+        "seurat_clusters",
+        "treatment"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "Hml",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.json"
+    },
+    {
+      "key": "hersperger_et_al_2024__figure_1c_hemocytes_3_final",
+      "title": "Hemocytes (Fig. 1C)",
+      "paper": "Hersperger et al. 2024",
+      "description": "1,364 Drosophila hemocytes across treatments.",
+      "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/hersperger_et_al_2024__figure_1c_hemocytes_3_final.zarr",
+      "n_cells": 1364,
+      "n_genes": 11929,
+      "store_size": "6.3 MB",
+      "embeddings": [
+        "UMAP"
+      ],
+      "obs_sets": [
+        "seurat_clusters",
+        "orig.ident",
+        "treatment",
+        "RNA_snn_res.0.8",
+        "RNA_snn_res.1",
+        "RNA_snn_res.1.2",
+        "RNA_snn_res.1.5",
+        "RNA_snn_res.1.8",
+        "RNA_snn_res.2",
+        "old.ident"
+      ],
+      "colour_columns": [
+        "RNA_snn_res.0.8",
+        "RNA_snn_res.1",
+        "RNA_snn_res.1.2",
+        "RNA_snn_res.1.5",
+        "RNA_snn_res.1.8",
+        "RNA_snn_res.2",
+        "old.ident",
+        "orig.ident",
+        "seurat_clusters",
+        "treatment"
+      ],
+      "published_palette_columns": [],
+      "default_gene": "Hml",
+      "modality": null,
+      "view_layout": "dual-umap",
+      "config_path": "configs/hersperger_et_al_2024__figure_1c_hemocytes_3_final.json"
     },
     {
       "key": "masuda_et_al_2020",

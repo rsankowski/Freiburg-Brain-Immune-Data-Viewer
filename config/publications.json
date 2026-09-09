@@ -1,10 +1,6 @@
 {
   "Amann-et-al-2024": {
-    "title": "Extrasinusoidal macrophages are a distinct subset of immunologically active dural macrophages",
-    "journal": "Science Immunology",
-    "journal_short": "Science Immunology",
-    "year": 2024,
-    "doi": "10.1126/sciimmunol.adh1129",
+    "journal_csv": "Science Immunology",
     "paper_url": "https://www.science.org/doi/abs/10.1126/sciimmunol.adh1129",
     "graphical_abstract": "data/Graphical-abstracts/Amann-Sci-Immunol-2024-GA.jpg",
     "raw_data": [
@@ -18,14 +14,15 @@
         "label": "GSE278812",
         "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278812"
       }
-    ]
+    ],
+    "title": "Extrasinusoidal macrophages are a distinct subset of immunologically active dural macrophages",
+    "journal": "Science Immunology",
+    "year": 2024,
+    "doi": "10.1126/sciimmunol.adh1129",
+    "journal_short": "Science Immunology"
   },
   "Ardura-Fabregat-et-al-2025": {
-    "title": "Response of spatially defined microglia states with distinct chromatin accessibility in a mouse model of Alzheimer\u2019s disease",
-    "journal": "Nature Neuroscience",
-    "journal_short": "Nature Neuroscience",
-    "year": 2025,
-    "doi": "10.1038/s41593-025-02006-0",
+    "journal_csv": "Nature Neuroscience",
     "paper_url": "https://www.nature.com/articles/s41593-025-02006-0",
     "graphical_abstract": "data/Graphical-abstracts/Fabregat-et-al.2025-GA.png",
     "raw_data": [
@@ -55,14 +52,15 @@
         "label": "GSE296028",
         "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296028"
       }
-    ]
+    ],
+    "title": "Response of spatially defined microglia states with distinct chromatin accessibility in a mouse model of Alzheimer\u2019s disease",
+    "journal": "Nature Neuroscience",
+    "year": 2025,
+    "doi": "10.1038/s41593-025-02006-0",
+    "journal_short": "Nature Neuroscience"
   },
   "Chhatbar-et-al-2026": {
-    "title": "A transcriptomic microglia taxonomy across mouse and human pathologies",
-    "journal": "Nature Immunology",
-    "journal_short": "Nature Immunology",
-    "year": 2026,
-    "doi": "10.1038/s41590-026-02472-z",
+    "journal_csv": "Nature Immunology",
     "paper_url": "https://www.nature.com/articles/s41590-026-02472-z",
     "graphical_abstract": "data/Graphical-abstracts/Chhatbar-et-al-2026-GA.png",
     "raw_data": [
@@ -80,14 +78,15 @@
         "label": "Zenodo 16938034",
         "url": "https://doi.org/10.5281/zenodo.16938034"
       }
-    ]
+    ],
+    "title": "A transcriptomic microglia taxonomy across mouse and human pathologies",
+    "journal": "Nature Immunology",
+    "year": 2026,
+    "doi": "10.1038/s41590-026-02472-z",
+    "journal_short": "Nature Immunology"
   },
   "Fliegauf-et-al-2026": {
-    "title": "Distinct origins and niches determine the cellular responsiveness of CNS macrophages after repopulation",
-    "journal": "Nature Immunology",
-    "journal_short": "Nature Immunology",
-    "year": 2026,
-    "doi": "10.1038/s41590-026-02457-y",
+    "journal_csv": "Nature Immunology",
     "paper_url": "https://www.nature.com/articles/s41590-026-02457-y",
     "graphical_abstract": "data/Graphical-abstracts/Fliegauf-et-al-2026-GA.png",
     "raw_data": [
@@ -157,14 +156,15 @@
         "label": "GSE295334",
         "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE295334"
       }
-    ]
+    ],
+    "title": "Distinct origins and niches determine the cellular responsiveness of CNS macrophages after repopulation",
+    "journal": "Nature Immunology",
+    "year": 2026,
+    "doi": "10.1038/s41590-026-02457-y",
+    "journal_short": "Nature Immunology"
   },
   "Friedrich-et-al-2021": {
-    "title": "Tryptophan metabolism drives dynamic immunosuppressive myeloid states in IDH-mutant gliomas",
-    "journal": "Nature Cancer",
-    "journal_short": "Nature Cancer",
-    "year": 2021,
-    "doi": "10.1038/s43018-021-00201-z",
+    "journal_csv": "Nature Cancer",
     "paper_url": "https://www.nature.com/articles/s43018-021-00201-z",
     "graphical_abstract": "data/Graphical-abstracts/Friedrich-et-al-2021-GA.pdf",
     "raw_data": [
@@ -178,14 +178,15 @@
         "label": "GSE166420",
         "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166420"
       }
-    ]
+    ],
+    "title": "Tryptophan metabolism drives dynamic immunosuppressive myeloid states in IDH-mutant gliomas",
+    "journal": "Nature Cancer",
+    "year": 2021,
+    "doi": "10.1038/s43018-021-00201-z",
+    "journal_short": "Nature Cancer"
   },
   "Frosch-et-al-2025": {
-    "title": "Microglia\u2013neuron crosstalk through Hex\u2013GM2\u2013MGL2 maintains brain homeostasis",
-    "journal": "Nature",
-    "journal_short": "Nature",
-    "year": 2025,
-    "doi": "10.1038/s41586-025-09477-y",
+    "journal_csv": "Nature",
     "paper_url": "https://www.nature.com/articles/s41586-025-09477-y",
     "graphical_abstract": "data/Graphical-abstracts/Frosch-et-al-2025-GA.png",
     "raw_data": [
@@ -223,14 +224,15 @@
         "label": "GSE300355",
         "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300355"
       }
-    ]
+    ],
+    "title": "Microglia\u2013neuron crosstalk through Hex\u2013GM2\u2013MGL2 maintains brain homeostasis",
+    "journal": "Nature",
+    "year": 2025,
+    "doi": "10.1038/s41586-025-09477-y",
+    "journal_short": "Nature"
   },
   "Masuda-et-al-2020": {
-    "title": "Novel Hexb-based tools for studying microglia in the CNS",
-    "journal": "Nature Immunology",
-    "journal_short": "Nature Immunology",
-    "year": 2020,
-    "doi": "10.1038/s41590-020-0707-4",
+    "journal_csv": "Nature Immunology",
     "paper_url": "https://www.nature.com/articles/s41590-020-0707-4",
     "graphical_abstract": "data/Graphical-abstracts/Masuda-et-al-2020-GA.png",
     "raw_data": [
@@ -244,14 +246,15 @@
         "label": "GSE148405",
         "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148405"
       }
-    ]
+    ],
+    "title": "Novel Hexb-based tools for studying microglia in the CNS",
+    "journal": "Nature Immunology",
+    "year": 2020,
+    "doi": "10.1038/s41590-020-0707-4",
+    "journal_short": "Nature Immunology"
   },
   "Masuda-et-al-2022": {
-    "title": "Specification of CNS macrophage subsets occurs postnatally in defined niches",
-    "journal": "Nature",
-    "journal_short": "Nature",
-    "year": 2022,
-    "doi": "10.1038/s41586-022-04596-2",
+    "journal_csv": "Nature",
     "paper_url": "https://www.nature.com/articles/s41586-022-04596-2",
     "graphical_abstract": "data/Graphical-abstracts/Masuda-et-al-2022-GA.png",
     "raw_data": [
@@ -289,14 +292,15 @@
         "label": "GSE192511",
         "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192511"
       }
-    ]
+    ],
+    "title": "Specification of CNS macrophage subsets occurs postnatally in defined niches",
+    "journal": "Nature",
+    "year": 2022,
+    "doi": "10.1038/s41586-022-04596-2",
+    "journal_short": "Nature"
   },
   "Petry-et-al-2025": {
-    "title": "Early microglia progenitors colonize the embryonic CNS via integrin-mediated migration from the pial surface",
-    "journal": "Developmental Cell",
-    "journal_short": "Developmental Cell",
-    "year": 2025,
-    "doi": "10.1016/j.devcel.2025.08.012",
+    "journal_csv": "Developmental Cell",
     "paper_url": "https://www.cell.com/developmental-cell/fulltext/S1534-5807(25)00532-5",
     "graphical_abstract": "data/Graphical-abstracts/Petry-et-al-2025-GA.jpg",
     "raw_data": [
@@ -310,14 +314,15 @@
         "label": "GSE195437",
         "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195437"
       }
-    ]
+    ],
+    "title": "Early microglia progenitors colonize the embryonic CNS via integrin-mediated migration from the pial surface",
+    "journal": "Developmental Cell",
+    "year": 2025,
+    "doi": "10.1016/j.devcel.2025.08.012",
+    "journal_short": "Developmental Cell"
   },
   "Sankowski-et-al-2021": {
-    "title": "Commensal microbiota divergently affect myeloid subsets in the mammalian central nervous system during homeostasis and disease",
-    "journal": "The EMBO Journal",
-    "journal_short": "EMBO Journal",
-    "year": 2021,
-    "doi": "10.15252/embj.2021108605",
+    "journal_csv": "EMBO Journal",
     "paper_url": "https://link.springer.com/article/10.15252/embj.2021108605",
     "graphical_abstract": "data/Graphical-abstracts/Sankowski-et-al-2021-GA.jpg",
     "raw_data": [
@@ -331,14 +336,15 @@
         "label": "GSE178956",
         "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178956"
       }
-    ]
+    ],
+    "title": "Commensal microbiota divergently affect myeloid subsets in the mammalian central nervous system during homeostasis and disease",
+    "journal": "The EMBO Journal",
+    "year": 2021,
+    "doi": "10.15252/embj.2021108605",
+    "journal_short": "EMBO Journal"
   },
   "Sankowski-et-al-2024": {
-    "title": "Multiomic spatial landscape of innate immune cells at human central nervous system borders",
-    "journal": "Nature Medicine",
-    "journal_short": "Nature Medicine",
-    "year": 2023,
-    "doi": "10.1038/s41591-023-02673-1",
+    "journal_csv": "Nature Medicine",
     "paper_url": "https://www.nature.com/articles/s41591-023-02673-1",
     "graphical_abstract": "data/Graphical-abstracts/Sankowski-et-al-2024-GA.pdf",
     "raw_data": [
@@ -352,14 +358,15 @@
         "label": "GSE245311",
         "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245311"
       }
-    ]
+    ],
+    "title": "Multiomic spatial landscape of innate immune cells at human central nervous system borders",
+    "journal": "Nature Medicine",
+    "year": 2023,
+    "doi": "10.1038/s41591-023-02673-1",
+    "journal_short": "Nature Medicine"
   },
   "Wieghofer-et-al-2021": {
-    "title": "Mapping the origin and fate of myeloid cells in distinct compartments of the eye by single\u2010cell profiling",
-    "journal": "The EMBO Journal",
-    "journal_short": "EMBO Journal",
-    "year": 2021,
-    "doi": "10.15252/embj.2020105123",
+    "journal_csv": "EMBO Journal",
     "paper_url": "https://link.springer.com/article/10.15252/embj.2020105123",
     "graphical_abstract": "data/Graphical-abstracts/Wieghofer-et-al-2021-GA.pdf",
     "raw_data": [
@@ -373,6 +380,33 @@
         "label": "GSE160797",
         "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE160797"
       }
-    ]
+    ],
+    "title": "Mapping the origin and fate of myeloid cells in distinct compartments of the eye by single\u2010cell profiling",
+    "journal": "The EMBO Journal",
+    "year": 2021,
+    "doi": "10.15252/embj.2020105123",
+    "journal_short": "EMBO Journal"
+  },
+  "Hersperger-et-al-2024": {
+    "journal_csv": "eLife",
+    "paper_url": "https://elifesciences.org/articles/86700",
+    "graphical_abstract": "data/Graphical-abstracts/Hersperger-et-al-2024-GA.jpg",
+    "raw_data": [
+      {
+        "label": "GSE244295",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE244295"
+      }
+    ],
+    "processed_data": [
+      {
+        "label": "GSE244295",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE244295"
+      }
+    ],
+    "title": "DNA damage signaling in Drosophila macrophages modulates systemic cytokine levels in response to oxidative stress",
+    "journal": "eLife",
+    "year": 2024,
+    "doi": "10.7554/elife.86700",
+    "journal_short": "eLife"
   }
 }
