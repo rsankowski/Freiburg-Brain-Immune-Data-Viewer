@@ -1,6 +1,7 @@
 # Data and build artifacts — never commit
 data/
 build/
+prompts/
 *.zarr/
 *.h5ad
 *.rds
@@ -45,3 +46,14 @@ paper/overleaf/*.out
 paper/overleaf/*.pdf
 paper/overleaf-project.zip
 paper_page.png
+
+# Claude Code
+.claude/
+.claude.json
+.claude.json.backup
+CLAUDE.local.md
+.mcp.json
+
+# AWS credentials — while you're at it
+.aws/
+*.pem
