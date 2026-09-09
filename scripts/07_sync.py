@@ -204,14 +204,15 @@ def build_policy(cfg: dict) -> dict:
     }
 
 
-def build_cors(cfg: dict) -> list[dict]:
-    return [{
+def build_cors(cfg: dict) -> dict:
+    # put-bucket-cors expects {"CORSRules": [...]}, not a bare array of rules.
+    return {"CORSRules": [{
         "AllowedOrigins": cfg.get("site_origins", ["*"]),
         "AllowedMethods": ["GET", "HEAD"],
         "AllowedHeaders": ["*"],
         "ExposeHeaders": ["Content-Length", "Content-Range", "Content-Type", "ETag"],
         "MaxAgeSeconds": 3000,
-    }]
+    }]}
 
 
 def build_readme(cfg: dict, keys: list[str]) -> str:

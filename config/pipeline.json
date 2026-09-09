@@ -5,6 +5,7 @@
   "s3_prefix": "",
   "site_origins": [
     "https://rsankowski.github.io",
+    "http://localhost:8787",
     "http://localhost:8000"
   ],
   "hvg_target": 4000,
