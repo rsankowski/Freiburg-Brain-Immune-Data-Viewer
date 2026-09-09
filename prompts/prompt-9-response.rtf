@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Credentials work now \'97 the preflight confirmed account 544227292049. The failure is my cors.json shape: put-bucket-cors wants an object with a CORSRules key, not a bare array. Confirming against the CLI's own skeleton:\
+\
+  Ran 2 shell commands\
+\
+Shape now matches the CLI skeleton exactly. One related fix \'97 the allowed origins list has localhost:8000, but the preview server runs on 8787:\
+\
+  Ran 2 shell commands\
+\
+My bug, now fixed. put-bucket-cors expects \{"CORSRules": [...]\}; I generated a bare array of rules, which the CLI rejects while parsing the parameter \'97 before it makes any call. Confirmed against aws s3api put-bucket-cors --generate-cli-skeleton.\
+\
+Re-run it:\
+\
+! bash release/apply-bucket-settings.sh\
+\
+That's safe to repeat \'97 the two steps that already succeeded (public-access-block and ent, and the script stopped at CORS, so nothing was half-applied.\
+\
+I also added http://localhost:8787 to the allowed origins. Only localhost:8000\
+was listed, which isn't ts \'97 so browsing theS3-hosted stores from the local preview would have failed CORS later, in a way\
+that's much harder to dia\
+\
+Good news in your output:confirmed account544227292049, which is the account that owns the bucket. So credentials are\
+sorted.\
+\
+Once that succeeds, the u\
+\
+! bash release/sync.sh\
+\
+12.3 GB across 44 stores o take a while.}
