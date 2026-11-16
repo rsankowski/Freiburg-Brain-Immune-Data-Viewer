@@ -23,59 +23,59 @@
             ],
             "obsSets": [
               {
-                "name": "cell type",
+                "name": "Cell type",
                 "path": "obs/cell_type"
               },
               {
-                "name": "sample",
+                "name": "Sample",
                 "path": "obs/sample"
               },
               {
-                "name": "doublet class",
+                "name": "Doublet class",
                 "path": "obs/doublet_class"
               },
               {
-                "name": "peaks snn res.0.25",
+                "name": "Cluster (peaks, res. 0.25)",
                 "path": "obs/peaks_snn_res.0.25"
               },
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "treatment",
+                "name": "Treatment",
                 "path": "obs/treatment"
               },
               {
-                "name": "sort gate",
+                "name": "Sort gate",
                 "path": "obs/sort_gate"
               },
               {
-                "name": "peaks snn res.0.2",
+                "name": "Cluster (peaks, res. 0.2)",
                 "path": "obs/peaks_snn_res.0.2"
               },
               {
-                "name": "origin",
+                "name": "Origin",
                 "path": "obs/origin"
               },
               {
-                "name": "seurat clusters original",
+                "name": "Cluster (original)",
                 "path": "obs/seurat_clusters_original"
               },
               {
-                "name": "predicted.id",
+                "name": "Predicted cell type (label transfer)",
                 "path": "obs/predicted.id"
               },
               {
-                "name": "called peaks snn res.0.2",
+                "name": "Cluster (called peaks, res. 0.2)",
                 "path": "obs/called_peaks_snn_res.0.2"
               },
               {
-                "name": "annotation",
+                "name": "Annotation",
                 "path": "obs/annotation"
               },
               {
-                "name": "Phase",
+                "name": "Cell cycle phase",
                 "path": "obs/Phase"
               }
             ],
@@ -118,7 +118,7 @@
       "A": [
         {
           "path": [
-            "cell type",
+            "Cell type",
             "clMonocyte"
           ],
           "color": [
@@ -129,7 +129,7 @@
         },
         {
           "path": [
-            "cell type",
+            "Cell type",
             "homDM"
           ],
           "color": [
@@ -140,7 +140,7 @@
         },
         {
           "path": [
-            "cell type",
+            "Cell type",
             "homMG"
           ],
           "color": [
@@ -151,7 +151,7 @@
         },
         {
           "path": [
-            "cell type",
+            "Cell type",
             "hom_ysCAM"
           ],
           "color": [
@@ -162,7 +162,7 @@
         },
         {
           "path": [
-            "cell type",
+            "Cell type",
             "hscCAM"
           ],
           "color": [
@@ -173,7 +173,7 @@
         },
         {
           "path": [
-            "cell type",
+            "Cell type",
             "hscDM"
           ],
           "color": [
@@ -184,7 +184,7 @@
         },
         {
           "path": [
-            "cell type",
+            "Cell type",
             "repopDM"
           ],
           "color": [
@@ -195,7 +195,7 @@
         },
         {
           "path": [
-            "cell type",
+            "Cell type",
             "repopMG"
           ],
           "color": [
@@ -206,7 +206,7 @@
         },
         {
           "path": [
-            "cell type",
+            "Cell type",
             "repop_ysCAM"
           ],
           "color": [
@@ -217,7 +217,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "CB_minus"
           ],
           "color": [
@@ -228,7 +228,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "CB_plus"
           ],
           "color": [
@@ -239,7 +239,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "CV_plus"
           ],
           "color": [
@@ -250,7 +250,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "DB_minus"
           ],
           "color": [
@@ -261,7 +261,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "DB_plus"
           ],
           "color": [
@@ -272,7 +272,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "DV_plus"
           ],
           "color": [
@@ -283,7 +283,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "MGBandBLB"
           ],
           "color": [
@@ -294,7 +294,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "MGVandBLV"
           ],
           "color": [
@@ -305,7 +305,7 @@
         },
         {
           "path": [
-            "doublet class",
+            "Doublet class",
             "doublet"
           ],
           "color": [
@@ -316,7 +316,7 @@
         },
         {
           "path": [
-            "doublet class",
+            "Doublet class",
             "singlet"
           ],
           "color": [
@@ -327,7 +327,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.25",
+            "Cluster (peaks, res. 0.25)",
             "0"
           ],
           "color": [
@@ -338,7 +338,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.25",
+            "Cluster (peaks, res. 0.25)",
             "1"
           ],
           "color": [
@@ -349,7 +349,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.25",
+            "Cluster (peaks, res. 0.25)",
             "2"
           ],
           "color": [
@@ -360,7 +360,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.25",
+            "Cluster (peaks, res. 0.25)",
             "3"
           ],
           "color": [
@@ -371,7 +371,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.25",
+            "Cluster (peaks, res. 0.25)",
             "4"
           ],
           "color": [
@@ -382,7 +382,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.25",
+            "Cluster (peaks, res. 0.25)",
             "5"
           ],
           "color": [
@@ -393,7 +393,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.25",
+            "Cluster (peaks, res. 0.25)",
             "6"
           ],
           "color": [
@@ -404,7 +404,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.25",
+            "Cluster (peaks, res. 0.25)",
             "7"
           ],
           "color": [
@@ -415,7 +415,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -426,7 +426,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -437,7 +437,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -448,7 +448,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -459,7 +459,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -470,7 +470,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -481,7 +481,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "6"
           ],
           "color": [
@@ -492,7 +492,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "7"
           ],
           "color": [
@@ -503,7 +503,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "8"
           ],
           "color": [
@@ -514,7 +514,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "9"
           ],
           "color": [
@@ -525,7 +525,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "10"
           ],
           "color": [
@@ -536,7 +536,7 @@
         },
         {
           "path": [
-            "treatment",
+            "Treatment",
             "BLZ"
           ],
           "color": [
@@ -547,7 +547,7 @@
         },
         {
           "path": [
-            "treatment",
+            "Treatment",
             "V"
           ],
           "color": [
@@ -558,7 +558,7 @@
         },
         {
           "path": [
-            "sort gate",
+            "Sort gate",
             "MG+Mono"
           ],
           "color": [
@@ -569,7 +569,7 @@
         },
         {
           "path": [
-            "sort gate",
+            "Sort gate",
             "tdT+"
           ],
           "color": [
@@ -580,7 +580,7 @@
         },
         {
           "path": [
-            "sort gate",
+            "Sort gate",
             "tdT-"
           ],
           "color": [
@@ -591,7 +591,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.2",
+            "Cluster (peaks, res. 0.2)",
             "0"
           ],
           "color": [
@@ -602,7 +602,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.2",
+            "Cluster (peaks, res. 0.2)",
             "1"
           ],
           "color": [
@@ -613,7 +613,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.2",
+            "Cluster (peaks, res. 0.2)",
             "2"
           ],
           "color": [
@@ -624,7 +624,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.2",
+            "Cluster (peaks, res. 0.2)",
             "3"
           ],
           "color": [
@@ -635,7 +635,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.2",
+            "Cluster (peaks, res. 0.2)",
             "4"
           ],
           "color": [
@@ -646,7 +646,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.2",
+            "Cluster (peaks, res. 0.2)",
             "5"
           ],
           "color": [
@@ -657,7 +657,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.2",
+            "Cluster (peaks, res. 0.2)",
             "6"
           ],
           "color": [
@@ -668,7 +668,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.2",
+            "Cluster (peaks, res. 0.2)",
             "7"
           ],
           "color": [
@@ -679,7 +679,7 @@
         },
         {
           "path": [
-            "peaks snn res.0.2",
+            "Cluster (peaks, res. 0.2)",
             "8"
           ],
           "color": [
@@ -690,7 +690,7 @@
         },
         {
           "path": [
-            "origin",
+            "Origin",
             "HSC"
           ],
           "color": [
@@ -701,7 +701,7 @@
         },
         {
           "path": [
-            "origin",
+            "Origin",
             "YS"
           ],
           "color": [
@@ -712,7 +712,7 @@
         },
         {
           "path": [
-            "origin",
+            "Origin",
             "YS/HSC"
           ],
           "color": [
@@ -723,7 +723,7 @@
         },
         {
           "path": [
-            "seurat clusters original",
+            "Cluster (original)",
             "0"
           ],
           "color": [
@@ -734,7 +734,7 @@
         },
         {
           "path": [
-            "seurat clusters original",
+            "Cluster (original)",
             "1"
           ],
           "color": [
@@ -745,7 +745,7 @@
         },
         {
           "path": [
-            "seurat clusters original",
+            "Cluster (original)",
             "2"
           ],
           "color": [
@@ -756,7 +756,7 @@
         },
         {
           "path": [
-            "seurat clusters original",
+            "Cluster (original)",
             "3"
           ],
           "color": [
@@ -767,7 +767,7 @@
         },
         {
           "path": [
-            "seurat clusters original",
+            "Cluster (original)",
             "4"
           ],
           "color": [
@@ -778,7 +778,7 @@
         },
         {
           "path": [
-            "seurat clusters original",
+            "Cluster (original)",
             "5"
           ],
           "color": [
@@ -789,7 +789,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "Lyve1_CAM"
           ],
           "color": [
@@ -800,7 +800,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "MHCII_CAM"
           ],
           "color": [
@@ -811,7 +811,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "clMonocyte"
           ],
           "color": [
@@ -822,7 +822,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "duralCAM"
           ],
           "color": [
@@ -833,7 +833,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "homMG"
           ],
           "color": [
@@ -844,7 +844,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "0"
           ],
           "color": [
@@ -855,7 +855,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "1"
           ],
           "color": [
@@ -866,7 +866,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "2"
           ],
           "color": [
@@ -877,7 +877,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "3"
           ],
           "color": [
@@ -888,7 +888,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "4"
           ],
           "color": [
@@ -899,7 +899,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "5"
           ],
           "color": [
@@ -910,7 +910,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "6"
           ],
           "color": [
@@ -921,7 +921,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "7"
           ],
           "color": [
@@ -932,7 +932,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "8"
           ],
           "color": [
@@ -943,7 +943,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "9"
           ],
           "color": [
@@ -954,7 +954,7 @@
         },
         {
           "path": [
-            "called peaks snn res.0.2",
+            "Cluster (called peaks, res. 0.2)",
             "10"
           ],
           "color": [
@@ -965,7 +965,7 @@
         },
         {
           "path": [
-            "annotation",
+            "Annotation",
             "CAM"
           ],
           "color": [
@@ -976,7 +976,7 @@
         },
         {
           "path": [
-            "annotation",
+            "Annotation",
             "DM"
           ],
           "color": [
@@ -987,7 +987,7 @@
         },
         {
           "path": [
-            "annotation",
+            "Annotation",
             "MG"
           ],
           "color": [
@@ -998,7 +998,7 @@
         },
         {
           "path": [
-            "annotation",
+            "Annotation",
             "Mono"
           ],
           "color": [
@@ -1009,7 +1009,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G1"
           ],
           "color": [
@@ -1020,7 +1020,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G2M"
           ],
           "color": [
@@ -1031,7 +1031,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "S"
           ],
           "color": [
@@ -1045,39 +1045,39 @@
     "obsSetSelection": {
       "A": [
         [
-          "cell type",
+          "Cell type",
           "clMonocyte"
         ],
         [
-          "cell type",
+          "Cell type",
           "homDM"
         ],
         [
-          "cell type",
+          "Cell type",
           "homMG"
         ],
         [
-          "cell type",
+          "Cell type",
           "hom_ysCAM"
         ],
         [
-          "cell type",
+          "Cell type",
           "hscCAM"
         ],
         [
-          "cell type",
+          "Cell type",
           "hscDM"
         ],
         [
-          "cell type",
+          "Cell type",
           "repopDM"
         ],
         [
-          "cell type",
+          "Cell type",
           "repopMG"
         ],
         [
-          "cell type",
+          "Cell type",
           "repop_ysCAM"
         ]
       ]
@@ -1094,7 +1094,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "cell type"
+          "Cell type"
         ]
       ]
     }

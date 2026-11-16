@@ -1,0 +1,446 @@
+{
+  "version": "1.0.16",
+  "name": "Blood",
+  "description": "385 circulating myeloid cells from naive, preclinical and onset EAE, clustered with RaceID3.",
+  "datasets": [
+    {
+      "uid": "jordao_et_al_2019__20180727_bloo",
+      "name": "Blood",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/jordao_et_al_2019__20180727_blood_dimred_sc_raceid3.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_tsne",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "TSNE"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "Cluster",
+                "path": "obs/cluster"
+              },
+              {
+                "name": "Sample (orig.ident)",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "Sample",
+                "path": "obs/sample"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "jordao_et_al_2019__20180727_bloo"
+    },
+    "embeddingType": {
+      "A": "TSNE",
+      "B": "TSNE"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "Ly6c2"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "Cluster",
+            "1"
+          ],
+          "color": [
+            0,
+            78,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "2"
+          ],
+          "color": [
+            0,
+            255,
+            196
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "3"
+          ],
+          "color": [
+            157,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "4"
+          ],
+          "color": [
+            39,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "5"
+          ],
+          "color": [
+            255,
+            0,
+            118
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "6"
+          ],
+          "color": [
+            39,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "7"
+          ],
+          "color": [
+            157,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "8"
+          ],
+          "color": [
+            255,
+            235,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "9"
+          ],
+          "color": [
+            255,
+            0,
+            235
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "10"
+          ],
+          "color": [
+            0,
+            196,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "11"
+          ],
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "12"
+          ],
+          "color": [
+            255,
+            118,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Naive"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Onset"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Precl4d"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Naive"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Onset_18"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Precl4d_6"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "Cluster",
+          "1"
+        ],
+        [
+          "Cluster",
+          "2"
+        ],
+        [
+          "Cluster",
+          "3"
+        ],
+        [
+          "Cluster",
+          "4"
+        ],
+        [
+          "Cluster",
+          "5"
+        ],
+        [
+          "Cluster",
+          "6"
+        ],
+        [
+          "Cluster",
+          "7"
+        ],
+        [
+          "Cluster",
+          "8"
+        ],
+        [
+          "Cluster",
+          "9"
+        ],
+        [
+          "Cluster",
+          "10"
+        ],
+        [
+          "Cluster",
+          "11"
+        ],
+        [
+          "Cluster",
+          "12"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "Cluster"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

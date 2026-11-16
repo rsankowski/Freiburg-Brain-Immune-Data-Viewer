@@ -31,35 +31,35 @@
             ],
             "obsSets": [
               {
-                "name": "Final celltype",
+                "name": "Cell type (final)",
                 "path": "obs/Final_celltype"
               },
               {
-                "name": "orig.ident",
+                "name": "Sample (orig.ident)",
                 "path": "obs/orig.ident"
               },
               {
-                "name": "Sample id",
+                "name": "Sample",
                 "path": "obs/Sample_id"
               },
               {
-                "name": "Tissue Region",
+                "name": "Tissue region",
                 "path": "obs/Tissue_Region"
               },
               {
-                "name": "Tissue Type",
+                "name": "Tissue type",
                 "path": "obs/Tissue_Type"
               },
               {
-                "name": "Reported Sex",
+                "name": "Sex (reported)",
                 "path": "obs/Reported_Sex"
               },
               {
-                "name": "Clinical Brain Diagnosis",
+                "name": "Diagnosis (clinical)",
                 "path": "obs/Clinical_Brain_Diagnosis"
               },
               {
-                "name": "Clinical Brain Diagnosis Short",
+                "name": "Diagnosis (clinical, short)",
                 "path": "obs/Clinical_Brain_Diagnosis_Short"
               },
               {
@@ -67,27 +67,27 @@
                 "path": "obs/Region"
               },
               {
-                "name": "Disease region",
+                "name": "Region (disease)",
                 "path": "obs/Disease_region"
               },
               {
-                "name": "Subject ID",
+                "name": "Donor",
                 "path": "obs/Subject_ID"
               },
               {
-                "name": "Class id",
+                "name": "Class ID",
                 "path": "obs/Class_id"
               },
               {
-                "name": "Subclass id",
+                "name": "Subclass ID",
                 "path": "obs/Subclass_id"
               },
               {
-                "name": "module label",
+                "name": "Module",
                 "path": "obs/module_label"
               },
               {
-                "name": "Sample id disease",
+                "name": "Sample (disease)",
                 "path": "obs/Sample_id_disease"
               }
             ],
@@ -130,7 +130,7 @@
       "A": [
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Astrocytes"
           ],
           "color": [
@@ -141,7 +141,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Bergmann glia CBL"
           ],
           "color": [
@@ -152,7 +152,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "CAM"
           ],
           "color": [
@@ -163,7 +163,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "CD4 TRM"
           ],
           "color": [
@@ -174,7 +174,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "CD8 TRM"
           ],
           "color": [
@@ -185,7 +185,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Dysmorphic neurons"
           ],
           "color": [
@@ -196,7 +196,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Endothelial cells"
           ],
           "color": [
@@ -207,7 +207,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Erythrocytes"
           ],
           "color": [
@@ -218,7 +218,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Excitatory Neuron"
           ],
           "color": [
@@ -229,7 +229,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Fibroblasts"
           ],
           "color": [
@@ -240,7 +240,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Granule neuron CBL"
           ],
           "color": [
@@ -251,7 +251,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Inhibitory Neuron"
           ],
           "color": [
@@ -262,7 +262,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "MDM"
           ],
           "color": [
@@ -273,7 +273,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Microglia"
           ],
           "color": [
@@ -284,7 +284,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "OPC"
           ],
           "color": [
@@ -295,7 +295,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Oligodendrocytes"
           ],
           "color": [
@@ -306,7 +306,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "PC CBL"
           ],
           "color": [
@@ -317,7 +317,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Pericytes"
           ],
           "color": [
@@ -328,7 +328,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Plasmablasts"
           ],
           "color": [
@@ -339,7 +339,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "SMC"
           ],
           "color": [
@@ -350,7 +350,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Schwann cells"
           ],
           "color": [
@@ -361,7 +361,7 @@
         },
         {
           "path": [
-            "Final celltype",
+            "Cell type (final)",
             "Tumor"
           ],
           "color": [
@@ -372,7 +372,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "TMA_1"
           ],
           "color": [
@@ -383,7 +383,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "TMA_2"
           ],
           "color": [
@@ -394,7 +394,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "TMA_3"
           ],
           "color": [
@@ -405,7 +405,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "TMA_4_new"
           ],
           "color": [
@@ -416,7 +416,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "TMA_5_old"
           ],
           "color": [
@@ -427,7 +427,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "183_CTX_GBM"
           ],
           "color": [
@@ -438,7 +438,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "233_CTX_GBM"
           ],
           "color": [
@@ -449,7 +449,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "254_CTX_GBM"
           ],
           "color": [
@@ -460,7 +460,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "465_FCD_II_B_CTX"
           ],
           "color": [
@@ -471,7 +471,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "567_FCD_II_b_CTX"
           ],
           "color": [
@@ -482,7 +482,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "2003-014_SPC"
           ],
           "color": [
@@ -493,7 +493,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "2003-033_SPC"
           ],
           "color": [
@@ -504,7 +504,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "2008-072_SPC"
           ],
           "color": [
@@ -515,7 +515,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "2011-069_SPC"
           ],
           "color": [
@@ -526,7 +526,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "2011-081_SPC"
           ],
           "color": [
@@ -537,7 +537,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "2014-001_Mri1_CTX"
           ],
           "color": [
@@ -548,7 +548,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "2014-007_PLA_CTX"
           ],
           "color": [
@@ -559,7 +559,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "2016-019_Mri6_CTX"
           ],
           "color": [
@@ -570,7 +570,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "2016-019_SPC"
           ],
           "color": [
@@ -581,7 +581,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "4135_BA17"
           ],
           "color": [
@@ -592,7 +592,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "4668_Hip"
           ],
           "color": [
@@ -603,7 +603,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "5410_BA17"
           ],
           "color": [
@@ -614,7 +614,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "5410_Hip"
           ],
           "color": [
@@ -625,7 +625,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "5789_Hip"
           ],
           "color": [
@@ -636,7 +636,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "5801_BA17"
           ],
           "color": [
@@ -647,7 +647,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB18073_BA17"
           ],
           "color": [
@@ -658,7 +658,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB18073_Hip"
           ],
           "color": [
@@ -669,7 +669,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB18120_BA17"
           ],
           "color": [
@@ -680,7 +680,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB18120_Hip"
           ],
           "color": [
@@ -691,7 +691,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB18124_BA17"
           ],
           "color": [
@@ -702,7 +702,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB18124_Hip"
           ],
           "color": [
@@ -713,7 +713,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB19036_BA17"
           ],
           "color": [
@@ -724,7 +724,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB19036_Hip"
           ],
           "color": [
@@ -735,7 +735,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB19072_BA17"
           ],
           "color": [
@@ -746,7 +746,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB19072_Hip"
           ],
           "color": [
@@ -757,7 +757,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "BEB19074_Hip"
           ],
           "color": [
@@ -768,7 +768,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "CBL_CTRL_1"
           ],
           "color": [
@@ -779,7 +779,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "CBL_CTRL_2"
           ],
           "color": [
@@ -790,7 +790,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "HBIG_BA17"
           ],
           "color": [
@@ -801,7 +801,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "HCT17HEY_BA17"
           ],
           "color": [
@@ -812,7 +812,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "HCT17HEY_Hip"
           ],
           "color": [
@@ -823,7 +823,7 @@
         },
         {
           "path": [
-            "Sample id",
+            "Sample",
             "N_976_17_BG_AGS"
           ],
           "color": [
@@ -834,7 +834,7 @@
         },
         {
           "path": [
-            "Tissue Region",
+            "Tissue region",
             "Basal ganglia"
           ],
           "color": [
@@ -845,7 +845,7 @@
         },
         {
           "path": [
-            "Tissue Region",
+            "Tissue region",
             "Cerebellum"
           ],
           "color": [
@@ -856,7 +856,7 @@
         },
         {
           "path": [
-            "Tissue Region",
+            "Tissue region",
             "Cortex"
           ],
           "color": [
@@ -867,7 +867,7 @@
         },
         {
           "path": [
-            "Tissue Region",
+            "Tissue region",
             "Hippocampus"
           ],
           "color": [
@@ -878,7 +878,7 @@
         },
         {
           "path": [
-            "Tissue Region",
+            "Tissue region",
             "Occipital--Primary_Visual_Cortex_(Brodmann_area_17)"
           ],
           "color": [
@@ -889,7 +889,7 @@
         },
         {
           "path": [
-            "Tissue Region",
+            "Tissue region",
             "Spinal_cord"
           ],
           "color": [
@@ -900,7 +900,7 @@
         },
         {
           "path": [
-            "Tissue Type",
+            "Tissue type",
             "Brain"
           ],
           "color": [
@@ -911,7 +911,7 @@
         },
         {
           "path": [
-            "Tissue Type",
+            "Tissue type",
             "Spinal_cord"
           ],
           "color": [
@@ -922,7 +922,7 @@
         },
         {
           "path": [
-            "Reported Sex",
+            "Sex (reported)",
             "Female"
           ],
           "color": [
@@ -933,7 +933,7 @@
         },
         {
           "path": [
-            "Reported Sex",
+            "Sex (reported)",
             "Male"
           ],
           "color": [
@@ -944,7 +944,7 @@
         },
         {
           "path": [
-            "Reported Sex",
+            "Sex (reported)",
             "NA"
           ],
           "color": [
@@ -955,7 +955,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "AD early"
           ],
           "color": [
@@ -966,7 +966,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "AD late"
           ],
           "color": [
@@ -977,7 +977,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "AGS"
           ],
           "color": [
@@ -988,7 +988,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Controls"
           ],
           "color": [
@@ -999,7 +999,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "FCD"
           ],
           "color": [
@@ -1010,7 +1010,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "GBM"
           ],
           "color": [
@@ -1021,7 +1021,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "MS"
           ],
           "color": [
@@ -1032,7 +1032,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "AD"
           ],
           "color": [
@@ -1043,7 +1043,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "AGS"
           ],
           "color": [
@@ -1054,7 +1054,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "Control"
           ],
           "color": [
@@ -1065,7 +1065,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "FCD"
           ],
           "color": [
@@ -1076,7 +1076,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "GBM"
           ],
           "color": [
@@ -1087,7 +1087,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "MS"
           ],
           "color": [
@@ -1164,7 +1164,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "AD_early_Hippocampus"
           ],
           "color": [
@@ -1175,7 +1175,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "AD_early_Occipital_cortex"
           ],
           "color": [
@@ -1186,7 +1186,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "AD_late_Hippocampus"
           ],
           "color": [
@@ -1197,7 +1197,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "AD_late_Occipital_cortex"
           ],
           "color": [
@@ -1208,7 +1208,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "AGS_Basal_ganglia"
           ],
           "color": [
@@ -1219,7 +1219,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "Control_Cerebellum"
           ],
           "color": [
@@ -1230,7 +1230,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "Control_Hippocampus"
           ],
           "color": [
@@ -1241,7 +1241,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "Control_Occipital_cortex"
           ],
           "color": [
@@ -1252,7 +1252,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "Control_Spinal_cord"
           ],
           "color": [
@@ -1263,7 +1263,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "FCD_Cerebral_cortex"
           ],
           "color": [
@@ -1274,7 +1274,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "GBM_Cerebral_cortex"
           ],
           "color": [
@@ -1285,7 +1285,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "MS_Cerebral_cortex"
           ],
           "color": [
@@ -1296,7 +1296,7 @@
         },
         {
           "path": [
-            "Disease region",
+            "Region (disease)",
             "MS_Spinal_cord"
           ],
           "color": [
@@ -1307,7 +1307,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "183_CTX_GBM"
           ],
           "color": [
@@ -1318,7 +1318,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "233_CTX_GBM"
           ],
           "color": [
@@ -1329,7 +1329,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "254_CTX_GBM"
           ],
           "color": [
@@ -1340,7 +1340,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "465_FCD_II_B_CTX"
           ],
           "color": [
@@ -1351,7 +1351,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "567_FCD_II_b_CTX"
           ],
           "color": [
@@ -1362,7 +1362,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2003-014_SPC"
           ],
           "color": [
@@ -1373,7 +1373,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2003-033_SPC"
           ],
           "color": [
@@ -1384,7 +1384,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2008-072_SPC"
           ],
           "color": [
@@ -1395,7 +1395,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2011-069_SPC"
           ],
           "color": [
@@ -1406,7 +1406,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2011-081_SPC"
           ],
           "color": [
@@ -1417,7 +1417,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2014-001_Mri1_CTX"
           ],
           "color": [
@@ -1428,7 +1428,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2014-007_PLA_CTX"
           ],
           "color": [
@@ -1439,7 +1439,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2016-019_Mri6_CTX"
           ],
           "color": [
@@ -1450,7 +1450,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2016-019_SPC"
           ],
           "color": [
@@ -1461,7 +1461,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4135_BA17"
           ],
           "color": [
@@ -1472,7 +1472,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4668_Hip"
           ],
           "color": [
@@ -1483,7 +1483,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5410_BA17"
           ],
           "color": [
@@ -1494,7 +1494,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5410_Hip"
           ],
           "color": [
@@ -1505,7 +1505,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5789_Hip"
           ],
           "color": [
@@ -1516,7 +1516,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5801_BA17"
           ],
           "color": [
@@ -1527,7 +1527,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18073_BA17"
           ],
           "color": [
@@ -1538,7 +1538,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18073_Hip"
           ],
           "color": [
@@ -1549,7 +1549,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18120_BA17"
           ],
           "color": [
@@ -1560,7 +1560,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18120_Hip"
           ],
           "color": [
@@ -1571,7 +1571,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18124_BA17"
           ],
           "color": [
@@ -1582,7 +1582,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18124_Hip"
           ],
           "color": [
@@ -1593,7 +1593,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19036_BA17"
           ],
           "color": [
@@ -1604,7 +1604,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19036_Hip"
           ],
           "color": [
@@ -1615,7 +1615,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19072_BA17"
           ],
           "color": [
@@ -1626,7 +1626,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19072_Hip"
           ],
           "color": [
@@ -1637,7 +1637,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19074_Hip"
           ],
           "color": [
@@ -1648,7 +1648,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "CBL_CTRL_1"
           ],
           "color": [
@@ -1659,7 +1659,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "CBL_CTRL_2"
           ],
           "color": [
@@ -1670,7 +1670,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "HBIG_BA17"
           ],
           "color": [
@@ -1681,7 +1681,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "HCT17HEY_BA17"
           ],
           "color": [
@@ -1692,7 +1692,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "HCT17HEY_Hip"
           ],
           "color": [
@@ -1703,7 +1703,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "N_976_17_BG_AGS"
           ],
           "color": [
@@ -1714,7 +1714,7 @@
         },
         {
           "path": [
-            "Class id",
+            "Class ID",
             "Misc"
           ],
           "color": [
@@ -1725,7 +1725,7 @@
         },
         {
           "path": [
-            "Class id",
+            "Class ID",
             "NA"
           ],
           "color": [
@@ -1736,7 +1736,7 @@
         },
         {
           "path": [
-            "Class id",
+            "Class ID",
             "Neuronal"
           ],
           "color": [
@@ -1747,7 +1747,7 @@
         },
         {
           "path": [
-            "Class id",
+            "Class ID",
             "Non-Neuronal"
           ],
           "color": [
@@ -1758,7 +1758,7 @@
         },
         {
           "path": [
-            "Subclass id",
+            "Subclass ID",
             "Astro-like"
           ],
           "color": [
@@ -1769,7 +1769,7 @@
         },
         {
           "path": [
-            "Subclass id",
+            "Subclass ID",
             "GABA Neuron"
           ],
           "color": [
@@ -1780,7 +1780,7 @@
         },
         {
           "path": [
-            "Subclass id",
+            "Subclass ID",
             "Glut Neuron"
           ],
           "color": [
@@ -1791,7 +1791,7 @@
         },
         {
           "path": [
-            "Subclass id",
+            "Subclass ID",
             "Immune"
           ],
           "color": [
@@ -1802,7 +1802,7 @@
         },
         {
           "path": [
-            "Subclass id",
+            "Subclass ID",
             "Misc"
           ],
           "color": [
@@ -1813,7 +1813,7 @@
         },
         {
           "path": [
-            "Subclass id",
+            "Subclass ID",
             "Oligo-like"
           ],
           "color": [
@@ -1824,7 +1824,7 @@
         },
         {
           "path": [
-            "Subclass id",
+            "Subclass ID",
             "Structural"
           ],
           "color": [
@@ -1835,7 +1835,7 @@
         },
         {
           "path": [
-            "Subclass id",
+            "Subclass ID",
             "Vascular"
           ],
           "color": [
@@ -1846,7 +1846,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Cytokine"
           ],
           "color": [
@@ -1857,7 +1857,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "IFN"
           ],
           "color": [
@@ -1868,7 +1868,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Inflammation"
           ],
           "color": [
@@ -1879,7 +1879,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "MHC"
           ],
           "color": [
@@ -1890,7 +1890,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "NA"
           ],
           "color": [
@@ -1901,7 +1901,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Neuroprotection"
           ],
           "color": [
@@ -1912,7 +1912,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Phagocytosis"
           ],
           "color": [
@@ -1923,7 +1923,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Proliferation"
           ],
           "color": [
@@ -1934,7 +1934,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Surveillance"
           ],
           "color": [
@@ -1945,7 +1945,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "183_CTX_GBM_GBM"
           ],
           "color": [
@@ -1956,7 +1956,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "233_CTX_GBM_GBM"
           ],
           "color": [
@@ -1967,7 +1967,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "254_CTX_GBM_GBM"
           ],
           "color": [
@@ -1978,7 +1978,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "465_FCD_II_B_CTX_FCD"
           ],
           "color": [
@@ -1989,7 +1989,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "567_FCD_II_b_CTX_FCD"
           ],
           "color": [
@@ -2000,7 +2000,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "2003-014_SPC_MS"
           ],
           "color": [
@@ -2011,7 +2011,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "2003-033_SPC_Control"
           ],
           "color": [
@@ -2022,7 +2022,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "2008-072_SPC_MS"
           ],
           "color": [
@@ -2033,7 +2033,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "2011-069_SPC_Control"
           ],
           "color": [
@@ -2044,7 +2044,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "2011-081_SPC_Control"
           ],
           "color": [
@@ -2055,7 +2055,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "2014-001_Mri1_CTX_MS"
           ],
           "color": [
@@ -2066,7 +2066,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "2014-007_PLA_CTX_MS"
           ],
           "color": [
@@ -2077,7 +2077,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "2016-019_Mri6_CTX_MS"
           ],
           "color": [
@@ -2088,7 +2088,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "2016-019_SPC_MS"
           ],
           "color": [
@@ -2099,7 +2099,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "4135_BA17_Control"
           ],
           "color": [
@@ -2110,7 +2110,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "4668_Hip_AD"
           ],
           "color": [
@@ -2121,7 +2121,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "5410_BA17_Control"
           ],
           "color": [
@@ -2132,7 +2132,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "5410_Hip_Control"
           ],
           "color": [
@@ -2143,7 +2143,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "5789_Hip_Control"
           ],
           "color": [
@@ -2154,7 +2154,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "5801_BA17_Control"
           ],
           "color": [
@@ -2165,7 +2165,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB18073_BA17_AD"
           ],
           "color": [
@@ -2176,7 +2176,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB18073_Hip_AD"
           ],
           "color": [
@@ -2187,7 +2187,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB18120_BA17_AD"
           ],
           "color": [
@@ -2198,7 +2198,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB18120_Hip_AD"
           ],
           "color": [
@@ -2209,7 +2209,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB18124_BA17_AD"
           ],
           "color": [
@@ -2220,7 +2220,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB18124_Hip_AD"
           ],
           "color": [
@@ -2231,7 +2231,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB19036_BA17_AD"
           ],
           "color": [
@@ -2242,7 +2242,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB19036_Hip_AD"
           ],
           "color": [
@@ -2253,7 +2253,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB19072_BA17_AD"
           ],
           "color": [
@@ -2264,7 +2264,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB19072_Hip_AD"
           ],
           "color": [
@@ -2275,7 +2275,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "BEB19074_Hip_AD"
           ],
           "color": [
@@ -2286,7 +2286,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "CBL_CTRL_1_Control"
           ],
           "color": [
@@ -2297,7 +2297,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "CBL_CTRL_2_Control"
           ],
           "color": [
@@ -2308,7 +2308,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "HBIG_BA17_AD"
           ],
           "color": [
@@ -2319,7 +2319,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "HCT17HEY_BA17_Control"
           ],
           "color": [
@@ -2330,7 +2330,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "HCT17HEY_Hip_Control"
           ],
           "color": [
@@ -2341,7 +2341,7 @@
         },
         {
           "path": [
-            "Sample id disease",
+            "Sample (disease)",
             "N_976_17_BG_AGS_AGS"
           ],
           "color": [
@@ -2355,91 +2355,91 @@
     "obsSetSelection": {
       "A": [
         [
-          "Final celltype",
+          "Cell type (final)",
           "Astrocytes"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Bergmann glia CBL"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "CAM"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "CD4 TRM"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "CD8 TRM"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Dysmorphic neurons"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Endothelial cells"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Erythrocytes"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Excitatory Neuron"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Fibroblasts"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Granule neuron CBL"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Inhibitory Neuron"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "MDM"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Microglia"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "OPC"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Oligodendrocytes"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "PC CBL"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Pericytes"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Plasmablasts"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "SMC"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Schwann cells"
         ],
         [
-          "Final celltype",
+          "Cell type (final)",
           "Tumor"
         ]
       ]
@@ -2456,7 +2456,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "Final celltype"
+          "Cell type (final)"
         ]
       ]
     }

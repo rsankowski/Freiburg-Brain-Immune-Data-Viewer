@@ -115,7 +115,7 @@ th { color: var(--muted); font-weight: 500; }
         <div class="stat"><div class="n">51.0 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">celltype</span><span class="tag">orig.ident</span><span class="tag">treatment</span><span class="tag">RNA snn res.0.8</span><span class="tag">RNA snn res.1</span><span class="tag">RNA snn res.1.2</span><span class="tag">RNA snn res.1.5</span><span class="tag">RNA snn res.1.8</span><span class="tag">RNA snn res.2</span><span class="tag">seurat clusters</span><span class="tag">+1 more</span></div>
+      <div class="tags"><span class="tag">Cell type</span><span class="tag">Sample (orig.ident)</span><span class="tag">Treatment</span><span class="tag">Cluster (RNA, res. 0.8)</span><span class="tag">Cluster (RNA, res. 1)</span><span class="tag">Cluster (RNA, res. 1.2)</span><span class="tag">Cluster (RNA, res. 1.5)</span><span class="tag">Cluster (RNA, res. 1.8)</span><span class="tag">Cluster (RNA, res. 2)</span><span class="tag">Cluster</span><span class="tag">+1 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype">Open viewer</a>
         <a class="btn sec" href="./configs/hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.json">View config JSON</a>
@@ -123,7 +123,7 @@ th { color: var(--muted); font-weight: 500; }
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 0.4 ms,
+        Single-gene fetch measured locally: p50 0.5 ms,
         p95 0.8 ms &middot; X chunked [8360, 10]
       </p>
     </section>
@@ -138,7 +138,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">6.3 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">orig.ident</span><span class="tag">treatment</span><span class="tag">RNA snn res.0.8</span><span class="tag">RNA snn res.1</span><span class="tag">RNA snn res.1.2</span><span class="tag">RNA snn res.1.5</span><span class="tag">RNA snn res.1.8</span><span class="tag">RNA snn res.2</span><span class="tag">old.ident</span></div>
+      <div class="tags"><span class="tag">Cluster</span><span class="tag">Sample (orig.ident)</span><span class="tag">Treatment</span><span class="tag">Cluster (RNA, res. 0.8)</span><span class="tag">Cluster (RNA, res. 1)</span><span class="tag">Cluster (RNA, res. 1.2)</span><span class="tag">Cluster (RNA, res. 1.5)</span><span class="tag">Cluster (RNA, res. 1.8)</span><span class="tag">Cluster (RNA, res. 2)</span><span class="tag">Identity (previous)</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=hersperger_et_al_2024__figure_1c_hemocytes_3_final">Open viewer</a>
         <a class="btn sec" href="./configs/hersperger_et_al_2024__figure_1c_hemocytes_3_final.json">View config JSON</a>
@@ -146,14 +146,14 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/hersperger_et_al_2024__figure_1c_hemocytes_3_final.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 0.4 ms,
-        p95 1.2 ms &middot; X chunked [1364, 20]
+        Single-gene fetch measured locally: p50 0.3 ms,
+        p95 0.4 ms &middot; X chunked [1364, 20]
       </p>
     </section>
   <footer>
     Embeddings and annotations are the published ones &mdash; no re-clustering or
     re-embedding was performed. Built with Vitessce 3.4.9.
-    Last updated 2026-09-09.
+    Last updated 2026-11-16.
   </footer>
 </div>
 <script>

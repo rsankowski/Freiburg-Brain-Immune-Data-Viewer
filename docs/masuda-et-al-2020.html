@@ -115,7 +115,7 @@ th { color: var(--muted); font-weight: 500; }
         <div class="stat"><div class="n">78.8 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">cluster</span><span class="tag">orig.ident</span><span class="tag">sample</span></div>
+      <div class="tags"><span class="tag">Cluster</span><span class="tag">Sample (orig.ident)</span><span class="tag">Sample</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=masuda_et_al_2020">Open viewer</a>
         <a class="btn sec" href="./configs/masuda_et_al_2020.json">View config JSON</a>
@@ -123,14 +123,14 @@ th { color: var(--muted); font-weight: 500; }
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/masuda_et_al_2020.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 3.0 ms,
-        p95 4.2 ms &middot; X chunked [3825, 10]
+        Single-gene fetch measured locally: p50 0.5 ms,
+        p95 0.6 ms &middot; X chunked [3825, 10]
       </p>
     </section>
   <footer>
     Embeddings and annotations are the published ones &mdash; no re-clustering or
     re-embedding was performed. Built with Vitessce 3.4.9.
-    Last updated 2026-09-09.
+    Last updated 2026-11-16.
   </footer>
 </div>
 <script>

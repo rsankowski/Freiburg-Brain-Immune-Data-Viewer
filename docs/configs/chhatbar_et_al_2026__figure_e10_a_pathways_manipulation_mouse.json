@@ -23,23 +23,23 @@
             ],
             "obsSets": [
               {
-                "name": "clusters IC3",
+                "name": "Cluster (IC3)",
                 "path": "obs/clusters_IC3"
               },
               {
-                "name": "orig.ident",
+                "name": "Sample (orig.ident)",
                 "path": "obs/orig.ident"
               },
               {
-                "name": "MajoritySinglet DropletType",
+                "name": "Droplet type",
                 "path": "obs/MajoritySinglet_DropletType"
               },
               {
-                "name": "DFclass",
+                "name": "Doublet class",
                 "path": "obs/DFclass"
               },
               {
-                "name": "model",
+                "name": "Model",
                 "path": "obs/model"
               },
               {
@@ -47,43 +47,43 @@
                 "path": "obs/Region"
               },
               {
-                "name": "predicted.class",
+                "name": "Predicted class",
                 "path": "obs/predicted.class"
               },
               {
-                "name": "predicted.cluster",
+                "name": "Predicted cluster",
                 "path": "obs/predicted.cluster"
               },
               {
-                "name": "predicted.subclass",
+                "name": "Predicted subclass",
                 "path": "obs/predicted.subclass"
               },
               {
-                "name": "predicted.cross species cluster",
+                "name": "Predicted cross-species cluster",
                 "path": "obs/predicted.cross_species_cluster"
               },
               {
-                "name": "Azimuth identity",
+                "name": "Cell type (Azimuth)",
                 "path": "obs/Azimuth_identity"
               },
               {
-                "name": "Azimuth identity doublets",
+                "name": "Cell type (Azimuth, incl. doublets)",
                 "path": "obs/Azimuth_identity_doublets"
               },
               {
-                "name": "merged clusters Paris",
+                "name": "Cluster (merged, Paris)",
                 "path": "obs/merged_clusters_Paris"
               },
               {
-                "name": "pathway",
+                "name": "Pathway",
                 "path": "obs/pathway"
               },
               {
-                "name": "condition",
+                "name": "Condition",
                 "path": "obs/condition"
               },
               {
-                "name": "Subclass label",
+                "name": "Subclass",
                 "path": "obs/Subclass_label"
               }
             ],
@@ -126,7 +126,7 @@
       "A": [
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "1"
           ],
           "color": [
@@ -137,7 +137,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "2"
           ],
           "color": [
@@ -148,7 +148,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "3"
           ],
           "color": [
@@ -159,7 +159,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "4"
           ],
           "color": [
@@ -170,7 +170,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "6"
           ],
           "color": [
@@ -181,7 +181,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "7"
           ],
           "color": [
@@ -192,7 +192,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "8"
           ],
           "color": [
@@ -203,7 +203,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "9"
           ],
           "color": [
@@ -214,7 +214,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "10"
           ],
           "color": [
@@ -225,7 +225,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "11"
           ],
           "color": [
@@ -236,7 +236,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "13"
           ],
           "color": [
@@ -247,7 +247,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "14"
           ],
           "color": [
@@ -258,7 +258,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "15"
           ],
           "color": [
@@ -269,7 +269,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "16"
           ],
           "color": [
@@ -280,7 +280,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "18"
           ],
           "color": [
@@ -291,7 +291,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "19"
           ],
           "color": [
@@ -302,7 +302,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "20"
           ],
           "color": [
@@ -313,7 +313,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "21"
           ],
           "color": [
@@ -324,7 +324,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "22"
           ],
           "color": [
@@ -335,7 +335,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "23"
           ],
           "color": [
@@ -346,7 +346,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "24"
           ],
           "color": [
@@ -357,7 +357,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "25"
           ],
           "color": [
@@ -368,7 +368,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "26"
           ],
           "color": [
@@ -379,7 +379,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "31"
           ],
           "color": [
@@ -390,7 +390,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "32"
           ],
           "color": [
@@ -401,7 +401,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "33"
           ],
           "color": [
@@ -412,7 +412,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "43"
           ],
           "color": [
@@ -423,7 +423,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "62"
           ],
           "color": [
@@ -434,7 +434,7 @@
         },
         {
           "path": [
-            "clusters IC3",
+            "Cluster (IC3)",
             "66"
           ],
           "color": [
@@ -445,7 +445,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Cup_Vehicle"
           ],
           "color": [
@@ -456,7 +456,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Cup_inhibitor"
           ],
           "color": [
@@ -467,7 +467,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_CSF1R_3"
           ],
           "color": [
@@ -478,7 +478,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_CSF1R_4"
           ],
           "color": [
@@ -489,7 +489,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_CSF1R_5"
           ],
           "color": [
@@ -500,7 +500,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_CSF1R_7"
           ],
           "color": [
@@ -511,7 +511,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_CSF1R_8"
           ],
           "color": [
@@ -522,7 +522,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_CSF1R_9"
           ],
           "color": [
@@ -533,7 +533,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_Cx3cr1_cre_ER_neg_IFNARfl"
           ],
           "color": [
@@ -544,7 +544,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_Cx3cr1_cre_ER_neg_IFNgRfl"
           ],
           "color": [
@@ -555,7 +555,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_Cx3cr1_cre_ER_pos_IFNARfl"
           ],
           "color": [
@@ -566,7 +566,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "EAE_Cx3cr1_cre_ER_pos_IFNgRfl"
           ],
           "color": [
@@ -577,7 +577,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "LPS_24h_inhibitor_without_precond"
           ],
           "color": [
@@ -588,7 +588,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "LPS_24h_vehicle_without_preconditioning"
           ],
           "color": [
@@ -599,7 +599,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "LPS_Cx3cr1_cre_ER_neg_IFNgRfl"
           ],
           "color": [
@@ -610,7 +610,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "LPS_Cx3cr1_cre_ER_pos_IFNgRfl"
           ],
           "color": [
@@ -621,7 +621,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "LPS_IFNAR_fl_cre_neg"
           ],
           "color": [
@@ -632,7 +632,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "LPS_IFNAR_fl_cre_pos"
           ],
           "color": [
@@ -643,7 +643,7 @@
         },
         {
           "path": [
-            "MajoritySinglet DropletType",
+            "Droplet type",
             "doublet"
           ],
           "color": [
@@ -654,7 +654,7 @@
         },
         {
           "path": [
-            "MajoritySinglet DropletType",
+            "Droplet type",
             "singlet"
           ],
           "color": [
@@ -665,7 +665,7 @@
         },
         {
           "path": [
-            "DFclass",
+            "Doublet class",
             "Doublet"
           ],
           "color": [
@@ -676,7 +676,7 @@
         },
         {
           "path": [
-            "DFclass",
+            "Doublet class",
             "Singlet"
           ],
           "color": [
@@ -687,7 +687,7 @@
         },
         {
           "path": [
-            "model",
+            "Model",
             "Cup"
           ],
           "color": [
@@ -698,7 +698,7 @@
         },
         {
           "path": [
-            "model",
+            "Model",
             "EAE"
           ],
           "color": [
@@ -709,7 +709,7 @@
         },
         {
           "path": [
-            "model",
+            "Model",
             "LPS"
           ],
           "color": [
@@ -753,7 +753,7 @@
         },
         {
           "path": [
-            "predicted.class",
+            "Predicted class",
             "GABAergic"
           ],
           "color": [
@@ -764,7 +764,7 @@
         },
         {
           "path": [
-            "predicted.class",
+            "Predicted class",
             "Glutamatergic"
           ],
           "color": [
@@ -775,7 +775,7 @@
         },
         {
           "path": [
-            "predicted.class",
+            "Predicted class",
             "Non-Neuronal"
           ],
           "color": [
@@ -786,7 +786,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "Astro Aqp4_Slc7a10"
           ],
           "color": [
@@ -797,7 +797,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "Astro_Top2a"
           ],
           "color": [
@@ -808,7 +808,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "Endo"
           ],
           "color": [
@@ -819,7 +819,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "L6 IT_2"
           ],
           "color": [
@@ -830,7 +830,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "Meis2"
           ],
           "color": [
@@ -841,7 +841,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "Meis2_Top2a"
           ],
           "color": [
@@ -852,7 +852,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "Micro"
           ],
           "color": [
@@ -863,7 +863,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "OPC Pdgfra"
           ],
           "color": [
@@ -874,7 +874,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "Oligo Opalin_2"
           ],
           "color": [
@@ -885,7 +885,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "PVM_1"
           ],
           "color": [
@@ -896,7 +896,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "PVM_2"
           ],
           "color": [
@@ -907,7 +907,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "PVM_3"
           ],
           "color": [
@@ -918,7 +918,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "Peri"
           ],
           "color": [
@@ -929,7 +929,7 @@
         },
         {
           "path": [
-            "predicted.cluster",
+            "Predicted cluster",
             "VLMC_2"
           ],
           "color": [
@@ -940,7 +940,7 @@
         },
         {
           "path": [
-            "predicted.subclass",
+            "Predicted subclass",
             "Astro"
           ],
           "color": [
@@ -951,7 +951,7 @@
         },
         {
           "path": [
-            "predicted.subclass",
+            "Predicted subclass",
             "Endo"
           ],
           "color": [
@@ -962,7 +962,7 @@
         },
         {
           "path": [
-            "predicted.subclass",
+            "Predicted subclass",
             "L6 IT"
           ],
           "color": [
@@ -973,7 +973,7 @@
         },
         {
           "path": [
-            "predicted.subclass",
+            "Predicted subclass",
             "Meis2"
           ],
           "color": [
@@ -984,7 +984,7 @@
         },
         {
           "path": [
-            "predicted.subclass",
+            "Predicted subclass",
             "Micro-PVM"
           ],
           "color": [
@@ -995,7 +995,7 @@
         },
         {
           "path": [
-            "predicted.subclass",
+            "Predicted subclass",
             "OPC"
           ],
           "color": [
@@ -1006,7 +1006,7 @@
         },
         {
           "path": [
-            "predicted.subclass",
+            "Predicted subclass",
             "Oligo"
           ],
           "color": [
@@ -1017,7 +1017,7 @@
         },
         {
           "path": [
-            "predicted.subclass",
+            "Predicted subclass",
             "Peri"
           ],
           "color": [
@@ -1028,7 +1028,7 @@
         },
         {
           "path": [
-            "predicted.subclass",
+            "Predicted subclass",
             "VLMC"
           ],
           "color": [
@@ -1039,7 +1039,7 @@
         },
         {
           "path": [
-            "predicted.cross species cluster",
+            "Predicted cross-species cluster",
             "Astro_2"
           ],
           "color": [
@@ -1050,7 +1050,7 @@
         },
         {
           "path": [
-            "predicted.cross species cluster",
+            "Predicted cross-species cluster",
             "Endo"
           ],
           "color": [
@@ -1061,7 +1061,7 @@
         },
         {
           "path": [
-            "predicted.cross species cluster",
+            "Predicted cross-species cluster",
             "L6 IT_2"
           ],
           "color": [
@@ -1072,7 +1072,7 @@
         },
         {
           "path": [
-            "predicted.cross species cluster",
+            "Predicted cross-species cluster",
             "Microglia/PVM"
           ],
           "color": [
@@ -1083,7 +1083,7 @@
         },
         {
           "path": [
-            "predicted.cross species cluster",
+            "Predicted cross-species cluster",
             "OPC"
           ],
           "color": [
@@ -1094,7 +1094,7 @@
         },
         {
           "path": [
-            "predicted.cross species cluster",
+            "Predicted cross-species cluster",
             "Oligo_2"
           ],
           "color": [
@@ -1105,7 +1105,7 @@
         },
         {
           "path": [
-            "predicted.cross species cluster",
+            "Predicted cross-species cluster",
             "VLMC"
           ],
           "color": [
@@ -1116,7 +1116,7 @@
         },
         {
           "path": [
-            "predicted.cross species cluster",
+            "Predicted cross-species cluster",
             "exclude"
           ],
           "color": [
@@ -1127,7 +1127,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "Astro"
           ],
           "color": [
@@ -1138,7 +1138,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "Endo"
           ],
           "color": [
@@ -1149,7 +1149,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "GABAergic"
           ],
           "color": [
@@ -1160,7 +1160,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "Glutamatergic"
           ],
           "color": [
@@ -1171,7 +1171,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "Meis2"
           ],
           "color": [
@@ -1182,7 +1182,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "Micro-PVM"
           ],
           "color": [
@@ -1193,7 +1193,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "OPC"
           ],
           "color": [
@@ -1204,7 +1204,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "Oligo"
           ],
           "color": [
@@ -1215,7 +1215,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "Peri"
           ],
           "color": [
@@ -1226,7 +1226,7 @@
         },
         {
           "path": [
-            "Azimuth identity",
+            "Cell type (Azimuth)",
             "VLMC"
           ],
           "color": [
@@ -1237,7 +1237,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "Astro"
           ],
           "color": [
@@ -1248,7 +1248,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "Endo"
           ],
           "color": [
@@ -1259,7 +1259,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "GABAergic"
           ],
           "color": [
@@ -1270,7 +1270,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "Glutamatergic"
           ],
           "color": [
@@ -1281,7 +1281,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "Meis2"
           ],
           "color": [
@@ -1292,7 +1292,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "Micro-PVM"
           ],
           "color": [
@@ -1303,7 +1303,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "OPC"
           ],
           "color": [
@@ -1314,7 +1314,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "Oligo"
           ],
           "color": [
@@ -1325,7 +1325,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "Peri"
           ],
           "color": [
@@ -1336,7 +1336,7 @@
         },
         {
           "path": [
-            "Azimuth identity doublets",
+            "Cell type (Azimuth, incl. doublets)",
             "VLMC"
           ],
           "color": [
@@ -1347,7 +1347,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "1"
           ],
           "color": [
@@ -1358,7 +1358,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "2"
           ],
           "color": [
@@ -1369,7 +1369,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "3"
           ],
           "color": [
@@ -1380,7 +1380,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "4"
           ],
           "color": [
@@ -1391,7 +1391,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "5"
           ],
           "color": [
@@ -1402,7 +1402,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "6"
           ],
           "color": [
@@ -1413,7 +1413,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "7"
           ],
           "color": [
@@ -1424,7 +1424,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "8"
           ],
           "color": [
@@ -1435,7 +1435,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "9"
           ],
           "color": [
@@ -1446,7 +1446,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "10"
           ],
           "color": [
@@ -1457,7 +1457,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "11"
           ],
           "color": [
@@ -1468,7 +1468,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "12"
           ],
           "color": [
@@ -1479,7 +1479,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "13"
           ],
           "color": [
@@ -1490,7 +1490,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "14"
           ],
           "color": [
@@ -1501,7 +1501,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "15"
           ],
           "color": [
@@ -1512,7 +1512,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "16"
           ],
           "color": [
@@ -1523,7 +1523,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "17"
           ],
           "color": [
@@ -1534,7 +1534,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "18"
           ],
           "color": [
@@ -1545,7 +1545,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "19"
           ],
           "color": [
@@ -1556,7 +1556,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "20"
           ],
           "color": [
@@ -1567,7 +1567,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "21"
           ],
           "color": [
@@ -1578,7 +1578,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "22"
           ],
           "color": [
@@ -1589,7 +1589,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "23"
           ],
           "color": [
@@ -1600,7 +1600,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "24"
           ],
           "color": [
@@ -1611,7 +1611,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "25"
           ],
           "color": [
@@ -1622,7 +1622,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "26"
           ],
           "color": [
@@ -1633,7 +1633,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "27"
           ],
           "color": [
@@ -1644,7 +1644,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "28"
           ],
           "color": [
@@ -1655,7 +1655,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "29"
           ],
           "color": [
@@ -1666,7 +1666,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "30"
           ],
           "color": [
@@ -1677,7 +1677,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "31"
           ],
           "color": [
@@ -1688,7 +1688,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "32"
           ],
           "color": [
@@ -1699,7 +1699,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "33"
           ],
           "color": [
@@ -1710,7 +1710,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "34"
           ],
           "color": [
@@ -1721,7 +1721,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "35"
           ],
           "color": [
@@ -1732,7 +1732,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "36"
           ],
           "color": [
@@ -1743,7 +1743,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "37"
           ],
           "color": [
@@ -1754,7 +1754,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "38"
           ],
           "color": [
@@ -1765,7 +1765,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "40"
           ],
           "color": [
@@ -1776,7 +1776,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "41"
           ],
           "color": [
@@ -1787,7 +1787,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "42"
           ],
           "color": [
@@ -1798,7 +1798,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "43"
           ],
           "color": [
@@ -1809,7 +1809,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "44"
           ],
           "color": [
@@ -1820,7 +1820,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "45"
           ],
           "color": [
@@ -1831,7 +1831,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "46"
           ],
           "color": [
@@ -1842,7 +1842,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "48"
           ],
           "color": [
@@ -1853,7 +1853,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "49"
           ],
           "color": [
@@ -1864,7 +1864,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "50"
           ],
           "color": [
@@ -1875,7 +1875,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "51"
           ],
           "color": [
@@ -1886,7 +1886,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "52"
           ],
           "color": [
@@ -1897,7 +1897,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "53"
           ],
           "color": [
@@ -1908,7 +1908,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "54"
           ],
           "color": [
@@ -1919,7 +1919,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "55"
           ],
           "color": [
@@ -1930,7 +1930,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "56"
           ],
           "color": [
@@ -1941,7 +1941,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "57"
           ],
           "color": [
@@ -1952,7 +1952,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "58"
           ],
           "color": [
@@ -1963,7 +1963,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "59"
           ],
           "color": [
@@ -1974,7 +1974,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "60"
           ],
           "color": [
@@ -1985,7 +1985,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "61"
           ],
           "color": [
@@ -1996,7 +1996,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "62"
           ],
           "color": [
@@ -2007,7 +2007,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "65"
           ],
           "color": [
@@ -2018,7 +2018,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "66"
           ],
           "color": [
@@ -2029,7 +2029,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "67"
           ],
           "color": [
@@ -2040,7 +2040,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "68"
           ],
           "color": [
@@ -2051,7 +2051,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "69"
           ],
           "color": [
@@ -2062,7 +2062,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "70"
           ],
           "color": [
@@ -2073,7 +2073,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "71"
           ],
           "color": [
@@ -2084,7 +2084,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "72"
           ],
           "color": [
@@ -2095,7 +2095,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "73"
           ],
           "color": [
@@ -2106,7 +2106,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "74"
           ],
           "color": [
@@ -2117,7 +2117,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "75"
           ],
           "color": [
@@ -2128,7 +2128,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "76"
           ],
           "color": [
@@ -2139,7 +2139,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "77"
           ],
           "color": [
@@ -2150,7 +2150,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "78"
           ],
           "color": [
@@ -2161,7 +2161,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "79"
           ],
           "color": [
@@ -2172,7 +2172,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "80"
           ],
           "color": [
@@ -2183,7 +2183,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "81"
           ],
           "color": [
@@ -2194,7 +2194,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "82"
           ],
           "color": [
@@ -2205,7 +2205,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "83"
           ],
           "color": [
@@ -2216,7 +2216,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "84"
           ],
           "color": [
@@ -2227,7 +2227,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "85"
           ],
           "color": [
@@ -2238,7 +2238,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "86"
           ],
           "color": [
@@ -2249,7 +2249,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "87"
           ],
           "color": [
@@ -2260,7 +2260,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "89"
           ],
           "color": [
@@ -2271,7 +2271,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "90"
           ],
           "color": [
@@ -2282,7 +2282,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "92"
           ],
           "color": [
@@ -2293,7 +2293,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "93"
           ],
           "color": [
@@ -2304,7 +2304,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "95"
           ],
           "color": [
@@ -2315,7 +2315,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "96"
           ],
           "color": [
@@ -2326,7 +2326,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "97"
           ],
           "color": [
@@ -2337,7 +2337,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "98"
           ],
           "color": [
@@ -2348,7 +2348,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "99"
           ],
           "color": [
@@ -2359,7 +2359,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "100"
           ],
           "color": [
@@ -2370,7 +2370,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "103"
           ],
           "color": [
@@ -2381,7 +2381,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "104"
           ],
           "color": [
@@ -2392,7 +2392,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "105"
           ],
           "color": [
@@ -2403,7 +2403,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "110"
           ],
           "color": [
@@ -2414,7 +2414,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "111"
           ],
           "color": [
@@ -2425,7 +2425,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "112"
           ],
           "color": [
@@ -2436,7 +2436,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "113"
           ],
           "color": [
@@ -2447,7 +2447,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "114"
           ],
           "color": [
@@ -2458,7 +2458,7 @@
         },
         {
           "path": [
-            "merged clusters Paris",
+            "Cluster (merged, Paris)",
             "115"
           ],
           "color": [
@@ -2469,7 +2469,7 @@
         },
         {
           "path": [
-            "pathway",
+            "Pathway",
             "CSF1R"
           ],
           "color": [
@@ -2480,7 +2480,7 @@
         },
         {
           "path": [
-            "pathway",
+            "Pathway",
             "IFNAR"
           ],
           "color": [
@@ -2491,7 +2491,7 @@
         },
         {
           "path": [
-            "pathway",
+            "Pathway",
             "IFNgR"
           ],
           "color": [
@@ -2502,7 +2502,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "targeted"
           ],
           "color": [
@@ -2513,7 +2513,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "targeting_control"
           ],
           "color": [
@@ -2524,7 +2524,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "CAM"
           ],
           "color": [
@@ -2535,7 +2535,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "CD4 Th2"
           ],
           "color": [
@@ -2546,7 +2546,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "CD4 Th17"
           ],
           "color": [
@@ -2557,7 +2557,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "CD8 T"
           ],
           "color": [
@@ -2568,7 +2568,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "CD8 TRM"
           ],
           "color": [
@@ -2579,7 +2579,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Granulocyte"
           ],
           "color": [
@@ -2590,7 +2590,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "MDM"
           ],
           "color": [
@@ -2601,7 +2601,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Microglia"
           ],
           "color": [
@@ -2612,7 +2612,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "NK"
           ],
           "color": [
@@ -2623,7 +2623,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Plamablasts"
           ],
           "color": [
@@ -2634,7 +2634,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "TEx"
           ],
           "color": [
@@ -2645,7 +2645,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Treg"
           ],
           "color": [
@@ -2656,7 +2656,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "cDC1"
           ],
           "color": [
@@ -2667,7 +2667,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "cDC2"
           ],
           "color": [
@@ -2678,7 +2678,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "pDC"
           ],
           "color": [
@@ -2692,119 +2692,119 @@
     "obsSetSelection": {
       "A": [
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "1"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "2"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "3"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "4"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "6"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "7"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "8"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "9"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "10"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "11"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "13"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "14"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "15"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "16"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "18"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "19"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "20"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "21"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "22"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "23"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "24"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "25"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "26"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "31"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "32"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "33"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "43"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "62"
         ],
         [
-          "clusters IC3",
+          "Cluster (IC3)",
           "66"
         ]
       ]
@@ -2821,7 +2821,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "clusters IC3"
+          "Cluster (IC3)"
         ]
       ]
     }

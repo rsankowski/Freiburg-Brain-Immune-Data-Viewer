@@ -23,31 +23,31 @@
             ],
             "obsSets": [
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "sample",
+                "name": "Sample",
                 "path": "obs/sample"
               },
               {
-                "name": "condition",
+                "name": "Condition",
                 "path": "obs/condition"
               },
               {
-                "name": "compartment",
+                "name": "Compartment",
                 "path": "obs/compartment"
               },
               {
-                "name": "RNA snn res.1.5",
+                "name": "Cluster (RNA, res. 1.5)",
                 "path": "obs/RNA_snn_res.1.5"
               },
               {
-                "name": "Phase",
+                "name": "Cell cycle phase",
                 "path": "obs/Phase"
               },
               {
-                "name": "SCT snn res.1",
+                "name": "Cluster (SCT, res. 1)",
                 "path": "obs/SCT_snn_res.1"
               }
             ],
@@ -90,7 +90,7 @@
       "A": [
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -101,7 +101,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -112,7 +112,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -123,7 +123,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -134,7 +134,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -145,7 +145,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -156,7 +156,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "6"
           ],
           "color": [
@@ -167,7 +167,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "7"
           ],
           "color": [
@@ -178,7 +178,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "8"
           ],
           "color": [
@@ -189,7 +189,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "9"
           ],
           "color": [
@@ -200,7 +200,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "10"
           ],
           "color": [
@@ -211,7 +211,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "11"
           ],
           "color": [
@@ -222,7 +222,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "12"
           ],
           "color": [
@@ -233,7 +233,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "13"
           ],
           "color": [
@@ -244,7 +244,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "14"
           ],
           "color": [
@@ -255,7 +255,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "15"
           ],
           "color": [
@@ -266,7 +266,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "16"
           ],
           "color": [
@@ -277,7 +277,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "17"
           ],
           "color": [
@@ -288,7 +288,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "18"
           ],
           "color": [
@@ -299,7 +299,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "19"
           ],
           "color": [
@@ -310,7 +310,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "20"
           ],
           "color": [
@@ -321,7 +321,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "21"
           ],
           "color": [
@@ -332,7 +332,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "22"
           ],
           "color": [
@@ -343,7 +343,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "23"
           ],
           "color": [
@@ -354,7 +354,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "24"
           ],
           "color": [
@@ -365,7 +365,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "25"
           ],
           "color": [
@@ -376,7 +376,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "26"
           ],
           "color": [
@@ -387,7 +387,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "27"
           ],
           "color": [
@@ -398,7 +398,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "28"
           ],
           "color": [
@@ -409,7 +409,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "29"
           ],
           "color": [
@@ -420,7 +420,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "30"
           ],
           "color": [
@@ -431,7 +431,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "31"
           ],
           "color": [
@@ -442,7 +442,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "32"
           ],
           "color": [
@@ -453,7 +453,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-1"
           ],
           "color": [
@@ -464,7 +464,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-2"
           ],
           "color": [
@@ -475,7 +475,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-3"
           ],
           "color": [
@@ -486,7 +486,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-4"
           ],
           "color": [
@@ -497,7 +497,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-5"
           ],
           "color": [
@@ -508,7 +508,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-6"
           ],
           "color": [
@@ -519,7 +519,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-7"
           ],
           "color": [
@@ -530,7 +530,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-8"
           ],
           "color": [
@@ -541,7 +541,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-9"
           ],
           "color": [
@@ -552,7 +552,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "GL-10"
           ],
           "color": [
@@ -563,7 +563,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Chronic"
           ],
           "color": [
@@ -574,7 +574,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Naive"
           ],
           "color": [
@@ -585,7 +585,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Onset"
           ],
           "color": [
@@ -596,7 +596,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Peak"
           ],
           "color": [
@@ -607,7 +607,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "Extrasinusuidal"
           ],
           "color": [
@@ -618,7 +618,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "Sinus"
           ],
           "color": [
@@ -629,7 +629,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "0"
           ],
           "color": [
@@ -640,7 +640,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "1"
           ],
           "color": [
@@ -651,7 +651,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "2"
           ],
           "color": [
@@ -662,7 +662,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "3"
           ],
           "color": [
@@ -673,7 +673,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "4"
           ],
           "color": [
@@ -684,7 +684,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "5"
           ],
           "color": [
@@ -695,7 +695,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "6"
           ],
           "color": [
@@ -706,7 +706,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "7"
           ],
           "color": [
@@ -717,7 +717,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "8"
           ],
           "color": [
@@ -728,7 +728,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "9"
           ],
           "color": [
@@ -739,7 +739,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "10"
           ],
           "color": [
@@ -750,7 +750,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "11"
           ],
           "color": [
@@ -761,7 +761,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "12"
           ],
           "color": [
@@ -772,7 +772,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "13"
           ],
           "color": [
@@ -783,7 +783,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "14"
           ],
           "color": [
@@ -794,7 +794,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "15"
           ],
           "color": [
@@ -805,7 +805,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "16"
           ],
           "color": [
@@ -816,7 +816,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "17"
           ],
           "color": [
@@ -827,7 +827,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "18"
           ],
           "color": [
@@ -838,7 +838,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "19"
           ],
           "color": [
@@ -849,7 +849,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "20"
           ],
           "color": [
@@ -860,7 +860,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "21"
           ],
           "color": [
@@ -871,7 +871,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "22"
           ],
           "color": [
@@ -882,7 +882,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "23"
           ],
           "color": [
@@ -893,7 +893,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "24"
           ],
           "color": [
@@ -904,7 +904,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "25"
           ],
           "color": [
@@ -915,7 +915,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "26"
           ],
           "color": [
@@ -926,7 +926,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "27"
           ],
           "color": [
@@ -937,7 +937,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "28"
           ],
           "color": [
@@ -948,7 +948,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "29"
           ],
           "color": [
@@ -959,7 +959,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G1"
           ],
           "color": [
@@ -970,7 +970,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G2M"
           ],
           "color": [
@@ -981,7 +981,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "S"
           ],
           "color": [
@@ -992,7 +992,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "0"
           ],
           "color": [
@@ -1003,7 +1003,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "1"
           ],
           "color": [
@@ -1014,7 +1014,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "2"
           ],
           "color": [
@@ -1025,7 +1025,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "3"
           ],
           "color": [
@@ -1036,7 +1036,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "4"
           ],
           "color": [
@@ -1047,7 +1047,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "5"
           ],
           "color": [
@@ -1058,7 +1058,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "6"
           ],
           "color": [
@@ -1069,7 +1069,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "7"
           ],
           "color": [
@@ -1080,7 +1080,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "8"
           ],
           "color": [
@@ -1091,7 +1091,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "9"
           ],
           "color": [
@@ -1102,7 +1102,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "10"
           ],
           "color": [
@@ -1113,7 +1113,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "11"
           ],
           "color": [
@@ -1124,7 +1124,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "12"
           ],
           "color": [
@@ -1135,7 +1135,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "13"
           ],
           "color": [
@@ -1146,7 +1146,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "14"
           ],
           "color": [
@@ -1157,7 +1157,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "15"
           ],
           "color": [
@@ -1168,7 +1168,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "16"
           ],
           "color": [
@@ -1179,7 +1179,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "17"
           ],
           "color": [
@@ -1190,7 +1190,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "18"
           ],
           "color": [
@@ -1201,7 +1201,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "19"
           ],
           "color": [
@@ -1212,7 +1212,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "20"
           ],
           "color": [
@@ -1223,7 +1223,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "21"
           ],
           "color": [
@@ -1234,7 +1234,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "22"
           ],
           "color": [
@@ -1245,7 +1245,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "23"
           ],
           "color": [
@@ -1256,7 +1256,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "24"
           ],
           "color": [
@@ -1267,7 +1267,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "25"
           ],
           "color": [
@@ -1278,7 +1278,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "26"
           ],
           "color": [
@@ -1289,7 +1289,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "27"
           ],
           "color": [
@@ -1300,7 +1300,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "28"
           ],
           "color": [
@@ -1311,7 +1311,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "29"
           ],
           "color": [
@@ -1322,7 +1322,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "30"
           ],
           "color": [
@@ -1333,7 +1333,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "31"
           ],
           "color": [
@@ -1344,7 +1344,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "32"
           ],
           "color": [
@@ -1358,135 +1358,135 @@
     "obsSetSelection": {
       "A": [
         [
-          "seurat clusters",
+          "Cluster",
           "0"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "1"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "2"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "3"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "4"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "5"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "6"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "7"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "8"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "9"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "10"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "11"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "12"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "13"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "14"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "15"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "16"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "17"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "18"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "19"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "20"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "21"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "22"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "23"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "24"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "25"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "26"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "27"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "28"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "29"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "30"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "31"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "32"
         ]
       ]
@@ -1503,7 +1503,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "seurat clusters"
+          "Cluster"
         ]
       ]
     }

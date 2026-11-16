@@ -39,15 +39,15 @@
             ],
             "obsSets": [
               {
-                "name": "cluster",
+                "name": "Cluster",
                 "path": "obs/cluster"
               },
               {
-                "name": "orig.ident",
+                "name": "Sample (orig.ident)",
                 "path": "obs/orig.ident"
               },
               {
-                "name": "sample",
+                "name": "Sample",
                 "path": "obs/sample"
               }
             ],
@@ -90,7 +90,7 @@
       "A": [
         {
           "path": [
-            "cluster",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -101,7 +101,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -112,7 +112,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -123,7 +123,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -134,7 +134,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -145,7 +145,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "6"
           ],
           "color": [
@@ -156,7 +156,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "7"
           ],
           "color": [
@@ -167,7 +167,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "8"
           ],
           "color": [
@@ -178,7 +178,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "9"
           ],
           "color": [
@@ -189,7 +189,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "10"
           ],
           "color": [
@@ -200,7 +200,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "11"
           ],
           "color": [
@@ -211,7 +211,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "12"
           ],
           "color": [
@@ -222,7 +222,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "13"
           ],
           "color": [
@@ -233,7 +233,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "14"
           ],
           "color": [
@@ -244,7 +244,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "15"
           ],
           "color": [
@@ -255,7 +255,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "16"
           ],
           "color": [
@@ -266,7 +266,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "17"
           ],
           "color": [
@@ -277,7 +277,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "18"
           ],
           "color": [
@@ -288,7 +288,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "19"
           ],
           "color": [
@@ -299,7 +299,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "20"
           ],
           "color": [
@@ -310,7 +310,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P1"
           ],
           "color": [
@@ -321,7 +321,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P2"
           ],
           "color": [
@@ -332,7 +332,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P1_CNV_3d_1"
           ],
           "color": [
@@ -343,7 +343,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P1_CNV_3d_2"
           ],
           "color": [
@@ -354,7 +354,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P1_CNV_7d_1"
           ],
           "color": [
@@ -365,7 +365,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P1_CNV_7d_2"
           ],
           "color": [
@@ -376,7 +376,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P1_Ret_Mg_1"
           ],
           "color": [
@@ -387,7 +387,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P1_Ret_Mg_2"
           ],
           "color": [
@@ -398,7 +398,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P2_CNV_3d_3"
           ],
           "color": [
@@ -409,7 +409,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P2_CNV_3d_4"
           ],
           "color": [
@@ -420,7 +420,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P2_CNV_7d_3"
           ],
           "color": [
@@ -431,7 +431,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P2_CNV_7d_4"
           ],
           "color": [
@@ -442,7 +442,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P2_Ret_Mg_3"
           ],
           "color": [
@@ -453,7 +453,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P2_Ret_Mg_4"
           ],
           "color": [
@@ -467,83 +467,83 @@
     "obsSetSelection": {
       "A": [
         [
-          "cluster",
+          "Cluster",
           "1"
         ],
         [
-          "cluster",
+          "Cluster",
           "2"
         ],
         [
-          "cluster",
+          "Cluster",
           "3"
         ],
         [
-          "cluster",
+          "Cluster",
           "4"
         ],
         [
-          "cluster",
+          "Cluster",
           "5"
         ],
         [
-          "cluster",
+          "Cluster",
           "6"
         ],
         [
-          "cluster",
+          "Cluster",
           "7"
         ],
         [
-          "cluster",
+          "Cluster",
           "8"
         ],
         [
-          "cluster",
+          "Cluster",
           "9"
         ],
         [
-          "cluster",
+          "Cluster",
           "10"
         ],
         [
-          "cluster",
+          "Cluster",
           "11"
         ],
         [
-          "cluster",
+          "Cluster",
           "12"
         ],
         [
-          "cluster",
+          "Cluster",
           "13"
         ],
         [
-          "cluster",
+          "Cluster",
           "14"
         ],
         [
-          "cluster",
+          "Cluster",
           "15"
         ],
         [
-          "cluster",
+          "Cluster",
           "16"
         ],
         [
-          "cluster",
+          "Cluster",
           "17"
         ],
         [
-          "cluster",
+          "Cluster",
           "18"
         ],
         [
-          "cluster",
+          "Cluster",
           "19"
         ],
         [
-          "cluster",
+          "Cluster",
           "20"
         ]
       ]
@@ -560,7 +560,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "cluster"
+          "Cluster"
         ]
       ]
     }

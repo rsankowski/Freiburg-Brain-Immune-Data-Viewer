@@ -23,15 +23,15 @@
             ],
             "obsSets": [
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "orig.ident",
+                "name": "Sample (orig.ident)",
                 "path": "obs/orig.ident"
               },
               {
-                "name": "SCT snn res.0.8",
+                "name": "Cluster (SCT, res. 0.8)",
                 "path": "obs/SCT_snn_res.0.8"
               },
               {
@@ -47,7 +47,7 @@
                 "path": "obs/Treatment"
               },
               {
-                "name": "Cd11c status",
+                "name": "CD11c status",
                 "path": "obs/Cd11c_status"
               }
             ],
@@ -90,7 +90,7 @@
       "A": [
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -101,7 +101,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -112,7 +112,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -123,7 +123,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -134,7 +134,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -145,7 +145,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -156,7 +156,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P1"
           ],
           "color": [
@@ -167,7 +167,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P2"
           ],
           "color": [
@@ -178,7 +178,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P3"
           ],
           "color": [
@@ -189,7 +189,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P4"
           ],
           "color": [
@@ -200,7 +200,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P5"
           ],
           "color": [
@@ -211,7 +211,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "0"
           ],
           "color": [
@@ -222,7 +222,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "1"
           ],
           "color": [
@@ -233,7 +233,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "2"
           ],
           "color": [
@@ -244,7 +244,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "3"
           ],
           "color": [
@@ -255,7 +255,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "4"
           ],
           "color": [
@@ -266,7 +266,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "5"
           ],
           "color": [
@@ -464,7 +464,7 @@
         },
         {
           "path": [
-            "Cd11c status",
+            "CD11c status",
             "neg"
           ],
           "color": [
@@ -475,7 +475,7 @@
         },
         {
           "path": [
-            "Cd11c status",
+            "CD11c status",
             "pos"
           ],
           "color": [
@@ -489,27 +489,27 @@
     "obsSetSelection": {
       "A": [
         [
-          "seurat clusters",
+          "Cluster",
           "0"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "1"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "2"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "3"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "4"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "5"
         ]
       ]
@@ -526,7 +526,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "seurat clusters"
+          "Cluster"
         ]
       ]
     }

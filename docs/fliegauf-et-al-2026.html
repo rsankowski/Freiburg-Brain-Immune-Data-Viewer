@@ -122,7 +122,7 @@ th { color: var(--muted); font-weight: 500; }
         <div class="stat"><div class="n">556.0 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">annotation</span><span class="tag">orig.ident</span><span class="tag">condition</span><span class="tag">timepoint</span><span class="tag">sex</span><span class="tag">mouse</span><span class="tag">RNA snn res.1</span><span class="tag">seurat clusters</span><span class="tag">library</span><span class="tag">tissue</span><span class="tag">+8 more</span></div>
+      <div class="tags"><span class="tag">Annotation</span><span class="tag">Sample (orig.ident)</span><span class="tag">Condition</span><span class="tag">Timepoint</span><span class="tag">Sex</span><span class="tag">Animal</span><span class="tag">Cluster (RNA, res. 1)</span><span class="tag">Cluster</span><span class="tag">Library</span><span class="tag">Tissue</span><span class="tag">+8 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=fliegauf_et_al_2026__fig2_scrnaseq">Open viewer</a>
         <a class="btn sec" href="./configs/fliegauf_et_al_2026__fig2_scrnaseq.json">View config JSON</a>
@@ -130,8 +130,8 @@ th { color: var(--muted); font-weight: 500; }
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig2_scrnaseq.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 5.1 ms,
-        p95 7.3 ms &middot; X chunked [39838, 10]
+        Single-gene fetch measured locally: p50 0.9 ms,
+        p95 1.2 ms &middot; X chunked [39838, 10]
       </p>
     </section>
     <section class="card">
@@ -145,7 +145,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">228.3 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">cell type</span><span class="tag">orig.ident</span><span class="tag">condition</span><span class="tag">RNA snn res.0.9</span><span class="tag">seurat clusters</span><span class="tag">integrated snn res.1</span></div>
+      <div class="tags"><span class="tag">Cell type</span><span class="tag">Sample (orig.ident)</span><span class="tag">Condition</span><span class="tag">Cluster (RNA, res. 0.9)</span><span class="tag">Cluster</span><span class="tag">Cluster (integrated, res. 1)</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=fliegauf_et_al_2026__fig5_scrnaseq_full_dataset">Open viewer</a>
         <a class="btn sec" href="./configs/fliegauf_et_al_2026__fig5_scrnaseq_full_dataset.json">View config JSON</a>
@@ -153,8 +153,8 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig5_scrnaseq_full_dataset.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 2.4 ms,
-        p95 5.4 ms &middot; X chunked [21402, 10]
+        Single-gene fetch measured locally: p50 0.5 ms,
+        p95 0.6 ms &middot; X chunked [21402, 10]
       </p>
     </section>
     <section class="card">
@@ -168,7 +168,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">127.2 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">orig.ident</span><span class="tag">condition</span><span class="tag">RNA snn res.0.4</span><span class="tag">integrated snn res.0.25</span></div>
+      <div class="tags"><span class="tag">Cluster</span><span class="tag">Sample (orig.ident)</span><span class="tag">Condition</span><span class="tag">Cluster (RNA, res. 0.4)</span><span class="tag">Cluster (integrated, res. 0.25)</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=fliegauf_et_al_2026__fig5_scrnaseq_microglia">Open viewer</a>
         <a class="btn sec" href="./configs/fliegauf_et_al_2026__fig5_scrnaseq_microglia.json">View config JSON</a>
@@ -176,8 +176,8 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig5_scrnaseq_microglia.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 1.9 ms,
-        p95 4.4 ms &middot; X chunked [11147, 10]
+        Single-gene fetch measured locally: p50 0.5 ms,
+        p95 0.6 ms &middot; X chunked [11147, 10]
       </p>
     </section>
     <section class="card">
@@ -191,7 +191,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">459.7 MB</div><div class="k">zarr store</div></div>
       </div>
       <p class="modality">scATAC-seq (gene activity)</p>
-      <div class="tags"><span class="tag">cell type</span><span class="tag">sample</span><span class="tag">doublet class</span><span class="tag">peaks snn res.0.25</span><span class="tag">seurat clusters</span><span class="tag">treatment</span><span class="tag">sort gate</span><span class="tag">peaks snn res.0.2</span><span class="tag">origin</span><span class="tag">seurat clusters original</span><span class="tag">+4 more</span></div>
+      <div class="tags"><span class="tag">Cell type</span><span class="tag">Sample</span><span class="tag">Doublet class</span><span class="tag">Cluster (peaks, res. 0.25)</span><span class="tag">Cluster</span><span class="tag">Treatment</span><span class="tag">Sort gate</span><span class="tag">Cluster (peaks, res. 0.2)</span><span class="tag">Origin</span><span class="tag">Cluster (original)</span><span class="tag">+4 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=fliegauf_et_al_2026__fig6_scatacseq">Open viewer</a>
         <a class="btn sec" href="./configs/fliegauf_et_al_2026__fig6_scatacseq.json">View config JSON</a>
@@ -199,8 +199,8 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig6_scatacseq.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 6.3 ms,
-        p95 6.9 ms &middot; X chunked [10224, 10]
+        Single-gene fetch measured locally: p50 0.6 ms,
+        p95 0.7 ms &middot; X chunked [10224, 10]
       </p>
     </section>
     <section class="card">
@@ -214,7 +214,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">81.9 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">orig.ident</span><span class="tag">condition</span><span class="tag">RNA snn res.0.5</span><span class="tag">integrated snn res.0.25</span></div>
+      <div class="tags"><span class="tag">Cluster</span><span class="tag">Sample (orig.ident)</span><span class="tag">Condition</span><span class="tag">Cluster (RNA, res. 0.5)</span><span class="tag">Cluster (integrated, res. 0.25)</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=fliegauf_et_al_2026__fig5_scrnaseq_sdcams">Open viewer</a>
         <a class="btn sec" href="./configs/fliegauf_et_al_2026__fig5_scrnaseq_sdcams.json">View config JSON</a>
@@ -222,14 +222,14 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/fliegauf_et_al_2026__fig5_scrnaseq_sdcams.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 1.4 ms,
-        p95 4.2 ms &middot; X chunked [8683, 10]
+        Single-gene fetch measured locally: p50 0.5 ms,
+        p95 0.7 ms &middot; X chunked [8683, 10]
       </p>
     </section>
   <footer>
     Embeddings and annotations are the published ones &mdash; no re-clustering or
     re-embedding was performed. Built with Vitessce 3.4.9.
-    Last updated 2026-09-09.
+    Last updated 2026-11-16.
   </footer>
 </div>
 <script>

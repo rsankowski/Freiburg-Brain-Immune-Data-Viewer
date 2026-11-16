@@ -115,7 +115,7 @@ th { color: var(--muted); font-weight: 500; }
         <div class="stat"><div class="n">5.5 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">cluster</span><span class="tag">orig.ident</span><span class="tag">sample</span></div>
+      <div class="tags"><span class="tag">Cluster</span><span class="tag">Sample (orig.ident)</span><span class="tag">Sample</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=wieghofer_et_al_2021__cb_cornea">Open viewer</a>
         <a class="btn sec" href="./configs/wieghofer_et_al_2021__cb_cornea.json">View config JSON</a>
@@ -123,8 +123,8 @@ th { color: var(--muted); font-weight: 500; }
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/wieghofer_et_al_2021__cb_cornea.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 1.1 ms,
-        p95 1.9 ms &middot; X chunked [432, 40]
+        Single-gene fetch measured locally: p50 0.4 ms,
+        p95 0.5 ms &middot; X chunked [432, 40]
       </p>
     </section>
     <section class="card">
@@ -138,7 +138,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">7.0 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">cluster</span><span class="tag">orig.ident</span><span class="tag">sample</span></div>
+      <div class="tags"><span class="tag">Cluster</span><span class="tag">Sample (orig.ident)</span><span class="tag">Sample</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=wieghofer_et_al_2021__retina">Open viewer</a>
         <a class="btn sec" href="./configs/wieghofer_et_al_2021__retina.json">View config JSON</a>
@@ -146,14 +146,14 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/wieghofer_et_al_2021__retina.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 1.4 ms,
-        p95 2.2 ms &middot; X chunked [530, 40]
+        Single-gene fetch measured locally: p50 0.3 ms,
+        p95 0.5 ms &middot; X chunked [530, 40]
       </p>
     </section>
   <footer>
     Embeddings and annotations are the published ones &mdash; no re-clustering or
     re-embedding was performed. Built with Vitessce 3.4.9.
-    Last updated 2026-09-09.
+    Last updated 2026-11-16.
   </footer>
 </div>
 <script>

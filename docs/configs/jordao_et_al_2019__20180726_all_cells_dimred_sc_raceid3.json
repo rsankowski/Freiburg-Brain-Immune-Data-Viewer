@@ -1,0 +1,1530 @@
+{
+  "version": "1.0.16",
+  "name": "All myeloid cells",
+  "description": "3,471 myeloid cells pooled from choroid plexus, perivascular space, meninges and blood across the EAE time course, clustered with RaceID3; the authors' cluster palette is preserved.",
+  "datasets": [
+    {
+      "uid": "jordao_et_al_2019__20180726_all_",
+      "name": "All myeloid cells",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/jordao_et_al_2019__20180726_all_cells_dimred_sc_raceid3.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_tsne",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "TSNE"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "Cluster",
+                "path": "obs/cluster"
+              },
+              {
+                "name": "Sample (orig.ident)",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "Sample",
+                "path": "obs/sample"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "jordao_et_al_2019__20180726_all_"
+    },
+    "embeddingType": {
+      "A": "TSNE",
+      "B": "TSNE"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "P2ry12"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "Cluster",
+            "1"
+          ],
+          "color": [
+            0,
+            33,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "2"
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "3"
+          ],
+          "color": [
+            255,
+            0,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "4"
+          ],
+          "color": [
+            0,
+            255,
+            132
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "5"
+          ],
+          "color": [
+            255,
+            0,
+            247
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "6"
+          ],
+          "color": [
+            0,
+            255,
+            230
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "7"
+          ],
+          "color": [
+            0,
+            255,
+            82
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "8"
+          ],
+          "color": [
+            66,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "9"
+          ],
+          "color": [
+            0,
+            255,
+            181
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "10"
+          ],
+          "color": [
+            0,
+            132,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "11"
+          ],
+          "color": [
+            255,
+            197,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "12"
+          ],
+          "color": [
+            165,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "13"
+          ],
+          "color": [
+            0,
+            255,
+            33
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "14"
+          ],
+          "color": [
+            255,
+            49,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "15"
+          ],
+          "color": [
+            0,
+            181,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "16"
+          ],
+          "color": [
+            255,
+            148,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "17"
+          ],
+          "color": [
+            255,
+            247,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "18"
+          ],
+          "color": [
+            214,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "19"
+          ],
+          "color": [
+            165,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "20"
+          ],
+          "color": [
+            214,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "21"
+          ],
+          "color": [
+            255,
+            0,
+            49
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "22"
+          ],
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "23"
+          ],
+          "color": [
+            255,
+            0,
+            197
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "24"
+          ],
+          "color": [
+            255,
+            99,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "25"
+          ],
+          "color": [
+            66,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "26"
+          ],
+          "color": [
+            255,
+            0,
+            99
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "27"
+          ],
+          "color": [
+            115,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "28"
+          ],
+          "color": [
+            16,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "29"
+          ],
+          "color": [
+            0,
+            82,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "30"
+          ],
+          "color": [
+            115,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Blood-Naive"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Blood-Onset"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Blood-Precl4d"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "CP-Acute1"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "CP-Acute2"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "CP-Naive"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "CP-Onset"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "CP-Precl1"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "CP-Precl2"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "CP-Precl4d"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Men-Naive"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Men-Onset"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Men-Onset1"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Men-Onset2"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Men-Peak1"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Men-Peak2"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Men-Precl1"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Men-Precl2"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Men-Precl4d"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "PV-Naive"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "PV-Onset1"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "PV-Onset2"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "PV-Peak1"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "PV-Peak2"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "PV-Precl1"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "PV-Precl2"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "PV-Precl4d"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "PVO-nset2"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Blood-Naive"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Blood-Onset_18"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Blood-Precl4d_6"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Acute1_23"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Acute2_2"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Acute2_24"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Naive_1"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Naive_7"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Onset_1"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Onset_4"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Onset_17"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Precl1_8"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Precl2_9"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Precl2_18"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Precl4d_2"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "CP-Precl4d_8"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Naive_7"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Naive_9"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Onset1_7"
+          ],
+          "color": [
+            166,
+            118,
+            29
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Onset2_8"
+          ],
+          "color": [
+            102,
+            102,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Onset_1_5"
+          ],
+          "color": [
+            48,
+            82,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Onset_1_15"
+          ],
+          "color": [
+            120,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Onset_2_6"
+          ],
+          "color": [
+            166,
+            48,
+            151
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Onset_2_16"
+          ],
+          "color": [
+            67,
+            228,
+            201
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Onset_5"
+          ],
+          "color": [
+            206,
+            152,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Peak1_3"
+          ],
+          "color": [
+            107,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Peak1_11"
+          ],
+          "color": [
+            155,
+            225,
+            152
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Peak2_4"
+          ],
+          "color": [
+            238,
+            138,
+            172
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Precl1"
+          ],
+          "color": [
+            152,
+            197,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Precl2"
+          ],
+          "color": [
+            174,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Precl2_1_10"
+          ],
+          "color": [
+            141,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Precl2_2_11"
+          ],
+          "color": [
+            26,
+            187,
+            106
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Precl4d_8"
+          ],
+          "color": [
+            206,
+            113,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Men-Precl4d_10"
+          ],
+          "color": [
+            67,
+            81,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Naive_1_5"
+          ],
+          "color": [
+            133,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Naive_2_6"
+          ],
+          "color": [
+            238,
+            138,
+            205
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Onset1_7"
+          ],
+          "color": [
+            152,
+            222,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Onset2_1_3"
+          ],
+          "color": [
+            238,
+            213,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Onset2_1_7"
+          ],
+          "color": [
+            101,
+            48,
+            166
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Onset2_2_12"
+          ],
+          "color": [
+            26,
+            187,
+            53
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Onset2_2_14"
+          ],
+          "color": [
+            166,
+            48,
+            63
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Peak1_5"
+          ],
+          "color": [
+            67,
+            134,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Peak1_9"
+          ],
+          "color": [
+            172,
+            206,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Peak2_6"
+          ],
+          "color": [
+            227,
+            67,
+            228
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Peak2_10"
+          ],
+          "color": [
+            152,
+            225,
+            203
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Precl1_6"
+          ],
+          "color": [
+            238,
+            180,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Precl2_2_2"
+          ],
+          "color": [
+            161,
+            152,
+            225
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Precl2_15"
+          ],
+          "color": [
+            54,
+            187,
+            26
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Precl2_16"
+          ],
+          "color": [
+            166,
+            48,
+            102
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Precl4d_1_3"
+          ],
+          "color": [
+            26,
+            147,
+            187
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PV-Precl4d_2_4"
+          ],
+          "color": [
+            206,
+            201,
+            88
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "PVO-nset2_1_13"
+          ],
+          "color": [
+            174,
+            67,
+            228
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "Cluster",
+          "1"
+        ],
+        [
+          "Cluster",
+          "2"
+        ],
+        [
+          "Cluster",
+          "3"
+        ],
+        [
+          "Cluster",
+          "4"
+        ],
+        [
+          "Cluster",
+          "5"
+        ],
+        [
+          "Cluster",
+          "6"
+        ],
+        [
+          "Cluster",
+          "7"
+        ],
+        [
+          "Cluster",
+          "8"
+        ],
+        [
+          "Cluster",
+          "9"
+        ],
+        [
+          "Cluster",
+          "10"
+        ],
+        [
+          "Cluster",
+          "11"
+        ],
+        [
+          "Cluster",
+          "12"
+        ],
+        [
+          "Cluster",
+          "13"
+        ],
+        [
+          "Cluster",
+          "14"
+        ],
+        [
+          "Cluster",
+          "15"
+        ],
+        [
+          "Cluster",
+          "16"
+        ],
+        [
+          "Cluster",
+          "17"
+        ],
+        [
+          "Cluster",
+          "18"
+        ],
+        [
+          "Cluster",
+          "19"
+        ],
+        [
+          "Cluster",
+          "20"
+        ],
+        [
+          "Cluster",
+          "21"
+        ],
+        [
+          "Cluster",
+          "22"
+        ],
+        [
+          "Cluster",
+          "23"
+        ],
+        [
+          "Cluster",
+          "24"
+        ],
+        [
+          "Cluster",
+          "25"
+        ],
+        [
+          "Cluster",
+          "26"
+        ],
+        [
+          "Cluster",
+          "27"
+        ],
+        [
+          "Cluster",
+          "28"
+        ],
+        [
+          "Cluster",
+          "29"
+        ],
+        [
+          "Cluster",
+          "30"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": false
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "Cluster"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

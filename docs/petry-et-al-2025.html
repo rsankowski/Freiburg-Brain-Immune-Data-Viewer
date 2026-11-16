@@ -115,7 +115,7 @@ th { color: var(--muted); font-weight: 500; }
         <div class="stat"><div class="n">5.7 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">orig.ident</span><span class="tag">SCT snn res.0.1</span><span class="tag">SCT snn res.0.2</span><span class="tag">SCT snn res.0.3</span><span class="tag">SCT snn res.0.4</span><span class="tag">SCT snn res.0.5</span><span class="tag">SCT snn res.0.6</span><span class="tag">SCT snn res.0.7</span><span class="tag">SCT snn res.0.8</span><span class="tag">+4 more</span></div>
+      <div class="tags"><span class="tag">Cluster</span><span class="tag">Sample (orig.ident)</span><span class="tag">Cluster (SCT, res. 0.1)</span><span class="tag">Cluster (SCT, res. 0.2)</span><span class="tag">Cluster (SCT, res. 0.3)</span><span class="tag">Cluster (SCT, res. 0.4)</span><span class="tag">Cluster (SCT, res. 0.5)</span><span class="tag">Cluster (SCT, res. 0.6)</span><span class="tag">Cluster (SCT, res. 0.7)</span><span class="tag">Cluster (SCT, res. 0.8)</span><span class="tag">+4 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=petry_et_al_2025">Open viewer</a>
         <a class="btn sec" href="./configs/petry_et_al_2025.json">View config JSON</a>
@@ -123,14 +123,14 @@ th { color: var(--muted); font-weight: 500; }
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/petry_et_al_2025.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 1.9 ms,
-        p95 2.3 ms &middot; X chunked [483, 40]
+        Single-gene fetch measured locally: p50 0.4 ms,
+        p95 0.4 ms &middot; X chunked [483, 40]
       </p>
     </section>
   <footer>
     Embeddings and annotations are the published ones &mdash; no re-clustering or
     re-embedding was performed. Built with Vitessce 3.4.9.
-    Last updated 2026-09-09.
+    Last updated 2026-11-16.
   </footer>
 </div>
 <script>

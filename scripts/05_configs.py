@@ -26,7 +26,8 @@ from vitessce import (  # noqa: E402
 
 from common import (  # noqa: E402
     CHECK_DIR, CONFIG_DIR, ZARR_DIR, add_common_args, human, load_manifest,
-    load_pipeline_config, log, read_json, record_failure, select_datasets, write_json,
+    load_pipeline_config, log, obs_label, obs_labels, read_json, record_failure, select_datasets,
+    write_json,
 )
 
 TRIM_DIR = ZARR_DIR.parent / "trimmed"
@@ -78,7 +79,42 @@ def generated_palette(n: int) -> list[str]:
     return out
 
 
-def set_colours(key: str, obs_sets: list[str]) -> tuple[list[dict], dict[str, list[str]], list[str]]:
+def store_values(key: str, col: str):
+    """Per-cell codes + categories for one categorical obs column (for dedup)."""
+    import zarr
+    node = zarr.open_group(str(ZARR_DIR / f"{key}.zarr"), mode="r")["obs"][col]
+    if "codes" not in node:
+        return None
+    return [str(v) for v in node["categories"][:]], node["codes"][:]
+
+
+def dedupe_obs_sets(key: str, obs_sets: list[str], labels: dict[str, str],
+                    keep_first: str | None) -> list[str]:
+    """Drop columns that harmonise to the same label as an earlier column AND
+    hold identical per-cell values (e.g. condition + Condition re-exported side
+    by side). Columns that share a label but differ are kept."""
+    import numpy as np
+    order = sorted(obs_sets, key=lambda c: c != keep_first)
+    kept: list[str] = []
+    for col in order:
+        dup = None
+        for other in kept:
+            if labels[other] != labels[col]:
+                continue
+            a, b = store_values(key, other), store_values(key, col)
+            if a and b and len(a[1]) == len(b[1]):
+                ca, cb = np.array(a[0] + [""]), np.array(b[0] + [""])
+                if np.array_equal(ca[a[1]], cb[b[1]]):
+                    dup = other
+                    break
+        if dup:
+            log(f"  {key}: obs/{col} duplicates obs/{dup} — hidden")
+        else:
+            kept.append(col)
+    return [c for c in obs_sets if c in kept]
+
+
+def set_colours(key: str, obs_sets: list[str], labels: dict[str, str]) -> tuple[list[dict], dict[str, list[str]], list[str]]:
     """Vitessce obsSetColor entries for every categorical column.
 
     Columns whose palette the authors shipped inside the Seurat object (lifted
@@ -93,7 +129,7 @@ def set_colours(key: str, obs_sets: list[str]) -> tuple[list[dict], dict[str, li
         cats = store_categories(key, col)
         if not cats:
             continue
-        group = col.replace("_", " ")
+        group = labels[col]
         pal = palettes.get(col) or {}
         if pal and all(c in pal for c in cats):
             colours = [pal[c] for c in cats]
@@ -146,6 +182,10 @@ def build_config(key: str, cfg: dict, manifest: dict) -> dict:
     url = dataset_url(cfg["base_url"], cfg.get("s3_prefix", ""), key)
 
     obs_sets = pick_obs_sets(key, zarr_report, manifest, dcfg)
+    overrides = dcfg.get("obs_labels") or {}
+    raw = {c: obs_label(c, overrides) for c in obs_sets}
+    obs_sets = dedupe_obs_sets(key, obs_sets, raw, dcfg.get("default_obs_set"))
+    labels = obs_labels(obs_sets, overrides)
     embeddings = [k for k in zarr_report["obsm_keys"]]
     # The first embedding is the one the page opens on: X_umap by default, or
     # whatever the dataset names (spatial datasets open in tissue space).
@@ -165,7 +205,7 @@ def build_config(key: str, cfg: dict, manifest: dict) -> dict:
             obs_feature_matrix_path="X",
             initial_feature_filter_path="var/highly_variable",
             obs_set_paths=[f"obs/{c}" for c in obs_sets],
-            obs_set_names=[c.replace("_", " ") for c in obs_sets],
+            obs_set_names=[labels[c] for c in obs_sets],
             obs_embedding_paths=[f"obsm/{e}" for e in embeddings],
             obs_embedding_names=emb_names,
             obs_embedding_dims=[[0, 1] for _ in embeddings],
@@ -227,13 +267,13 @@ def build_config(key: str, cfg: dict, manifest: dict) -> dict:
 
     # Published colours + an initial selection, so the maps come up coloured by
     # cell type with a populated legend instead of uniform grey.
-    colour_entries, palette_cols, published_cols = set_colours(key, obs_sets)
+    colour_entries, palette_cols, published_cols = set_colours(key, obs_sets, labels)
     default_col = dcfg.get("default_obs_set")
     selection = None
     if default_col and default_col in obs_sets:
         cats = palette_cols.get(default_col) or store_categories(key, default_col)
         if cats:
-            selection = [[default_col.replace("_", " "), c] for c in cats]
+            selection = [[labels[default_col], c] for c in cats]
     if colour_entries or selection:
         types, values = [], []
         if colour_entries:
@@ -303,6 +343,7 @@ def build_config(key: str, cfg: dict, manifest: dict) -> dict:
             "store_size": zarr_report["size_human"],
             "embeddings": emb_names,
             "obs_sets": obs_sets,
+            "obs_set_labels": [labels[c] for c in obs_sets],
             "colour_columns": sorted(palette_cols),
             "published_palette_columns": sorted(published_cols),
             "default_gene": dcfg.get("default_gene"),

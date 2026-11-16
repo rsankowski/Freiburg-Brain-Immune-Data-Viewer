@@ -23,19 +23,19 @@
             ],
             "obsSets": [
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "SCT snn res.0.8",
+                "name": "Cluster (SCT, res. 0.8)",
                 "path": "obs/SCT_snn_res.0.8"
               },
               {
-                "name": "mouseID",
+                "name": "Animal",
                 "path": "obs/mouseID"
               },
               {
-                "name": "Cd11c status",
+                "name": "CD11c status",
                 "path": "obs/Cd11c_status"
               },
               {
@@ -86,7 +86,7 @@
       "A": [
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -97,7 +97,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -108,7 +108,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -119,7 +119,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -130,7 +130,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -141,7 +141,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -152,7 +152,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "6"
           ],
           "color": [
@@ -163,7 +163,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "0"
           ],
           "color": [
@@ -174,7 +174,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "1"
           ],
           "color": [
@@ -185,7 +185,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "2"
           ],
           "color": [
@@ -196,7 +196,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "3"
           ],
           "color": [
@@ -207,7 +207,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "4"
           ],
           "color": [
@@ -218,7 +218,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "5"
           ],
           "color": [
@@ -229,7 +229,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "6"
           ],
           "color": [
@@ -240,7 +240,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1259"
           ],
           "color": [
@@ -251,7 +251,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1263"
           ],
           "color": [
@@ -262,7 +262,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1264"
           ],
           "color": [
@@ -273,7 +273,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1265"
           ],
           "color": [
@@ -284,7 +284,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1266"
           ],
           "color": [
@@ -295,7 +295,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1271"
           ],
           "color": [
@@ -306,7 +306,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1277"
           ],
           "color": [
@@ -317,7 +317,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1284"
           ],
           "color": [
@@ -328,7 +328,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1291"
           ],
           "color": [
@@ -339,7 +339,7 @@
         },
         {
           "path": [
-            "mouseID",
+            "Animal",
             "1298"
           ],
           "color": [
@@ -350,7 +350,7 @@
         },
         {
           "path": [
-            "Cd11c status",
+            "CD11c status",
             "neg"
           ],
           "color": [
@@ -361,7 +361,7 @@
         },
         {
           "path": [
-            "Cd11c status",
+            "CD11c status",
             "pos"
           ],
           "color": [
@@ -419,31 +419,31 @@
     "obsSetSelection": {
       "A": [
         [
-          "seurat clusters",
+          "Cluster",
           "0"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "1"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "2"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "3"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "4"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "5"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "6"
         ]
       ]
@@ -460,7 +460,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "seurat clusters"
+          "Cluster"
         ]
       ]
     }

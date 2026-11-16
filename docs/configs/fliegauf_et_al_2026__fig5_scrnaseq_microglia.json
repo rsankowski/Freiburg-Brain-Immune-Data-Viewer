@@ -23,23 +23,23 @@
             ],
             "obsSets": [
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "orig.ident",
+                "name": "Sample (orig.ident)",
                 "path": "obs/orig.ident"
               },
               {
-                "name": "condition",
+                "name": "Condition",
                 "path": "obs/condition"
               },
               {
-                "name": "RNA snn res.0.4",
+                "name": "Cluster (RNA, res. 0.4)",
                 "path": "obs/RNA_snn_res.0.4"
               },
               {
-                "name": "integrated snn res.0.25",
+                "name": "Cluster (integrated, res. 0.25)",
                 "path": "obs/integrated_snn_res.0.25"
               }
             ],
@@ -82,7 +82,7 @@
       "A": [
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -93,7 +93,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -104,7 +104,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -115,7 +115,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -126,7 +126,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -137,7 +137,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "BLZ_F_1"
           ],
           "color": [
@@ -148,7 +148,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "BLZ_F_2"
           ],
           "color": [
@@ -159,7 +159,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "BLZ_M_1"
           ],
           "color": [
@@ -170,7 +170,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "BLZ_M_2"
           ],
           "color": [
@@ -181,7 +181,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "CTL_F_1"
           ],
           "color": [
@@ -192,7 +192,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "CTL_F_2"
           ],
           "color": [
@@ -203,7 +203,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "CTL_M_1"
           ],
           "color": [
@@ -214,7 +214,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "CTL_M_2"
           ],
           "color": [
@@ -225,7 +225,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "BLZ"
           ],
           "color": [
@@ -236,7 +236,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "CTL"
           ],
           "color": [
@@ -247,7 +247,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.4",
+            "Cluster (RNA, res. 0.4)",
             "0"
           ],
           "color": [
@@ -258,7 +258,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.4",
+            "Cluster (RNA, res. 0.4)",
             "1"
           ],
           "color": [
@@ -269,7 +269,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.4",
+            "Cluster (RNA, res. 0.4)",
             "2"
           ],
           "color": [
@@ -280,7 +280,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.4",
+            "Cluster (RNA, res. 0.4)",
             "3"
           ],
           "color": [
@@ -291,7 +291,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.4",
+            "Cluster (RNA, res. 0.4)",
             "4"
           ],
           "color": [
@@ -302,7 +302,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.4",
+            "Cluster (RNA, res. 0.4)",
             "5"
           ],
           "color": [
@@ -313,7 +313,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.4",
+            "Cluster (RNA, res. 0.4)",
             "6"
           ],
           "color": [
@@ -324,7 +324,7 @@
         },
         {
           "path": [
-            "integrated snn res.0.25",
+            "Cluster (integrated, res. 0.25)",
             "0"
           ],
           "color": [
@@ -335,7 +335,7 @@
         },
         {
           "path": [
-            "integrated snn res.0.25",
+            "Cluster (integrated, res. 0.25)",
             "1"
           ],
           "color": [
@@ -346,7 +346,7 @@
         },
         {
           "path": [
-            "integrated snn res.0.25",
+            "Cluster (integrated, res. 0.25)",
             "2"
           ],
           "color": [
@@ -357,7 +357,7 @@
         },
         {
           "path": [
-            "integrated snn res.0.25",
+            "Cluster (integrated, res. 0.25)",
             "3"
           ],
           "color": [
@@ -368,7 +368,7 @@
         },
         {
           "path": [
-            "integrated snn res.0.25",
+            "Cluster (integrated, res. 0.25)",
             "4"
           ],
           "color": [
@@ -382,23 +382,23 @@
     "obsSetSelection": {
       "A": [
         [
-          "seurat clusters",
+          "Cluster",
           "0"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "1"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "2"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "3"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "4"
         ]
       ]
@@ -415,7 +415,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "seurat clusters"
+          "Cluster"
         ]
       ]
     }

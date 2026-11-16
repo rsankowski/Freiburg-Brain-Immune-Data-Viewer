@@ -23,23 +23,23 @@
             ],
             "obsSets": [
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "condition",
+                "name": "Condition",
                 "path": "obs/condition"
               },
               {
-                "name": "sample",
+                "name": "Sample",
                 "path": "obs/sample"
               },
               {
-                "name": "SCT snn res.0.8",
+                "name": "Cluster (SCT, res. 0.8)",
                 "path": "obs/SCT_snn_res.0.8"
               },
               {
-                "name": "sub.cluster",
+                "name": "Subcluster",
                 "path": "obs/sub.cluster"
               }
             ],
@@ -82,7 +82,7 @@
       "A": [
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -93,7 +93,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -104,7 +104,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -115,7 +115,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -126,7 +126,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -137,7 +137,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -148,7 +148,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "6"
           ],
           "color": [
@@ -159,7 +159,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "7"
           ],
           "color": [
@@ -170,7 +170,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "8"
           ],
           "color": [
@@ -181,7 +181,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "9"
           ],
           "color": [
@@ -192,7 +192,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "10"
           ],
           "color": [
@@ -203,7 +203,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "11"
           ],
           "color": [
@@ -214,7 +214,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "12"
           ],
           "color": [
@@ -225,7 +225,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "13"
           ],
           "color": [
@@ -236,7 +236,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "14"
           ],
           "color": [
@@ -247,7 +247,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Ctrl"
           ],
           "color": [
@@ -258,7 +258,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Transplanted"
           ],
           "color": [
@@ -269,7 +269,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "C3"
           ],
           "color": [
@@ -280,7 +280,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "C4"
           ],
           "color": [
@@ -291,7 +291,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "T2"
           ],
           "color": [
@@ -302,7 +302,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "T3"
           ],
           "color": [
@@ -313,7 +313,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "T4"
           ],
           "color": [
@@ -324,7 +324,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "0"
           ],
           "color": [
@@ -335,7 +335,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "1"
           ],
           "color": [
@@ -346,7 +346,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "2"
           ],
           "color": [
@@ -357,7 +357,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "3"
           ],
           "color": [
@@ -368,7 +368,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "4"
           ],
           "color": [
@@ -379,7 +379,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "5"
           ],
           "color": [
@@ -390,7 +390,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "6"
           ],
           "color": [
@@ -401,7 +401,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "7"
           ],
           "color": [
@@ -412,7 +412,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "8"
           ],
           "color": [
@@ -423,7 +423,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "9"
           ],
           "color": [
@@ -434,7 +434,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "10"
           ],
           "color": [
@@ -445,7 +445,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "11"
           ],
           "color": [
@@ -456,7 +456,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "12"
           ],
           "color": [
@@ -467,7 +467,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "13"
           ],
           "color": [
@@ -478,7 +478,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "14"
           ],
           "color": [
@@ -489,7 +489,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "0"
           ],
           "color": [
@@ -500,7 +500,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "1"
           ],
           "color": [
@@ -511,7 +511,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "2"
           ],
           "color": [
@@ -522,7 +522,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "3"
           ],
           "color": [
@@ -533,7 +533,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "4"
           ],
           "color": [
@@ -544,7 +544,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "5"
           ],
           "color": [
@@ -555,7 +555,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "6"
           ],
           "color": [
@@ -566,7 +566,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "7"
           ],
           "color": [
@@ -577,7 +577,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "8"
           ],
           "color": [
@@ -588,7 +588,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "9_0"
           ],
           "color": [
@@ -599,7 +599,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "9_1"
           ],
           "color": [
@@ -610,7 +610,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "9_2"
           ],
           "color": [
@@ -621,7 +621,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "9_3"
           ],
           "color": [
@@ -632,7 +632,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "10"
           ],
           "color": [
@@ -643,7 +643,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "11"
           ],
           "color": [
@@ -654,7 +654,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "12"
           ],
           "color": [
@@ -665,7 +665,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "13"
           ],
           "color": [
@@ -676,7 +676,7 @@
         },
         {
           "path": [
-            "sub.cluster",
+            "Subcluster",
             "14"
           ],
           "color": [
@@ -690,63 +690,63 @@
     "obsSetSelection": {
       "A": [
         [
-          "seurat clusters",
+          "Cluster",
           "0"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "1"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "2"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "3"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "4"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "5"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "6"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "7"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "8"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "9"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "10"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "11"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "12"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "13"
         ],
         [
-          "seurat clusters",
+          "Cluster",
           "14"
         ]
       ]
@@ -763,7 +763,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "seurat clusters"
+          "Cluster"
         ]
       ]
     }

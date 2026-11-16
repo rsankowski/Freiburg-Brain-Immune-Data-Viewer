@@ -31,7 +31,7 @@
             ],
             "obsSets": [
               {
-                "name": "Subclass label",
+                "name": "Subclass",
                 "path": "obs/Subclass_label"
               },
               {
@@ -47,19 +47,19 @@
                 "path": "obs/Pathology"
               },
               {
-                "name": "Max 10x Mg cluster mapped",
+                "name": "Cluster (mapped 10x microglia)",
                 "path": "obs/Max_10x_Mg_cluster_mapped"
               },
               {
-                "name": "Idents with mg clusters",
+                "name": "Identity (with microglia clusters)",
                 "path": "obs/Idents_with_mg_clusters"
               },
               {
-                "name": "new identity",
+                "name": "Identity (revised)",
                 "path": "obs/new_identity"
               },
               {
-                "name": "module label",
+                "name": "Module",
                 "path": "obs/module_label"
               }
             ],
@@ -102,7 +102,7 @@
       "A": [
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Astrocytes"
           ],
           "color": [
@@ -113,7 +113,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "CAM"
           ],
           "color": [
@@ -124,7 +124,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "CD8 TRM"
           ],
           "color": [
@@ -135,7 +135,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "DC"
           ],
           "color": [
@@ -146,7 +146,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Endothelia"
           ],
           "color": [
@@ -157,7 +157,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Fibroblasts"
           ],
           "color": [
@@ -168,7 +168,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "MDM"
           ],
           "color": [
@@ -179,7 +179,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Microglia"
           ],
           "color": [
@@ -190,7 +190,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Neuron"
           ],
           "color": [
@@ -201,7 +201,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "OPC"
           ],
           "color": [
@@ -212,7 +212,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Oligodendrocytes"
           ],
           "color": [
@@ -223,7 +223,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Pericytes"
           ],
           "color": [
@@ -234,7 +234,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Plasmablast"
           ],
           "color": [
@@ -245,7 +245,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "SMC"
           ],
           "color": [
@@ -256,7 +256,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Treg"
           ],
           "color": [
@@ -267,7 +267,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Tumor"
           ],
           "color": [
@@ -806,7 +806,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "4"
           ],
           "color": [
@@ -817,7 +817,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "6"
           ],
           "color": [
@@ -828,7 +828,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "16"
           ],
           "color": [
@@ -839,7 +839,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "18"
           ],
           "color": [
@@ -850,7 +850,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "19"
           ],
           "color": [
@@ -861,7 +861,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "25"
           ],
           "color": [
@@ -872,7 +872,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "26"
           ],
           "color": [
@@ -883,7 +883,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "28"
           ],
           "color": [
@@ -894,7 +894,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "29"
           ],
           "color": [
@@ -905,7 +905,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "30"
           ],
           "color": [
@@ -916,7 +916,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "33"
           ],
           "color": [
@@ -927,7 +927,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "34"
           ],
           "color": [
@@ -938,7 +938,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "44"
           ],
           "color": [
@@ -949,7 +949,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "50"
           ],
           "color": [
@@ -960,7 +960,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "51"
           ],
           "color": [
@@ -971,7 +971,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "78"
           ],
           "color": [
@@ -982,7 +982,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "79"
           ],
           "color": [
@@ -993,7 +993,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "82"
           ],
           "color": [
@@ -1004,7 +1004,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "89"
           ],
           "color": [
@@ -1015,7 +1015,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "90"
           ],
           "color": [
@@ -1026,7 +1026,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "109"
           ],
           "color": [
@@ -1037,7 +1037,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "111"
           ],
           "color": [
@@ -1048,7 +1048,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "113"
           ],
           "color": [
@@ -1059,7 +1059,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "115"
           ],
           "color": [
@@ -1070,7 +1070,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "118"
           ],
           "color": [
@@ -1081,7 +1081,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "119"
           ],
           "color": [
@@ -1092,7 +1092,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "120"
           ],
           "color": [
@@ -1103,7 +1103,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "121"
           ],
           "color": [
@@ -1114,7 +1114,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "122"
           ],
           "color": [
@@ -1125,7 +1125,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "123"
           ],
           "color": [
@@ -1136,7 +1136,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "127"
           ],
           "color": [
@@ -1147,7 +1147,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "132"
           ],
           "color": [
@@ -1158,7 +1158,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "134"
           ],
           "color": [
@@ -1169,7 +1169,7 @@
         },
         {
           "path": [
-            "Max 10x Mg cluster mapped",
+            "Cluster (mapped 10x microglia)",
             "144"
           ],
           "color": [
@@ -1180,7 +1180,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "4"
           ],
           "color": [
@@ -1191,7 +1191,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "6"
           ],
           "color": [
@@ -1202,7 +1202,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "16"
           ],
           "color": [
@@ -1213,7 +1213,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "18"
           ],
           "color": [
@@ -1224,7 +1224,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "19"
           ],
           "color": [
@@ -1235,7 +1235,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "25"
           ],
           "color": [
@@ -1246,7 +1246,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "26"
           ],
           "color": [
@@ -1257,7 +1257,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "28"
           ],
           "color": [
@@ -1268,7 +1268,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "29"
           ],
           "color": [
@@ -1279,7 +1279,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "30"
           ],
           "color": [
@@ -1290,7 +1290,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "33"
           ],
           "color": [
@@ -1301,7 +1301,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "34"
           ],
           "color": [
@@ -1312,7 +1312,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "44"
           ],
           "color": [
@@ -1323,7 +1323,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "50"
           ],
           "color": [
@@ -1334,7 +1334,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "51"
           ],
           "color": [
@@ -1345,7 +1345,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "78"
           ],
           "color": [
@@ -1356,7 +1356,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "79"
           ],
           "color": [
@@ -1367,7 +1367,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "82"
           ],
           "color": [
@@ -1378,7 +1378,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "89"
           ],
           "color": [
@@ -1389,7 +1389,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "90"
           ],
           "color": [
@@ -1400,7 +1400,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "109"
           ],
           "color": [
@@ -1411,7 +1411,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "111"
           ],
           "color": [
@@ -1422,7 +1422,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "113"
           ],
           "color": [
@@ -1433,7 +1433,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "115"
           ],
           "color": [
@@ -1444,7 +1444,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "118"
           ],
           "color": [
@@ -1455,7 +1455,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "119"
           ],
           "color": [
@@ -1466,7 +1466,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "120"
           ],
           "color": [
@@ -1477,7 +1477,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "121"
           ],
           "color": [
@@ -1488,7 +1488,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "122"
           ],
           "color": [
@@ -1499,7 +1499,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "123"
           ],
           "color": [
@@ -1510,7 +1510,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "127"
           ],
           "color": [
@@ -1521,7 +1521,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "132"
           ],
           "color": [
@@ -1532,7 +1532,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "134"
           ],
           "color": [
@@ -1543,7 +1543,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "144"
           ],
           "color": [
@@ -1554,7 +1554,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "Astrocytes"
           ],
           "color": [
@@ -1565,7 +1565,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "CAM"
           ],
           "color": [
@@ -1576,7 +1576,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "CD8 TRM"
           ],
           "color": [
@@ -1587,7 +1587,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "DC"
           ],
           "color": [
@@ -1598,7 +1598,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "Endothelia"
           ],
           "color": [
@@ -1609,7 +1609,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "Fibroblasts"
           ],
           "color": [
@@ -1620,7 +1620,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "MDM"
           ],
           "color": [
@@ -1631,7 +1631,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "Neuron"
           ],
           "color": [
@@ -1642,7 +1642,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "OPC"
           ],
           "color": [
@@ -1653,7 +1653,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "Oligodendrocytes"
           ],
           "color": [
@@ -1664,7 +1664,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "Pericytes"
           ],
           "color": [
@@ -1675,7 +1675,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "Plasmablast"
           ],
           "color": [
@@ -1686,7 +1686,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "SMC"
           ],
           "color": [
@@ -1697,7 +1697,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "Treg"
           ],
           "color": [
@@ -1708,7 +1708,7 @@
         },
         {
           "path": [
-            "Idents with mg clusters",
+            "Identity (with microglia clusters)",
             "Tumor"
           ],
           "color": [
@@ -1719,7 +1719,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Astrocytes"
           ],
           "color": [
@@ -1730,7 +1730,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "CAM"
           ],
           "color": [
@@ -1741,7 +1741,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "CD8 TRM"
           ],
           "color": [
@@ -1752,7 +1752,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "DC"
           ],
           "color": [
@@ -1763,7 +1763,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Endothelia"
           ],
           "color": [
@@ -1774,7 +1774,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Fibroblasts"
           ],
           "color": [
@@ -1785,7 +1785,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "MDM"
           ],
           "color": [
@@ -1796,7 +1796,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_4"
           ],
           "color": [
@@ -1807,7 +1807,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_6"
           ],
           "color": [
@@ -1818,7 +1818,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_16"
           ],
           "color": [
@@ -1829,7 +1829,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_18"
           ],
           "color": [
@@ -1840,7 +1840,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_19"
           ],
           "color": [
@@ -1851,7 +1851,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_25"
           ],
           "color": [
@@ -1862,7 +1862,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_26"
           ],
           "color": [
@@ -1873,7 +1873,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_28"
           ],
           "color": [
@@ -1884,7 +1884,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_29"
           ],
           "color": [
@@ -1895,7 +1895,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_30"
           ],
           "color": [
@@ -1906,7 +1906,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_33"
           ],
           "color": [
@@ -1917,7 +1917,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_34"
           ],
           "color": [
@@ -1928,7 +1928,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_44"
           ],
           "color": [
@@ -1939,7 +1939,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_50"
           ],
           "color": [
@@ -1950,7 +1950,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_51"
           ],
           "color": [
@@ -1961,7 +1961,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_78"
           ],
           "color": [
@@ -1972,7 +1972,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_79"
           ],
           "color": [
@@ -1983,7 +1983,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_82"
           ],
           "color": [
@@ -1994,7 +1994,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_89"
           ],
           "color": [
@@ -2005,7 +2005,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_90"
           ],
           "color": [
@@ -2016,7 +2016,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_109"
           ],
           "color": [
@@ -2027,7 +2027,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_111"
           ],
           "color": [
@@ -2038,7 +2038,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_113"
           ],
           "color": [
@@ -2049,7 +2049,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_115"
           ],
           "color": [
@@ -2060,7 +2060,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_118"
           ],
           "color": [
@@ -2071,7 +2071,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_119"
           ],
           "color": [
@@ -2082,7 +2082,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_120"
           ],
           "color": [
@@ -2093,7 +2093,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_121"
           ],
           "color": [
@@ -2104,7 +2104,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_122"
           ],
           "color": [
@@ -2115,7 +2115,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_123"
           ],
           "color": [
@@ -2126,7 +2126,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_127"
           ],
           "color": [
@@ -2137,7 +2137,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_132"
           ],
           "color": [
@@ -2148,7 +2148,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_134"
           ],
           "color": [
@@ -2159,7 +2159,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Microglia_144"
           ],
           "color": [
@@ -2170,7 +2170,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Neuron"
           ],
           "color": [
@@ -2181,7 +2181,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "OPC"
           ],
           "color": [
@@ -2192,7 +2192,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Oligodendrocytes"
           ],
           "color": [
@@ -2203,7 +2203,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Pericytes"
           ],
           "color": [
@@ -2214,7 +2214,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Plasmablast"
           ],
           "color": [
@@ -2225,7 +2225,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "SMC"
           ],
           "color": [
@@ -2236,7 +2236,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Treg"
           ],
           "color": [
@@ -2247,7 +2247,7 @@
         },
         {
           "path": [
-            "new identity",
+            "Identity (revised)",
             "Tumor"
           ],
           "color": [
@@ -2258,7 +2258,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Cytokine"
           ],
           "color": [
@@ -2269,7 +2269,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "IFN"
           ],
           "color": [
@@ -2280,7 +2280,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "MHC"
           ],
           "color": [
@@ -2291,7 +2291,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "NA"
           ],
           "color": [
@@ -2302,7 +2302,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Phagocytosis"
           ],
           "color": [
@@ -2313,7 +2313,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Proliferation"
           ],
           "color": [
@@ -2324,7 +2324,7 @@
         },
         {
           "path": [
-            "module label",
+            "Module",
             "Surveillance"
           ],
           "color": [
@@ -2338,67 +2338,67 @@
     "obsSetSelection": {
       "A": [
         [
-          "Subclass label",
+          "Subclass",
           "Astrocytes"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "CAM"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "CD8 TRM"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "DC"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "Endothelia"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "Fibroblasts"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "MDM"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "Microglia"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "Neuron"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "OPC"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "Oligodendrocytes"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "Pericytes"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "Plasmablast"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "SMC"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "Treg"
         ],
         [
-          "Subclass label",
+          "Subclass",
           "Tumor"
         ]
       ]
@@ -2415,7 +2415,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "Subclass label"
+          "Subclass"
         ]
       ]
     }

@@ -118,7 +118,7 @@ th { color: var(--muted); font-weight: 500; }
         <div class="stat"><div class="n">3.9 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">orig.ident</span><span class="tag">SCT snn res.0.8</span><span class="tag">Group</span><span class="tag">Stage</span><span class="tag">Treatment</span><span class="tag">Cd11c status</span></div>
+      <div class="tags"><span class="tag">Cluster</span><span class="tag">Sample (orig.ident)</span><span class="tag">Cluster (SCT, res. 0.8)</span><span class="tag">Group</span><span class="tag">Stage</span><span class="tag">Treatment</span><span class="tag">CD11c status</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=ardura_fabregat_et_al_2025__dataset_1">Open viewer</a>
         <a class="btn sec" href="./configs/ardura_fabregat_et_al_2025__dataset_1.json">View config JSON</a>
@@ -126,8 +126,8 @@ th { color: var(--muted); font-weight: 500; }
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/ardura_fabregat_et_al_2025__dataset_1.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 0.8 ms,
-        p95 1.0 ms &middot; X chunked [2003, 10]
+        Single-gene fetch measured locally: p50 0.3 ms,
+        p95 0.4 ms &middot; X chunked [2003, 10]
       </p>
     </section>
     <section class="card">
@@ -141,7 +141,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">4.3 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">seurat clusters</span><span class="tag">SCT snn res.0.8</span><span class="tag">mouseID</span><span class="tag">Cd11c status</span><span class="tag">Genotype</span><span class="tag">Treatment</span></div>
+      <div class="tags"><span class="tag">Cluster</span><span class="tag">Cluster (SCT, res. 0.8)</span><span class="tag">Animal</span><span class="tag">CD11c status</span><span class="tag">Genotype</span><span class="tag">Treatment</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=ardura_fabregat_et_al_2025__dataset_2_with_index_data">Open viewer</a>
         <a class="btn sec" href="./configs/ardura_fabregat_et_al_2025__dataset_2_with_index_data.json">View config JSON</a>
@@ -149,14 +149,14 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/ardura_fabregat_et_al_2025__dataset_2_with_index_data.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 1.0 ms,
-        p95 1.3 ms &middot; X chunked [2520, 10]
+        Single-gene fetch measured locally: p50 0.4 ms,
+        p95 0.5 ms &middot; X chunked [2520, 10]
       </p>
     </section>
   <footer>
     Embeddings and annotations are the published ones &mdash; no re-clustering or
     re-embedding was performed. Built with Vitessce 3.4.9.
-    Last updated 2026-09-09.
+    Last updated 2026-11-16.
   </footer>
 </div>
 <script>

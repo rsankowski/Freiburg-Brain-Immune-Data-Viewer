@@ -1,0 +1,737 @@
+{
+  "version": "1.0.16",
+  "name": "Meninges",
+  "description": "832 meningeal myeloid cells, microglia excluded, from naive to peak EAE, clustered with RaceID3.",
+  "datasets": [
+    {
+      "uid": "jordao_et_al_2019__20180716_men_",
+      "name": "Meninges",
+      "files": [
+        {
+          "fileType": "anndata.zarr",
+          "url": "https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/jordao_et_al_2019__20180716_men_dimred_wo_micr_sc_raceid3.zarr",
+          "options": {
+            "obsEmbedding": [
+              {
+                "path": "obsm/X_tsne",
+                "dims": [
+                  0,
+                  1
+                ],
+                "embeddingType": "TSNE"
+              }
+            ],
+            "obsSets": [
+              {
+                "name": "Cluster",
+                "path": "obs/cluster"
+              },
+              {
+                "name": "Sample (orig.ident)",
+                "path": "obs/orig.ident"
+              },
+              {
+                "name": "Sample",
+                "path": "obs/sample"
+              }
+            ],
+            "obsFeatureMatrix": {
+              "path": "X",
+              "initialFeatureFilterPath": "var/highly_variable"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "coordinationSpace": {
+    "dataset": {
+      "A": "jordao_et_al_2019__20180716_men_"
+    },
+    "embeddingType": {
+      "A": "TSNE",
+      "B": "TSNE"
+    },
+    "obsColorEncoding": {
+      "A": "cellSetSelection",
+      "B": "geneSelection"
+    },
+    "embeddingZoom": {
+      "A": null
+    },
+    "embeddingTargetX": {
+      "A": null
+    },
+    "embeddingTargetY": {
+      "A": null
+    },
+    "featureSelection": {
+      "A": [
+        "Mrc1"
+      ]
+    },
+    "obsSetColor": {
+      "A": [
+        {
+          "path": [
+            "Cluster",
+            "1"
+          ],
+          "color": [
+            0,
+            64,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "2"
+          ],
+          "color": [
+            0,
+            255,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "3"
+          ],
+          "color": [
+            223,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "4"
+          ],
+          "color": [
+            0,
+            255,
+            64
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "5"
+          ],
+          "color": [
+            32,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "6"
+          ],
+          "color": [
+            128,
+            0,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "7"
+          ],
+          "color": [
+            32,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "8"
+          ],
+          "color": [
+            223,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "9"
+          ],
+          "color": [
+            128,
+            255,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "10"
+          ],
+          "color": [
+            0,
+            159,
+            255
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "11"
+          ],
+          "color": [
+            255,
+            96,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "12"
+          ],
+          "color": [
+            255,
+            0,
+            191
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "13"
+          ],
+          "color": [
+            255,
+            191,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "14"
+          ],
+          "color": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "15"
+          ],
+          "color": [
+            0,
+            255,
+            159
+          ]
+        },
+        {
+          "path": [
+            "Cluster",
+            "16"
+          ],
+          "color": [
+            255,
+            0,
+            96
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Naive"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Onset"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Onset1"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Onset2"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Peak1"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Peak2"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Precl1"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Precl2"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Sample (orig.ident)",
+            "Precl4d"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Naive_7"
+          ],
+          "color": [
+            0,
+            114,
+            178
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Naive_9"
+          ],
+          "color": [
+            230,
+            159,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Onset1_7"
+          ],
+          "color": [
+            0,
+            158,
+            115
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Onset2_8"
+          ],
+          "color": [
+            213,
+            94,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Onset_1_5"
+          ],
+          "color": [
+            204,
+            121,
+            167
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Onset_1_15"
+          ],
+          "color": [
+            86,
+            180,
+            233
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Onset_2_6"
+          ],
+          "color": [
+            240,
+            228,
+            66
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Onset_2_16"
+          ],
+          "color": [
+            140,
+            86,
+            75
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Onset_5"
+          ],
+          "color": [
+            123,
+            50,
+            148
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Peak1_3"
+          ],
+          "color": [
+            77,
+            175,
+            74
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Peak1_11"
+          ],
+          "color": [
+            152,
+            78,
+            163
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Peak2_4"
+          ],
+          "color": [
+            255,
+            127,
+            0
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Precl1"
+          ],
+          "color": [
+            27,
+            158,
+            119
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Precl2"
+          ],
+          "color": [
+            217,
+            95,
+            2
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Precl2_1_10"
+          ],
+          "color": [
+            117,
+            112,
+            179
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Precl2_2_11"
+          ],
+          "color": [
+            231,
+            41,
+            138
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Precl4d_8"
+          ],
+          "color": [
+            102,
+            166,
+            30
+          ]
+        },
+        {
+          "path": [
+            "Sample",
+            "Precl4d_10"
+          ],
+          "color": [
+            230,
+            171,
+            2
+          ]
+        }
+      ]
+    },
+    "obsSetSelection": {
+      "A": [
+        [
+          "Cluster",
+          "1"
+        ],
+        [
+          "Cluster",
+          "2"
+        ],
+        [
+          "Cluster",
+          "3"
+        ],
+        [
+          "Cluster",
+          "4"
+        ],
+        [
+          "Cluster",
+          "5"
+        ],
+        [
+          "Cluster",
+          "6"
+        ],
+        [
+          "Cluster",
+          "7"
+        ],
+        [
+          "Cluster",
+          "8"
+        ],
+        [
+          "Cluster",
+          "9"
+        ],
+        [
+          "Cluster",
+          "10"
+        ],
+        [
+          "Cluster",
+          "11"
+        ],
+        [
+          "Cluster",
+          "12"
+        ],
+        [
+          "Cluster",
+          "13"
+        ],
+        [
+          "Cluster",
+          "14"
+        ],
+        [
+          "Cluster",
+          "15"
+        ],
+        [
+          "Cluster",
+          "16"
+        ]
+      ]
+    },
+    "embeddingObsSetLabelsVisible": {
+      "A": true
+    },
+    "embeddingObsSetLabelSize": {
+      "A": 12
+    },
+    "legendVisible": {
+      "A": true
+    },
+    "obsSetExpansion": {
+      "A": [
+        [
+          "Cluster"
+        ]
+      ]
+    }
+  },
+  "layout": [
+    {
+      "component": "obsSets",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "obsSetExpansion": "A"
+      },
+      "x": 0.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "featureList",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A"
+      },
+      "x": 6.0,
+      "y": 6,
+      "w": 6.0,
+      "h": 3
+    },
+    {
+      "component": "obsSetSizes",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 0,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "obsSetFeatureValueDistribution",
+      "coordinationScopes": {
+        "dataset": "A",
+        "obsColorEncoding": "B",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6,
+      "y": 9,
+      "w": 6,
+      "h": 3
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "A",
+        "obsColorEncoding": "A",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "embeddingObsSetLabelsVisible": "A",
+        "embeddingObsSetLabelSize": "A",
+        "legendVisible": "A"
+      },
+      "x": 0.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    },
+    {
+      "component": "scatterplot",
+      "coordinationScopes": {
+        "dataset": "A",
+        "embeddingType": "B",
+        "obsColorEncoding": "B",
+        "embeddingZoom": "A",
+        "embeddingTargetX": "A",
+        "embeddingTargetY": "A",
+        "featureSelection": "A",
+        "obsSetColor": "A",
+        "obsSetSelection": "A",
+        "legendVisible": "A"
+      },
+      "x": 6.0,
+      "y": 0,
+      "w": 6.0,
+      "h": 6
+    }
+  ],
+  "initStrategy": "auto"
+}

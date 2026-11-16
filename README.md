@@ -89,6 +89,7 @@ and the metadata overrides, the keys that matter for heterogeneous inputs:
 |---|---|
 | `assay` | CosMx keeps its panel in a `Nanostring` assay, not `RNA`. Stage 2 renames whatever it keeps to `RNA` so later stages are uniform. |
 | `default_obs_set` | which column the maps open coloured by |
+| `obs_labels` | `{column: label}` overriding the harmonised display name of a metadata column |
 | `default_gene` | opening marker; stage 5 checks it exists in `var` and falls back rather than opening on an empty map (mouse symbols are capitalised differently) |
 | `default_embedding` | `X_spatial` makes a dataset open in tissue space instead of UMAP |
 | `spatial_group` | metadata column whose values define spatial tiles (see below) |
@@ -264,3 +265,14 @@ See `CITATION.cff`. Add the Zenodo DOI once a release is archived.
 Code: MIT (`LICENSE`). Converted data: CC-BY-4.0 (`release/LICENSE`); cite the
 source publication for each dataset.
 
+## Metadata labels
+
+Metadata columns are shown under harmonised names (`scripts/common.py`,
+`OBS_LABELS`): `cell_type`/`Celltype`/`celltype` → **Cell type**,
+`condition`/`Condition` → **Condition**, `seurat_clusters`/`cluster` → **Cluster**,
+`RNA_snn_res.0.8` → **Cluster (RNA, res. 0.8)**, `sample`/`sample_id` → **Sample**,
+`pat_id`/`Subject_ID` → **Donor**, etc. Only display names change; `obs/<column>`
+paths in the stores are untouched, so no rebuild or re-upload is needed — rerun
+stages 5 and 8. When two columns in one dataset map to the same label and hold
+identical per-cell values, stage 5 shows only one; if they differ, both are kept
+with the raw column name appended.

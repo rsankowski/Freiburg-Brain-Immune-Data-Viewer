@@ -31,19 +31,19 @@
             ],
             "obsSets": [
               {
-                "name": "Subclass label final",
+                "name": "Subclass (final)",
                 "path": "obs/Subclass_label_final"
               },
               {
-                "name": "MajoritySinglet DropletType",
+                "name": "Droplet type",
                 "path": "obs/MajoritySinglet_DropletType"
               },
               {
-                "name": "MajoritySinglet Individual Assignment",
+                "name": "Donor (demultiplexed)",
                 "path": "obs/MajoritySinglet_Individual_Assignment"
               },
               {
-                "name": "DFclass",
+                "name": "Doublet class",
                 "path": "obs/DFclass"
               },
               {
@@ -55,11 +55,11 @@
                 "path": "obs/Repository"
               },
               {
-                "name": "Subject ID",
+                "name": "Donor",
                 "path": "obs/Subject_ID"
               },
               {
-                "name": "Age original",
+                "name": "Age (original)",
                 "path": "obs/Age_original"
               },
               {
@@ -67,15 +67,15 @@
                 "path": "obs/Hemisphere"
               },
               {
-                "name": "Tissue Type",
+                "name": "Tissue type",
                 "path": "obs/Tissue_Type"
               },
               {
-                "name": "Manner of Death",
+                "name": "Manner of death",
                 "path": "obs/Manner_of_Death"
               },
               {
-                "name": "Reported Sex",
+                "name": "Sex (reported)",
                 "path": "obs/Reported_Sex"
               },
               {
@@ -83,15 +83,15 @@
                 "path": "obs/Race"
               },
               {
-                "name": "Neuropathology Diagnosis",
+                "name": "Diagnosis (neuropathological)",
                 "path": "obs/Neuropathology_Diagnosis"
               },
               {
-                "name": "Clinical Brain Diagnosis Short",
+                "name": "Diagnosis (clinical, short)",
                 "path": "obs/Clinical_Brain_Diagnosis_Short"
               },
               {
-                "name": "Clinical Brain Diagnosis",
+                "name": "Diagnosis (clinical)",
                 "path": "obs/Clinical_Brain_Diagnosis"
               },
               {
@@ -99,75 +99,71 @@
                 "path": "obs/Region"
               },
               {
-                "name": "GEX Sex",
+                "name": "Sex (from expression)",
                 "path": "obs/GEX_Sex"
               },
               {
-                "name": "Final Sex",
+                "name": "Sex",
                 "path": "obs/Final_Sex"
               },
               {
-                "name": "condition",
+                "name": "Condition",
                 "path": "obs/condition"
               },
               {
-                "name": "seurat clusters dim 30",
+                "name": "Cluster (30 dims)",
                 "path": "obs/seurat_clusters_dim_30"
               },
               {
-                "name": "cluster.id IC3",
+                "name": "Cluster (IC3)",
                 "path": "obs/cluster.id_IC3"
               },
               {
-                "name": "Disease.condition",
+                "name": "Condition (disease)",
                 "path": "obs/Disease.condition"
               },
               {
-                "name": "Subclass label",
+                "name": "Subclass",
                 "path": "obs/Subclass_label"
               },
               {
-                "name": "predicted.celltype.l2",
+                "name": "Predicted cell type (level 2)",
                 "path": "obs/predicted.celltype.l2"
               },
               {
-                "name": "predicted.celltype.l1",
+                "name": "Predicted cell type (level 1)",
                 "path": "obs/predicted.celltype.l1"
               },
               {
-                "name": "predicted.celltype.l3",
+                "name": "Predicted cell type (level 3)",
                 "path": "obs/predicted.celltype.l3"
               },
               {
-                "name": "Tissue label",
+                "name": "Tissue (label)",
                 "path": "obs/Tissue_label"
               },
               {
-                "name": "Condition",
-                "path": "obs/Condition"
-              },
-              {
-                "name": "Condition label",
+                "name": "Condition (label)",
                 "path": "obs/Condition_label"
               },
               {
-                "name": "TopModule",
+                "name": "Module (top)",
                 "path": "obs/TopModule"
               },
               {
-                "name": "Module label",
+                "name": "Module",
                 "path": "obs/Module_label"
               },
               {
-                "name": "relabelled clusters",
+                "name": "Cluster (relabelled)",
                 "path": "obs/relabelled_clusters"
               },
               {
-                "name": "Context stagewise Controls merged",
+                "name": "Context (stagewise, controls merged)",
                 "path": "obs/Context_stagewise_Controls_merged"
               },
               {
-                "name": "Context stagewise",
+                "name": "Context (stagewise)",
                 "path": "obs/Context_stagewise"
               },
               {
@@ -175,7 +171,7 @@
                 "path": "obs/Context"
               },
               {
-                "name": "Context region",
+                "name": "Context (region)",
                 "path": "obs/Context_region"
               }
             ],
@@ -218,7 +214,7 @@
       "A": [
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "CAM"
           ],
           "color": [
@@ -229,7 +225,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "CD4 TRM"
           ],
           "color": [
@@ -240,7 +236,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "CD8 Naive"
           ],
           "color": [
@@ -251,7 +247,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "CD8 TRM"
           ],
           "color": [
@@ -262,7 +258,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "MAIT"
           ],
           "color": [
@@ -273,7 +269,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "MDM"
           ],
           "color": [
@@ -284,7 +280,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "Microglia"
           ],
           "color": [
@@ -295,7 +291,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "NK"
           ],
           "color": [
@@ -306,7 +302,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "Plasmablast"
           ],
           "color": [
@@ -317,7 +313,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "Treg"
           ],
           "color": [
@@ -328,7 +324,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "cDC1"
           ],
           "color": [
@@ -339,7 +335,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "cDC2"
           ],
           "color": [
@@ -350,7 +346,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "dnT"
           ],
           "color": [
@@ -361,7 +357,7 @@
         },
         {
           "path": [
-            "Subclass label final",
+            "Subclass (final)",
             "pDC"
           ],
           "color": [
@@ -372,7 +368,7 @@
         },
         {
           "path": [
-            "MajoritySinglet DropletType",
+            "Droplet type",
             "doublet"
           ],
           "color": [
@@ -383,7 +379,7 @@
         },
         {
           "path": [
-            "MajoritySinglet DropletType",
+            "Droplet type",
             "singlet"
           ],
           "color": [
@@ -394,7 +390,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "225"
           ],
           "color": [
@@ -405,7 +401,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "230"
           ],
           "color": [
@@ -416,7 +412,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "232"
           ],
           "color": [
@@ -427,7 +423,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "241"
           ],
           "color": [
@@ -438,7 +434,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "262"
           ],
           "color": [
@@ -449,7 +445,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "293"
           ],
           "color": [
@@ -460,7 +456,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "294"
           ],
           "color": [
@@ -471,7 +467,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "310"
           ],
           "color": [
@@ -482,7 +478,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "465"
           ],
           "color": [
@@ -493,7 +489,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "480_15"
           ],
           "color": [
@@ -504,7 +500,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "508"
           ],
           "color": [
@@ -515,7 +511,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "527"
           ],
           "color": [
@@ -526,7 +522,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "564"
           ],
           "color": [
@@ -537,7 +533,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "567"
           ],
           "color": [
@@ -548,7 +544,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "644"
           ],
           "color": [
@@ -559,7 +555,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "663-17-31c"
           ],
           "color": [
@@ -570,7 +566,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "663-17-31r"
           ],
           "color": [
@@ -581,7 +577,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "696"
           ],
           "color": [
@@ -592,7 +588,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "939"
           ],
           "color": [
@@ -603,7 +599,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "949/20"
           ],
           "color": [
@@ -614,7 +610,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "971"
           ],
           "color": [
@@ -625,7 +621,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "976_17"
           ],
           "color": [
@@ -636,7 +632,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "1206"
           ],
           "color": [
@@ -647,7 +643,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "1593"
           ],
           "color": [
@@ -658,7 +654,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2003-014"
           ],
           "color": [
@@ -669,7 +665,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2003-033"
           ],
           "color": [
@@ -680,7 +676,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2008-072"
           ],
           "color": [
@@ -691,7 +687,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2010-039"
           ],
           "color": [
@@ -702,7 +698,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2011-035"
           ],
           "color": [
@@ -713,7 +709,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2011-044"
           ],
           "color": [
@@ -724,7 +720,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2011-069"
           ],
           "color": [
@@ -735,7 +731,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2011-081"
           ],
           "color": [
@@ -746,7 +742,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2012-002"
           ],
           "color": [
@@ -757,7 +753,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2012-052"
           ],
           "color": [
@@ -768,7 +764,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2012-071"
           ],
           "color": [
@@ -779,7 +775,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2013-015"
           ],
           "color": [
@@ -790,7 +786,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2014-007"
           ],
           "color": [
@@ -801,7 +797,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2014-043"
           ],
           "color": [
@@ -812,7 +808,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2016-019"
           ],
           "color": [
@@ -823,7 +819,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2017-005"
           ],
           "color": [
@@ -834,7 +830,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2399"
           ],
           "color": [
@@ -845,7 +841,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2515"
           ],
           "color": [
@@ -856,7 +852,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2603"
           ],
           "color": [
@@ -867,7 +863,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2714"
           ],
           "color": [
@@ -878,7 +874,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "3003"
           ],
           "color": [
@@ -889,7 +885,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "3403"
           ],
           "color": [
@@ -900,7 +896,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "3406"
           ],
           "color": [
@@ -911,7 +907,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "3590"
           ],
           "color": [
@@ -922,7 +918,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "4176"
           ],
           "color": [
@@ -933,7 +929,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "4179"
           ],
           "color": [
@@ -944,7 +940,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "4349"
           ],
           "color": [
@@ -955,7 +951,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "4371"
           ],
           "color": [
@@ -966,7 +962,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "4436"
           ],
           "color": [
@@ -977,7 +973,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "4668"
           ],
           "color": [
@@ -988,7 +984,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "4730"
           ],
           "color": [
@@ -999,7 +995,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "4775"
           ],
           "color": [
@@ -1010,7 +1006,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "4859"
           ],
           "color": [
@@ -1021,7 +1017,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5289"
           ],
           "color": [
@@ -1032,7 +1028,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5410"
           ],
           "color": [
@@ -1043,7 +1039,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5549"
           ],
           "color": [
@@ -1054,7 +1050,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5632"
           ],
           "color": [
@@ -1065,7 +1061,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5711"
           ],
           "color": [
@@ -1076,7 +1072,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5737"
           ],
           "color": [
@@ -1087,7 +1083,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5766"
           ],
           "color": [
@@ -1098,7 +1094,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5789"
           ],
           "color": [
@@ -1109,7 +1105,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5801"
           ],
           "color": [
@@ -1120,7 +1116,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5817"
           ],
           "color": [
@@ -1131,7 +1127,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "5906"
           ],
           "color": [
@@ -1142,7 +1138,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "6265"
           ],
           "color": [
@@ -1153,7 +1149,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "11938"
           ],
           "color": [
@@ -1164,7 +1160,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "13103"
           ],
           "color": [
@@ -1175,7 +1171,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "13800"
           ],
           "color": [
@@ -1186,7 +1182,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "13885"
           ],
           "color": [
@@ -1197,7 +1193,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "13927"
           ],
           "color": [
@@ -1208,7 +1204,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "14159"
           ],
           "color": [
@@ -1219,7 +1215,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "14572"
           ],
           "color": [
@@ -1230,7 +1226,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "14773"
           ],
           "color": [
@@ -1241,7 +1237,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "15895"
           ],
           "color": [
@@ -1252,7 +1248,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "15982"
           ],
           "color": [
@@ -1263,7 +1259,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "17724"
           ],
           "color": [
@@ -1274,7 +1270,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "19074"
           ],
           "color": [
@@ -1285,7 +1281,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "201472"
           ],
           "color": [
@@ -1296,7 +1292,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "201573"
           ],
           "color": [
@@ -1307,7 +1303,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "201582"
           ],
           "color": [
@@ -1318,7 +1314,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "2017139"
           ],
           "color": [
@@ -1329,7 +1325,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "A129-CL2A"
           ],
           "color": [
@@ -1340,7 +1336,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB18037"
           ],
           "color": [
@@ -1351,7 +1347,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB18045"
           ],
           "color": [
@@ -1362,7 +1358,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB18073"
           ],
           "color": [
@@ -1373,7 +1369,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB18088"
           ],
           "color": [
@@ -1384,7 +1380,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB18120"
           ],
           "color": [
@@ -1395,7 +1391,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB18121"
           ],
           "color": [
@@ -1406,7 +1402,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB18124"
           ],
           "color": [
@@ -1417,7 +1413,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB18140"
           ],
           "color": [
@@ -1428,7 +1424,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB19019"
           ],
           "color": [
@@ -1439,7 +1435,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB19030"
           ],
           "color": [
@@ -1450,7 +1446,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB19036"
           ],
           "color": [
@@ -1461,7 +1457,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB19072"
           ],
           "color": [
@@ -1472,7 +1468,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB19074"
           ],
           "color": [
@@ -1483,7 +1479,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "BEB19080"
           ],
           "color": [
@@ -1494,7 +1490,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "C048"
           ],
           "color": [
@@ -1505,7 +1501,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "C064"
           ],
           "color": [
@@ -1516,7 +1512,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "HBIG"
           ],
           "color": [
@@ -1527,7 +1523,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "HCT17HEY"
           ],
           "color": [
@@ -1538,7 +1534,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "Hct15HBM"
           ],
           "color": [
@@ -1549,7 +1545,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "HctYH"
           ],
           "color": [
@@ -1560,7 +1556,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "HctYP"
           ],
           "color": [
@@ -1571,7 +1567,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "HctYR"
           ],
           "color": [
@@ -1582,7 +1578,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "HctZZH"
           ],
           "color": [
@@ -1593,7 +1589,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "P21_17"
           ],
           "color": [
@@ -1604,7 +1600,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "P23_21"
           ],
           "color": [
@@ -1615,7 +1611,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "P24_17"
           ],
           "color": [
@@ -1626,7 +1622,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "P27_21"
           ],
           "color": [
@@ -1637,7 +1633,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "P36_17"
           ],
           "color": [
@@ -1648,7 +1644,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "donor0"
           ],
           "color": [
@@ -1659,7 +1655,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "donor1"
           ],
           "color": [
@@ -1670,7 +1666,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "donor2"
           ],
           "color": [
@@ -1681,7 +1677,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "donor3"
           ],
           "color": [
@@ -1692,7 +1688,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "donor4"
           ],
           "color": [
@@ -1703,7 +1699,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "donor5"
           ],
           "color": [
@@ -1714,7 +1710,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "donor6"
           ],
           "color": [
@@ -1725,7 +1721,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "doublet"
           ],
           "color": [
@@ -1736,7 +1732,7 @@
         },
         {
           "path": [
-            "MajoritySinglet Individual Assignment",
+            "Donor (demultiplexed)",
             "unassigned"
           ],
           "color": [
@@ -1747,7 +1743,7 @@
         },
         {
           "path": [
-            "DFclass",
+            "Doublet class",
             "Doublet"
           ],
           "color": [
@@ -1758,7 +1754,7 @@
         },
         {
           "path": [
-            "DFclass",
+            "Doublet class",
             "Singlet"
           ],
           "color": [
@@ -1890,7 +1886,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "241"
           ],
           "color": [
@@ -1901,7 +1897,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "293"
           ],
           "color": [
@@ -1912,7 +1908,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "310"
           ],
           "color": [
@@ -1923,7 +1919,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "465"
           ],
           "color": [
@@ -1934,7 +1930,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "480_15"
           ],
           "color": [
@@ -1945,7 +1941,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "508"
           ],
           "color": [
@@ -1956,7 +1952,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "527"
           ],
           "color": [
@@ -1967,7 +1963,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "564"
           ],
           "color": [
@@ -1978,7 +1974,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "567"
           ],
           "color": [
@@ -1989,7 +1985,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "644"
           ],
           "color": [
@@ -2000,7 +1996,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "663-17-31c"
           ],
           "color": [
@@ -2011,7 +2007,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "663-17-31r"
           ],
           "color": [
@@ -2022,7 +2018,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "696"
           ],
           "color": [
@@ -2033,7 +2029,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "939"
           ],
           "color": [
@@ -2044,7 +2040,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "971"
           ],
           "color": [
@@ -2055,7 +2051,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "976_17"
           ],
           "color": [
@@ -2066,7 +2062,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "1206"
           ],
           "color": [
@@ -2077,7 +2073,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "1593"
           ],
           "color": [
@@ -2088,7 +2084,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2003-014"
           ],
           "color": [
@@ -2099,7 +2095,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2003-033"
           ],
           "color": [
@@ -2110,7 +2106,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2008-072"
           ],
           "color": [
@@ -2121,7 +2117,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2010-039"
           ],
           "color": [
@@ -2132,7 +2128,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2011-035"
           ],
           "color": [
@@ -2143,7 +2139,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2011-044"
           ],
           "color": [
@@ -2154,7 +2150,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2011-069"
           ],
           "color": [
@@ -2165,7 +2161,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2011-081"
           ],
           "color": [
@@ -2176,7 +2172,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2012-002"
           ],
           "color": [
@@ -2187,7 +2183,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2012-052"
           ],
           "color": [
@@ -2198,7 +2194,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2012-071"
           ],
           "color": [
@@ -2209,7 +2205,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2013-015"
           ],
           "color": [
@@ -2220,7 +2216,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2014-007"
           ],
           "color": [
@@ -2231,7 +2227,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2014-043"
           ],
           "color": [
@@ -2242,7 +2238,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2016-019"
           ],
           "color": [
@@ -2253,7 +2249,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2017-005"
           ],
           "color": [
@@ -2264,7 +2260,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2399"
           ],
           "color": [
@@ -2275,7 +2271,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2515"
           ],
           "color": [
@@ -2286,7 +2282,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2603"
           ],
           "color": [
@@ -2297,7 +2293,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2714"
           ],
           "color": [
@@ -2308,7 +2304,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "3003"
           ],
           "color": [
@@ -2319,7 +2315,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "3403"
           ],
           "color": [
@@ -2330,7 +2326,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "3406"
           ],
           "color": [
@@ -2341,7 +2337,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "3590"
           ],
           "color": [
@@ -2352,7 +2348,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4176"
           ],
           "color": [
@@ -2363,7 +2359,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4179"
           ],
           "color": [
@@ -2374,7 +2370,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4349"
           ],
           "color": [
@@ -2385,7 +2381,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4371"
           ],
           "color": [
@@ -2396,7 +2392,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4436"
           ],
           "color": [
@@ -2407,7 +2403,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4668"
           ],
           "color": [
@@ -2418,7 +2414,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4730"
           ],
           "color": [
@@ -2429,7 +2425,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4775"
           ],
           "color": [
@@ -2440,7 +2436,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "4859"
           ],
           "color": [
@@ -2451,7 +2447,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5289"
           ],
           "color": [
@@ -2462,7 +2458,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5410"
           ],
           "color": [
@@ -2473,7 +2469,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5549"
           ],
           "color": [
@@ -2484,7 +2480,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5632"
           ],
           "color": [
@@ -2495,7 +2491,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5711"
           ],
           "color": [
@@ -2506,7 +2502,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5737"
           ],
           "color": [
@@ -2517,7 +2513,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5766"
           ],
           "color": [
@@ -2528,7 +2524,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5789"
           ],
           "color": [
@@ -2539,7 +2535,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5801"
           ],
           "color": [
@@ -2550,7 +2546,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5817"
           ],
           "color": [
@@ -2561,7 +2557,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "5906"
           ],
           "color": [
@@ -2572,7 +2568,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "6265"
           ],
           "color": [
@@ -2583,7 +2579,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "11938"
           ],
           "color": [
@@ -2594,7 +2590,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "13103"
           ],
           "color": [
@@ -2605,7 +2601,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "13800"
           ],
           "color": [
@@ -2616,7 +2612,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "13885"
           ],
           "color": [
@@ -2627,7 +2623,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "13927"
           ],
           "color": [
@@ -2638,7 +2634,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "14159"
           ],
           "color": [
@@ -2649,7 +2645,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "14572"
           ],
           "color": [
@@ -2660,7 +2656,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "14773"
           ],
           "color": [
@@ -2671,7 +2667,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "15895"
           ],
           "color": [
@@ -2682,7 +2678,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "15982"
           ],
           "color": [
@@ -2693,7 +2689,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "17724"
           ],
           "color": [
@@ -2704,7 +2700,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "19074"
           ],
           "color": [
@@ -2715,7 +2711,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "201472"
           ],
           "color": [
@@ -2726,7 +2722,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "201573"
           ],
           "color": [
@@ -2737,7 +2733,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "201582"
           ],
           "color": [
@@ -2748,7 +2744,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "2017139"
           ],
           "color": [
@@ -2759,7 +2755,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "A129-CL2A"
           ],
           "color": [
@@ -2770,7 +2766,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18037"
           ],
           "color": [
@@ -2781,7 +2777,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18045"
           ],
           "color": [
@@ -2792,7 +2788,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18073"
           ],
           "color": [
@@ -2803,7 +2799,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18088"
           ],
           "color": [
@@ -2814,7 +2810,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18120"
           ],
           "color": [
@@ -2825,7 +2821,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18121"
           ],
           "color": [
@@ -2836,7 +2832,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18124"
           ],
           "color": [
@@ -2847,7 +2843,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB18140"
           ],
           "color": [
@@ -2858,7 +2854,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19019"
           ],
           "color": [
@@ -2869,7 +2865,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19030"
           ],
           "color": [
@@ -2880,7 +2876,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19036"
           ],
           "color": [
@@ -2891,7 +2887,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19072"
           ],
           "color": [
@@ -2902,7 +2898,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19074"
           ],
           "color": [
@@ -2913,7 +2909,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "BEB19080"
           ],
           "color": [
@@ -2924,7 +2920,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "C048"
           ],
           "color": [
@@ -2935,7 +2931,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "C064"
           ],
           "color": [
@@ -2946,7 +2942,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "HBIG"
           ],
           "color": [
@@ -2957,7 +2953,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "HCT17HEY"
           ],
           "color": [
@@ -2968,7 +2964,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "Hct15HBM"
           ],
           "color": [
@@ -2979,7 +2975,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "HctYH"
           ],
           "color": [
@@ -2990,7 +2986,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "HctYP"
           ],
           "color": [
@@ -3001,7 +2997,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "HctYR"
           ],
           "color": [
@@ -3012,7 +3008,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "HctZZH"
           ],
           "color": [
@@ -3023,7 +3019,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "NA"
           ],
           "color": [
@@ -3034,7 +3030,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "P21_17"
           ],
           "color": [
@@ -3045,7 +3041,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "P23_21"
           ],
           "color": [
@@ -3056,7 +3052,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "P24_17"
           ],
           "color": [
@@ -3067,7 +3063,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "P27_21"
           ],
           "color": [
@@ -3078,7 +3074,7 @@
         },
         {
           "path": [
-            "Subject ID",
+            "Donor",
             "P36_17"
           ],
           "color": [
@@ -3089,7 +3085,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "5"
           ],
           "color": [
@@ -3100,7 +3096,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "9"
           ],
           "color": [
@@ -3111,7 +3107,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "15"
           ],
           "color": [
@@ -3122,7 +3118,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "16"
           ],
           "color": [
@@ -3133,7 +3129,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "21"
           ],
           "color": [
@@ -3144,7 +3140,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "22"
           ],
           "color": [
@@ -3155,7 +3151,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "23"
           ],
           "color": [
@@ -3166,7 +3162,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "25"
           ],
           "color": [
@@ -3177,7 +3173,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "26"
           ],
           "color": [
@@ -3188,7 +3184,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "27"
           ],
           "color": [
@@ -3199,7 +3195,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "30"
           ],
           "color": [
@@ -3210,7 +3206,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "31"
           ],
           "color": [
@@ -3221,7 +3217,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "32"
           ],
           "color": [
@@ -3232,7 +3228,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "34"
           ],
           "color": [
@@ -3243,7 +3239,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "39"
           ],
           "color": [
@@ -3254,7 +3250,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "44"
           ],
           "color": [
@@ -3265,7 +3261,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "45"
           ],
           "color": [
@@ -3276,7 +3272,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "46"
           ],
           "color": [
@@ -3287,7 +3283,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "47"
           ],
           "color": [
@@ -3298,7 +3294,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "48"
           ],
           "color": [
@@ -3309,7 +3305,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "49"
           ],
           "color": [
@@ -3320,7 +3316,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "50"
           ],
           "color": [
@@ -3331,7 +3327,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "51"
           ],
           "color": [
@@ -3342,7 +3338,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "53"
           ],
           "color": [
@@ -3353,7 +3349,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "54"
           ],
           "color": [
@@ -3364,7 +3360,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "55"
           ],
           "color": [
@@ -3375,7 +3371,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "56"
           ],
           "color": [
@@ -3386,7 +3382,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "57"
           ],
           "color": [
@@ -3397,7 +3393,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "58"
           ],
           "color": [
@@ -3408,7 +3404,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "60"
           ],
           "color": [
@@ -3419,7 +3415,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "61"
           ],
           "color": [
@@ -3430,7 +3426,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "63"
           ],
           "color": [
@@ -3441,7 +3437,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "64"
           ],
           "color": [
@@ -3452,7 +3448,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "65"
           ],
           "color": [
@@ -3463,7 +3459,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "67"
           ],
           "color": [
@@ -3474,7 +3470,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "68"
           ],
           "color": [
@@ -3485,7 +3481,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "70"
           ],
           "color": [
@@ -3496,7 +3492,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "71"
           ],
           "color": [
@@ -3507,7 +3503,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "72"
           ],
           "color": [
@@ -3518,7 +3514,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "74"
           ],
           "color": [
@@ -3529,7 +3525,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "75"
           ],
           "color": [
@@ -3540,7 +3536,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "76"
           ],
           "color": [
@@ -3551,7 +3547,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "78"
           ],
           "color": [
@@ -3562,7 +3558,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "79"
           ],
           "color": [
@@ -3573,7 +3569,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "81"
           ],
           "color": [
@@ -3584,7 +3580,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "83"
           ],
           "color": [
@@ -3595,7 +3591,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "84"
           ],
           "color": [
@@ -3606,7 +3602,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "85"
           ],
           "color": [
@@ -3617,7 +3613,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "90"
           ],
           "color": [
@@ -3628,7 +3624,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "91"
           ],
           "color": [
@@ -3639,7 +3635,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "96"
           ],
           "color": [
@@ -3650,7 +3646,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "NA"
           ],
           "color": [
@@ -3661,7 +3657,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "Pcw_7"
           ],
           "color": [
@@ -3672,7 +3668,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "Pcw_11"
           ],
           "color": [
@@ -3683,7 +3679,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "Pcw_12"
           ],
           "color": [
@@ -3694,7 +3690,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "Pcw_14"
           ],
           "color": [
@@ -3705,7 +3701,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "Pcw_15"
           ],
           "color": [
@@ -3716,7 +3712,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "Pcw_17"
           ],
           "color": [
@@ -3727,7 +3723,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "Pcw_19"
           ],
           "color": [
@@ -3738,7 +3734,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "Pcw_20"
           ],
           "color": [
@@ -3749,7 +3745,7 @@
         },
         {
           "path": [
-            "Age original",
+            "Age (original)",
             "pcw_9"
           ],
           "color": [
@@ -3793,7 +3789,7 @@
         },
         {
           "path": [
-            "Tissue Type",
+            "Tissue type",
             "Brain"
           ],
           "color": [
@@ -3804,7 +3800,7 @@
         },
         {
           "path": [
-            "Tissue Type",
+            "Tissue type",
             "Fetal_brain"
           ],
           "color": [
@@ -3815,7 +3811,7 @@
         },
         {
           "path": [
-            "Tissue Type",
+            "Tissue type",
             "Medulla_oblongata"
           ],
           "color": [
@@ -3826,7 +3822,7 @@
         },
         {
           "path": [
-            "Tissue Type",
+            "Tissue type",
             "Spinal_cord"
           ],
           "color": [
@@ -3837,7 +3833,7 @@
         },
         {
           "path": [
-            "Manner of Death",
+            "Manner of death",
             "Accidental"
           ],
           "color": [
@@ -3848,7 +3844,7 @@
         },
         {
           "path": [
-            "Manner of Death",
+            "Manner of death",
             "NA"
           ],
           "color": [
@@ -3859,7 +3855,7 @@
         },
         {
           "path": [
-            "Manner of Death",
+            "Manner of death",
             "Natural"
           ],
           "color": [
@@ -3870,7 +3866,7 @@
         },
         {
           "path": [
-            "Manner of Death",
+            "Manner of death",
             "Undetermined"
           ],
           "color": [
@@ -3881,7 +3877,7 @@
         },
         {
           "path": [
-            "Reported Sex",
+            "Sex (reported)",
             "Female"
           ],
           "color": [
@@ -3892,7 +3888,7 @@
         },
         {
           "path": [
-            "Reported Sex",
+            "Sex (reported)",
             "Male"
           ],
           "color": [
@@ -3903,7 +3899,7 @@
         },
         {
           "path": [
-            "Reported Sex",
+            "Sex (reported)",
             "NA"
           ],
           "color": [
@@ -3969,7 +3965,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "AD_unspecified"
           ],
           "color": [
@@ -3980,7 +3976,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "AGS"
           ],
           "color": [
@@ -3991,7 +3987,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "Amyotrophic_lateral_sclerosis"
           ],
           "color": [
@@ -4002,7 +3998,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "Diagnostic_pathology_not_present"
           ],
           "color": [
@@ -4013,7 +4009,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "FCD"
           ],
           "color": [
@@ -4024,7 +4020,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "Hippocampal_Sclerosis"
           ],
           "color": [
@@ -4035,7 +4031,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "MS"
           ],
           "color": [
@@ -4046,7 +4042,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "MS_lesion_active"
           ],
           "color": [
@@ -4057,7 +4053,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "MS_lesion_core"
           ],
           "color": [
@@ -4068,7 +4064,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "MS_lesion_rim"
           ],
           "color": [
@@ -4079,7 +4075,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "NA"
           ],
           "color": [
@@ -4090,7 +4086,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "Non-demented_control"
           ],
           "color": [
@@ -4101,7 +4097,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "None_Reported"
           ],
           "color": [
@@ -4112,7 +4108,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "Parkinson's_disease"
           ],
           "color": [
@@ -4123,7 +4119,7 @@
         },
         {
           "path": [
-            "Neuropathology Diagnosis",
+            "Diagnosis (neuropathological)",
             "_Cerebral_amyloid_angiopathy"
           ],
           "color": [
@@ -4134,7 +4130,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "AD_early"
           ],
           "color": [
@@ -4145,7 +4141,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "AD_late"
           ],
           "color": [
@@ -4156,7 +4152,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "AGS"
           ],
           "color": [
@@ -4167,7 +4163,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "ALS"
           ],
           "color": [
@@ -4178,7 +4174,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "Astrocytoma 4"
           ],
           "color": [
@@ -4189,7 +4185,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "BMET (NSCLC)"
           ],
           "color": [
@@ -4200,7 +4196,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "FCD"
           ],
           "color": [
@@ -4211,7 +4207,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "GBM"
           ],
           "color": [
@@ -4222,7 +4218,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "GBM recurrence"
           ],
           "color": [
@@ -4233,7 +4229,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "HD"
           ],
           "color": [
@@ -4244,7 +4240,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "Hippocampal_Sclerosis"
           ],
           "color": [
@@ -4255,7 +4251,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "Homeostasis"
           ],
           "color": [
@@ -4266,7 +4262,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "MS"
           ],
           "color": [
@@ -4277,7 +4273,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "Oligodendroglioma 3"
           ],
           "color": [
@@ -4288,7 +4284,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis Short",
+            "Diagnosis (clinical, short)",
             "PD"
           ],
           "color": [
@@ -4299,7 +4295,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "AD"
           ],
           "color": [
@@ -4310,7 +4306,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "AGS"
           ],
           "color": [
@@ -4321,7 +4317,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "ALS"
           ],
           "color": [
@@ -4332,7 +4328,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Alzheimer's_disease"
           ],
           "color": [
@@ -4343,7 +4339,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Alzheimer's_disease,_unspecified"
           ],
           "color": [
@@ -4354,7 +4350,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Alzheimer's_disease_with_early_onset"
           ],
           "color": [
@@ -4365,7 +4361,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Alzheimer's_disease_with_late_onset"
           ],
           "color": [
@@ -4376,7 +4372,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Amyotrophic_lateral_sclerosis"
           ],
           "color": [
@@ -4387,7 +4383,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Astrocytoma"
           ],
           "color": [
@@ -4398,7 +4394,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Bipolar_disorder,_unspecified"
           ],
           "color": [
@@ -4409,7 +4405,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "FCD"
           ],
           "color": [
@@ -4420,7 +4416,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "GBM"
           ],
           "color": [
@@ -4431,7 +4427,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "HD"
           ],
           "color": [
@@ -4442,7 +4438,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Hip"
           ],
           "color": [
@@ -4453,7 +4449,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Hippocampal_Sclerosis"
           ],
           "color": [
@@ -4464,7 +4460,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Lung"
           ],
           "color": [
@@ -4475,7 +4471,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "MS"
           ],
           "color": [
@@ -4486,7 +4482,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Major_depressive_disorder,_recurrent,_unspecified;_Alcohol_abuse,_unspecified;_Other_psychoactive_substance_abuse,_uncomplicated;_Nicotine_dependence,_unspecified,_uncomplicated"
           ],
           "color": [
@@ -4497,7 +4493,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Major_depressive_disorder,_recurrent,_unspecified;_Nicotine_dependence,_unspecified,_uncomplicated"
           ],
           "color": [
@@ -4508,7 +4504,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Non-demented_control"
           ],
           "color": [
@@ -4519,7 +4515,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Oligodendroglioma"
           ],
           "color": [
@@ -4530,7 +4526,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "PD"
           ],
           "color": [
@@ -4541,7 +4537,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Parkinson's_disease"
           ],
           "color": [
@@ -4552,7 +4548,7 @@
         },
         {
           "path": [
-            "Clinical Brain Diagnosis",
+            "Diagnosis (clinical)",
             "Unaffected_Control"
           ],
           "color": [
@@ -4706,7 +4702,7 @@
         },
         {
           "path": [
-            "GEX Sex",
+            "Sex (from expression)",
             "Female"
           ],
           "color": [
@@ -4717,7 +4713,7 @@
         },
         {
           "path": [
-            "GEX Sex",
+            "Sex (from expression)",
             "Male"
           ],
           "color": [
@@ -4728,7 +4724,7 @@
         },
         {
           "path": [
-            "Final Sex",
+            "Sex",
             "Female"
           ],
           "color": [
@@ -4739,7 +4735,7 @@
         },
         {
           "path": [
-            "Final Sex",
+            "Sex",
             "Male"
           ],
           "color": [
@@ -4750,7 +4746,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Homeostasis"
           ],
           "color": [
@@ -4761,7 +4757,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Non-homeostasis"
           ],
           "color": [
@@ -4772,7 +4768,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "2"
           ],
           "color": [
@@ -4783,7 +4779,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "5"
           ],
           "color": [
@@ -4794,7 +4790,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "8"
           ],
           "color": [
@@ -4805,7 +4801,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "10"
           ],
           "color": [
@@ -4816,7 +4812,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "11"
           ],
           "color": [
@@ -4827,7 +4823,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "13"
           ],
           "color": [
@@ -4838,7 +4834,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "14"
           ],
           "color": [
@@ -4849,7 +4845,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "19"
           ],
           "color": [
@@ -4860,7 +4856,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "28"
           ],
           "color": [
@@ -4871,7 +4867,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "31"
           ],
           "color": [
@@ -4882,7 +4878,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "32"
           ],
           "color": [
@@ -4893,7 +4889,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "33"
           ],
           "color": [
@@ -4904,7 +4900,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "35"
           ],
           "color": [
@@ -4915,7 +4911,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "36"
           ],
           "color": [
@@ -4926,7 +4922,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "46"
           ],
           "color": [
@@ -4937,7 +4933,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "53"
           ],
           "color": [
@@ -4948,7 +4944,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "56"
           ],
           "color": [
@@ -4959,7 +4955,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "68"
           ],
           "color": [
@@ -4970,7 +4966,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "70"
           ],
           "color": [
@@ -4981,7 +4977,7 @@
         },
         {
           "path": [
-            "seurat clusters dim 30",
+            "Cluster (30 dims)",
             "86"
           ],
           "color": [
@@ -4992,7 +4988,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "20"
           ],
           "color": [
@@ -5003,7 +4999,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "21"
           ],
           "color": [
@@ -5014,7 +5010,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "22"
           ],
           "color": [
@@ -5025,7 +5021,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "23"
           ],
           "color": [
@@ -5036,7 +5032,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "24"
           ],
           "color": [
@@ -5047,7 +5043,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "25"
           ],
           "color": [
@@ -5058,7 +5054,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "26"
           ],
           "color": [
@@ -5069,7 +5065,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "27"
           ],
           "color": [
@@ -5080,7 +5076,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "28"
           ],
           "color": [
@@ -5091,7 +5087,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "29"
           ],
           "color": [
@@ -5102,7 +5098,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "32"
           ],
           "color": [
@@ -5113,7 +5109,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "33"
           ],
           "color": [
@@ -5124,7 +5120,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "34"
           ],
           "color": [
@@ -5135,7 +5131,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "35"
           ],
           "color": [
@@ -5146,7 +5142,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "36"
           ],
           "color": [
@@ -5157,7 +5153,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "38"
           ],
           "color": [
@@ -5168,7 +5164,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "39"
           ],
           "color": [
@@ -5179,7 +5175,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "46"
           ],
           "color": [
@@ -5190,7 +5186,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "81"
           ],
           "color": [
@@ -5201,7 +5197,7 @@
         },
         {
           "path": [
-            "cluster.id IC3",
+            "Cluster (IC3)",
             "87"
           ],
           "color": [
@@ -5212,7 +5208,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "AD_early_Disease"
           ],
           "color": [
@@ -5223,7 +5219,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "AD_late_Disease"
           ],
           "color": [
@@ -5234,7 +5230,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "AD_unspecified_Disease"
           ],
           "color": [
@@ -5245,7 +5241,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "AGS_Disease"
           ],
           "color": [
@@ -5256,7 +5252,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "ALS_Disease"
           ],
           "color": [
@@ -5267,7 +5263,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "Astrocytoma_Disease"
           ],
           "color": [
@@ -5278,7 +5274,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "Control_Control"
           ],
           "color": [
@@ -5289,7 +5285,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "FCD_Disease"
           ],
           "color": [
@@ -5300,7 +5296,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "GBM_Disease"
           ],
           "color": [
@@ -5311,7 +5307,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "HD_Disease"
           ],
           "color": [
@@ -5322,7 +5318,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "Hippocampal_Sclerosis_Disease"
           ],
           "color": [
@@ -5333,7 +5329,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "Lung_Disease"
           ],
           "color": [
@@ -5344,7 +5340,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "MS_Disease"
           ],
           "color": [
@@ -5355,7 +5351,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "MS_NAWM_Disease"
           ],
           "color": [
@@ -5366,7 +5362,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "Oligodendroglioma_Disease"
           ],
           "color": [
@@ -5377,7 +5373,7 @@
         },
         {
           "path": [
-            "Disease.condition",
+            "Condition (disease)",
             "PD_Disease"
           ],
           "color": [
@@ -5388,7 +5384,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "CAM"
           ],
           "color": [
@@ -5399,7 +5395,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Lymphocytes"
           ],
           "color": [
@@ -5410,7 +5406,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "MDM"
           ],
           "color": [
@@ -5421,7 +5417,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "Microglia"
           ],
           "color": [
@@ -5432,7 +5428,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "cDC1"
           ],
           "color": [
@@ -5443,7 +5439,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "cDC2"
           ],
           "color": [
@@ -5454,7 +5450,7 @@
         },
         {
           "path": [
-            "Subclass label",
+            "Subclass",
             "pDC"
           ],
           "color": [
@@ -5465,7 +5461,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "B intermediate"
           ],
           "color": [
@@ -5476,7 +5472,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "B naive"
           ],
           "color": [
@@ -5487,7 +5483,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "CD4 Proliferating"
           ],
           "color": [
@@ -5498,7 +5494,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "CD4 TCM"
           ],
           "color": [
@@ -5509,7 +5505,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "CD4 TEM"
           ],
           "color": [
@@ -5520,7 +5516,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "CD8 Naive"
           ],
           "color": [
@@ -5531,7 +5527,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "CD8 TCM"
           ],
           "color": [
@@ -5542,7 +5538,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "CD8 TEM"
           ],
           "color": [
@@ -5553,7 +5549,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "CD14 Mono"
           ],
           "color": [
@@ -5564,7 +5560,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "CD16 Mono"
           ],
           "color": [
@@ -5575,7 +5571,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "Eryth"
           ],
           "color": [
@@ -5586,7 +5582,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "HSPC"
           ],
           "color": [
@@ -5597,7 +5593,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "MAIT"
           ],
           "color": [
@@ -5608,7 +5604,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "NK"
           ],
           "color": [
@@ -5619,7 +5615,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "NK Proliferating"
           ],
           "color": [
@@ -5630,7 +5626,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "NK_CD56bright"
           ],
           "color": [
@@ -5641,7 +5637,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "Plasmablast"
           ],
           "color": [
@@ -5652,7 +5648,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "Platelet"
           ],
           "color": [
@@ -5663,7 +5659,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "Treg"
           ],
           "color": [
@@ -5674,7 +5670,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "cDC1"
           ],
           "color": [
@@ -5685,7 +5681,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "cDC2"
           ],
           "color": [
@@ -5696,7 +5692,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "dnT"
           ],
           "color": [
@@ -5707,7 +5703,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l2",
+            "Predicted cell type (level 2)",
             "pDC"
           ],
           "color": [
@@ -5718,7 +5714,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l1",
+            "Predicted cell type (level 1)",
             "B"
           ],
           "color": [
@@ -5729,7 +5725,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l1",
+            "Predicted cell type (level 1)",
             "CD4 T"
           ],
           "color": [
@@ -5740,7 +5736,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l1",
+            "Predicted cell type (level 1)",
             "CD8 T"
           ],
           "color": [
@@ -5751,7 +5747,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l1",
+            "Predicted cell type (level 1)",
             "DC"
           ],
           "color": [
@@ -5762,7 +5758,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l1",
+            "Predicted cell type (level 1)",
             "Mono"
           ],
           "color": [
@@ -5773,7 +5769,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l1",
+            "Predicted cell type (level 1)",
             "NK"
           ],
           "color": [
@@ -5784,7 +5780,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l1",
+            "Predicted cell type (level 1)",
             "other"
           ],
           "color": [
@@ -5795,7 +5791,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l1",
+            "Predicted cell type (level 1)",
             "other T"
           ],
           "color": [
@@ -5806,7 +5802,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "B intermediate kappa"
           ],
           "color": [
@@ -5817,7 +5813,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "B intermediate lambda"
           ],
           "color": [
@@ -5828,7 +5824,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "B naive kappa"
           ],
           "color": [
@@ -5839,7 +5835,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD4 Naive"
           ],
           "color": [
@@ -5850,7 +5846,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD4 Proliferating"
           ],
           "color": [
@@ -5861,7 +5857,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD4 TCM_1"
           ],
           "color": [
@@ -5872,7 +5868,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD4 TCM_2"
           ],
           "color": [
@@ -5883,7 +5879,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD4 TCM_3"
           ],
           "color": [
@@ -5894,7 +5890,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD4 TEM_1"
           ],
           "color": [
@@ -5905,7 +5901,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD8 Naive_2"
           ],
           "color": [
@@ -5916,7 +5912,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD8 TCM_1"
           ],
           "color": [
@@ -5927,7 +5923,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD8 TCM_3"
           ],
           "color": [
@@ -5938,7 +5934,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD8 TEM_1"
           ],
           "color": [
@@ -5949,7 +5945,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD8 TEM_2"
           ],
           "color": [
@@ -5960,7 +5956,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD8 TEM_3"
           ],
           "color": [
@@ -5971,7 +5967,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD8 TEM_6"
           ],
           "color": [
@@ -5982,7 +5978,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD14 Mono"
           ],
           "color": [
@@ -5993,7 +5989,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "CD16 Mono"
           ],
           "color": [
@@ -6004,7 +6000,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "Eryth"
           ],
           "color": [
@@ -6015,7 +6011,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "HSPC"
           ],
           "color": [
@@ -6026,7 +6022,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "ILC"
           ],
           "color": [
@@ -6037,7 +6033,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "MAIT"
           ],
           "color": [
@@ -6048,7 +6044,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "NK Proliferating"
           ],
           "color": [
@@ -6059,7 +6055,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "NK_1"
           ],
           "color": [
@@ -6070,7 +6066,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "NK_2"
           ],
           "color": [
@@ -6081,7 +6077,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "NK_CD56bright"
           ],
           "color": [
@@ -6092,7 +6088,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "Plasma"
           ],
           "color": [
@@ -6103,7 +6099,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "Plasmablast"
           ],
           "color": [
@@ -6114,7 +6110,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "Platelet"
           ],
           "color": [
@@ -6125,7 +6121,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "Treg Memory"
           ],
           "color": [
@@ -6136,7 +6132,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "cDC1"
           ],
           "color": [
@@ -6147,7 +6143,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "cDC2_2"
           ],
           "color": [
@@ -6158,7 +6154,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "dnT_2"
           ],
           "color": [
@@ -6169,7 +6165,7 @@
         },
         {
           "path": [
-            "predicted.celltype.l3",
+            "Predicted cell type (level 3)",
             "pDC"
           ],
           "color": [
@@ -6180,7 +6176,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Caudate_nucleus"
           ],
           "color": [
@@ -6191,7 +6187,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Cerebellum"
           ],
           "color": [
@@ -6202,7 +6198,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Cerebral_cortex"
           ],
           "color": [
@@ -6213,7 +6209,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Encephalon"
           ],
           "color": [
@@ -6224,7 +6220,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Frontal_cortex"
           ],
           "color": [
@@ -6235,7 +6231,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Hippocampus"
           ],
           "color": [
@@ -6246,7 +6242,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Motor_cortex"
           ],
           "color": [
@@ -6257,7 +6253,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Occipital_cortex"
           ],
           "color": [
@@ -6268,7 +6264,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Spinal_cord"
           ],
           "color": [
@@ -6279,7 +6275,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Substantia_nigra"
           ],
           "color": [
@@ -6290,7 +6286,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Thalamus"
           ],
           "color": [
@@ -6301,7 +6297,7 @@
         },
         {
           "path": [
-            "Tissue label",
+            "Tissue (label)",
             "Tumor"
           ],
           "color": [
@@ -6312,29 +6308,7 @@
         },
         {
           "path": [
-            "Condition",
-            "Homeostasis"
-          ],
-          "color": [
-            0,
-            114,
-            178
-          ]
-        },
-        {
-          "path": [
-            "Condition",
-            "Non-homeostasis"
-          ],
-          "color": [
-            230,
-            159,
-            0
-          ]
-        },
-        {
-          "path": [
-            "Condition label",
+            "Condition (label)",
             "Homeostasis"
           ],
           "color": [
@@ -6345,7 +6319,7 @@
         },
         {
           "path": [
-            "Condition label",
+            "Condition (label)",
             "Non-homeostasis"
           ],
           "color": [
@@ -6356,7 +6330,7 @@
         },
         {
           "path": [
-            "TopModule",
+            "Module (top)",
             "Cytokine"
           ],
           "color": [
@@ -6367,7 +6341,7 @@
         },
         {
           "path": [
-            "TopModule",
+            "Module (top)",
             "Homeostatic"
           ],
           "color": [
@@ -6378,7 +6352,7 @@
         },
         {
           "path": [
-            "TopModule",
+            "Module (top)",
             "IFN"
           ],
           "color": [
@@ -6389,7 +6363,7 @@
         },
         {
           "path": [
-            "TopModule",
+            "Module (top)",
             "Inflammation"
           ],
           "color": [
@@ -6400,7 +6374,7 @@
         },
         {
           "path": [
-            "TopModule",
+            "Module (top)",
             "MHC"
           ],
           "color": [
@@ -6411,7 +6385,7 @@
         },
         {
           "path": [
-            "TopModule",
+            "Module (top)",
             "Neuroprotection"
           ],
           "color": [
@@ -6422,7 +6396,7 @@
         },
         {
           "path": [
-            "TopModule",
+            "Module (top)",
             "Phagocytosis"
           ],
           "color": [
@@ -6433,7 +6407,7 @@
         },
         {
           "path": [
-            "TopModule",
+            "Module (top)",
             "Proliferation"
           ],
           "color": [
@@ -6444,7 +6418,7 @@
         },
         {
           "path": [
-            "Module label",
+            "Module",
             "Cytokine"
           ],
           "color": [
@@ -6455,7 +6429,7 @@
         },
         {
           "path": [
-            "Module label",
+            "Module",
             "Homeostatic"
           ],
           "color": [
@@ -6466,7 +6440,7 @@
         },
         {
           "path": [
-            "Module label",
+            "Module",
             "IFN"
           ],
           "color": [
@@ -6477,7 +6451,7 @@
         },
         {
           "path": [
-            "Module label",
+            "Module",
             "Inflammation"
           ],
           "color": [
@@ -6488,7 +6462,7 @@
         },
         {
           "path": [
-            "Module label",
+            "Module",
             "MHC"
           ],
           "color": [
@@ -6499,7 +6473,7 @@
         },
         {
           "path": [
-            "Module label",
+            "Module",
             "Neuroprotection"
           ],
           "color": [
@@ -6510,7 +6484,7 @@
         },
         {
           "path": [
-            "Module label",
+            "Module",
             "Phagocytosis"
           ],
           "color": [
@@ -6521,7 +6495,7 @@
         },
         {
           "path": [
-            "Module label",
+            "Module",
             "Proliferation"
           ],
           "color": [
@@ -6532,7 +6506,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "1"
           ],
           "color": [
@@ -6543,7 +6517,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "2"
           ],
           "color": [
@@ -6554,7 +6528,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "3"
           ],
           "color": [
@@ -6565,7 +6539,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "4"
           ],
           "color": [
@@ -6576,7 +6550,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "5"
           ],
           "color": [
@@ -6587,7 +6561,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "6"
           ],
           "color": [
@@ -6598,7 +6572,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "7"
           ],
           "color": [
@@ -6609,7 +6583,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "8"
           ],
           "color": [
@@ -6620,7 +6594,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "9"
           ],
           "color": [
@@ -6631,7 +6605,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "10"
           ],
           "color": [
@@ -6642,7 +6616,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "11"
           ],
           "color": [
@@ -6653,7 +6627,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "12"
           ],
           "color": [
@@ -6664,7 +6638,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "13"
           ],
           "color": [
@@ -6675,7 +6649,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "14"
           ],
           "color": [
@@ -6686,7 +6660,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "15"
           ],
           "color": [
@@ -6697,7 +6671,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "16"
           ],
           "color": [
@@ -6708,7 +6682,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "17"
           ],
           "color": [
@@ -6719,7 +6693,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "18"
           ],
           "color": [
@@ -6730,7 +6704,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "19"
           ],
           "color": [
@@ -6741,7 +6715,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "20"
           ],
           "color": [
@@ -6752,7 +6726,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "21"
           ],
           "color": [
@@ -6763,7 +6737,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "22"
           ],
           "color": [
@@ -6774,7 +6748,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "23"
           ],
           "color": [
@@ -6785,7 +6759,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "24"
           ],
           "color": [
@@ -6796,7 +6770,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "25"
           ],
           "color": [
@@ -6807,7 +6781,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "26"
           ],
           "color": [
@@ -6818,7 +6792,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "27"
           ],
           "color": [
@@ -6829,7 +6803,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "28"
           ],
           "color": [
@@ -6840,7 +6814,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "29"
           ],
           "color": [
@@ -6851,7 +6825,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "30"
           ],
           "color": [
@@ -6862,7 +6836,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "31"
           ],
           "color": [
@@ -6873,7 +6847,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "32"
           ],
           "color": [
@@ -6884,7 +6858,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "33"
           ],
           "color": [
@@ -6895,7 +6869,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "34"
           ],
           "color": [
@@ -6906,7 +6880,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "35"
           ],
           "color": [
@@ -6917,7 +6891,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "36"
           ],
           "color": [
@@ -6928,7 +6902,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "37"
           ],
           "color": [
@@ -6939,7 +6913,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "38"
           ],
           "color": [
@@ -6950,7 +6924,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "39"
           ],
           "color": [
@@ -6961,7 +6935,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "40"
           ],
           "color": [
@@ -6972,7 +6946,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "41"
           ],
           "color": [
@@ -6983,7 +6957,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "42"
           ],
           "color": [
@@ -6994,7 +6968,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "43"
           ],
           "color": [
@@ -7005,7 +6979,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "44"
           ],
           "color": [
@@ -7016,7 +6990,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "45"
           ],
           "color": [
@@ -7027,7 +7001,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "46"
           ],
           "color": [
@@ -7038,7 +7012,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "47"
           ],
           "color": [
@@ -7049,7 +7023,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "48"
           ],
           "color": [
@@ -7060,7 +7034,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "49"
           ],
           "color": [
@@ -7071,7 +7045,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "50"
           ],
           "color": [
@@ -7082,7 +7056,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "51"
           ],
           "color": [
@@ -7093,7 +7067,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "52"
           ],
           "color": [
@@ -7104,7 +7078,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "53"
           ],
           "color": [
@@ -7115,7 +7089,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "54"
           ],
           "color": [
@@ -7126,7 +7100,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "55"
           ],
           "color": [
@@ -7137,7 +7111,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "56"
           ],
           "color": [
@@ -7148,7 +7122,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "57"
           ],
           "color": [
@@ -7159,7 +7133,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "58"
           ],
           "color": [
@@ -7170,7 +7144,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "59"
           ],
           "color": [
@@ -7181,7 +7155,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "60"
           ],
           "color": [
@@ -7192,7 +7166,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "61"
           ],
           "color": [
@@ -7203,7 +7177,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "62"
           ],
           "color": [
@@ -7214,7 +7188,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "63"
           ],
           "color": [
@@ -7225,7 +7199,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "64"
           ],
           "color": [
@@ -7236,7 +7210,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "65"
           ],
           "color": [
@@ -7247,7 +7221,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "66"
           ],
           "color": [
@@ -7258,7 +7232,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "67"
           ],
           "color": [
@@ -7269,7 +7243,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "68"
           ],
           "color": [
@@ -7280,7 +7254,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "69"
           ],
           "color": [
@@ -7291,7 +7265,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "70"
           ],
           "color": [
@@ -7302,7 +7276,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "71"
           ],
           "color": [
@@ -7313,7 +7287,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "72"
           ],
           "color": [
@@ -7324,7 +7298,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "73"
           ],
           "color": [
@@ -7335,7 +7309,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "74"
           ],
           "color": [
@@ -7346,7 +7320,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "75"
           ],
           "color": [
@@ -7357,7 +7331,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "76"
           ],
           "color": [
@@ -7368,7 +7342,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "77"
           ],
           "color": [
@@ -7379,7 +7353,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "78"
           ],
           "color": [
@@ -7390,7 +7364,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "79"
           ],
           "color": [
@@ -7401,7 +7375,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "80"
           ],
           "color": [
@@ -7412,7 +7386,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "81"
           ],
           "color": [
@@ -7423,7 +7397,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "82"
           ],
           "color": [
@@ -7434,7 +7408,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "83"
           ],
           "color": [
@@ -7445,7 +7419,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "84"
           ],
           "color": [
@@ -7456,7 +7430,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "85"
           ],
           "color": [
@@ -7467,7 +7441,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "86"
           ],
           "color": [
@@ -7478,7 +7452,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "87"
           ],
           "color": [
@@ -7489,7 +7463,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "88"
           ],
           "color": [
@@ -7500,7 +7474,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "89"
           ],
           "color": [
@@ -7511,7 +7485,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "90"
           ],
           "color": [
@@ -7522,7 +7496,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "91"
           ],
           "color": [
@@ -7533,7 +7507,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "92"
           ],
           "color": [
@@ -7544,7 +7518,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "93"
           ],
           "color": [
@@ -7555,7 +7529,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "94"
           ],
           "color": [
@@ -7566,7 +7540,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "95"
           ],
           "color": [
@@ -7577,7 +7551,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "96"
           ],
           "color": [
@@ -7588,7 +7562,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "97"
           ],
           "color": [
@@ -7599,7 +7573,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "98"
           ],
           "color": [
@@ -7610,7 +7584,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "99"
           ],
           "color": [
@@ -7621,7 +7595,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "100"
           ],
           "color": [
@@ -7632,7 +7606,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "101"
           ],
           "color": [
@@ -7643,7 +7617,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "102"
           ],
           "color": [
@@ -7654,7 +7628,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "103"
           ],
           "color": [
@@ -7665,7 +7639,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "104"
           ],
           "color": [
@@ -7676,7 +7650,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "105"
           ],
           "color": [
@@ -7687,7 +7661,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "106"
           ],
           "color": [
@@ -7698,7 +7672,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "107"
           ],
           "color": [
@@ -7709,7 +7683,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "108"
           ],
           "color": [
@@ -7720,7 +7694,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "109"
           ],
           "color": [
@@ -7731,7 +7705,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "110"
           ],
           "color": [
@@ -7742,7 +7716,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "111"
           ],
           "color": [
@@ -7753,7 +7727,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "112"
           ],
           "color": [
@@ -7764,7 +7738,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "113"
           ],
           "color": [
@@ -7775,7 +7749,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "114"
           ],
           "color": [
@@ -7786,7 +7760,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "115"
           ],
           "color": [
@@ -7797,7 +7771,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "116"
           ],
           "color": [
@@ -7808,7 +7782,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "117"
           ],
           "color": [
@@ -7819,7 +7793,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "118"
           ],
           "color": [
@@ -7830,7 +7804,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "119"
           ],
           "color": [
@@ -7841,7 +7815,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "120"
           ],
           "color": [
@@ -7852,7 +7826,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "121"
           ],
           "color": [
@@ -7863,7 +7837,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "122"
           ],
           "color": [
@@ -7874,7 +7848,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "123"
           ],
           "color": [
@@ -7885,7 +7859,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "124"
           ],
           "color": [
@@ -7896,7 +7870,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "125"
           ],
           "color": [
@@ -7907,7 +7881,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "126"
           ],
           "color": [
@@ -7918,7 +7892,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "127"
           ],
           "color": [
@@ -7929,7 +7903,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "128"
           ],
           "color": [
@@ -7940,7 +7914,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "129"
           ],
           "color": [
@@ -7951,7 +7925,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "130"
           ],
           "color": [
@@ -7962,7 +7936,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "131"
           ],
           "color": [
@@ -7973,7 +7947,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "132"
           ],
           "color": [
@@ -7984,7 +7958,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "133"
           ],
           "color": [
@@ -7995,7 +7969,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "134"
           ],
           "color": [
@@ -8006,7 +7980,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "135"
           ],
           "color": [
@@ -8017,7 +7991,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "136"
           ],
           "color": [
@@ -8028,7 +8002,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "137"
           ],
           "color": [
@@ -8039,7 +8013,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "138"
           ],
           "color": [
@@ -8050,7 +8024,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "139"
           ],
           "color": [
@@ -8061,7 +8035,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "140"
           ],
           "color": [
@@ -8072,7 +8046,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "141"
           ],
           "color": [
@@ -8083,7 +8057,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "142"
           ],
           "color": [
@@ -8094,7 +8068,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "143"
           ],
           "color": [
@@ -8105,7 +8079,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "144"
           ],
           "color": [
@@ -8116,7 +8090,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "145"
           ],
           "color": [
@@ -8127,7 +8101,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "146"
           ],
           "color": [
@@ -8138,7 +8112,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "147"
           ],
           "color": [
@@ -8149,7 +8123,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "148"
           ],
           "color": [
@@ -8160,7 +8134,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "149"
           ],
           "color": [
@@ -8171,7 +8145,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "150"
           ],
           "color": [
@@ -8182,7 +8156,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "151"
           ],
           "color": [
@@ -8193,7 +8167,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "152"
           ],
           "color": [
@@ -8204,7 +8178,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "153"
           ],
           "color": [
@@ -8215,7 +8189,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "154"
           ],
           "color": [
@@ -8226,7 +8200,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "155"
           ],
           "color": [
@@ -8237,7 +8211,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "156"
           ],
           "color": [
@@ -8248,7 +8222,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "157"
           ],
           "color": [
@@ -8259,7 +8233,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "158"
           ],
           "color": [
@@ -8270,7 +8244,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "159"
           ],
           "color": [
@@ -8281,7 +8255,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "160"
           ],
           "color": [
@@ -8292,7 +8266,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "161"
           ],
           "color": [
@@ -8303,7 +8277,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "162"
           ],
           "color": [
@@ -8314,7 +8288,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "163"
           ],
           "color": [
@@ -8325,7 +8299,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "164"
           ],
           "color": [
@@ -8336,7 +8310,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "165"
           ],
           "color": [
@@ -8347,7 +8321,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "166"
           ],
           "color": [
@@ -8358,7 +8332,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "167"
           ],
           "color": [
@@ -8369,7 +8343,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "168"
           ],
           "color": [
@@ -8380,7 +8354,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "169"
           ],
           "color": [
@@ -8391,7 +8365,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "170"
           ],
           "color": [
@@ -8402,7 +8376,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "171"
           ],
           "color": [
@@ -8413,7 +8387,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "172"
           ],
           "color": [
@@ -8424,7 +8398,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "173"
           ],
           "color": [
@@ -8435,7 +8409,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "174"
           ],
           "color": [
@@ -8446,7 +8420,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "175"
           ],
           "color": [
@@ -8457,7 +8431,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "176"
           ],
           "color": [
@@ -8468,7 +8442,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "177"
           ],
           "color": [
@@ -8479,7 +8453,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "178"
           ],
           "color": [
@@ -8490,7 +8464,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "179"
           ],
           "color": [
@@ -8501,7 +8475,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "180"
           ],
           "color": [
@@ -8512,7 +8486,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "181"
           ],
           "color": [
@@ -8523,7 +8497,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "182"
           ],
           "color": [
@@ -8534,7 +8508,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "183"
           ],
           "color": [
@@ -8545,7 +8519,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "184"
           ],
           "color": [
@@ -8556,7 +8530,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "185"
           ],
           "color": [
@@ -8567,7 +8541,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "186"
           ],
           "color": [
@@ -8578,7 +8552,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "187"
           ],
           "color": [
@@ -8589,7 +8563,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "188"
           ],
           "color": [
@@ -8600,7 +8574,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "189"
           ],
           "color": [
@@ -8611,7 +8585,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "190"
           ],
           "color": [
@@ -8622,7 +8596,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "191"
           ],
           "color": [
@@ -8633,7 +8607,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "192"
           ],
           "color": [
@@ -8644,7 +8618,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "193"
           ],
           "color": [
@@ -8655,7 +8629,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "194"
           ],
           "color": [
@@ -8666,7 +8640,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "195"
           ],
           "color": [
@@ -8677,7 +8651,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "196"
           ],
           "color": [
@@ -8688,7 +8662,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "197"
           ],
           "color": [
@@ -8699,7 +8673,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "198"
           ],
           "color": [
@@ -8710,7 +8684,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "199"
           ],
           "color": [
@@ -8721,7 +8695,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "200"
           ],
           "color": [
@@ -8732,7 +8706,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "201"
           ],
           "color": [
@@ -8743,7 +8717,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "202"
           ],
           "color": [
@@ -8754,7 +8728,7 @@
         },
         {
           "path": [
-            "relabelled clusters",
+            "Cluster (relabelled)",
             "203"
           ],
           "color": [
@@ -8765,7 +8739,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "AD_early"
           ],
           "color": [
@@ -8776,7 +8750,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "AD_late"
           ],
           "color": [
@@ -8787,7 +8761,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "AGS"
           ],
           "color": [
@@ -8798,7 +8772,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "ALS"
           ],
           "color": [
@@ -8809,7 +8783,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "Astrocytoma 4"
           ],
           "color": [
@@ -8820,7 +8794,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "BMET (NSCLC)"
           ],
           "color": [
@@ -8831,7 +8805,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "FCD"
           ],
           "color": [
@@ -8842,7 +8816,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "Fetal brain"
           ],
           "color": [
@@ -8853,7 +8827,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "GBM"
           ],
           "color": [
@@ -8864,7 +8838,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "GBM recurrence"
           ],
           "color": [
@@ -8875,7 +8849,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "HD"
           ],
           "color": [
@@ -8886,7 +8860,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "Hippocampal_Sclerosis"
           ],
           "color": [
@@ -8897,7 +8871,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "Homeostasis"
           ],
           "color": [
@@ -8908,7 +8882,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "MS"
           ],
           "color": [
@@ -8919,7 +8893,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "MS_NAWM"
           ],
           "color": [
@@ -8930,7 +8904,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "MS_active"
           ],
           "color": [
@@ -8941,7 +8915,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "MS_core"
           ],
           "color": [
@@ -8952,7 +8926,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "MS_rim"
           ],
           "color": [
@@ -8963,7 +8937,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "Oligodendroglioma 3"
           ],
           "color": [
@@ -8974,7 +8948,7 @@
         },
         {
           "path": [
-            "Context stagewise Controls merged",
+            "Context (stagewise, controls merged)",
             "PD"
           ],
           "color": [
@@ -8985,7 +8959,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "AD_early"
           ],
           "color": [
@@ -8996,7 +8970,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "AD_late"
           ],
           "color": [
@@ -9007,7 +8981,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "AGS"
           ],
           "color": [
@@ -9018,7 +8992,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "ALS"
           ],
           "color": [
@@ -9029,7 +9003,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "Astrocytoma 4"
           ],
           "color": [
@@ -9040,7 +9014,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "BA4_homeostatic"
           ],
           "color": [
@@ -9051,7 +9025,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "BA17_homeostatic"
           ],
           "color": [
@@ -9062,7 +9036,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "BMET (NSCLC)"
           ],
           "color": [
@@ -9073,7 +9047,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "CBL_homeostatic"
           ],
           "color": [
@@ -9084,7 +9058,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "CN_homeostatic"
           ],
           "color": [
@@ -9095,7 +9069,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "Cortex_homeostatic"
           ],
           "color": [
@@ -9106,7 +9080,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "Encephalon_homeostatic"
           ],
           "color": [
@@ -9117,7 +9091,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "FCD"
           ],
           "color": [
@@ -9128,7 +9102,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "GBM"
           ],
           "color": [
@@ -9139,7 +9113,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "GBM recurrence"
           ],
           "color": [
@@ -9150,7 +9124,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "HD"
           ],
           "color": [
@@ -9161,7 +9135,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "Hip_homeostatic"
           ],
           "color": [
@@ -9172,7 +9146,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "Hippocampal_Sclerosis"
           ],
           "color": [
@@ -9183,7 +9157,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "MS"
           ],
           "color": [
@@ -9194,7 +9168,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "MS_NAWM"
           ],
           "color": [
@@ -9205,7 +9179,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "MS_active"
           ],
           "color": [
@@ -9216,7 +9190,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "MS_core"
           ],
           "color": [
@@ -9227,7 +9201,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "MS_rim"
           ],
           "color": [
@@ -9238,7 +9212,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "Oligodendroglioma 3"
           ],
           "color": [
@@ -9249,7 +9223,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "PD"
           ],
           "color": [
@@ -9260,7 +9234,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "SN_homeostatic"
           ],
           "color": [
@@ -9271,7 +9245,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "SPC_homeostatic"
           ],
           "color": [
@@ -9282,7 +9256,7 @@
         },
         {
           "path": [
-            "Context stagewise",
+            "Context (stagewise)",
             "Thalamus_homeostatic"
           ],
           "color": [
@@ -9480,7 +9454,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "AD_early_Hippocampus"
           ],
           "color": [
@@ -9491,7 +9465,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "AD_early_Occipital_cortex"
           ],
           "color": [
@@ -9502,7 +9476,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "AD_late_Frontal_cortex"
           ],
           "color": [
@@ -9513,7 +9487,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "AD_late_Hippocampus"
           ],
           "color": [
@@ -9524,7 +9498,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "AD_late_Occipital_cortex"
           ],
           "color": [
@@ -9535,7 +9509,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "AGS_Cerebellum"
           ],
           "color": [
@@ -9546,7 +9520,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "AGS_Cerebral_cortex"
           ],
           "color": [
@@ -9557,7 +9531,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "ALS_Hippocampus"
           ],
           "color": [
@@ -9568,7 +9542,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "ALS_Motor_cortex"
           ],
           "color": [
@@ -9579,7 +9553,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Astrocytoma 4_Tumor"
           ],
           "color": [
@@ -9590,7 +9564,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "BMET (NSCLC)_Tumor"
           ],
           "color": [
@@ -9601,7 +9575,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "FCD_Cerebral_cortex"
           ],
           "color": [
@@ -9612,7 +9586,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Fetal brain_Fetal_brain"
           ],
           "color": [
@@ -9623,7 +9597,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "GBM recurrence_Tumor"
           ],
           "color": [
@@ -9634,7 +9608,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "GBM_Tumor"
           ],
           "color": [
@@ -9645,7 +9619,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "HD_Caudate_nucleus"
           ],
           "color": [
@@ -9656,7 +9630,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Hippocampal_Sclerosis_Hippocampus"
           ],
           "color": [
@@ -9667,7 +9641,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Caudate_nucleus"
           ],
           "color": [
@@ -9678,7 +9652,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Cerebellum"
           ],
           "color": [
@@ -9689,7 +9663,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Cerebral_cortex"
           ],
           "color": [
@@ -9700,7 +9674,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Cortex"
           ],
           "color": [
@@ -9711,7 +9685,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Hippocampus"
           ],
           "color": [
@@ -9722,7 +9696,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Motor_cortex"
           ],
           "color": [
@@ -9733,7 +9707,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Occipital_cortex"
           ],
           "color": [
@@ -9744,7 +9718,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Spinal_cord"
           ],
           "color": [
@@ -9755,7 +9729,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Substantia_nigra"
           ],
           "color": [
@@ -9766,7 +9740,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Homeostasis_Thalamus"
           ],
           "color": [
@@ -9777,7 +9751,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "MS_Cerebral_cortex"
           ],
           "color": [
@@ -9788,7 +9762,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "MS_NAWM_Cerebral_cortex"
           ],
           "color": [
@@ -9799,7 +9773,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "MS_Spinal_cord"
           ],
           "color": [
@@ -9810,7 +9784,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "MS_active_Cortex"
           ],
           "color": [
@@ -9821,7 +9795,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "MS_core_Cortex"
           ],
           "color": [
@@ -9832,7 +9806,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "MS_rim_Cortex"
           ],
           "color": [
@@ -9843,7 +9817,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "Oligodendroglioma 3_Tumor"
           ],
           "color": [
@@ -9854,7 +9828,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "PD_Substantia_nigra"
           ],
           "color": [
@@ -9865,7 +9839,7 @@
         },
         {
           "path": [
-            "Context region",
+            "Context (region)",
             "PD_Thalamus"
           ],
           "color": [
@@ -9879,59 +9853,59 @@
     "obsSetSelection": {
       "A": [
         [
-          "Subclass label final",
+          "Subclass (final)",
           "CAM"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "CD4 TRM"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "CD8 Naive"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "CD8 TRM"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "MAIT"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "MDM"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "Microglia"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "NK"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "Plasmablast"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "Treg"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "cDC1"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "cDC2"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "dnT"
         ],
         [
-          "Subclass label final",
+          "Subclass (final)",
           "pDC"
         ]
       ]
@@ -9948,7 +9922,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "Subclass label final"
+          "Subclass (final)"
         ]
       ]
     }

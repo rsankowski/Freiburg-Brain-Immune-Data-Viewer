@@ -117,7 +117,7 @@ th { color: var(--muted); font-weight: 500; }
         <div class="stat"><div class="n">35.9 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">Subclass label</span><span class="tag">FOV</span><span class="tag">Sample</span><span class="tag">Pathology</span><span class="tag">Max 10x Mg cluster mapped</span><span class="tag">Idents with mg clusters</span><span class="tag">new identity</span><span class="tag">module label</span></div>
+      <div class="tags"><span class="tag">Subclass</span><span class="tag">FOV</span><span class="tag">Sample</span><span class="tag">Pathology</span><span class="tag">Cluster (mapped 10x microglia)</span><span class="tag">Identity (with microglia clusters)</span><span class="tag">Identity (revised)</span><span class="tag">Module</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=chhatbar_et_al_2026__figure_2_nanostring_cosmx_v1">Open viewer</a>
         <a class="btn sec" href="./configs/chhatbar_et_al_2026__figure_2_nanostring_cosmx_v1.json">View config JSON</a>
@@ -125,8 +125,8 @@ th { color: var(--muted); font-weight: 500; }
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_2_nanostring_cosmx_v1.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 6.6 ms,
-        p95 7.5 ms &middot; X chunked [68327, 10]
+        Single-gene fetch measured locally: p50 1.9 ms,
+        p95 3.6 ms &middot; X chunked [68327, 10]
       </p>
     </section>
     <section class="card">
@@ -135,12 +135,12 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <div class="stats">
         <div class="stat"><div class="n">270,493</div><div class="k">cells</div></div>
         <div class="stat"><div class="n">17,219</div><div class="k">genes</div></div>
-        <div class="stat"><div class="n">23</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">22</div><div class="k">cell-set columns</div></div>
         <div class="stat"><div class="n">INTEGRATED RPCA</div><div class="k">embeddings</div></div>
         <div class="stat"><div class="n">2.1 GB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">Species</span><span class="tag">Subject ID</span><span class="tag">Age original</span><span class="tag">Hemisphere</span><span class="tag">Clinical Brain Diagnosis Short</span><span class="tag">Region</span><span class="tag">Final Sex</span><span class="tag">condition</span><span class="tag">Disease.condition</span><span class="tag">Tissue label</span><span class="tag">+13 more</span></div>
+      <div class="tags"><span class="tag">Species</span><span class="tag">Donor</span><span class="tag">Age (original)</span><span class="tag">Hemisphere</span><span class="tag">Diagnosis (clinical, short)</span><span class="tag">Region</span><span class="tag">Sex</span><span class="tag">Condition</span><span class="tag">Condition (disease)</span><span class="tag">Tissue (label)</span><span class="tag">+12 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=chhatbar_et_al_2026__figure_6_cross_species_microglia_integrated">Open viewer</a>
         <a class="btn sec" href="./configs/chhatbar_et_al_2026__figure_6_cross_species_microglia_integrated.json">View config JSON</a>
@@ -148,8 +148,8 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_6_cross_species_microglia_integrated.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 11.7 ms,
-        p95 14.6 ms &middot; X chunked [270493, 10]
+        Single-gene fetch measured locally: p50 3.5 ms,
+        p95 4.2 ms &middot; X chunked [270493, 10]
       </p>
     </section>
     <section class="card">
@@ -163,7 +163,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">399.4 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">relabelled clusters</span><span class="tag">orig.ident</span><span class="tag">condition</span><span class="tag">Region</span><span class="tag">Module label</span><span class="tag">pathway</span><span class="tag">Idents with mg clusters</span><span class="tag">pathway plot</span><span class="tag">pathway model plot</span></div>
+      <div class="tags"><span class="tag">Cluster (relabelled)</span><span class="tag">Sample (orig.ident)</span><span class="tag">Condition</span><span class="tag">Region</span><span class="tag">Module</span><span class="tag">Pathway</span><span class="tag">Identity (with microglia clusters)</span><span class="tag">Pathway (plot)</span><span class="tag">Pathway (model, plot)</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=chhatbar_et_al_2026__figure_7_eae_microglia_manipulation">Open viewer</a>
         <a class="btn sec" href="./configs/chhatbar_et_al_2026__figure_7_eae_microglia_manipulation.json">View config JSON</a>
@@ -171,8 +171,8 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_7_eae_microglia_manipulation.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 5.3 ms,
-        p95 8.9 ms &middot; X chunked [17760, 10]
+        Single-gene fetch measured locally: p50 0.6 ms,
+        p95 0.8 ms &middot; X chunked [17760, 10]
       </p>
     </section>
     <section class="card">
@@ -181,12 +181,12 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <div class="stats">
         <div class="stat"><div class="n">135,067</div><div class="k">cells</div></div>
         <div class="stat"><div class="n">59,462</div><div class="k">genes</div></div>
-        <div class="stat"><div class="n">37</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">36</div><div class="k">cell-set columns</div></div>
         <div class="stat"><div class="n">UMAP, REF UMAP</div><div class="k">embeddings</div></div>
         <div class="stat"><div class="n">1.4 GB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">Subclass label final</span><span class="tag">MajoritySinglet DropletType</span><span class="tag">MajoritySinglet Individual Assignment</span><span class="tag">DFclass</span><span class="tag">Demultiplexed</span><span class="tag">Repository</span><span class="tag">Subject ID</span><span class="tag">Age original</span><span class="tag">Hemisphere</span><span class="tag">Tissue Type</span><span class="tag">+27 more</span></div>
+      <div class="tags"><span class="tag">Subclass (final)</span><span class="tag">Droplet type</span><span class="tag">Donor (demultiplexed)</span><span class="tag">Doublet class</span><span class="tag">Demultiplexed</span><span class="tag">Repository</span><span class="tag">Donor</span><span class="tag">Age (original)</span><span class="tag">Hemisphere</span><span class="tag">Tissue type</span><span class="tag">+26 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=chhatbar_et_al_2026__immune_final_2_23012025">Open viewer</a>
         <a class="btn sec" href="./configs/chhatbar_et_al_2026__immune_final_2_23012025.json">View config JSON</a>
@@ -194,8 +194,8 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__immune_final_2_23012025.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 6.9 ms,
-        p95 10.5 ms &middot; X chunked [135067, 10]
+        Single-gene fetch measured locally: p50 1.7 ms,
+        p95 2.5 ms &middot; X chunked [135067, 10]
       </p>
     </section>
     <section class="card">
@@ -204,12 +204,12 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <div class="stats">
         <div class="stat"><div class="n">26,433</div><div class="k">cells</div></div>
         <div class="stat"><div class="n">56,884</div><div class="k">genes</div></div>
-        <div class="stat"><div class="n">10</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">9</div><div class="k">cell-set columns</div></div>
         <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
         <div class="stat"><div class="n">271.9 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">relabelled clusters</span><span class="tag">orig.ident</span><span class="tag">condition</span><span class="tag">model.condition</span><span class="tag">Region</span><span class="tag">Module label</span><span class="tag">pathway</span><span class="tag">pathway plot</span><span class="tag">pathway model plot</span><span class="tag">module label</span></div>
+      <div class="tags"><span class="tag">Cluster (relabelled)</span><span class="tag">Sample (orig.ident)</span><span class="tag">Condition</span><span class="tag">Condition (model)</span><span class="tag">Region</span><span class="tag">Module</span><span class="tag">Pathway</span><span class="tag">Pathway (plot)</span><span class="tag">Pathway (model, plot)</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=chhatbar_et_al_2026__figure_e10_d_lps_microglia_manipuliation">Open viewer</a>
         <a class="btn sec" href="./configs/chhatbar_et_al_2026__figure_e10_d_lps_microglia_manipuliation.json">View config JSON</a>
@@ -217,8 +217,8 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_e10_d_lps_microglia_manipuliation.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 5.1 ms,
-        p95 5.9 ms &middot; X chunked [26433, 10]
+        Single-gene fetch measured locally: p50 0.7 ms,
+        p95 0.9 ms &middot; X chunked [26433, 10]
       </p>
     </section>
     <section class="card">
@@ -227,12 +227,12 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <div class="stats">
         <div class="stat"><div class="n">172,497</div><div class="k">cells</div></div>
         <div class="stat"><div class="n">56,884</div><div class="k">genes</div></div>
-        <div class="stat"><div class="n">12</div><div class="k">cell-set columns</div></div>
+        <div class="stat"><div class="n">11</div><div class="k">cell-set columns</div></div>
         <div class="stat"><div class="n">UMAP</div><div class="k">embeddings</div></div>
         <div class="stat"><div class="n">1.8 GB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">Subclass label</span><span class="tag">orig.ident</span><span class="tag">condition</span><span class="tag">Region</span><span class="tag">Condition</span><span class="tag">Tissue</span><span class="tag">Context stagewise</span><span class="tag">Context stagewise Controls merged</span><span class="tag">Tissue label</span><span class="tag">Condition label</span><span class="tag">+2 more</span></div>
+      <div class="tags"><span class="tag">Subclass</span><span class="tag">Sample (orig.ident)</span><span class="tag">Condition</span><span class="tag">Region</span><span class="tag">Tissue</span><span class="tag">Context (stagewise)</span><span class="tag">Context (stagewise, controls merged)</span><span class="tag">Tissue (label)</span><span class="tag">Condition (label)</span><span class="tag">Module</span><span class="tag">+1 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=chhatbar_et_al_2026__figure_5_mouse_myeloid_atlas_v1">Open viewer</a>
         <a class="btn sec" href="./configs/chhatbar_et_al_2026__figure_5_mouse_myeloid_atlas_v1.json">View config JSON</a>
@@ -240,8 +240,8 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_5_mouse_myeloid_atlas_v1.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 8.4 ms,
-        p95 11.7 ms &middot; X chunked [172497, 10]
+        Single-gene fetch measured locally: p50 2.0 ms,
+        p95 2.4 ms &middot; X chunked [172497, 10]
       </p>
     </section>
     <section class="card">
@@ -255,7 +255,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">967.5 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">clusters IC3</span><span class="tag">orig.ident</span><span class="tag">MajoritySinglet DropletType</span><span class="tag">DFclass</span><span class="tag">model</span><span class="tag">Region</span><span class="tag">predicted.class</span><span class="tag">predicted.cluster</span><span class="tag">predicted.subclass</span><span class="tag">predicted.cross species cluster</span><span class="tag">+6 more</span></div>
+      <div class="tags"><span class="tag">Cluster (IC3)</span><span class="tag">Sample (orig.ident)</span><span class="tag">Droplet type</span><span class="tag">Doublet class</span><span class="tag">Model</span><span class="tag">Region</span><span class="tag">Predicted class</span><span class="tag">Predicted cluster</span><span class="tag">Predicted subclass</span><span class="tag">Predicted cross-species cluster</span><span class="tag">+6 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=chhatbar_et_al_2026__figure_e10_a_pathways_manipulation_mouse">Open viewer</a>
         <a class="btn sec" href="./configs/chhatbar_et_al_2026__figure_e10_a_pathways_manipulation_mouse.json">View config JSON</a>
@@ -263,8 +263,8 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_e10_a_pathways_manipulation_mouse.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 6.0 ms,
-        p95 8.6 ms &middot; X chunked [64066, 10]
+        Single-gene fetch measured locally: p50 1.3 ms,
+        p95 1.5 ms &middot; X chunked [64066, 10]
       </p>
     </section>
     <section class="card">
@@ -278,7 +278,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">109.0 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">Final celltype</span><span class="tag">orig.ident</span><span class="tag">Sample id</span><span class="tag">Tissue Region</span><span class="tag">Tissue Type</span><span class="tag">Reported Sex</span><span class="tag">Clinical Brain Diagnosis</span><span class="tag">Clinical Brain Diagnosis Short</span><span class="tag">Region</span><span class="tag">Disease region</span><span class="tag">+5 more</span></div>
+      <div class="tags"><span class="tag">Cell type (final)</span><span class="tag">Sample (orig.ident)</span><span class="tag">Sample</span><span class="tag">Tissue region</span><span class="tag">Tissue type</span><span class="tag">Sex (reported)</span><span class="tag">Diagnosis (clinical)</span><span class="tag">Diagnosis (clinical, short)</span><span class="tag">Region</span><span class="tag">Region (disease)</span><span class="tag">+5 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=chhatbar_et_al_2026__figure_4_human_visiumhd_compressed_v1">Open viewer</a>
         <a class="btn sec" href="./configs/chhatbar_et_al_2026__figure_4_human_visiumhd_compressed_v1.json">View config JSON</a>
@@ -286,14 +286,14 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/chhatbar_et_al_2026__figure_4_human_visiumhd_compressed_v1.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 4.5 ms,
-        p95 5.7 ms &middot; X chunked [96409, 10]
+        Single-gene fetch measured locally: p50 2.6 ms,
+        p95 4.1 ms &middot; X chunked [96409, 10]
       </p>
     </section>
   <footer>
     Embeddings and annotations are the published ones &mdash; no re-clustering or
     re-embedding was performed. Built with Vitessce 3.4.9.
-    Last updated 2026-09-09.
+    Last updated 2026-11-16.
   </footer>
 </div>
 <script>

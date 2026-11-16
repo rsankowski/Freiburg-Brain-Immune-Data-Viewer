@@ -31,68 +31,64 @@
             ],
             "obsSets": [
               {
-                "name": "RNA snn res.1",
+                "name": "Cluster (RNA, res. 1)",
                 "path": "obs/RNA_snn_res.1"
               },
               {
-                "name": "orig.ident",
+                "name": "Sample (orig.ident)",
                 "path": "obs/orig.ident"
               },
               {
-                "name": "sample",
+                "name": "Sample",
                 "path": "obs/sample"
               },
               {
-                "name": "condition",
+                "name": "Condition",
                 "path": "obs/condition"
               },
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "RNA snn res.2",
+                "name": "Cluster (RNA, res. 2)",
                 "path": "obs/RNA_snn_res.2"
               },
               {
-                "name": "RNA snn res.3",
+                "name": "Cluster (RNA, res. 3)",
                 "path": "obs/RNA_snn_res.3"
               },
               {
-                "name": "RNA snn res.4",
+                "name": "Cluster (RNA, res. 4)",
                 "path": "obs/RNA_snn_res.4"
               },
               {
-                "name": "RNA snn res.5",
+                "name": "Cluster (RNA, res. 5)",
                 "path": "obs/RNA_snn_res.5"
               },
               {
-                "name": "RNA snn res.6",
+                "name": "Cluster (RNA, res. 6)",
                 "path": "obs/RNA_snn_res.6"
               },
               {
-                "name": "RNA snn res.7",
+                "name": "Cluster (RNA, res. 7)",
                 "path": "obs/RNA_snn_res.7"
               },
               {
-                "name": "RNA snn res.8",
+                "name": "Cluster (RNA, res. 8)",
                 "path": "obs/RNA_snn_res.8"
               },
               {
-                "name": "RNA snn res.0.45",
+                "name": "Cluster (RNA, res. 0.45)",
                 "path": "obs/RNA_snn_res.0.45"
               },
               {
-                "name": "RNA snn res.0.2",
+                "name": "Cluster (RNA, res. 0.2)",
                 "path": "obs/RNA_snn_res.0.2"
               },
               {
-                "name": "Gfp positive",
+                "name": "GFP positive",
                 "path": "obs/Gfp_positive"
-              },
-              {
-                "name": "cluster",
-                "path": "obs/cluster"
               }
             ],
             "obsFeatureMatrix": {
@@ -134,7 +130,7 @@
       "A": [
         {
           "path": [
-            "RNA snn res.1",
+            "Cluster (RNA, res. 1)",
             "0"
           ],
           "color": [
@@ -145,7 +141,7 @@
         },
         {
           "path": [
-            "RNA snn res.1",
+            "Cluster (RNA, res. 1)",
             "1"
           ],
           "color": [
@@ -156,7 +152,7 @@
         },
         {
           "path": [
-            "RNA snn res.1",
+            "Cluster (RNA, res. 1)",
             "2"
           ],
           "color": [
@@ -167,7 +163,7 @@
         },
         {
           "path": [
-            "RNA snn res.1",
+            "Cluster (RNA, res. 1)",
             "3"
           ],
           "color": [
@@ -178,7 +174,7 @@
         },
         {
           "path": [
-            "RNA snn res.1",
+            "Cluster (RNA, res. 1)",
             "4"
           ],
           "color": [
@@ -189,7 +185,7 @@
         },
         {
           "path": [
-            "RNA snn res.1",
+            "Cluster (RNA, res. 1)",
             "6"
           ],
           "color": [
@@ -200,7 +196,7 @@
         },
         {
           "path": [
-            "RNA snn res.1",
+            "Cluster (RNA, res. 1)",
             "7"
           ],
           "color": [
@@ -211,7 +207,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_Het_1"
           ],
           "color": [
@@ -222,7 +218,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_Het_2"
           ],
           "color": [
@@ -233,7 +229,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_Het_3"
           ],
           "color": [
@@ -244,7 +240,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_Het_T1"
           ],
           "color": [
@@ -255,7 +251,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_Het_T2"
           ],
           "color": [
@@ -266,7 +262,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_Het_T3"
           ],
           "color": [
@@ -277,7 +273,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_KO_1"
           ],
           "color": [
@@ -288,7 +284,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_KO_2"
           ],
           "color": [
@@ -299,7 +295,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_KO_3"
           ],
           "color": [
@@ -310,7 +306,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_KO_T1"
           ],
           "color": [
@@ -321,7 +317,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_KO_T2"
           ],
           "color": [
@@ -332,7 +328,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Hexb_KO_T3"
           ],
           "color": [
@@ -343,7 +339,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_Het_1"
           ],
           "color": [
@@ -354,7 +350,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_Het_2"
           ],
           "color": [
@@ -365,7 +361,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_Het_3"
           ],
           "color": [
@@ -376,7 +372,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_Het_T1"
           ],
           "color": [
@@ -387,7 +383,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_Het_T2"
           ],
           "color": [
@@ -398,7 +394,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_Het_T3"
           ],
           "color": [
@@ -409,7 +405,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_KO_1"
           ],
           "color": [
@@ -420,7 +416,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_KO_2"
           ],
           "color": [
@@ -431,7 +427,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_KO_3"
           ],
           "color": [
@@ -442,7 +438,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_KO_T1"
           ],
           "color": [
@@ -453,7 +449,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_KO_T2"
           ],
           "color": [
@@ -464,7 +460,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "Hexb_KO_T3"
           ],
           "color": [
@@ -475,7 +471,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Hexb_Het"
           ],
           "color": [
@@ -486,7 +482,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Hexb_Het_T"
           ],
           "color": [
@@ -497,7 +493,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Hexb_KO"
           ],
           "color": [
@@ -508,7 +504,7 @@
         },
         {
           "path": [
-            "condition",
+            "Condition",
             "Hexb_KO_T"
           ],
           "color": [
@@ -519,7 +515,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -530,7 +526,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -541,7 +537,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -552,7 +548,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "0"
           ],
           "color": [
@@ -563,7 +559,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "1"
           ],
           "color": [
@@ -574,7 +570,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "2"
           ],
           "color": [
@@ -585,7 +581,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "3"
           ],
           "color": [
@@ -596,7 +592,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "4"
           ],
           "color": [
@@ -607,7 +603,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "5"
           ],
           "color": [
@@ -618,7 +614,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "6"
           ],
           "color": [
@@ -629,7 +625,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "7"
           ],
           "color": [
@@ -640,7 +636,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "8"
           ],
           "color": [
@@ -651,7 +647,7 @@
         },
         {
           "path": [
-            "RNA snn res.2",
+            "Cluster (RNA, res. 2)",
             "11"
           ],
           "color": [
@@ -662,7 +658,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "0"
           ],
           "color": [
@@ -673,7 +669,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "1"
           ],
           "color": [
@@ -684,7 +680,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "2"
           ],
           "color": [
@@ -695,7 +691,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "3"
           ],
           "color": [
@@ -706,7 +702,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "4"
           ],
           "color": [
@@ -717,7 +713,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "5"
           ],
           "color": [
@@ -728,7 +724,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "6"
           ],
           "color": [
@@ -739,7 +735,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "7"
           ],
           "color": [
@@ -750,7 +746,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "8"
           ],
           "color": [
@@ -761,7 +757,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "9"
           ],
           "color": [
@@ -772,7 +768,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "10"
           ],
           "color": [
@@ -783,7 +779,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "13"
           ],
           "color": [
@@ -794,7 +790,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "14"
           ],
           "color": [
@@ -805,7 +801,7 @@
         },
         {
           "path": [
-            "RNA snn res.3",
+            "Cluster (RNA, res. 3)",
             "15"
           ],
           "color": [
@@ -816,7 +812,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "0"
           ],
           "color": [
@@ -827,7 +823,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "1"
           ],
           "color": [
@@ -838,7 +834,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "2"
           ],
           "color": [
@@ -849,7 +845,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "3"
           ],
           "color": [
@@ -860,7 +856,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "4"
           ],
           "color": [
@@ -871,7 +867,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "5"
           ],
           "color": [
@@ -882,7 +878,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "6"
           ],
           "color": [
@@ -893,7 +889,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "7"
           ],
           "color": [
@@ -904,7 +900,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "8"
           ],
           "color": [
@@ -915,7 +911,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "9"
           ],
           "color": [
@@ -926,7 +922,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "10"
           ],
           "color": [
@@ -937,7 +933,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "11"
           ],
           "color": [
@@ -948,7 +944,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "13"
           ],
           "color": [
@@ -959,7 +955,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "14"
           ],
           "color": [
@@ -970,7 +966,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "16"
           ],
           "color": [
@@ -981,7 +977,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "17"
           ],
           "color": [
@@ -992,7 +988,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "18"
           ],
           "color": [
@@ -1003,7 +999,7 @@
         },
         {
           "path": [
-            "RNA snn res.4",
+            "Cluster (RNA, res. 4)",
             "20"
           ],
           "color": [
@@ -1014,7 +1010,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "0"
           ],
           "color": [
@@ -1025,7 +1021,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "1"
           ],
           "color": [
@@ -1036,7 +1032,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "2"
           ],
           "color": [
@@ -1047,7 +1043,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "3"
           ],
           "color": [
@@ -1058,7 +1054,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "4"
           ],
           "color": [
@@ -1069,7 +1065,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "5"
           ],
           "color": [
@@ -1080,7 +1076,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "6"
           ],
           "color": [
@@ -1091,7 +1087,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "7"
           ],
           "color": [
@@ -1102,7 +1098,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "8"
           ],
           "color": [
@@ -1113,7 +1109,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "10"
           ],
           "color": [
@@ -1124,7 +1120,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "11"
           ],
           "color": [
@@ -1135,7 +1131,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "12"
           ],
           "color": [
@@ -1146,7 +1142,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "13"
           ],
           "color": [
@@ -1157,7 +1153,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "14"
           ],
           "color": [
@@ -1168,7 +1164,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "15"
           ],
           "color": [
@@ -1179,7 +1175,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "17"
           ],
           "color": [
@@ -1190,7 +1186,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "18"
           ],
           "color": [
@@ -1201,7 +1197,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "19"
           ],
           "color": [
@@ -1212,7 +1208,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "20"
           ],
           "color": [
@@ -1223,7 +1219,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "21"
           ],
           "color": [
@@ -1234,7 +1230,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "22"
           ],
           "color": [
@@ -1245,7 +1241,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "23"
           ],
           "color": [
@@ -1256,7 +1252,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "24"
           ],
           "color": [
@@ -1267,7 +1263,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "26"
           ],
           "color": [
@@ -1278,7 +1274,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "27"
           ],
           "color": [
@@ -1289,7 +1285,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "28"
           ],
           "color": [
@@ -1300,7 +1296,7 @@
         },
         {
           "path": [
-            "RNA snn res.5",
+            "Cluster (RNA, res. 5)",
             "29"
           ],
           "color": [
@@ -1311,7 +1307,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "0"
           ],
           "color": [
@@ -1322,7 +1318,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "1"
           ],
           "color": [
@@ -1333,7 +1329,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "2"
           ],
           "color": [
@@ -1344,7 +1340,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "3"
           ],
           "color": [
@@ -1355,7 +1351,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "4"
           ],
           "color": [
@@ -1366,7 +1362,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "5"
           ],
           "color": [
@@ -1377,7 +1373,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "7"
           ],
           "color": [
@@ -1388,7 +1384,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "8"
           ],
           "color": [
@@ -1399,7 +1395,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "9"
           ],
           "color": [
@@ -1410,7 +1406,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "10"
           ],
           "color": [
@@ -1421,7 +1417,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "11"
           ],
           "color": [
@@ -1432,7 +1428,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "12"
           ],
           "color": [
@@ -1443,7 +1439,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "13"
           ],
           "color": [
@@ -1454,7 +1450,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "14"
           ],
           "color": [
@@ -1465,7 +1461,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "16"
           ],
           "color": [
@@ -1476,7 +1472,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "17"
           ],
           "color": [
@@ -1487,7 +1483,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "18"
           ],
           "color": [
@@ -1498,7 +1494,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "19"
           ],
           "color": [
@@ -1509,7 +1505,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "20"
           ],
           "color": [
@@ -1520,7 +1516,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "21"
           ],
           "color": [
@@ -1531,7 +1527,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "22"
           ],
           "color": [
@@ -1542,7 +1538,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "23"
           ],
           "color": [
@@ -1553,7 +1549,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "24"
           ],
           "color": [
@@ -1564,7 +1560,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "25"
           ],
           "color": [
@@ -1575,7 +1571,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "26"
           ],
           "color": [
@@ -1586,7 +1582,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "27"
           ],
           "color": [
@@ -1597,7 +1593,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "29"
           ],
           "color": [
@@ -1608,7 +1604,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "30"
           ],
           "color": [
@@ -1619,7 +1615,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "31"
           ],
           "color": [
@@ -1630,7 +1626,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "32"
           ],
           "color": [
@@ -1641,7 +1637,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "33"
           ],
           "color": [
@@ -1652,7 +1648,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "34"
           ],
           "color": [
@@ -1663,7 +1659,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "35"
           ],
           "color": [
@@ -1674,7 +1670,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "36"
           ],
           "color": [
@@ -1685,7 +1681,7 @@
         },
         {
           "path": [
-            "RNA snn res.6",
+            "Cluster (RNA, res. 6)",
             "37"
           ],
           "color": [
@@ -1696,7 +1692,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "0"
           ],
           "color": [
@@ -1707,7 +1703,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "1"
           ],
           "color": [
@@ -1718,7 +1714,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "3"
           ],
           "color": [
@@ -1729,7 +1725,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "4"
           ],
           "color": [
@@ -1740,7 +1736,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "5"
           ],
           "color": [
@@ -1751,7 +1747,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "6"
           ],
           "color": [
@@ -1762,7 +1758,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "7"
           ],
           "color": [
@@ -1773,7 +1769,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "9"
           ],
           "color": [
@@ -1784,7 +1780,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "10"
           ],
           "color": [
@@ -1795,7 +1791,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "11"
           ],
           "color": [
@@ -1806,7 +1802,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "12"
           ],
           "color": [
@@ -1817,7 +1813,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "13"
           ],
           "color": [
@@ -1828,7 +1824,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "14"
           ],
           "color": [
@@ -1839,7 +1835,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "15"
           ],
           "color": [
@@ -1850,7 +1846,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "16"
           ],
           "color": [
@@ -1861,7 +1857,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "17"
           ],
           "color": [
@@ -1872,7 +1868,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "18"
           ],
           "color": [
@@ -1883,7 +1879,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "19"
           ],
           "color": [
@@ -1894,7 +1890,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "20"
           ],
           "color": [
@@ -1905,7 +1901,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "21"
           ],
           "color": [
@@ -1916,7 +1912,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "22"
           ],
           "color": [
@@ -1927,7 +1923,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "23"
           ],
           "color": [
@@ -1938,7 +1934,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "24"
           ],
           "color": [
@@ -1949,7 +1945,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "25"
           ],
           "color": [
@@ -1960,7 +1956,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "26"
           ],
           "color": [
@@ -1971,7 +1967,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "27"
           ],
           "color": [
@@ -1982,7 +1978,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "28"
           ],
           "color": [
@@ -1993,7 +1989,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "29"
           ],
           "color": [
@@ -2004,7 +2000,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "30"
           ],
           "color": [
@@ -2015,7 +2011,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "31"
           ],
           "color": [
@@ -2026,7 +2022,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "32"
           ],
           "color": [
@@ -2037,7 +2033,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "33"
           ],
           "color": [
@@ -2048,7 +2044,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "34"
           ],
           "color": [
@@ -2059,7 +2055,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "35"
           ],
           "color": [
@@ -2070,7 +2066,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "36"
           ],
           "color": [
@@ -2081,7 +2077,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "37"
           ],
           "color": [
@@ -2092,7 +2088,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "38"
           ],
           "color": [
@@ -2103,7 +2099,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "39"
           ],
           "color": [
@@ -2114,7 +2110,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "40"
           ],
           "color": [
@@ -2125,7 +2121,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "41"
           ],
           "color": [
@@ -2136,7 +2132,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "42"
           ],
           "color": [
@@ -2147,7 +2143,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "43"
           ],
           "color": [
@@ -2158,7 +2154,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "44"
           ],
           "color": [
@@ -2169,7 +2165,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "45"
           ],
           "color": [
@@ -2180,7 +2176,7 @@
         },
         {
           "path": [
-            "RNA snn res.7",
+            "Cluster (RNA, res. 7)",
             "46"
           ],
           "color": [
@@ -2191,7 +2187,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "0"
           ],
           "color": [
@@ -2202,7 +2198,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "1"
           ],
           "color": [
@@ -2213,7 +2209,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "2"
           ],
           "color": [
@@ -2224,7 +2220,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "4"
           ],
           "color": [
@@ -2235,7 +2231,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "5"
           ],
           "color": [
@@ -2246,7 +2242,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "6"
           ],
           "color": [
@@ -2257,7 +2253,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "7"
           ],
           "color": [
@@ -2268,7 +2264,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "8"
           ],
           "color": [
@@ -2279,7 +2275,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "9"
           ],
           "color": [
@@ -2290,7 +2286,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "10"
           ],
           "color": [
@@ -2301,7 +2297,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "11"
           ],
           "color": [
@@ -2312,7 +2308,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "12"
           ],
           "color": [
@@ -2323,7 +2319,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "13"
           ],
           "color": [
@@ -2334,7 +2330,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "14"
           ],
           "color": [
@@ -2345,7 +2341,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "15"
           ],
           "color": [
@@ -2356,7 +2352,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "17"
           ],
           "color": [
@@ -2367,7 +2363,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "18"
           ],
           "color": [
@@ -2378,7 +2374,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "19"
           ],
           "color": [
@@ -2389,7 +2385,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "20"
           ],
           "color": [
@@ -2400,7 +2396,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "21"
           ],
           "color": [
@@ -2411,7 +2407,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "22"
           ],
           "color": [
@@ -2422,7 +2418,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "23"
           ],
           "color": [
@@ -2433,7 +2429,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "25"
           ],
           "color": [
@@ -2444,7 +2440,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "26"
           ],
           "color": [
@@ -2455,7 +2451,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "27"
           ],
           "color": [
@@ -2466,7 +2462,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "28"
           ],
           "color": [
@@ -2477,7 +2473,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "29"
           ],
           "color": [
@@ -2488,7 +2484,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "30"
           ],
           "color": [
@@ -2499,7 +2495,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "31"
           ],
           "color": [
@@ -2510,7 +2506,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "32"
           ],
           "color": [
@@ -2521,7 +2517,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "33"
           ],
           "color": [
@@ -2532,7 +2528,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "34"
           ],
           "color": [
@@ -2543,7 +2539,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "35"
           ],
           "color": [
@@ -2554,7 +2550,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "36"
           ],
           "color": [
@@ -2565,7 +2561,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "37"
           ],
           "color": [
@@ -2576,7 +2572,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "38"
           ],
           "color": [
@@ -2587,7 +2583,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "39"
           ],
           "color": [
@@ -2598,7 +2594,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "40"
           ],
           "color": [
@@ -2609,7 +2605,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "41"
           ],
           "color": [
@@ -2620,7 +2616,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "42"
           ],
           "color": [
@@ -2631,7 +2627,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "43"
           ],
           "color": [
@@ -2642,7 +2638,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "44"
           ],
           "color": [
@@ -2653,7 +2649,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "45"
           ],
           "color": [
@@ -2664,7 +2660,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "46"
           ],
           "color": [
@@ -2675,7 +2671,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "47"
           ],
           "color": [
@@ -2686,7 +2682,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "48"
           ],
           "color": [
@@ -2697,7 +2693,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "49"
           ],
           "color": [
@@ -2708,7 +2704,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "50"
           ],
           "color": [
@@ -2719,7 +2715,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "51"
           ],
           "color": [
@@ -2730,7 +2726,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "52"
           ],
           "color": [
@@ -2741,7 +2737,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "53"
           ],
           "color": [
@@ -2752,7 +2748,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "54"
           ],
           "color": [
@@ -2763,7 +2759,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "55"
           ],
           "color": [
@@ -2774,7 +2770,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "56"
           ],
           "color": [
@@ -2785,7 +2781,7 @@
         },
         {
           "path": [
-            "RNA snn res.8",
+            "Cluster (RNA, res. 8)",
             "57"
           ],
           "color": [
@@ -2796,7 +2792,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.45",
+            "Cluster (RNA, res. 0.45)",
             "0"
           ],
           "color": [
@@ -2807,7 +2803,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.45",
+            "Cluster (RNA, res. 0.45)",
             "1"
           ],
           "color": [
@@ -2818,7 +2814,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.45",
+            "Cluster (RNA, res. 0.45)",
             "2"
           ],
           "color": [
@@ -2829,7 +2825,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.45",
+            "Cluster (RNA, res. 0.45)",
             "3"
           ],
           "color": [
@@ -2840,7 +2836,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.45",
+            "Cluster (RNA, res. 0.45)",
             "4"
           ],
           "color": [
@@ -2851,7 +2847,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.45",
+            "Cluster (RNA, res. 0.45)",
             "5"
           ],
           "color": [
@@ -2862,7 +2858,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.2",
+            "Cluster (RNA, res. 0.2)",
             "0"
           ],
           "color": [
@@ -2873,7 +2869,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.2",
+            "Cluster (RNA, res. 0.2)",
             "1"
           ],
           "color": [
@@ -2884,7 +2880,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.2",
+            "Cluster (RNA, res. 0.2)",
             "2"
           ],
           "color": [
@@ -2895,7 +2891,7 @@
         },
         {
           "path": [
-            "Gfp positive",
+            "GFP positive",
             "FALSE"
           ],
           "color": [
@@ -2906,7 +2902,7 @@
         },
         {
           "path": [
-            "Gfp positive",
+            "GFP positive",
             "TRUE"
           ],
           "color": [
@@ -2914,70 +2910,37 @@
             159,
             0
           ]
-        },
-        {
-          "path": [
-            "cluster",
-            "0"
-          ],
-          "color": [
-            0,
-            114,
-            178
-          ]
-        },
-        {
-          "path": [
-            "cluster",
-            "1"
-          ],
-          "color": [
-            230,
-            159,
-            0
-          ]
-        },
-        {
-          "path": [
-            "cluster",
-            "2"
-          ],
-          "color": [
-            0,
-            158,
-            115
-          ]
         }
       ]
     },
     "obsSetSelection": {
       "A": [
         [
-          "RNA snn res.1",
+          "Cluster (RNA, res. 1)",
           "0"
         ],
         [
-          "RNA snn res.1",
+          "Cluster (RNA, res. 1)",
           "1"
         ],
         [
-          "RNA snn res.1",
+          "Cluster (RNA, res. 1)",
           "2"
         ],
         [
-          "RNA snn res.1",
+          "Cluster (RNA, res. 1)",
           "3"
         ],
         [
-          "RNA snn res.1",
+          "Cluster (RNA, res. 1)",
           "4"
         ],
         [
-          "RNA snn res.1",
+          "Cluster (RNA, res. 1)",
           "6"
         ],
         [
-          "RNA snn res.1",
+          "Cluster (RNA, res. 1)",
           "7"
         ]
       ]
@@ -2994,7 +2957,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "RNA snn res.1"
+          "Cluster (RNA, res. 1)"
         ]
       ]
     }

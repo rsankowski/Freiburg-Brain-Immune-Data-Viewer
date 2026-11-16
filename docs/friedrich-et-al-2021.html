@@ -115,7 +115,7 @@ th { color: var(--muted); font-weight: 500; }
         <div class="stat"><div class="n">174.3 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">integrated snn res.0.1</span><span class="tag">batch</span><span class="tag">genotype</span><span class="tag">id</span><span class="tag">timepoint</span><span class="tag">integrated snn res.0.5</span><span class="tag">integrated snn res.1</span><span class="tag">integrated snn res.1.5</span><span class="tag">integrated snn res.2</span><span class="tag">integrated snn res.2.5</span><span class="tag">+3 more</span></div>
+      <div class="tags"><span class="tag">Cluster (integrated, res. 0.1)</span><span class="tag">Batch</span><span class="tag">Genotype</span><span class="tag">ID</span><span class="tag">Timepoint</span><span class="tag">Cluster (integrated, res. 0.5)</span><span class="tag">Cluster (integrated, res. 1)</span><span class="tag">Cluster (integrated, res. 1.5)</span><span class="tag">Cluster (integrated, res. 2)</span><span class="tag">Cluster (integrated, res. 2.5)</span><span class="tag">+3 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm">Open viewer</a>
         <a class="btn sec" href="./configs/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.json">View config JSON</a>
@@ -123,8 +123,8 @@ th { color: var(--muted); font-weight: 500; }
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/friedrich_et_al_2021__seurat_integration_10x_wt_rh_gbm.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 5.7 ms,
-        p95 7.4 ms &middot; X chunked [55754, 10]
+        Single-gene fetch measured locally: p50 1.1 ms,
+        p95 1.2 ms &middot; X chunked [55754, 10]
       </p>
     </section>
     <section class="card">
@@ -138,7 +138,7 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
         <div class="stat"><div class="n">27.8 MB</div><div class="k">zarr store</div></div>
       </div>
       
-      <div class="tags"><span class="tag">Celltype</span><span class="tag">orig.ident</span><span class="tag">Batch</span><span class="tag">integrated snn res.0.1</span><span class="tag">integrated snn res.0.2</span><span class="tag">integrated snn res.0.6</span><span class="tag">integrated snn res.0.8</span><span class="tag">integrated snn res.1</span><span class="tag">integrated snn res.1.5</span><span class="tag">integrated snn res.2</span><span class="tag">+5 more</span></div>
+      <div class="tags"><span class="tag">Cell type</span><span class="tag">Sample (orig.ident)</span><span class="tag">Batch</span><span class="tag">Cluster (integrated, res. 0.1)</span><span class="tag">Cluster (integrated, res. 0.2)</span><span class="tag">Cluster (integrated, res. 0.6)</span><span class="tag">Cluster (integrated, res. 0.8)</span><span class="tag">Cluster (integrated, res. 1)</span><span class="tag">Cluster (integrated, res. 1.5)</span><span class="tag">Cluster (integrated, res. 2)</span><span class="tag">+5 more</span></div>
       <p>
         <a class="btn" href="./viewer.html?dataset=friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final">Open viewer</a>
         <a class="btn sec" href="./configs/friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.json">View config JSON</a>
@@ -146,14 +146,14 @@ adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-
       <pre><code>import anndata as ad
 adata = ad.read_zarr("https://freburg-immune-data-viewer-544227292049-us-east-1-an.s3.us-east-1.amazonaws.com/friedrich_et_al_2021__gse166418_seurat_integration_wt_rh_gbm_final.zarr")</code></pre>
       <p style="color:var(--muted);font-size:12.5px;margin-top:12px">
-        Single-gene fetch measured locally: p50 2.1 ms,
-        p95 3.0 ms &middot; X chunked [4460, 10]
+        Single-gene fetch measured locally: p50 0.6 ms,
+        p95 0.7 ms &middot; X chunked [4460, 10]
       </p>
     </section>
   <footer>
     Embeddings and annotations are the published ones &mdash; no re-clustering or
     re-embedding was performed. Built with Vitessce 3.4.9.
-    Last updated 2026-09-09.
+    Last updated 2026-11-16.
   </footer>
 </div>
 <script>

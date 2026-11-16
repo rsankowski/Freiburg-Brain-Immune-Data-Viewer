@@ -23,71 +23,71 @@
             ],
             "obsSets": [
               {
-                "name": "celltype azimuth",
+                "name": "Cell type (Azimuth)",
                 "path": "obs/celltype_azimuth"
               },
               {
-                "name": "orig.ident",
+                "name": "Sample (orig.ident)",
                 "path": "obs/orig.ident"
               },
               {
-                "name": "sample",
+                "name": "Sample",
                 "path": "obs/sample"
               },
               {
-                "name": "batch",
+                "name": "Batch",
                 "path": "obs/batch"
               },
               {
-                "name": "compartment",
+                "name": "Compartment",
                 "path": "obs/compartment"
               },
               {
-                "name": "diagnosis",
+                "name": "Diagnosis",
                 "path": "obs/diagnosis"
               },
               {
-                "name": "predicted.celltype",
+                "name": "Predicted cell type",
                 "path": "obs/predicted.celltype"
               },
               {
-                "name": "predicted.celltype2",
+                "name": "Predicted cell type 2",
                 "path": "obs/predicted.celltype2"
               },
               {
-                "name": "predicted.celltype3",
+                "name": "Predicted cell type 3",
                 "path": "obs/predicted.celltype3"
               },
               {
-                "name": "SCT snn res.1",
+                "name": "Cluster (SCT, res. 1)",
                 "path": "obs/SCT_snn_res.1"
               },
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "celltype cor",
+                "name": "Cell type (correlation)",
                 "path": "obs/celltype_cor"
               },
               {
-                "name": "Phase",
+                "name": "Cell cycle phase",
                 "path": "obs/Phase"
               },
               {
-                "name": "compartment ind",
+                "name": "Compartment (individual)",
                 "path": "obs/compartment_ind"
               },
               {
-                "name": "pat id",
+                "name": "Donor",
                 "path": "obs/pat_id"
               },
               {
-                "name": "region ind",
+                "name": "Region (individual)",
                 "path": "obs/region_ind"
               },
               {
-                "name": "SCT snn res.0.3",
+                "name": "Cluster (SCT, res. 0.3)",
                 "path": "obs/SCT_snn_res.0.3"
               }
             ],
@@ -130,7 +130,7 @@
       "A": [
         {
           "path": [
-            "celltype azimuth",
+            "Cell type (Azimuth)",
             "CAMs"
           ],
           "color": [
@@ -141,7 +141,7 @@
         },
         {
           "path": [
-            "celltype azimuth",
+            "Cell type (Azimuth)",
             "Class. Mono"
           ],
           "color": [
@@ -152,7 +152,7 @@
         },
         {
           "path": [
-            "celltype azimuth",
+            "Cell type (Azimuth)",
             "Kolmer cells"
           ],
           "color": [
@@ -163,7 +163,7 @@
         },
         {
           "path": [
-            "celltype azimuth",
+            "Cell type (Azimuth)",
             "MG"
           ],
           "color": [
@@ -174,7 +174,7 @@
         },
         {
           "path": [
-            "celltype azimuth",
+            "Cell type (Azimuth)",
             "cDC1"
           ],
           "color": [
@@ -185,7 +185,7 @@
         },
         {
           "path": [
-            "celltype azimuth",
+            "Cell type (Azimuth)",
             "cDC2"
           ],
           "color": [
@@ -196,7 +196,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "CP"
           ],
           "color": [
@@ -207,7 +207,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "FR240"
           ],
           "color": [
@@ -218,7 +218,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "FR541"
           ],
           "color": [
@@ -229,7 +229,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "FR645"
           ],
           "color": [
@@ -240,7 +240,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "FR648"
           ],
           "color": [
@@ -251,7 +251,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "FR685"
           ],
           "color": [
@@ -262,7 +262,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "FR742"
           ],
           "color": [
@@ -273,7 +273,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "FR960"
           ],
           "color": [
@@ -284,7 +284,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "FR999"
           ],
           "color": [
@@ -295,7 +295,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "CP_5"
           ],
           "color": [
@@ -306,7 +306,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR240_Men_1_3"
           ],
           "color": [
@@ -317,7 +317,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR240_Men_2_4"
           ],
           "color": [
@@ -328,7 +328,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR541_GM_WM_PVM_5"
           ],
           "color": [
@@ -339,7 +339,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR541_Men_2"
           ],
           "color": [
@@ -350,7 +350,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR645_DM_8"
           ],
           "color": [
@@ -361,7 +361,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR648_CP_4"
           ],
           "color": [
@@ -372,7 +372,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR648_GM_PVM_6"
           ],
           "color": [
@@ -383,7 +383,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR648_Men_3"
           ],
           "color": [
@@ -394,7 +394,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR685_Men_1"
           ],
           "color": [
@@ -405,7 +405,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR742_Men_1_3"
           ],
           "color": [
@@ -416,7 +416,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR742_Men_2_4"
           ],
           "color": [
@@ -427,7 +427,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR960_DM_1_1"
           ],
           "color": [
@@ -438,7 +438,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR960_DM_1_2"
           ],
           "color": [
@@ -449,7 +449,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR999_GBM_Men_4"
           ],
           "color": [
@@ -460,7 +460,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR999_GBM_PVM_Men_7"
           ],
           "color": [
@@ -471,7 +471,7 @@
         },
         {
           "path": [
-            "batch",
+            "Batch",
             "A"
           ],
           "color": [
@@ -482,7 +482,7 @@
         },
         {
           "path": [
-            "batch",
+            "Batch",
             "B"
           ],
           "color": [
@@ -493,7 +493,7 @@
         },
         {
           "path": [
-            "batch",
+            "Batch",
             "C"
           ],
           "color": [
@@ -504,7 +504,7 @@
         },
         {
           "path": [
-            "batch",
+            "Batch",
             "E"
           ],
           "color": [
@@ -515,7 +515,7 @@
         },
         {
           "path": [
-            "batch",
+            "Batch",
             "F"
           ],
           "color": [
@@ -526,7 +526,7 @@
         },
         {
           "path": [
-            "batch",
+            "Batch",
             "G"
           ],
           "color": [
@@ -537,7 +537,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "CP"
           ],
           "color": [
@@ -548,7 +548,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "CTX"
           ],
           "color": [
@@ -559,7 +559,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "DM"
           ],
           "color": [
@@ -570,7 +570,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "LM"
           ],
           "color": [
@@ -581,7 +581,7 @@
         },
         {
           "path": [
-            "diagnosis",
+            "Diagnosis",
             "Ctrl"
           ],
           "color": [
@@ -592,7 +592,7 @@
         },
         {
           "path": [
-            "diagnosis",
+            "Diagnosis",
             "GB"
           ],
           "color": [
@@ -603,7 +603,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD14 Mono"
           ],
           "color": [
@@ -614,7 +614,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD16 Mono"
           ],
           "color": [
@@ -625,7 +625,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "cDC2"
           ],
           "color": [
@@ -636,7 +636,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "DC"
           ],
           "color": [
@@ -647,7 +647,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "Mono"
           ],
           "color": [
@@ -658,7 +658,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD14 Mono"
           ],
           "color": [
@@ -669,7 +669,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD16 Mono"
           ],
           "color": [
@@ -680,7 +680,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "cDC2_1"
           ],
           "color": [
@@ -691,7 +691,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "cDC2_2"
           ],
           "color": [
@@ -702,7 +702,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "0"
           ],
           "color": [
@@ -713,7 +713,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "1"
           ],
           "color": [
@@ -724,7 +724,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "2"
           ],
           "color": [
@@ -735,7 +735,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "4"
           ],
           "color": [
@@ -746,7 +746,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "5"
           ],
           "color": [
@@ -757,7 +757,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "6"
           ],
           "color": [
@@ -768,7 +768,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "7"
           ],
           "color": [
@@ -779,7 +779,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "8"
           ],
           "color": [
@@ -790,7 +790,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "9"
           ],
           "color": [
@@ -801,7 +801,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "10"
           ],
           "color": [
@@ -812,7 +812,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -823,7 +823,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -834,7 +834,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -845,7 +845,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -856,7 +856,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "CAMs"
           ],
           "color": [
@@ -867,7 +867,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "Class. Mono"
           ],
           "color": [
@@ -878,7 +878,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "Kolmer cells"
           ],
           "color": [
@@ -889,7 +889,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "MG"
           ],
           "color": [
@@ -900,7 +900,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "cDC1"
           ],
           "color": [
@@ -911,7 +911,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "cDC2"
           ],
           "color": [
@@ -922,7 +922,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G1"
           ],
           "color": [
@@ -933,7 +933,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G2M"
           ],
           "color": [
@@ -944,7 +944,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "S"
           ],
           "color": [
@@ -955,7 +955,7 @@
         },
         {
           "path": [
-            "compartment ind",
+            "Compartment (individual)",
             "CP"
           ],
           "color": [
@@ -966,7 +966,7 @@
         },
         {
           "path": [
-            "compartment ind",
+            "Compartment (individual)",
             "DM"
           ],
           "color": [
@@ -977,7 +977,7 @@
         },
         {
           "path": [
-            "compartment ind",
+            "Compartment (individual)",
             "LM"
           ],
           "color": [
@@ -988,7 +988,7 @@
         },
         {
           "path": [
-            "compartment ind",
+            "Compartment (individual)",
             "PVM"
           ],
           "color": [
@@ -999,7 +999,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR110"
           ],
           "color": [
@@ -1010,7 +1010,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR240"
           ],
           "color": [
@@ -1021,7 +1021,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR330"
           ],
           "color": [
@@ -1032,7 +1032,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR492"
           ],
           "color": [
@@ -1043,7 +1043,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR541"
           ],
           "color": [
@@ -1054,7 +1054,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR580"
           ],
           "color": [
@@ -1065,7 +1065,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR645"
           ],
           "color": [
@@ -1076,7 +1076,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR648"
           ],
           "color": [
@@ -1087,7 +1087,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR685"
           ],
           "color": [
@@ -1098,7 +1098,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR742"
           ],
           "color": [
@@ -1109,7 +1109,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR925"
           ],
           "color": [
@@ -1120,7 +1120,7 @@
         },
         {
           "path": [
-            "pat id",
+            "Donor",
             "FR960"
           ],
           "color": [
@@ -1131,7 +1131,7 @@
         },
         {
           "path": [
-            "region ind",
+            "Region (individual)",
             "GM"
           ],
           "color": [
@@ -1142,7 +1142,7 @@
         },
         {
           "path": [
-            "region ind",
+            "Region (individual)",
             "Other"
           ],
           "color": [
@@ -1153,7 +1153,7 @@
         },
         {
           "path": [
-            "region ind",
+            "Region (individual)",
             "WM"
           ],
           "color": [
@@ -1164,7 +1164,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.3",
+            "Cluster (SCT, res. 0.3)",
             "0"
           ],
           "color": [
@@ -1175,7 +1175,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.3",
+            "Cluster (SCT, res. 0.3)",
             "1"
           ],
           "color": [
@@ -1186,7 +1186,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.3",
+            "Cluster (SCT, res. 0.3)",
             "2"
           ],
           "color": [
@@ -1197,7 +1197,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.3",
+            "Cluster (SCT, res. 0.3)",
             "3"
           ],
           "color": [
@@ -1211,27 +1211,27 @@
     "obsSetSelection": {
       "A": [
         [
-          "celltype azimuth",
+          "Cell type (Azimuth)",
           "CAMs"
         ],
         [
-          "celltype azimuth",
+          "Cell type (Azimuth)",
           "Class. Mono"
         ],
         [
-          "celltype azimuth",
+          "Cell type (Azimuth)",
           "Kolmer cells"
         ],
         [
-          "celltype azimuth",
+          "Cell type (Azimuth)",
           "MG"
         ],
         [
-          "celltype azimuth",
+          "Cell type (Azimuth)",
           "cDC1"
         ],
         [
-          "celltype azimuth",
+          "Cell type (Azimuth)",
           "cDC2"
         ]
       ]
@@ -1248,7 +1248,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "celltype azimuth"
+          "Cell type (Azimuth)"
         ]
       ]
     }

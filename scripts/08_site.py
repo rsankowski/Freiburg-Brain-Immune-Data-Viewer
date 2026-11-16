@@ -389,11 +389,9 @@ def paper_slug(paper_id: str) -> str:
 
 
 def dataset_card(entry: dict, validate: dict, cfg: dict) -> str:
-    sets = entry.get("obs_sets", [])
+    sets = entry.get("obs_set_labels") or [s.replace("_", " ") for s in entry.get("obs_sets", [])]
     shown = sets[:10]
-    tags = "".join(
-        f'<span class="tag">{html.escape(s.replace("_", " "))}</span>' for s in shown
-    )
+    tags = "".join(f'<span class="tag">{html.escape(s)}</span>' for s in shown)
     if len(sets) > len(shown):
         tags += f'<span class="tag">+{len(sets) - len(shown)} more</span>'
     timing = (validate or {}).get("single_gene_fetch", {})

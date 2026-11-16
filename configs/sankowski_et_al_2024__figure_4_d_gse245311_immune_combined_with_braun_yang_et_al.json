@@ -23,51 +23,51 @@
             ],
             "obsSets": [
               {
-                "name": "predicted.id",
+                "name": "Predicted cell type (label transfer)",
                 "path": "obs/predicted.id"
               },
               {
-                "name": "sample",
+                "name": "Sample",
                 "path": "obs/sample"
               },
               {
-                "name": "experiment",
+                "name": "Experiment",
                 "path": "obs/experiment"
               },
               {
-                "name": "timepoint",
+                "name": "Timepoint",
                 "path": "obs/timepoint"
               },
               {
-                "name": "compartment",
+                "name": "Compartment",
                 "path": "obs/compartment"
               },
               {
-                "name": "RNA snn res.0.8",
+                "name": "Cluster (RNA, res. 0.8)",
                 "path": "obs/RNA_snn_res.0.8"
               },
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "CP predicted.id",
+                "name": "Predicted cell type (CP reference)",
                 "path": "obs/CP_predicted.id"
               },
               {
-                "name": "celltypes fetal",
+                "name": "Cell type (fetal reference)",
                 "path": "obs/celltypes_fetal"
               },
               {
-                "name": "compartment cor",
+                "name": "Compartment (correlation)",
                 "path": "obs/compartment_cor"
               },
               {
-                "name": "celltype cor",
+                "name": "Cell type (correlation)",
                 "path": "obs/celltype_cor"
               },
               {
-                "name": "Phase",
+                "name": "Cell cycle phase",
                 "path": "obs/Phase"
               }
             ],
@@ -110,7 +110,7 @@
       "A": [
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "Erythrocyte"
           ],
           "color": [
@@ -121,7 +121,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "Fibroblast"
           ],
           "color": [
@@ -132,7 +132,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "Immune"
           ],
           "color": [
@@ -143,7 +143,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "NA"
           ],
           "color": [
@@ -154,7 +154,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "Neuroblast"
           ],
           "color": [
@@ -165,7 +165,7 @@
         },
         {
           "path": [
-            "predicted.id",
+            "Predicted cell type (label transfer)",
             "Neuron"
           ],
           "color": [
@@ -176,7 +176,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "CP_Yang_et_al"
           ],
           "color": [
@@ -187,7 +187,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR210_LM_23pcw"
           ],
           "color": [
@@ -198,7 +198,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR210_Par_23pcw"
           ],
           "color": [
@@ -209,7 +209,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "LM_FB-CLPLX"
           ],
           "color": [
@@ -220,7 +220,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "LM_GB"
           ],
           "color": [
@@ -231,7 +231,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "NA"
           ],
           "color": [
@@ -242,7 +242,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P1_Par1"
           ],
           "color": [
@@ -253,7 +253,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P2_Par2"
           ],
           "color": [
@@ -264,7 +264,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P3_LM1"
           ],
           "color": [
@@ -275,7 +275,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P4_LM2"
           ],
           "color": [
@@ -286,7 +286,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P5_CP1"
           ],
           "color": [
@@ -297,7 +297,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P6_CP2"
           ],
           "color": [
@@ -308,7 +308,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "adult-control-mixed"
           ],
           "color": [
@@ -319,7 +319,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "Linnasson_v2"
           ],
           "color": [
@@ -330,7 +330,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "Linnasson_v3"
           ],
           "color": [
@@ -341,7 +341,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "Yang_et_al"
           ],
           "color": [
@@ -352,7 +352,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "adult_no_multiplexing"
           ],
           "color": [
@@ -363,7 +363,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "adult_with_multiplexing_1"
           ],
           "color": [
@@ -374,7 +374,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "adult_with_multiplexing_2"
           ],
           "color": [
@@ -385,7 +385,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "fetal_no_multiplexing"
           ],
           "color": [
@@ -396,7 +396,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "fetal_with_multiplexing"
           ],
           "color": [
@@ -407,7 +407,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "5"
           ],
           "color": [
@@ -418,7 +418,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "6"
           ],
           "color": [
@@ -429,7 +429,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "7"
           ],
           "color": [
@@ -440,7 +440,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "8"
           ],
           "color": [
@@ -451,7 +451,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "9"
           ],
           "color": [
@@ -462,7 +462,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "10"
           ],
           "color": [
@@ -473,7 +473,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "11"
           ],
           "color": [
@@ -484,7 +484,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "12"
           ],
           "color": [
@@ -495,7 +495,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "13"
           ],
           "color": [
@@ -506,7 +506,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "14"
           ],
           "color": [
@@ -517,7 +517,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "15"
           ],
           "color": [
@@ -528,7 +528,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "17"
           ],
           "color": [
@@ -539,7 +539,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "19"
           ],
           "color": [
@@ -550,7 +550,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "20"
           ],
           "color": [
@@ -561,7 +561,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "23"
           ],
           "color": [
@@ -572,7 +572,7 @@
         },
         {
           "path": [
-            "timepoint",
+            "Timepoint",
             "postnatal"
           ],
           "color": [
@@ -583,7 +583,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "CP"
           ],
           "color": [
@@ -594,7 +594,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "LM"
           ],
           "color": [
@@ -605,7 +605,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "PC"
           ],
           "color": [
@@ -616,7 +616,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "frontal_brain_CP"
           ],
           "color": [
@@ -627,7 +627,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "hindbrain_CP"
           ],
           "color": [
@@ -638,7 +638,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "0"
           ],
           "color": [
@@ -649,7 +649,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "1"
           ],
           "color": [
@@ -660,7 +660,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "2"
           ],
           "color": [
@@ -671,7 +671,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "3"
           ],
           "color": [
@@ -682,7 +682,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "4"
           ],
           "color": [
@@ -693,7 +693,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "5"
           ],
           "color": [
@@ -704,7 +704,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "6"
           ],
           "color": [
@@ -715,7 +715,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "7"
           ],
           "color": [
@@ -726,7 +726,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "8"
           ],
           "color": [
@@ -737,7 +737,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "9"
           ],
           "color": [
@@ -748,7 +748,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "10"
           ],
           "color": [
@@ -759,7 +759,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "11"
           ],
           "color": [
@@ -770,7 +770,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "12"
           ],
           "color": [
@@ -781,7 +781,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "13"
           ],
           "color": [
@@ -792,7 +792,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "14"
           ],
           "color": [
@@ -803,7 +803,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "15"
           ],
           "color": [
@@ -814,7 +814,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "16"
           ],
           "color": [
@@ -825,7 +825,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "17"
           ],
           "color": [
@@ -836,7 +836,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "18"
           ],
           "color": [
@@ -847,7 +847,7 @@
         },
         {
           "path": [
-            "RNA snn res.0.8",
+            "Cluster (RNA, res. 0.8)",
             "19"
           ],
           "color": [
@@ -858,7 +858,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -869,7 +869,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -880,7 +880,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -891,7 +891,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -902,7 +902,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -913,7 +913,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -924,7 +924,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "6"
           ],
           "color": [
@@ -935,7 +935,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "7"
           ],
           "color": [
@@ -946,7 +946,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "8"
           ],
           "color": [
@@ -957,7 +957,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "9"
           ],
           "color": [
@@ -968,7 +968,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "10"
           ],
           "color": [
@@ -979,7 +979,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "11"
           ],
           "color": [
@@ -990,7 +990,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "12"
           ],
           "color": [
@@ -1001,7 +1001,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "13"
           ],
           "color": [
@@ -1012,7 +1012,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "14"
           ],
           "color": [
@@ -1023,7 +1023,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "15"
           ],
           "color": [
@@ -1034,7 +1034,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "16"
           ],
           "color": [
@@ -1045,7 +1045,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "17"
           ],
           "color": [
@@ -1056,7 +1056,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "18"
           ],
           "color": [
@@ -1067,7 +1067,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "19"
           ],
           "color": [
@@ -1078,7 +1078,7 @@
         },
         {
           "path": [
-            "CP predicted.id",
+            "Predicted cell type (CP reference)",
             "Endothelial"
           ],
           "color": [
@@ -1089,7 +1089,7 @@
         },
         {
           "path": [
-            "CP predicted.id",
+            "Predicted cell type (CP reference)",
             "Ependymal"
           ],
           "color": [
@@ -1100,7 +1100,7 @@
         },
         {
           "path": [
-            "CP predicted.id",
+            "Predicted cell type (CP reference)",
             "Macrophage"
           ],
           "color": [
@@ -1111,7 +1111,7 @@
         },
         {
           "path": [
-            "CP predicted.id",
+            "Predicted cell type (CP reference)",
             "Mesenchymal"
           ],
           "color": [
@@ -1122,7 +1122,7 @@
         },
         {
           "path": [
-            "CP predicted.id",
+            "Predicted cell type (CP reference)",
             "NA"
           ],
           "color": [
@@ -1133,7 +1133,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Acinar cells"
           ],
           "color": [
@@ -1144,7 +1144,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Ductal cells"
           ],
           "color": [
@@ -1155,7 +1155,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "ENS neurons"
           ],
           "color": [
@@ -1166,7 +1166,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Erythroblasts"
           ],
           "color": [
@@ -1177,7 +1177,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Intestinal epithelial cells"
           ],
           "color": [
@@ -1188,7 +1188,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Islet endocrine cells"
           ],
           "color": [
@@ -1199,7 +1199,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Lymphoid cells"
           ],
           "color": [
@@ -1210,7 +1210,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Megakaryocytes"
           ],
           "color": [
@@ -1221,7 +1221,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Microglia"
           ],
           "color": [
@@ -1232,7 +1232,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Myeloid cells"
           ],
           "color": [
@@ -1243,7 +1243,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "NA"
           ],
           "color": [
@@ -1254,7 +1254,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Parietal and chief cells"
           ],
           "color": [
@@ -1265,7 +1265,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Stromal cells"
           ],
           "color": [
@@ -1276,7 +1276,7 @@
         },
         {
           "path": [
-            "celltypes fetal",
+            "Cell type (fetal reference)",
             "Thymic epithelial cells"
           ],
           "color": [
@@ -1287,7 +1287,7 @@
         },
         {
           "path": [
-            "compartment cor",
+            "Compartment (correlation)",
             "CP"
           ],
           "color": [
@@ -1298,7 +1298,7 @@
         },
         {
           "path": [
-            "compartment cor",
+            "Compartment (correlation)",
             "LM"
           ],
           "color": [
@@ -1309,7 +1309,7 @@
         },
         {
           "path": [
-            "compartment cor",
+            "Compartment (correlation)",
             "NA"
           ],
           "color": [
@@ -1320,7 +1320,7 @@
         },
         {
           "path": [
-            "compartment cor",
+            "Compartment (correlation)",
             "PC"
           ],
           "color": [
@@ -1331,7 +1331,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "Erythrocyte"
           ],
           "color": [
@@ -1342,7 +1342,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "Fibroblast"
           ],
           "color": [
@@ -1353,7 +1353,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "Immune"
           ],
           "color": [
@@ -1364,7 +1364,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "NA"
           ],
           "color": [
@@ -1375,7 +1375,7 @@
         },
         {
           "path": [
-            "celltype cor",
+            "Cell type (correlation)",
             "Vascular"
           ],
           "color": [
@@ -1386,7 +1386,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G1"
           ],
           "color": [
@@ -1397,7 +1397,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G2M"
           ],
           "color": [
@@ -1408,7 +1408,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "S"
           ],
           "color": [
@@ -1422,27 +1422,27 @@
     "obsSetSelection": {
       "A": [
         [
-          "predicted.id",
+          "Predicted cell type (label transfer)",
           "Erythrocyte"
         ],
         [
-          "predicted.id",
+          "Predicted cell type (label transfer)",
           "Fibroblast"
         ],
         [
-          "predicted.id",
+          "Predicted cell type (label transfer)",
           "Immune"
         ],
         [
-          "predicted.id",
+          "Predicted cell type (label transfer)",
           "NA"
         ],
         [
-          "predicted.id",
+          "Predicted cell type (label transfer)",
           "Neuroblast"
         ],
         [
-          "predicted.id",
+          "Predicted cell type (label transfer)",
           "Neuron"
         ]
       ]
@@ -1459,7 +1459,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "predicted.id"
+          "Predicted cell type (label transfer)"
         ]
       ]
     }

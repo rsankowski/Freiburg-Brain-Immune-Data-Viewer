@@ -23,15 +23,15 @@
             ],
             "obsSets": [
               {
-                "name": "cluster",
+                "name": "Cluster",
                 "path": "obs/cluster"
               },
               {
-                "name": "orig.ident",
+                "name": "Sample (orig.ident)",
                 "path": "obs/orig.ident"
               },
               {
-                "name": "sample",
+                "name": "Sample",
                 "path": "obs/sample"
               }
             ],
@@ -74,7 +74,7 @@
       "A": [
         {
           "path": [
-            "cluster",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -85,7 +85,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -96,7 +96,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -107,7 +107,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -118,7 +118,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -129,7 +129,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "6"
           ],
           "color": [
@@ -140,7 +140,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "7"
           ],
           "color": [
@@ -151,7 +151,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "8"
           ],
           "color": [
@@ -162,7 +162,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "9"
           ],
           "color": [
@@ -173,7 +173,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "10"
           ],
           "color": [
@@ -184,7 +184,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "11"
           ],
           "color": [
@@ -195,7 +195,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "12"
           ],
           "color": [
@@ -206,7 +206,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "13"
           ],
           "color": [
@@ -217,7 +217,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "14"
           ],
           "color": [
@@ -228,7 +228,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "15"
           ],
           "color": [
@@ -239,7 +239,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "16"
           ],
           "color": [
@@ -250,7 +250,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "17"
           ],
           "color": [
@@ -261,7 +261,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "18"
           ],
           "color": [
@@ -272,7 +272,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "19"
           ],
           "color": [
@@ -283,7 +283,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "20"
           ],
           "color": [
@@ -294,7 +294,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "21"
           ],
           "color": [
@@ -305,7 +305,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "22"
           ],
           "color": [
@@ -316,7 +316,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "23"
           ],
           "color": [
@@ -327,7 +327,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "24"
           ],
           "color": [
@@ -338,7 +338,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "25"
           ],
           "color": [
@@ -349,7 +349,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "26"
           ],
           "color": [
@@ -360,7 +360,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "27"
           ],
           "color": [
@@ -371,7 +371,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "28"
           ],
           "color": [
@@ -382,7 +382,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "29"
           ],
           "color": [
@@ -393,7 +393,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "30"
           ],
           "color": [
@@ -404,7 +404,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "31"
           ],
           "color": [
@@ -415,7 +415,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "32"
           ],
           "color": [
@@ -426,7 +426,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "33"
           ],
           "color": [
@@ -437,7 +437,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "34"
           ],
           "color": [
@@ -448,7 +448,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "35"
           ],
           "color": [
@@ -459,7 +459,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "36"
           ],
           "color": [
@@ -470,7 +470,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "37"
           ],
           "color": [
@@ -481,7 +481,7 @@
         },
         {
           "path": [
-            "cluster",
+            "Cluster",
             "38"
           ],
           "color": [
@@ -492,7 +492,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P212"
           ],
           "color": [
@@ -503,7 +503,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P213"
           ],
           "color": [
@@ -514,7 +514,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P214"
           ],
           "color": [
@@ -525,7 +525,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P215"
           ],
           "color": [
@@ -536,7 +536,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P216"
           ],
           "color": [
@@ -547,7 +547,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P217"
           ],
           "color": [
@@ -558,7 +558,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "P218"
           ],
           "color": [
@@ -569,7 +569,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "S364"
           ],
           "color": [
@@ -580,7 +580,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "S365"
           ],
           "color": [
@@ -591,7 +591,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "S366"
           ],
           "color": [
@@ -602,7 +602,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "S367"
           ],
           "color": [
@@ -613,7 +613,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "S368"
           ],
           "color": [
@@ -624,7 +624,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P212"
           ],
           "color": [
@@ -635,7 +635,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P213"
           ],
           "color": [
@@ -646,7 +646,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P214"
           ],
           "color": [
@@ -657,7 +657,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P215"
           ],
           "color": [
@@ -668,7 +668,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P216"
           ],
           "color": [
@@ -679,7 +679,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P217"
           ],
           "color": [
@@ -690,7 +690,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "P218"
           ],
           "color": [
@@ -701,7 +701,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "S364"
           ],
           "color": [
@@ -712,7 +712,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "S365"
           ],
           "color": [
@@ -723,7 +723,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "S366"
           ],
           "color": [
@@ -734,7 +734,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "S367"
           ],
           "color": [
@@ -745,7 +745,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "S368"
           ],
           "color": [
@@ -759,155 +759,155 @@
     "obsSetSelection": {
       "A": [
         [
-          "cluster",
+          "Cluster",
           "1"
         ],
         [
-          "cluster",
+          "Cluster",
           "2"
         ],
         [
-          "cluster",
+          "Cluster",
           "3"
         ],
         [
-          "cluster",
+          "Cluster",
           "4"
         ],
         [
-          "cluster",
+          "Cluster",
           "5"
         ],
         [
-          "cluster",
+          "Cluster",
           "6"
         ],
         [
-          "cluster",
+          "Cluster",
           "7"
         ],
         [
-          "cluster",
+          "Cluster",
           "8"
         ],
         [
-          "cluster",
+          "Cluster",
           "9"
         ],
         [
-          "cluster",
+          "Cluster",
           "10"
         ],
         [
-          "cluster",
+          "Cluster",
           "11"
         ],
         [
-          "cluster",
+          "Cluster",
           "12"
         ],
         [
-          "cluster",
+          "Cluster",
           "13"
         ],
         [
-          "cluster",
+          "Cluster",
           "14"
         ],
         [
-          "cluster",
+          "Cluster",
           "15"
         ],
         [
-          "cluster",
+          "Cluster",
           "16"
         ],
         [
-          "cluster",
+          "Cluster",
           "17"
         ],
         [
-          "cluster",
+          "Cluster",
           "18"
         ],
         [
-          "cluster",
+          "Cluster",
           "19"
         ],
         [
-          "cluster",
+          "Cluster",
           "20"
         ],
         [
-          "cluster",
+          "Cluster",
           "21"
         ],
         [
-          "cluster",
+          "Cluster",
           "22"
         ],
         [
-          "cluster",
+          "Cluster",
           "23"
         ],
         [
-          "cluster",
+          "Cluster",
           "24"
         ],
         [
-          "cluster",
+          "Cluster",
           "25"
         ],
         [
-          "cluster",
+          "Cluster",
           "26"
         ],
         [
-          "cluster",
+          "Cluster",
           "27"
         ],
         [
-          "cluster",
+          "Cluster",
           "28"
         ],
         [
-          "cluster",
+          "Cluster",
           "29"
         ],
         [
-          "cluster",
+          "Cluster",
           "30"
         ],
         [
-          "cluster",
+          "Cluster",
           "31"
         ],
         [
-          "cluster",
+          "Cluster",
           "32"
         ],
         [
-          "cluster",
+          "Cluster",
           "33"
         ],
         [
-          "cluster",
+          "Cluster",
           "34"
         ],
         [
-          "cluster",
+          "Cluster",
           "35"
         ],
         [
-          "cluster",
+          "Cluster",
           "36"
         ],
         [
-          "cluster",
+          "Cluster",
           "37"
         ],
         [
-          "cluster",
+          "Cluster",
           "38"
         ]
       ]
@@ -924,7 +924,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "cluster"
+          "Cluster"
         ]
       ]
     }

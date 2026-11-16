@@ -23,51 +23,51 @@
             ],
             "obsSets": [
               {
-                "name": "SCT snn res.0.8",
+                "name": "Cluster (SCT, res. 0.8)",
                 "path": "obs/SCT_snn_res.0.8"
               },
               {
-                "name": "orig.ident",
+                "name": "Sample (orig.ident)",
                 "path": "obs/orig.ident"
               },
               {
-                "name": "SCT snn res.0.2",
+                "name": "Cluster (SCT, res. 0.2)",
                 "path": "obs/SCT_snn_res.0.2"
               },
               {
-                "name": "SCT snn res.0.4",
+                "name": "Cluster (SCT, res. 0.4)",
                 "path": "obs/SCT_snn_res.0.4"
               },
               {
-                "name": "SCT snn res.0.6",
+                "name": "Cluster (SCT, res. 0.6)",
                 "path": "obs/SCT_snn_res.0.6"
               },
               {
-                "name": "SCT snn res.1",
+                "name": "Cluster (SCT, res. 1)",
                 "path": "obs/SCT_snn_res.1"
               },
               {
-                "name": "SCT snn res.1.2",
+                "name": "Cluster (SCT, res. 1.2)",
                 "path": "obs/SCT_snn_res.1.2"
               },
               {
-                "name": "SCT snn res.1.4",
+                "name": "Cluster (SCT, res. 1.4)",
                 "path": "obs/SCT_snn_res.1.4"
               },
               {
-                "name": "SCT snn res.1.6",
+                "name": "Cluster (SCT, res. 1.6)",
                 "path": "obs/SCT_snn_res.1.6"
               },
               {
-                "name": "SCT snn res.1.8",
+                "name": "Cluster (SCT, res. 1.8)",
                 "path": "obs/SCT_snn_res.1.8"
               },
               {
-                "name": "SCT snn res.2",
+                "name": "Cluster (SCT, res. 2)",
                 "path": "obs/SCT_snn_res.2"
               },
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
@@ -114,7 +114,7 @@
       "A": [
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "0"
           ],
           "color": [
@@ -125,7 +125,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "1"
           ],
           "color": [
@@ -136,7 +136,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "2"
           ],
           "color": [
@@ -147,7 +147,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "3"
           ],
           "color": [
@@ -158,7 +158,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "4"
           ],
           "color": [
@@ -169,7 +169,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.8",
+            "Cluster (SCT, res. 0.8)",
             "5"
           ],
           "color": [
@@ -180,7 +180,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Pl1"
           ],
           "color": [
@@ -191,7 +191,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Pl2"
           ],
           "color": [
@@ -202,7 +202,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Pl8"
           ],
           "color": [
@@ -213,7 +213,7 @@
         },
         {
           "path": [
-            "orig.ident",
+            "Sample (orig.ident)",
             "Pl9"
           ],
           "color": [
@@ -224,7 +224,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.2",
+            "Cluster (SCT, res. 0.2)",
             "0"
           ],
           "color": [
@@ -235,7 +235,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.2",
+            "Cluster (SCT, res. 0.2)",
             "1"
           ],
           "color": [
@@ -246,7 +246,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.4",
+            "Cluster (SCT, res. 0.4)",
             "0"
           ],
           "color": [
@@ -257,7 +257,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.4",
+            "Cluster (SCT, res. 0.4)",
             "1"
           ],
           "color": [
@@ -268,7 +268,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.4",
+            "Cluster (SCT, res. 0.4)",
             "2"
           ],
           "color": [
@@ -279,7 +279,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.6",
+            "Cluster (SCT, res. 0.6)",
             "0"
           ],
           "color": [
@@ -290,7 +290,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.6",
+            "Cluster (SCT, res. 0.6)",
             "1"
           ],
           "color": [
@@ -301,7 +301,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.6",
+            "Cluster (SCT, res. 0.6)",
             "2"
           ],
           "color": [
@@ -312,7 +312,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.6",
+            "Cluster (SCT, res. 0.6)",
             "3"
           ],
           "color": [
@@ -323,7 +323,7 @@
         },
         {
           "path": [
-            "SCT snn res.0.6",
+            "Cluster (SCT, res. 0.6)",
             "4"
           ],
           "color": [
@@ -334,7 +334,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "0"
           ],
           "color": [
@@ -345,7 +345,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "1"
           ],
           "color": [
@@ -356,7 +356,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "2"
           ],
           "color": [
@@ -367,7 +367,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "3"
           ],
           "color": [
@@ -378,7 +378,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "4"
           ],
           "color": [
@@ -389,7 +389,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "5"
           ],
           "color": [
@@ -400,7 +400,7 @@
         },
         {
           "path": [
-            "SCT snn res.1",
+            "Cluster (SCT, res. 1)",
             "6"
           ],
           "color": [
@@ -411,7 +411,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.2",
+            "Cluster (SCT, res. 1.2)",
             "0"
           ],
           "color": [
@@ -422,7 +422,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.2",
+            "Cluster (SCT, res. 1.2)",
             "1"
           ],
           "color": [
@@ -433,7 +433,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.2",
+            "Cluster (SCT, res. 1.2)",
             "2"
           ],
           "color": [
@@ -444,7 +444,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.2",
+            "Cluster (SCT, res. 1.2)",
             "3"
           ],
           "color": [
@@ -455,7 +455,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.2",
+            "Cluster (SCT, res. 1.2)",
             "4"
           ],
           "color": [
@@ -466,7 +466,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.2",
+            "Cluster (SCT, res. 1.2)",
             "5"
           ],
           "color": [
@@ -477,7 +477,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.2",
+            "Cluster (SCT, res. 1.2)",
             "6"
           ],
           "color": [
@@ -488,7 +488,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.2",
+            "Cluster (SCT, res. 1.2)",
             "7"
           ],
           "color": [
@@ -499,7 +499,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.4",
+            "Cluster (SCT, res. 1.4)",
             "0"
           ],
           "color": [
@@ -510,7 +510,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.4",
+            "Cluster (SCT, res. 1.4)",
             "1"
           ],
           "color": [
@@ -521,7 +521,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.4",
+            "Cluster (SCT, res. 1.4)",
             "2"
           ],
           "color": [
@@ -532,7 +532,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.4",
+            "Cluster (SCT, res. 1.4)",
             "3"
           ],
           "color": [
@@ -543,7 +543,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.4",
+            "Cluster (SCT, res. 1.4)",
             "4"
           ],
           "color": [
@@ -554,7 +554,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.4",
+            "Cluster (SCT, res. 1.4)",
             "5"
           ],
           "color": [
@@ -565,7 +565,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.4",
+            "Cluster (SCT, res. 1.4)",
             "6"
           ],
           "color": [
@@ -576,7 +576,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.4",
+            "Cluster (SCT, res. 1.4)",
             "7"
           ],
           "color": [
@@ -587,7 +587,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.4",
+            "Cluster (SCT, res. 1.4)",
             "8"
           ],
           "color": [
@@ -598,7 +598,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "0"
           ],
           "color": [
@@ -609,7 +609,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "1"
           ],
           "color": [
@@ -620,7 +620,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "2"
           ],
           "color": [
@@ -631,7 +631,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "3"
           ],
           "color": [
@@ -642,7 +642,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "4"
           ],
           "color": [
@@ -653,7 +653,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "5"
           ],
           "color": [
@@ -664,7 +664,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "6"
           ],
           "color": [
@@ -675,7 +675,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "7"
           ],
           "color": [
@@ -686,7 +686,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "8"
           ],
           "color": [
@@ -697,7 +697,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.6",
+            "Cluster (SCT, res. 1.6)",
             "9"
           ],
           "color": [
@@ -708,7 +708,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "0"
           ],
           "color": [
@@ -719,7 +719,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "1"
           ],
           "color": [
@@ -730,7 +730,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "2"
           ],
           "color": [
@@ -741,7 +741,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "3"
           ],
           "color": [
@@ -752,7 +752,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "4"
           ],
           "color": [
@@ -763,7 +763,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "5"
           ],
           "color": [
@@ -774,7 +774,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "6"
           ],
           "color": [
@@ -785,7 +785,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "7"
           ],
           "color": [
@@ -796,7 +796,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "8"
           ],
           "color": [
@@ -807,7 +807,7 @@
         },
         {
           "path": [
-            "SCT snn res.1.8",
+            "Cluster (SCT, res. 1.8)",
             "9"
           ],
           "color": [
@@ -818,7 +818,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "0"
           ],
           "color": [
@@ -829,7 +829,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "1"
           ],
           "color": [
@@ -840,7 +840,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "2"
           ],
           "color": [
@@ -851,7 +851,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "3"
           ],
           "color": [
@@ -862,7 +862,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "4"
           ],
           "color": [
@@ -873,7 +873,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "5"
           ],
           "color": [
@@ -884,7 +884,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "6"
           ],
           "color": [
@@ -895,7 +895,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "7"
           ],
           "color": [
@@ -906,7 +906,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "8"
           ],
           "color": [
@@ -917,7 +917,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "9"
           ],
           "color": [
@@ -928,7 +928,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "10"
           ],
           "color": [
@@ -939,7 +939,7 @@
         },
         {
           "path": [
-            "SCT snn res.2",
+            "Cluster (SCT, res. 2)",
             "11"
           ],
           "color": [
@@ -950,7 +950,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -961,7 +961,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -972,7 +972,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -983,7 +983,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -994,7 +994,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -1005,7 +1005,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -1016,7 +1016,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "6"
           ],
           "color": [
@@ -1027,7 +1027,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "7"
           ],
           "color": [
@@ -1063,27 +1063,27 @@
     "obsSetSelection": {
       "A": [
         [
-          "SCT snn res.0.8",
+          "Cluster (SCT, res. 0.8)",
           "0"
         ],
         [
-          "SCT snn res.0.8",
+          "Cluster (SCT, res. 0.8)",
           "1"
         ],
         [
-          "SCT snn res.0.8",
+          "Cluster (SCT, res. 0.8)",
           "2"
         ],
         [
-          "SCT snn res.0.8",
+          "Cluster (SCT, res. 0.8)",
           "3"
         ],
         [
-          "SCT snn res.0.8",
+          "Cluster (SCT, res. 0.8)",
           "4"
         ],
         [
-          "SCT snn res.0.8",
+          "Cluster (SCT, res. 0.8)",
           "5"
         ]
       ]
@@ -1100,7 +1100,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "SCT snn res.0.8"
+          "Cluster (SCT, res. 0.8)"
         ]
       ]
     }

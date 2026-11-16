@@ -31,51 +31,51 @@
             ],
             "obsSets": [
               {
-                "name": "predicted.celltype",
+                "name": "Predicted cell type",
                 "path": "obs/predicted.celltype"
               },
               {
-                "name": "sample",
+                "name": "Sample",
                 "path": "obs/sample"
               },
               {
-                "name": "experiment",
+                "name": "Experiment",
                 "path": "obs/experiment"
               },
               {
-                "name": "compartment",
+                "name": "Compartment",
                 "path": "obs/compartment"
               },
               {
-                "name": "predicted.celltype2",
+                "name": "Predicted cell type 2",
                 "path": "obs/predicted.celltype2"
               },
               {
-                "name": "predicted.celltype3",
+                "name": "Predicted cell type 3",
                 "path": "obs/predicted.celltype3"
               },
               {
-                "name": "wsnn res.2",
+                "name": "Cluster (WNN, res. 2)",
                 "path": "obs/wsnn_res.2"
               },
               {
-                "name": "seurat clusters",
+                "name": "Cluster",
                 "path": "obs/seurat_clusters"
               },
               {
-                "name": "RNA snn res.1.5",
+                "name": "Cluster (RNA, res. 1.5)",
                 "path": "obs/RNA_snn_res.1.5"
               },
               {
-                "name": "wsnn res.1.5",
+                "name": "Cluster (WNN, res. 1.5)",
                 "path": "obs/wsnn_res.1.5"
               },
               {
-                "name": "Phase",
+                "name": "Cell cycle phase",
                 "path": "obs/Phase"
               },
               {
-                "name": "wsnn res.1",
+                "name": "Cluster (WNN, res. 1)",
                 "path": "obs/wsnn_res.1"
               }
             ],
@@ -118,7 +118,7 @@
       "A": [
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "B intermediate"
           ],
           "color": [
@@ -129,7 +129,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "B memory"
           ],
           "color": [
@@ -140,7 +140,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "B naive"
           ],
           "color": [
@@ -151,7 +151,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD4 CTL"
           ],
           "color": [
@@ -162,7 +162,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD4 Naive"
           ],
           "color": [
@@ -173,7 +173,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD4 Proliferating"
           ],
           "color": [
@@ -184,7 +184,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD4 TCM"
           ],
           "color": [
@@ -195,7 +195,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD4 TEM"
           ],
           "color": [
@@ -206,7 +206,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD8 Naive"
           ],
           "color": [
@@ -217,7 +217,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD8 Proliferating"
           ],
           "color": [
@@ -228,7 +228,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD8 TCM"
           ],
           "color": [
@@ -239,7 +239,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD8 TEM"
           ],
           "color": [
@@ -250,7 +250,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD14 Mono"
           ],
           "color": [
@@ -261,7 +261,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "CD16 Mono"
           ],
           "color": [
@@ -272,7 +272,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "Eryth"
           ],
           "color": [
@@ -283,7 +283,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "HSPC"
           ],
           "color": [
@@ -294,7 +294,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "ILC"
           ],
           "color": [
@@ -305,7 +305,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "MAIT"
           ],
           "color": [
@@ -316,7 +316,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "NK"
           ],
           "color": [
@@ -327,7 +327,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "NK Proliferating"
           ],
           "color": [
@@ -338,7 +338,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "NK_CD56bright"
           ],
           "color": [
@@ -349,7 +349,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "Plasmablast"
           ],
           "color": [
@@ -360,7 +360,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "Platelet"
           ],
           "color": [
@@ -371,7 +371,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "Treg"
           ],
           "color": [
@@ -382,7 +382,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "cDC1"
           ],
           "color": [
@@ -393,7 +393,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "cDC2"
           ],
           "color": [
@@ -404,7 +404,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "dnT"
           ],
           "color": [
@@ -415,7 +415,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "gdT"
           ],
           "color": [
@@ -426,7 +426,7 @@
         },
         {
           "path": [
-            "predicted.celltype",
+            "Predicted cell type",
             "pDC"
           ],
           "color": [
@@ -437,7 +437,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR110_LM"
           ],
           "color": [
@@ -448,7 +448,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR127_CP"
           ],
           "color": [
@@ -459,7 +459,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR240_CTX"
           ],
           "color": [
@@ -470,7 +470,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR240_Men"
           ],
           "color": [
@@ -481,7 +481,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR250_CTX"
           ],
           "color": [
@@ -492,7 +492,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR250_LM"
           ],
           "color": [
@@ -503,7 +503,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR288_LM"
           ],
           "color": [
@@ -514,7 +514,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR449_LM"
           ],
           "color": [
@@ -525,7 +525,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR484_LM"
           ],
           "color": [
@@ -536,7 +536,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR510_CTX"
           ],
           "color": [
@@ -547,7 +547,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR615_CTX"
           ],
           "color": [
@@ -558,7 +558,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR648_LM"
           ],
           "color": [
@@ -569,7 +569,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR721_DM"
           ],
           "color": [
@@ -580,7 +580,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR742_Men"
           ],
           "color": [
@@ -591,7 +591,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR793_DM"
           ],
           "color": [
@@ -602,7 +602,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR818_LM"
           ],
           "color": [
@@ -613,7 +613,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR850_CP"
           ],
           "color": [
@@ -624,7 +624,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR882_CP"
           ],
           "color": [
@@ -635,7 +635,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR898_DM"
           ],
           "color": [
@@ -646,7 +646,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR900_LM"
           ],
           "color": [
@@ -657,7 +657,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "FR925_LM"
           ],
           "color": [
@@ -668,7 +668,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "mixed_cp"
           ],
           "color": [
@@ -679,7 +679,7 @@
         },
         {
           "path": [
-            "sample",
+            "Sample",
             "mixed_men"
           ],
           "color": [
@@ -690,7 +690,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "Exp1"
           ],
           "color": [
@@ -701,7 +701,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "Exp2"
           ],
           "color": [
@@ -712,7 +712,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "Exp4"
           ],
           "color": [
@@ -723,7 +723,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "Exp5_cp"
           ],
           "color": [
@@ -734,7 +734,7 @@
         },
         {
           "path": [
-            "experiment",
+            "Experiment",
             "Exp5_men"
           ],
           "color": [
@@ -745,7 +745,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "CP"
           ],
           "color": [
@@ -756,7 +756,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "CTX"
           ],
           "color": [
@@ -767,7 +767,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "DM"
           ],
           "color": [
@@ -778,7 +778,7 @@
         },
         {
           "path": [
-            "compartment",
+            "Compartment",
             "LM"
           ],
           "color": [
@@ -789,7 +789,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "B"
           ],
           "color": [
@@ -800,7 +800,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "CD4 T"
           ],
           "color": [
@@ -811,7 +811,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "CD8 T"
           ],
           "color": [
@@ -822,7 +822,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "DC"
           ],
           "color": [
@@ -833,7 +833,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "Mono"
           ],
           "color": [
@@ -844,7 +844,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "NK"
           ],
           "color": [
@@ -855,7 +855,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "other"
           ],
           "color": [
@@ -866,7 +866,7 @@
         },
         {
           "path": [
-            "predicted.celltype2",
+            "Predicted cell type 2",
             "other T"
           ],
           "color": [
@@ -877,7 +877,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "B intermediate kappa"
           ],
           "color": [
@@ -888,7 +888,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "B intermediate lambda"
           ],
           "color": [
@@ -899,7 +899,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "B memory kappa"
           ],
           "color": [
@@ -910,7 +910,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "B memory lambda"
           ],
           "color": [
@@ -921,7 +921,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "B naive kappa"
           ],
           "color": [
@@ -932,7 +932,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "B naive lambda"
           ],
           "color": [
@@ -943,7 +943,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD4 CTL"
           ],
           "color": [
@@ -954,7 +954,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD4 Naive"
           ],
           "color": [
@@ -965,7 +965,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD4 Proliferating"
           ],
           "color": [
@@ -976,7 +976,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD4 TCM_1"
           ],
           "color": [
@@ -987,7 +987,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD4 TCM_2"
           ],
           "color": [
@@ -998,7 +998,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD4 TCM_3"
           ],
           "color": [
@@ -1009,7 +1009,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD4 TEM_1"
           ],
           "color": [
@@ -1020,7 +1020,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD4 TEM_2"
           ],
           "color": [
@@ -1031,7 +1031,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD4 TEM_3"
           ],
           "color": [
@@ -1042,7 +1042,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 Naive"
           ],
           "color": [
@@ -1053,7 +1053,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 Naive_2"
           ],
           "color": [
@@ -1064,7 +1064,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 Proliferating"
           ],
           "color": [
@@ -1075,7 +1075,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 TCM_1"
           ],
           "color": [
@@ -1086,7 +1086,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 TCM_3"
           ],
           "color": [
@@ -1097,7 +1097,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 TEM_1"
           ],
           "color": [
@@ -1108,7 +1108,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 TEM_2"
           ],
           "color": [
@@ -1119,7 +1119,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 TEM_3"
           ],
           "color": [
@@ -1130,7 +1130,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 TEM_4"
           ],
           "color": [
@@ -1141,7 +1141,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 TEM_5"
           ],
           "color": [
@@ -1152,7 +1152,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD8 TEM_6"
           ],
           "color": [
@@ -1163,7 +1163,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD14 Mono"
           ],
           "color": [
@@ -1174,7 +1174,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "CD16 Mono"
           ],
           "color": [
@@ -1185,7 +1185,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "Eryth"
           ],
           "color": [
@@ -1196,7 +1196,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "HSPC"
           ],
           "color": [
@@ -1207,7 +1207,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "ILC"
           ],
           "color": [
@@ -1218,7 +1218,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "MAIT"
           ],
           "color": [
@@ -1229,7 +1229,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "NK Proliferating"
           ],
           "color": [
@@ -1240,7 +1240,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "NK_1"
           ],
           "color": [
@@ -1251,7 +1251,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "NK_2"
           ],
           "color": [
@@ -1262,7 +1262,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "NK_3"
           ],
           "color": [
@@ -1273,7 +1273,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "NK_4"
           ],
           "color": [
@@ -1284,7 +1284,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "NK_CD56bright"
           ],
           "color": [
@@ -1295,7 +1295,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "Plasma"
           ],
           "color": [
@@ -1306,7 +1306,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "Plasmablast"
           ],
           "color": [
@@ -1317,7 +1317,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "Platelet"
           ],
           "color": [
@@ -1328,7 +1328,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "Treg Memory"
           ],
           "color": [
@@ -1339,7 +1339,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "Treg Naive"
           ],
           "color": [
@@ -1350,7 +1350,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "cDC1"
           ],
           "color": [
@@ -1361,7 +1361,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "cDC2_1"
           ],
           "color": [
@@ -1372,7 +1372,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "cDC2_2"
           ],
           "color": [
@@ -1383,7 +1383,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "dnT_1"
           ],
           "color": [
@@ -1394,7 +1394,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "dnT_2"
           ],
           "color": [
@@ -1405,7 +1405,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "gdT_1"
           ],
           "color": [
@@ -1416,7 +1416,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "gdT_2"
           ],
           "color": [
@@ -1427,7 +1427,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "gdT_3"
           ],
           "color": [
@@ -1438,7 +1438,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "gdT_4"
           ],
           "color": [
@@ -1449,7 +1449,7 @@
         },
         {
           "path": [
-            "predicted.celltype3",
+            "Predicted cell type 3",
             "pDC"
           ],
           "color": [
@@ -1460,7 +1460,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "0"
           ],
           "color": [
@@ -1471,7 +1471,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "1"
           ],
           "color": [
@@ -1482,7 +1482,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "2"
           ],
           "color": [
@@ -1493,7 +1493,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "3"
           ],
           "color": [
@@ -1504,7 +1504,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "4"
           ],
           "color": [
@@ -1515,7 +1515,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "5"
           ],
           "color": [
@@ -1526,7 +1526,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "6"
           ],
           "color": [
@@ -1537,7 +1537,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "7"
           ],
           "color": [
@@ -1548,7 +1548,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "8"
           ],
           "color": [
@@ -1559,7 +1559,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "9"
           ],
           "color": [
@@ -1570,7 +1570,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "10"
           ],
           "color": [
@@ -1581,7 +1581,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "11"
           ],
           "color": [
@@ -1592,7 +1592,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "12"
           ],
           "color": [
@@ -1603,7 +1603,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "13"
           ],
           "color": [
@@ -1614,7 +1614,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "14"
           ],
           "color": [
@@ -1625,7 +1625,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "15"
           ],
           "color": [
@@ -1636,7 +1636,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "16"
           ],
           "color": [
@@ -1647,7 +1647,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "17"
           ],
           "color": [
@@ -1658,7 +1658,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "18"
           ],
           "color": [
@@ -1669,7 +1669,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "19"
           ],
           "color": [
@@ -1680,7 +1680,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "20"
           ],
           "color": [
@@ -1691,7 +1691,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "21"
           ],
           "color": [
@@ -1702,7 +1702,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "22"
           ],
           "color": [
@@ -1713,7 +1713,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "23"
           ],
           "color": [
@@ -1724,7 +1724,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "24"
           ],
           "color": [
@@ -1735,7 +1735,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "25"
           ],
           "color": [
@@ -1746,7 +1746,7 @@
         },
         {
           "path": [
-            "wsnn res.2",
+            "Cluster (WNN, res. 2)",
             "NA"
           ],
           "color": [
@@ -1757,7 +1757,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "0"
           ],
           "color": [
@@ -1768,7 +1768,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "1"
           ],
           "color": [
@@ -1779,7 +1779,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "2"
           ],
           "color": [
@@ -1790,7 +1790,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "3"
           ],
           "color": [
@@ -1801,7 +1801,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "4"
           ],
           "color": [
@@ -1812,7 +1812,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "5"
           ],
           "color": [
@@ -1823,7 +1823,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "6"
           ],
           "color": [
@@ -1834,7 +1834,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "7"
           ],
           "color": [
@@ -1845,7 +1845,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "8"
           ],
           "color": [
@@ -1856,7 +1856,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "9"
           ],
           "color": [
@@ -1867,7 +1867,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "10"
           ],
           "color": [
@@ -1878,7 +1878,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "11"
           ],
           "color": [
@@ -1889,7 +1889,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "12"
           ],
           "color": [
@@ -1900,7 +1900,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "13"
           ],
           "color": [
@@ -1911,7 +1911,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "14"
           ],
           "color": [
@@ -1922,7 +1922,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "15"
           ],
           "color": [
@@ -1933,7 +1933,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "16"
           ],
           "color": [
@@ -1944,7 +1944,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "17"
           ],
           "color": [
@@ -1955,7 +1955,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "18"
           ],
           "color": [
@@ -1966,7 +1966,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "19"
           ],
           "color": [
@@ -1977,7 +1977,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "20"
           ],
           "color": [
@@ -1988,7 +1988,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "21"
           ],
           "color": [
@@ -1999,7 +1999,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "22"
           ],
           "color": [
@@ -2010,7 +2010,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "23"
           ],
           "color": [
@@ -2021,7 +2021,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "24"
           ],
           "color": [
@@ -2032,7 +2032,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "25"
           ],
           "color": [
@@ -2043,7 +2043,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "26"
           ],
           "color": [
@@ -2054,7 +2054,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "27"
           ],
           "color": [
@@ -2065,7 +2065,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "28"
           ],
           "color": [
@@ -2076,7 +2076,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "29"
           ],
           "color": [
@@ -2087,7 +2087,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "30"
           ],
           "color": [
@@ -2098,7 +2098,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "31"
           ],
           "color": [
@@ -2109,7 +2109,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "32"
           ],
           "color": [
@@ -2120,7 +2120,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "33"
           ],
           "color": [
@@ -2131,7 +2131,7 @@
         },
         {
           "path": [
-            "seurat clusters",
+            "Cluster",
             "34"
           ],
           "color": [
@@ -2142,7 +2142,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "0"
           ],
           "color": [
@@ -2153,7 +2153,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "1"
           ],
           "color": [
@@ -2164,7 +2164,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "2"
           ],
           "color": [
@@ -2175,7 +2175,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "3"
           ],
           "color": [
@@ -2186,7 +2186,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "4"
           ],
           "color": [
@@ -2197,7 +2197,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "5"
           ],
           "color": [
@@ -2208,7 +2208,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "6"
           ],
           "color": [
@@ -2219,7 +2219,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "7"
           ],
           "color": [
@@ -2230,7 +2230,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "8"
           ],
           "color": [
@@ -2241,7 +2241,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "9"
           ],
           "color": [
@@ -2252,7 +2252,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "10"
           ],
           "color": [
@@ -2263,7 +2263,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "11"
           ],
           "color": [
@@ -2274,7 +2274,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "12"
           ],
           "color": [
@@ -2285,7 +2285,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "13"
           ],
           "color": [
@@ -2296,7 +2296,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "14"
           ],
           "color": [
@@ -2307,7 +2307,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "15"
           ],
           "color": [
@@ -2318,7 +2318,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "16"
           ],
           "color": [
@@ -2329,7 +2329,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "17"
           ],
           "color": [
@@ -2340,7 +2340,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "18"
           ],
           "color": [
@@ -2351,7 +2351,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "19"
           ],
           "color": [
@@ -2362,7 +2362,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "20"
           ],
           "color": [
@@ -2373,7 +2373,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "21"
           ],
           "color": [
@@ -2384,7 +2384,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "22"
           ],
           "color": [
@@ -2395,7 +2395,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "23"
           ],
           "color": [
@@ -2406,7 +2406,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "24"
           ],
           "color": [
@@ -2417,7 +2417,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "25"
           ],
           "color": [
@@ -2428,7 +2428,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "26"
           ],
           "color": [
@@ -2439,7 +2439,7 @@
         },
         {
           "path": [
-            "RNA snn res.1.5",
+            "Cluster (RNA, res. 1.5)",
             "27"
           ],
           "color": [
@@ -2450,7 +2450,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "0"
           ],
           "color": [
@@ -2461,7 +2461,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "1"
           ],
           "color": [
@@ -2472,7 +2472,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "2"
           ],
           "color": [
@@ -2483,7 +2483,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "3"
           ],
           "color": [
@@ -2494,7 +2494,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "4"
           ],
           "color": [
@@ -2505,7 +2505,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "5"
           ],
           "color": [
@@ -2516,7 +2516,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "6"
           ],
           "color": [
@@ -2527,7 +2527,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "7"
           ],
           "color": [
@@ -2538,7 +2538,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "8"
           ],
           "color": [
@@ -2549,7 +2549,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "9"
           ],
           "color": [
@@ -2560,7 +2560,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "10"
           ],
           "color": [
@@ -2571,7 +2571,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "11"
           ],
           "color": [
@@ -2582,7 +2582,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "12"
           ],
           "color": [
@@ -2593,7 +2593,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "13"
           ],
           "color": [
@@ -2604,7 +2604,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "14"
           ],
           "color": [
@@ -2615,7 +2615,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "15"
           ],
           "color": [
@@ -2626,7 +2626,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "16"
           ],
           "color": [
@@ -2637,7 +2637,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "17"
           ],
           "color": [
@@ -2648,7 +2648,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "18"
           ],
           "color": [
@@ -2659,7 +2659,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "19"
           ],
           "color": [
@@ -2670,7 +2670,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "20"
           ],
           "color": [
@@ -2681,7 +2681,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "21"
           ],
           "color": [
@@ -2692,7 +2692,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "22"
           ],
           "color": [
@@ -2703,7 +2703,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "23"
           ],
           "color": [
@@ -2714,7 +2714,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "24"
           ],
           "color": [
@@ -2725,7 +2725,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "25"
           ],
           "color": [
@@ -2736,7 +2736,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "26"
           ],
           "color": [
@@ -2747,7 +2747,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "27"
           ],
           "color": [
@@ -2758,7 +2758,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "28"
           ],
           "color": [
@@ -2769,7 +2769,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "29"
           ],
           "color": [
@@ -2780,7 +2780,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "30"
           ],
           "color": [
@@ -2791,7 +2791,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "31"
           ],
           "color": [
@@ -2802,7 +2802,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "32"
           ],
           "color": [
@@ -2813,7 +2813,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "33"
           ],
           "color": [
@@ -2824,7 +2824,7 @@
         },
         {
           "path": [
-            "wsnn res.1.5",
+            "Cluster (WNN, res. 1.5)",
             "34"
           ],
           "color": [
@@ -2835,7 +2835,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G1"
           ],
           "color": [
@@ -2846,7 +2846,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "G2M"
           ],
           "color": [
@@ -2857,7 +2857,7 @@
         },
         {
           "path": [
-            "Phase",
+            "Cell cycle phase",
             "S"
           ],
           "color": [
@@ -2868,7 +2868,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "0"
           ],
           "color": [
@@ -2879,7 +2879,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "1"
           ],
           "color": [
@@ -2890,7 +2890,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "2"
           ],
           "color": [
@@ -2901,7 +2901,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "3"
           ],
           "color": [
@@ -2912,7 +2912,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "4"
           ],
           "color": [
@@ -2923,7 +2923,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "5"
           ],
           "color": [
@@ -2934,7 +2934,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "6"
           ],
           "color": [
@@ -2945,7 +2945,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "7"
           ],
           "color": [
@@ -2956,7 +2956,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "8"
           ],
           "color": [
@@ -2967,7 +2967,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "9"
           ],
           "color": [
@@ -2978,7 +2978,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "10"
           ],
           "color": [
@@ -2989,7 +2989,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "11"
           ],
           "color": [
@@ -3000,7 +3000,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "12"
           ],
           "color": [
@@ -3011,7 +3011,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "13"
           ],
           "color": [
@@ -3022,7 +3022,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "14"
           ],
           "color": [
@@ -3033,7 +3033,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "15"
           ],
           "color": [
@@ -3044,7 +3044,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "16"
           ],
           "color": [
@@ -3055,7 +3055,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "17"
           ],
           "color": [
@@ -3066,7 +3066,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "18"
           ],
           "color": [
@@ -3077,7 +3077,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "19"
           ],
           "color": [
@@ -3088,7 +3088,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "20"
           ],
           "color": [
@@ -3099,7 +3099,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "21"
           ],
           "color": [
@@ -3110,7 +3110,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "22"
           ],
           "color": [
@@ -3121,7 +3121,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "23"
           ],
           "color": [
@@ -3132,7 +3132,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "24"
           ],
           "color": [
@@ -3143,7 +3143,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "25"
           ],
           "color": [
@@ -3154,7 +3154,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "26"
           ],
           "color": [
@@ -3165,7 +3165,7 @@
         },
         {
           "path": [
-            "wsnn res.1",
+            "Cluster (WNN, res. 1)",
             "27"
           ],
           "color": [
@@ -3179,119 +3179,119 @@
     "obsSetSelection": {
       "A": [
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "B intermediate"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "B memory"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "B naive"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD4 CTL"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD4 Naive"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD4 Proliferating"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD4 TCM"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD4 TEM"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD8 Naive"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD8 Proliferating"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD8 TCM"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD8 TEM"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD14 Mono"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "CD16 Mono"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "Eryth"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "HSPC"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "ILC"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "MAIT"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "NK"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "NK Proliferating"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "NK_CD56bright"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "Plasmablast"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "Platelet"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "Treg"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "cDC1"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "cDC2"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "dnT"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "gdT"
         ],
         [
-          "predicted.celltype",
+          "Predicted cell type",
           "pDC"
         ]
       ]
@@ -3308,7 +3308,7 @@
     "obsSetExpansion": {
       "A": [
         [
-          "predicted.celltype"
+          "Predicted cell type"
         ]
       ]
     }
