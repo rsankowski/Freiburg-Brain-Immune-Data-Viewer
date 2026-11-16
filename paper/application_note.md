@@ -27,7 +27,7 @@ synthetic data.
 
 **Availability and implementation:** Source code, documentation and the
 synthetic self-test are at https://github.com/rsankowski/Freiburg-Brain-Immune-Data-Viewer
-under the MIT licence, archived at _[Zenodo DOI]_. R ≥ 4.4 and Python ≥ 3.11.
+under the MIT licence, archived at https://doi.org/10.5281/zenodo.24281489. R ≥ 4.4 and Python ≥ 3.11.
 
 **Contact:** roman.sankowski@uniklinik-freiburg.de
 

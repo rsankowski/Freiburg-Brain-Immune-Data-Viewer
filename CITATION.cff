@@ -38,7 +38,7 @@ keywords:
   - microglia
   - brain immune cells
 version: 1.0.0
-# TODO after Zenodo mints the DOI for the v1.0.0 release: uncomment both lines
-# and keep this file in sync with .zenodo.json (Zenodo reads that one first).
-# doi: 10.5281/zenodo.XXXXXXX
-# date-released: 2026-XX-XX
+# Version DOI of v1.0.0. Concept DOI (always the latest release):
+# 10.5281/zenodo.24281488. Keep in sync with .zenodo.json (Zenodo reads it first).
+doi: 10.5281/zenodo.24281489
+date-released: 2026-11-16

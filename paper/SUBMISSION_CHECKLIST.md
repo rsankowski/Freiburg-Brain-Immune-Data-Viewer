@@ -26,11 +26,10 @@ resolved before submission; the draft carries `_[...]_` placeholders at each spo
 ## Blocking — availability (journal requirement)
 
 - [ ] **Public repository.** The GitHub repo must be public before submission.
-- [ ] **Archived release with a DOI.** Tag a release and archive it on Zenodo,
-      then fill the DOI into `CITATION.cff` and the abstract's availability
-      statement. Journals require a permanent archive, not just a Git host.
-      `.zenodo.json` is prepared; step-by-step guide and release notes in
-      `paper/ZENODO_RELEASE.md`.
+- [x] **Archived release with a DOI.** v1.0.0 archived on Zenodo as
+      doi:10.5281/zenodo.24281489 (concept DOI 10.5281/zenodo.24281488),
+      filled into `CITATION.cff`, the README badge and the availability
+      statement. Release steps in `paper/ZENODO_RELEASE.md`.
 - [ ] **Licence.** `LICENSE` is MIT (code). Data under CC-BY-4.0
       (`release/LICENSE`). Confirm MIT is what you want.
 - [ ] **Clean-machine test.** Fresh clone → `python3 -m venv .venv` →

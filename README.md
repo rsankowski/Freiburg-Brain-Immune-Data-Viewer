@@ -1,5 +1,7 @@
 # Freiburg Brain Immune Data Viewer — conversion pipeline
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24281488.svg)](https://doi.org/10.5281/zenodo.24281488)
+
 Converts published Seurat objects into **AnnData-Zarr** stores and Vitessce view
 configs, ready to serve statically from S3 with no backend.
 
