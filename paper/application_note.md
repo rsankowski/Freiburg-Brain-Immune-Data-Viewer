@@ -13,14 +13,15 @@
 **Summary:** Single-cell datasets accompanying a publication are usually shared
 as serialised R objects that only readers with a matching software stack and
 enough memory can open. We present a pipeline that converts collections of
-Seurat objects into cloud-optimised AnnData-Zarr stores and generates a static
+Seurat and RaceID objects into cloud-optimised AnnData-Zarr stores and generates a static
 web viewer over them. Expression is stored as a dense array chunked along the
 gene axis, so colouring an embedding by any gene is a single chunk read; nothing
-but a static file host is required to serve it. Applied to 20 datasets from five
-publications — 991,954 cells spanning scRNA-seq, snRNA-seq, CITE-seq, Nanostring
-CosMx and Visium HD, in human and mouse — the conversion reduces 27.8 GB of
-serialised objects to 8.5 GB of stores, and a single-gene query completes in a
-median of 3.5 ms over HTTP. Every conversion is verified against its source
+but a static file host is required to serve it. Applied to 53 datasets from 16
+publications — 1,342,207 cells spanning plate-based and droplet scRNA-seq,
+snRNA-seq, CITE-seq, scATAC-seq, Nanostring CosMx and Visium HD, in human, mouse
+and *Drosophila* — the conversion reduces 66.9 GB of serialised objects to
+12.5 GB of stores, and a single-gene query completes in a median of 2.7 ms over
+HTTP. Every conversion is verified against its source
 object before it is accepted, and the pipeline ships an end-to-end self-test on
 synthetic data.
 
@@ -61,16 +62,18 @@ coordinates verbatim, so what a reader sees is what the paper reported.
 
 ## 2 Implementation
 
-The pipeline runs as eight resumable stages (≈3,200 lines of R and Python)
+The pipeline runs as eight resumable stages (≈3,800 lines of R and Python)
 driven by one CLI. Stages 1–3 are R, working with Seurat objects; stages 4–8 are
 Python, working with AnnData and Zarr.
 
 **Discovery and inventory.** `data/` is walked for `.rds`, `.qs`, `.qs2`,
-`.H5Seurat` and `.RData`/`.rda` files, compressed or not, and a stable key is
-derived from each path. Stage 1 records cells, features, assays, layers,
+`.H5Seurat`, `.RData`/`.rda` and `.Robj` files, compressed or not, and a stable
+key is derived from each path. RaceID objects, used for the earlier plate-based
+studies in the collection, are converted to Seurat on load, so later stages see
+a single object type. Stage 1 records cells, features, assays, layers,
 reductions and per-column metadata types, plus md5 fingerprints of barcodes,
-features and embeddings — which is how we identified that two files in the
-collection were the same cells re-exported under different names.
+features and embeddings — which identified one object re-exported under a
+second name, and one dataset deposited with two publications.
 
 **Memory containment.** Objects here reach 18.5 GB resident. Stages 1–3 run each
 dataset in a child R process, so only one object is ever in memory, the operating
@@ -108,7 +111,10 @@ below 64 KB; at 363 cells the default produced 1,940 files for 484 KB of data.
 with absolute URLs derived from a single base URL. Colours for every categorical
 column are written into the configuration rather than assigned at runtime, which
 is what allows the interface to display a legend that is guaranteed to match the
-plot. Stage 8 generates a static site: a publication index, one page per
+plot. Metadata columns are displayed under harmonised names — `cell_type`,
+`Celltype` and `celltype` all appear as *Cell type*, `RNA_snn_res.0.8` as
+*Cluster (RNA, res. 0.8)* — changing only the label, not the stored column;
+columns that collapse to the same label with identical values are shown once. Stage 8 generates a static site: a publication index, one page per
 publication, and a viewer showing two linked embeddings — one coloured by a
 metadata column, one by a gene — with cell-set and gene pickers and per-set
 summary plots (Fig. 1). Spatial datasets expose tissue coordinates as an
@@ -122,10 +128,11 @@ commands, bucket policy and CORS configuration.
 
 ## 3 Results
 
-Applied to 20 datasets from five publications (Table 1), the pipeline produced
-8.5 GB of stores from 27.8 GB of serialised objects, across 74,037 objects.
-Single-gene queries over HTTP had a median p50 of 3.5 ms and a maximum p50 of
-6.7 ms; transfer per gene ranged from under 1 KB to 1.6 MB, the upper end being
+Applied to 53 datasets from 16 publications (2019–2026; Supplementary Table S1), the pipeline
+produced 12.5 GB of stores from 66.9 GB of serialised objects, across 156,142
+objects and 1,342,207 cells (summed over datasets, several of which are subsets
+of a larger one). Single-gene queries over HTTP had a median p50 of 2.7 ms and a
+maximum p50 of 12.1 ms; transfer per gene ranged from under 1 KB to 1.6 MB, the upper end being
 the 270,493-cell dataset, where one chunk carries 10 genes for every cell.
 Conversion is a one-off cost of seconds to minutes per dataset.
 
@@ -146,8 +153,9 @@ practical at this scale, since it requires the whole filtered matrix — about
 2 GB for a 135k × 4k selection — and colouring an embedding by a gene is used
 instead.
 
-The pipeline preserves each dataset's own annotations, so cell-type vocabularies
-differ between studies. Harmonising them to a shared ontology would make the
+Metadata column names are harmonised for display, but the pipeline preserves
+each dataset's own annotation values, so cell-type vocabularies still differ
+between studies. Mapping them to a shared ontology would make the
 collection analysable rather than merely browsable, and is the natural extension.
 
 ## Acknowledgements
@@ -194,8 +202,8 @@ Nanostring CosMx data, with tissue coordinates as the embedding; the 18 sample
 tiles preserve within-sample geometry. (**C**) The publication index; each
 dataset is a single AnnData-Zarr store addressed by URL.
 
-## Table 1
+## Supplementary Table S1
 
-`paper/table1.tsv` — per dataset: cells, genes, source object size, store size,
+`paper/table_s1.tsv` (typeset in `paper/overleaf/supplementary.tex`) — per dataset: publication, cells, genes, source object size, store size,
 object count, chunk width, single-gene p50/p95 latency over HTTP, and transfer
-per gene. Regenerate with `python scripts/make_benchmarks.py`.
+per gene. Regenerate with `python scripts/make_benchmarks.py --latex`.

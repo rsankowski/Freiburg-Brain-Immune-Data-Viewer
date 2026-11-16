@@ -15,9 +15,9 @@ resolved before submission; the draft carries `_[...]_` placeholders at each spo
       redistribution, and decide whether donor identifiers stay in the public
       stores. Stage 6 flags `Subject_ID`, `Sample_id` and
       `MajoritySinglet_Individual_Assignment` for exactly this review.
-- [ ] **Co-author sign-off for unpublished data.** Chhatbar *et al.* 2026 appears
-      to be unpublished; publishing a viewer over it may precede the primary
-      paper. Confirm the timing with those authors.
+- [x] **Co-author sign-off for unpublished data.** Resolved: Chhatbar *et al.*
+      2026 (doi:10.1038/s41590-026-02472-z) and Fliegauf *et al.* 2026
+      (doi:10.1038/s41590-026-02457-y) are both published in *Nature Immunology*.
 - [ ] **Verify all references.** Items 1, 3 and 7 are flagged in the draft — the
       Vitessce, anndata and CELLxGENE citations need volume/pages/DOI confirmed
       against the actual publications.
@@ -62,19 +62,19 @@ cut, in order, after accounting for Times and the OUP class.
 
 - [ ] Check `pdffonts main.pdf` reports no Type 3 fonts.
 - [ ] Re-run `python scripts/make_benchmarks.py --latex` immediately before
-      submission so the quoted numbers match Table 1.
+      submission so the quoted numbers match Supplementary Table S1.
 
 ## Formatting
 
 - [ ] Two-page limit. The draft body is ~1,120 words plus abstract, one figure,
-      one table and seven references — that is about right, but confirm against
+      no main-text table and seven references — that is about right, but confirm against
       the journal template.
 - [ ] Structured abstract with **Summary**, **Availability and implementation**,
       **Contact**, **Supplementary information** — already in the draft.
 - [ ] Figure at ≥300 dpi (`paper/figure1.png` is 1800 px wide at 300 dpi).
       Check panel text is legible at print width.
-- [ ] Table 1 (`paper/table1.tsv`) formatted to the journal's table style, or
-      moved to supplementary if it exceeds the page budget.
+- [x] Benchmark table moved to supplementary (Supplementary Table S1,
+      `paper/overleaf/supplementary.tex`, data in `paper/table_s1.tsv`).
 
 ## Regenerating the artefacts
 
@@ -82,6 +82,6 @@ cut, in order, after accounting for Times and the OUP class.
 python scripts/serve_local.py &          # needed for HTTP timings and screenshots
 bash scripts/capture_screenshots.sh      # viewer screenshots
 python scripts/make_figure.py            # paper/figure1.png
-python scripts/make_benchmarks.py        # paper/table1.tsv
+python scripts/make_benchmarks.py --latex  # paper/table_s1.tsv, Table S1, stats.tex
 bash scripts/selftest.sh                 # end-to-end check on synthetic data
 ```

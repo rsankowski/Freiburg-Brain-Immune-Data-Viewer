@@ -1,0 +1,54 @@
+dataset	publication	cells	genes	source_mb	store	files	chunk_genes	p50_ms	p95_ms	kb_per_gene
+Cross-species microglia	Chhatbar et al. 2026	270493	17219	1534	2.1 GB	2005	10	12.1	30.9	1635.1
+Mouse myeloid atlas	Chhatbar et al. 2026	172497	56884	1004	1.8 GB	5842	10	9.0	27.7	284.3
+Human brain immune atlas	Chhatbar et al. 2026	135067	59462	10439	1.4 GB	6395	10	8.6	10.9	142.8
+All cells, Hexb (Fig. 3)	Frosch et al. 2025	103201	19928	15807	1.4 GB	2121	10	11.4	42.0	812.0
+Visium HD human brain	Chhatbar et al. 2026	96409	18085	258	109.0 MB	2019	10	6.3	8.0	60.4
+CosMx spatial transcriptomics	Chhatbar et al. 2026	68327	990	155	35.9 MB	223	10	9.2	11.9	344.2
+Pathway manipulation (mouse)	Chhatbar et al. 2026	64066	56884	5062	967.5 MB	5882	10	7.9	11.6	167.7
+Single-nucleus atlas (Fig. 4b)	Sankowski et al. 2024	59053	36601	1083	819.3 MB	3858	10	4.7	8.7	213.9
+10x integration, wild-type and IDH-mutant	Friedrich et al. 2021	55754	16726	1530	174.3 MB	1835	10	6.9	8.4	105.9
+All cells (Ext. Fig. 5)	Frosch et al. 2025	44957	33709	9413	491.0 MB	3472	10	6.8	9.7	130.3
+CNS macrophages after injury (Fig. 2)	Fliegauf et al. 2026	39838	35918	1907	556.0 MB	3810	10	8.1	11.5	161.9
+LPS microglia manipulation	Chhatbar et al. 2026	26433	56884	198	271.9 MB	5809	10	4.9	10.4	45.3
+Harmony-integrated atlas	Amann et al. 2024	24497	19821	1822	192.7 MB	2182	10	7.8	10.1	101.4
+Full scRNA-seq dataset (Fig. 5)	Fliegauf et al. 2026	21402	56888	1060	228.3 MB	5806	10	5.0	8.8	48.5
+EAE microglia manipulation	Chhatbar et al. 2026	17760	56884	339	399.4 MB	5809	10	6.4	8.8	71.5
+Immune cells with Braun & Yang et al. (Fig. 4d)	Sankowski et al. 2024	13807	36601	830	191.0 MB	4010	10	1.6	6.2	39.1
+Multimodal glioblastoma atlas (Fig. 6)	Sankowski et al. 2024	11681	30071	1891	132.6 MB	3341	10	1.5	6.5	47.6
+Multimodal control atlas (Fig. 1)	Sankowski et al. 2024	11166	30512	1826	134.1 MB	3357	10	1.8	8.1	37.9
+Microglia (Fig. 5)	Fliegauf et al. 2026	11147	56888	180	127.2 MB	5798	10	2.9	6.2	25.8
+scATAC-seq gene activity (Fig. 6)	Fliegauf et al. 2026	10224	21821	4696	459.7 MB	2423	10	8.3	10.2	223.3
+All cells, FFPE (Fig. E7)	Sankowski et al. 2024	9035	18082	219	6.9 MB	1902	10	1.4	2.6	3.9
+sdCAMs (Fig. 5)	Fliegauf et al. 2026	8683	56888	120	81.9 MB	5798	10	1.9	5.9	18.8
+Fly immune cells (Fig. 1A)	Hersperger et al. 2024	8360	11929	144	51.0 MB	1340	10	5.3	11.0	52.7
+Myeloid cells in IDH-mutant glioma	Friedrich et al. 2021	4460	23183	1036	27.8 MB	2498	10	2.7	4.7	14.1
+Human microglia across brain regions	Sankowski et al. 2019	4402	43759	970	57.6 MB	4445	10	1.8	4.6	9.6
+Fetal reference-mapped cells (Fig. 6g)	Sankowski et al. 2024	4332	27723	389	17.8 MB	3035	10	1.2	2.5	6.5
+Immune cells (Fig. 3)	Frosch et al. 2025	3884	19928	506	34.1 MB	2130	10	3.7	4.9	20.6
+Hexb-based microglia atlas	Masuda et al. 2020	3825	30956	207	78.8 MB	3167	10	3.2	5.1	24.3
+Microglia (Fig. 3)	Frosch et al. 2025	3595	19928	464	31.5 MB	2138	10	3.5	4.7	19.0
+All myeloid cells	Jordão et al. 2019	3471	33899	716	53.6 MB	3459	10	3.6	5.7	18.7
+Immune cells (Ext. Fig. 5)	Frosch et al. 2025	3371	33697	528	29.8 MB	3533	10	2.0	3.5	8.7
+Microglia (Ext. Fig. 5)	Frosch et al. 2025	3097	33697	475	27.5 MB	3560	10	2.3	3.9	8.0
+All myeloid cells	Sankowski et al. 2021	2745	19488	99	17.7 MB	2117	10	1.9	4.3	10.5
+Dataset 2 (with index data)	Ardura-Fabregat et al. 2025	2520	53647	202	4.3 MB	5467	10	1.5	2.0	0.5
+Dataset 1	Ardura-Fabregat et al. 2025	2003	53647	163	3.9 MB	5475	10	1.6	1.9	0.5
+Human microglia, first cohort	Sankowski et al. 2019	1999	43652	256	26.1 MB	4435	10	1.6	3.8	4.2
+CD206-gated CEL-Seq2 controls (Fig. 2)	Sankowski et al. 2024	1962	60649	51	5.3 MB	6402	10	1.7	2.6	0.8
+Control versus glioblastoma microglia	Sankowski et al. 2019	1705	43758	188	25.7 MB	4445	10	2.1	3.5	3.9
+Hemocytes (Fig. 1C)	Hersperger et al. 2024	1364	11929	119	6.3 MB	736	20	3.4	4.7	13.0
+Human microglia, control and multiple sclerosis	Masuda et al. 2019	1335	29872	97	7.5 MB	1554	20	3.1	5.8	5.0
+Perivascular space	Jordão et al. 2019	1329	34037	154	21.2 MB	1771	20	2.3	5.5	12.8
+Perivascular macrophages	Sankowski et al. 2021	885	19488	33	5.8 MB	1135	20	1.4	2.5	6.2
+Meninges	Jordão et al. 2019	832	34024	82	13.5 MB	1771	20	2.1	3.2	8.4
+Microglia	Sankowski et al. 2021	828	19488	32	5.6 MB	1135	20	1.5	2.6	6.0
+Choroid plexus	Jordão et al. 2019	698	33308	60	10.8 MB	1180	30	2.2	4.0	10.3
+Meninges	Sankowski et al. 2021	545	19488	21	3.9 MB	768	40	2.4	4.0	7.7
+Retina	Wieghofer et al. 2021	530	32936	8	7.0 MB	902	40	1.2	4.5	8.4
+Choroid plexus	Sankowski et al. 2021	487	19488	20	3.6 MB	648	40	2.1	3.9	7.0
+Masuda et al. 2022	Masuda et al. 2022	483	14610	52	5.7 MB	531	40	3.0	4.2	14.8
+Embryonic microglia progenitors	Petry et al. 2025	483	14610	52	5.7 MB	531	40	3.6	4.4	14.8
+Cornea and ciliary body	Wieghofer et al. 2021	432	32760	6	5.5 MB	894	40	1.2	6.1	6.4
+Blood	Jordão et al. 2019	385	34045	23	5.7 MB	750	50	2.0	4.4	8.3
+FFPE microglia (Fig. 5i)	Sankowski et al. 2024	363	18082	9	400.5 KB	493	50	1.4	1.8	0.6

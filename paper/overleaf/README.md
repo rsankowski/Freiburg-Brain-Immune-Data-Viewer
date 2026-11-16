@@ -10,7 +10,8 @@ it) and set `main.tex` as the main document. It compiles as-is.
 | `main.tex` | Front matter, figure, table include, back matter. **Edit the TODOs.** |
 | `sections.tex` | Manuscript body. Class-independent — survives a switch to the OUP class. |
 | `stats.tex` | *Generated.* Headline numbers as macros (`\NumCells`, `\MedianPfifty`, …). |
-| `table1.tex` | *Generated.* Table 1, the eight largest datasets. |
+| `supplementary.tex` | Supplementary information; compile separately. Landscape, holds Table S1. |
+| `table_s1.tex` | *Generated.* Supplementary Table S1, all datasets (longtable). |
 | `references.bib` | Bibliography. Three entries are marked `VERIFY`. |
 | `figure1.png` | *Generated.* Two-panel print figure, 2400 px wide at 300 dpi. |
 
@@ -22,7 +23,7 @@ python scripts/make_benchmarks.py --latex
 python scripts/make_figure.py --layout print --out paper/overleaf/figure1.png --width 2400
 ```
 
-`stats.tex` exists so the prose and Table 1 cannot disagree: the abstract and
+`stats.tex` exists so the prose and Supplementary Table S1 cannot disagree: the abstract and
 Results section quote macros, not typed-in numbers. Re-run the benchmark script
 immediately before submission.
 
@@ -36,7 +37,8 @@ it compiles anywhere, including a minimal local TeX installation.
 If you prefer the official OUP template, it is on CTAN as
 [`oup-authoring-template`](https://ctan.org/pkg/oup-authoring-template) and in
 Overleaf's gallery. To switch: start a project from that template, copy
-`sections.tex`, `stats.tex`, `table1.tex`, `references.bib` and `figure1.png`
+`sections.tex`, `stats.tex`, `references.bib` and `figure1.png`, plus
+`supplementary.tex` and `table_s1.tex` for the supplement,
 into it, replace the template's body with `\input{sections}`, and move the
 title, authors, abstract and keywords into the template's own front-matter
 macros. Nothing outside `main.tex` needs changing.
@@ -44,7 +46,8 @@ macros. Nothing outside `main.tex` needs changing.
 ## Current state: 3 pages, limit is 2
 
 Compiled locally the PDF is 3 pages: body and abstract fill roughly two, and
-the figure, back matter and references take the third. Two things will help
+the back matter and references take the third (Table 1 has moved to the
+supplement and the figure now sits atop page 2). Two things will help
 before you start cutting:
 
 1. **Times.** This project uses Times when `times.sty` is available. It was not
@@ -54,7 +57,7 @@ before you start cutting:
 
 If it is still over after that, in the order I would cut:
 
-- Move Table 1 to supplementary (~1/4 page). The prose already summarises it.
+- ~~Move Table 1 to supplementary.~~ Done: it is now Supplementary Table S1.
 - Merge *Discovery, inventory and memory containment* with *Trimming and
   verified conversion* (~80 words of headings and transitions).
 - Cut the last paragraph of the Discussion (~60 words); the ontology point can
