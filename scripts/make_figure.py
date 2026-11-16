@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PANELS = {
     "web": [
         ("A", "viewer_night.png", "Two linked embeddings: metadata (left) and gene expression (right)"),
-        ("B", "shot_cosmx.png", "The same interface on spatial data (CosMx, 18 tissue tiles)"),
+        ("B", "shot_cosmx.png", "The same interface on spatial data (CosMx, 18 samples)"),
         ("C", "index_page.png", "Publication index; each dataset is one Zarr store"),
     ],
     "print": [

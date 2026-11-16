@@ -16,10 +16,10 @@ shot () {  # shot <output> <size> <url>
 curl -sf "$BASE/index.html" >/dev/null || {
   echo "preview server not running: python scripts/serve_local.py" >&2; exit 1; }
 
-D=$(python3 -c "import json;print(json.load(open('$ROOT/configs/index.json'))['datasets'][0]['key'])")
-S=$(python3 -c "
-import json;ds=json.load(open('$ROOT/configs/index.json'))['datasets']
-print(next(d['key'] for d in ds if 'SPATIAL' in d['embeddings']))")
+# Pinned: the figure caption describes these two datasets, and index.json order
+# changes whenever publications are added. Override with FIG_DATASET / FIG_SPATIAL.
+D="${FIG_DATASET:-chhatbar_et_al_2026__immune_final_2_23012025}"
+S="${FIG_SPATIAL:-chhatbar_et_al_2026__figure_2_nanostring_cosmx_v1}"
 
 shot viewer_night.png 1600,1150 "$BASE/viewer.html?dataset=$D&base=$BASE/zarr&theme=dark"
 shot viewer_day.png   1600,1150 "$BASE/viewer.html?dataset=$D&base=$BASE/zarr&theme=light"

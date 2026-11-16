@@ -198,8 +198,8 @@ _Details to be verified against the journal's reference style before submission.
 135,067-cell human brain immune atlas: coloured by cell type on the left, by
 *P2RY12* expression on the right, with a legend built from the authors' own
 palette and per-cell-set summary plots beneath. (**B**) The same interface on
-Nanostring CosMx data, with tissue coordinates as the embedding; the 18 sample
-tiles preserve within-sample geometry. (**C**) The publication index; each
+Nanostring CosMx data, with tissue coordinates as the embedding; fields of view
+from 18 samples are laid out side by side, preserving within-sample geometry. (**C**) The publication index; each
 dataset is a single AnnData-Zarr store addressed by URL.
 
 ## Supplementary Table S1
