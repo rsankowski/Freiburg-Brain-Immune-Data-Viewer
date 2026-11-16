@@ -79,3 +79,26 @@ dataset and runs all eight stages.
 
 Code under MIT; data under CC-BY-4.0 (see `release/LICENSE`).
 ```
+
+## Data record (separate from the software release)
+
+The Zarr stores go into their own Zenodo *dataset* record (CC-BY-4.0), linked
+to the software DOI and the 16 source publications. `scripts/zenodo_data.py`
+zips each store (uncompressed; zarr/anndata read it without unpacking),
+verifies it, writes `README.md`, `configs.zip` and `MD5SUMS`, and uploads to a
+**draft** that you publish yourself.
+
+```bash
+python scripts/zenodo_data.py build                    # -> build/zenodo/ (56 files, 12.6 GB)
+export ZENODO_TOKEN=...                                # Zenodo: Applications -> Personal access tokens
+                                                       #   scopes: deposit:write, deposit:actions
+python scripts/zenodo_data.py upload --sandbox         # optional dry run (needs a sandbox token)
+python scripts/zenodo_data.py upload                   # real draft, access restricted
+python scripts/zenodo_data.py upload --access open     # ...or open, once consent is confirmed
+python scripts/zenodo_data.py upload --deposition ID   # resume after an interruption
+```
+
+- [ ] Confirm consent/ethics permit archiving the human donor metadata openly;
+      otherwise keep `--access restricted` (files visible on request).
+- [ ] Review the draft on Zenodo, publish, then add a *Data availability*
+      sentence with the dataset DOI to the manuscript.
