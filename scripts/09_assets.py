@@ -68,15 +68,33 @@ def resolve_abstract(rel: str) -> Path | None:
     return None
 
 
+def existing(paper: str) -> tuple[str, list[int]] | None:
+    """A previously built asset, so one unconvertible figure cannot cost the
+    site every other publication's image."""
+    out = ASSETS / f"{slug(paper)}.jpg"
+    if not out.exists():
+        return None
+    with Image.open(out) as im:
+        return out.name, [im.width, im.height]
+
+
 def prepare(paper: str, rel: str, width: int) -> tuple[str, list[int]] | None:
     src = resolve_abstract(rel)
     if src is None:
         log(f"  {paper}: graphical abstract missing: {rel}")
-        return None
+        return existing(paper)
     if src != ROOT / rel:
         log(f"  {paper}: CSV says {Path(rel).name}, using {src.name}")
     if src.suffix.lower() == ".pdf":
-        im = rasterise_pdf(src, width)
+        # poppler is an external binary and may be absent or built for the
+        # wrong architecture; that is not a reason to abandon the whole stage.
+        try:
+            im = rasterise_pdf(src, width)
+        except (OSError, subprocess.CalledProcessError, RuntimeError) as exc:
+            keep = existing(paper)
+            log(f"  {paper}: cannot rasterise {src.name} ({exc}); "
+                + (f"keeping {keep[0]}" if keep else "no image"))
+            return keep
         log(f"  {paper}: rasterised {src.name} ({im.width}x{im.height})")
     else:
         im = Image.open(src).convert("RGB")

@@ -13,6 +13,9 @@
   "embedding_pattern": "^(umap|tsne|ref\\.umap|spatial)",
   "license": "CC-BY-4.0",
   "collection_title": "Freiburg Brain Immune Data Viewer",
+  "exclude": [
+    "sankowski_et_al_2019__20171203_healthy_human_microglia"
+  ],
   "datasets": {
     "chhatbar_et_al_2026__immune_final_2_23012025": {
       "title": "Human brain immune atlas",
@@ -747,6 +750,114 @@
       "obs_numeric_coerce": [
         "Age"
       ]
+    },
+    "jordao_et_al_2019__20180726_all_cells_dimred_sc_raceid3": {
+      "title": "All myeloid cells",
+      "paper": "Jordão et al. 2019",
+      "description": "3,471 myeloid cells pooled from choroid plexus, perivascular space, meninges and blood across the EAE time course, clustered with RaceID3; the authors' cluster palette is preserved.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "P2ry12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": []
+    },
+    "jordao_et_al_2019__20171024_sc_cp_raceid3": {
+      "title": "Choroid plexus",
+      "paper": "Jordão et al. 2019",
+      "description": "698 choroid plexus myeloid cells from naive to acute EAE, clustered with RaceID3.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "Mrc1",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": []
+    },
+    "jordao_et_al_2019__20171109_sc_pv_raceid3": {
+      "title": "Perivascular space",
+      "paper": "Jordão et al. 2019",
+      "description": "1,329 perivascular myeloid cells from naive to peak EAE, clustered with RaceID3.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "Mrc1",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": []
+    },
+    "jordao_et_al_2019__20180716_men_dimred_wo_micr_sc_raceid3": {
+      "title": "Meninges",
+      "paper": "Jordão et al. 2019",
+      "description": "832 meningeal myeloid cells, microglia excluded, from naive to peak EAE, clustered with RaceID3.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "Mrc1",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": []
+    },
+    "jordao_et_al_2019__20180727_blood_dimred_sc_raceid3": {
+      "title": "Blood",
+      "paper": "Jordão et al. 2019",
+      "description": "385 circulating myeloid cells from naive, preclinical and onset EAE, clustered with RaceID3.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "Ly6c2",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": []
+    },
+    "masuda_et_al_2019": {
+      "title": "Human microglia, control and multiple sclerosis",
+      "paper": "Masuda et al. 2019",
+      "description": "1,335 human microglia from control and multiple sclerosis brain, clustered with RaceID2; the authors' cluster palette is preserved.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "SPP1",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": []
+    },
+    "sankowski_et_al_2019__20181212_healthy_human_micr_no_bcells_cl14_fused_sc_raceid3": {
+      "title": "Human microglia across brain regions",
+      "paper": "Sankowski et al. 2019",
+      "description": "4,402 microglia from 15 donors across grey and white matter, B cells removed, clustered with RaceID3; the authors' cluster palette is preserved.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": []
+    },
+    "sankowski_et_al_2019__20171203_healthy_human_microglia_sc_raceid3": {
+      "title": "Human microglia, first cohort",
+      "paper": "Sankowski et al. 2019",
+      "description": "1,999 microglia from the initial donor cohort, grey and white matter, clustered with RaceID3.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "P2RY12",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": []
+    },
+    "sankowski_et_al_2019__20181213_age_matched_healthy_vs_gbm_human_microglia_only_no_bcells_sc_raceid3": {
+      "title": "Control versus glioblastoma microglia",
+      "paper": "Sankowski et al. 2019",
+      "description": "1,705 microglia from age-matched control and glioblastoma brain, clustered with RaceID3.",
+      "assay": "RNA",
+      "default_obs_set": "cluster",
+      "default_gene": "SPP1",
+      "skip": false,
+      "obs_drop": [],
+      "obs_keep_extra": [],
+      "obs_numeric_coerce": []
     }
   },
   "view_layout": "dual-umap"

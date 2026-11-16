@@ -34,9 +34,18 @@ without downloading the whole store.
 | `frosch_et_al_2025__figure_3_microglia_object.zarr` | Microglia (Fig. 3) | 3,595 | 19,928 | 31.5 MB | Frosch et al. 2025 |
 | `hersperger_et_al_2024__figure_1a_fly_20220517_immune_combined_5_colapse_celltype.zarr` | Fly immune cells (Fig. 1A) | 8,360 | 11,929 | 51.0 MB | Hersperger et al. 2024 |
 | `hersperger_et_al_2024__figure_1c_hemocytes_3_final.zarr` | Hemocytes (Fig. 1C) | 1,364 | 11,929 | 6.3 MB | Hersperger et al. 2024 |
+| `jordao_et_al_2019__20171024_sc_cp_raceid3.zarr` | Choroid plexus | 698 | 33,308 | 10.8 MB | Jordao et al. 2019 |
+| `jordao_et_al_2019__20171109_sc_pv_raceid3.zarr` | Perivascular space | 1,329 | 34,037 | 21.2 MB | Jordao et al. 2019 |
+| `jordao_et_al_2019__20180716_men_dimred_wo_micr_sc_raceid3.zarr` | Meninges | 832 | 34,024 | 13.5 MB | Jordao et al. 2019 |
+| `jordao_et_al_2019__20180726_all_cells_dimred_sc_raceid3.zarr` | All myeloid cells | 3,471 | 33,899 | 53.6 MB | Jordao et al. 2019 |
+| `jordao_et_al_2019__20180727_blood_dimred_sc_raceid3.zarr` | Blood | 385 | 34,045 | 5.7 MB | Jordao et al. 2019 |
+| `masuda_et_al_2019.zarr` | Human microglia, control and multiple sclerosis | 1,335 | 29,872 | 7.5 MB | Masuda et al. 2019 |
 | `masuda_et_al_2020.zarr` | Hexb-based microglia atlas | 3,825 | 30,956 | 78.8 MB | Masuda et al. 2020 |
 | `masuda_et_al_2022.zarr` | Masuda et al. 2022 | 483 | 14,610 | 5.7 MB | Masuda et al. 2022 |
 | `petry_et_al_2025.zarr` | Embryonic microglia progenitors | 483 | 14,610 | 5.7 MB | Petry et al. 2025 |
+| `sankowski_et_al_2019__20171203_healthy_human_microglia_sc_raceid3.zarr` | Human microglia, first cohort | 1,999 | 43,652 | 26.1 MB | Sankowski et al. 2019 |
+| `sankowski_et_al_2019__20181212_healthy_human_micr_no_bcells_cl14_fused_sc_raceid3.zarr` | Human microglia across brain regions | 4,402 | 43,759 | 57.6 MB | Sankowski et al. 2019 |
+| `sankowski_et_al_2019__20181213_age_matched_healthy_vs_gbm_human_microglia_only_no_bcells_sc_raceid3.zarr` | Control versus glioblastoma microglia | 1,705 | 43,758 | 25.7 MB | Sankowski et al. 2019 |
 | `sankowski_et_al_2021__seurat_all_without_doublets.zarr` | All myeloid cells | 2,745 | 19,488 | 17.7 MB | Sankowski et al. 2021 |
 | `sankowski_et_al_2021__seurat_cp.zarr` | Choroid plexus | 487 | 19,488 | 3.6 MB | Sankowski et al. 2021 |
 | `sankowski_et_al_2021__seurat_men.zarr` | Meninges | 545 | 19,488 | 3.9 MB | Sankowski et al. 2021 |
@@ -101,4 +110,4 @@ expression matrix, plottable cell metadata and the published embeddings.
 
 CC-BY-4.0 — see `LICENSE`. Please cite the source publication.
 
-Last updated: 2026-09-09
+Last updated: 2026-10-06

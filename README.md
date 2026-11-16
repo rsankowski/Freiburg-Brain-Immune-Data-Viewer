@@ -55,7 +55,7 @@ is resumable (existing output is skipped unless `--force`), writes
 
 | Stage | Script | What it does |
 |---|---|---|
-| 1 | `01_inventory.R` | walks `data/` for `*.rds`/`*.qs`/`*.qs2`/`*.h5seurat`/`*.RData(.gz)` (case-insensitive), derives dataset keys, records cells/features/assays/layers/reductions/metadata types and md5 fingerprints |
+| 1 | `01_inventory.R` | walks `data/` for `*.rds`/`*.qs`/`*.qs2`/`*.h5seurat`/`*.RData(.gz)`/`*.Robj` (case-insensitive), derives dataset keys, records cells/features/assays/layers/reductions/metadata types and md5 fingerprints |
 | 2 | `02_trim.R` | RNA `data` layer only, embeddings only, plottable metadata only, 4000-gene HVG flag |
 | 3 | `03_to_h5ad.R` | anndataR → sceasy → direct reticulate writer, each **verified** before acceptance |
 | 4 | `04_to_zarr.py` | AnnData-Zarr, `X` dense and chunked `(n_cells, VAR_CHUNK_SIZE)`, widened for small datasets so no chunk falls below 64 KB |
@@ -127,16 +127,19 @@ into the middle. The legend strip covers it there.
 ## Config
 
 `config/pipeline.json` drives everything: `base_url`, bucket, site origins for
-CORS, HVG target, categorical cardinality cutoff, embedding pattern, and
-per-dataset title/description/skip flags plus metadata overrides
+CORS, HVG target, categorical cardinality cutoff, embedding pattern, the
+`exclude` list of keys to drop from discovery, and per-dataset
+title/description/skip flags plus metadata overrides
 (`obs_keep_extra`, `obs_drop`, `obs_numeric_coerce`, `default_obs_set`).
 Changing hosts is a `base_url` edit and `--stage 5 --force`.
 
 ## Input formats
 
-`.rds`, `.qs`, `.qs2`, `.H5Seurat` (via SeuratDisk) and `.RData`/`.rda`, gzipped
-or not. An `.RData` holding several objects contributes the Seurat one (the
-largest, if there are several).
+`.rds`, `.qs`, `.qs2`, `.H5Seurat` (via SeuratDisk) and `.RData`/`.rda`/`.Robj`,
+gzipped or not. An `.RData` holding several objects contributes the Seurat one
+(the largest, if there are several). A [RaceID](https://cran.r-project.org/web/packages/RaceID/vignettes/RaceID.html)
+`SCseq` object is converted to Seurat on load, so the rest of the pipeline never
+sees the difference.
 
 Two traps worth knowing about, both hit in practice:
 
@@ -146,6 +149,43 @@ Two traps worth knowing about, both hit in practice:
   `gzcon()`.
 - Extensions are matched case-insensitively; the first datasets here were all
   `.RDS`, and a case-sensitive pattern silently finds nothing.
+
+A file under `data/` that is not a dataset at all — a saved raw count matrix
+sitting next to the RaceID object built from it — would fail stage 1 on every
+run. List its key under `exclude` in `config/pipeline.json` and it is dropped
+from discovery. This is distinct from a dataset's `skip`, which still builds the
+dataset and only keeps it off the site.
+
+## RaceID objects
+
+`SCseq` keeps counts in `expdata` and normalised values in `ndata`, and the two
+RaceID generations in `data/` disagree about what `ndata` means:
+
+| | `ndata` columns sum to | `counts` slot |
+|---|---|---|
+| 2017–19 objects (Jordão, Masuda 2019, Sankowski 2019) | the smallest cell's total | absent |
+| later objects (Masuda 2020, Wieghofer 2021) | 1 (fractions) | per-cell factor |
+
+So the rescale factor is `min(counts)` when that slot exists and 1 otherwise —
+in both cases the `data` layer ends up as `log1p` of counts, not of fractions,
+which is what makes the colour scale readable. The older objects also carry
+RaceID's 0.1 pseudocount on every entry, so their `X` has no true zeros and the
+gene colour scale starts just above 0 (`log1p(0.1)` = 0.095). Those are the
+authors' published values and are kept as they are.
+
+Three further quirks of the older objects, all handled in `raceid_to_seurat()`:
+
+- Features are named `SYMBOL__chrN`, with multi-mapped symbols joined by `|`
+  (`ABHD14A-ACY1__chr3|ACY1__chr3`). The suffix is dropped and the first symbol
+  kept, which puts them on the same footing as the newer objects' bare symbols.
+  Roughly 500 of 43,000 names then collide — small RNAs, snoRNAs and clone
+  identifiers, no protein-coding genes — and are separated by `make.unique()`.
+- `CreateSeuratObject()` rewrites `_` and `|` in feature names itself, so a
+  `data` layer added afterwards under the original names shares no feature with
+  the object and the conversion fails outright. The substitution is applied once,
+  up front, to both layers.
+- `ndata` may be a `data.frame`, which stage 2's dense-to-sparse conversion
+  cannot coerce (`invalid type 'list'`), so the type is settled on load.
 
 ## The site
 
@@ -223,3 +263,4 @@ See `CITATION.cff`. Add the Zenodo DOI once a release is archived.
 
 Code: MIT (`LICENSE`). Converted data: CC-BY-4.0 (`release/LICENSE`); cite the
 source publication for each dataset.
+

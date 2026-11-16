@@ -108,6 +108,20 @@ discover_datasets <- function(data_dir = DATA_DIR) {
       file_size_bytes = unname(as.numeric(file.info(files[i])$size))
     )
   }
+
+  # `skip` keeps a dataset off the site but still builds it; `exclude` is for
+  # files that are not datasets at all -- a saved raw count matrix sitting
+  # beside the RaceID object built from it, say -- which would otherwise fail
+  # stage 1 on every run. Applied after the keys are derived so dropping one
+  # file cannot rename its siblings.
+  excluded <- tryCatch(as.character(load_config()$exclude), error = function(e) character(0))
+  if (length(excluded)) {
+    hit <- intersect(names(out), excluded)
+    if (length(hit)) {
+      log_msg("excluded by config: ", paste(hit, collapse = ", "))
+      out <- out[setdiff(names(out), hit)]
+    }
+  }
   out
 }
 
@@ -180,6 +194,25 @@ maybe_update_seurat <- function(obj) {
 # transform -- otherwise every value lands in [0, 0.4] and the colour scale is
 # meaningless. And `expdata` retains cells that filtering later removed, so the
 # raw counts are subset to the cells `ndata` actually kept.
+
+# The 2017-19 CEL-Seq reference used in this lab names features
+# `SYMBOL__chrN`, and joins multi-mapped symbols with `|`
+# (`ABHD14A-ACY1__chr3|ACY1__chr3`). Left alone those reach the gene picker
+# verbatim, so the suffix is dropped and multi-mapped entries keep their first
+# symbol, which puts these objects on the same footing as the newer RaceID
+# datasets that already carry bare symbols.
+#
+# The `_` -> `-` substitution is not cosmetic: CreateSeuratObject() applies it
+# itself, so a `data` layer added afterwards under the original names shares no
+# feature with the object and SetAssayData() fails outright. Doing it here, once,
+# keeps both layers on one set of names.
+clean_raceid_features <- function(g) {
+  g <- sub("\\|.*$", "", g)            # multi-mapped: keep the first symbol
+  g <- sub("__chr[^_|]*$", "", g)      # drop the reference's chromosome suffix
+  g <- gsub("[_|]", "-", g)            # Seurat forbids both in feature names
+  make.unique(g)                       # same symbol on two chromosomes
+}
+
 raceid_to_seurat <- function(sc) {
   suppressPackageStartupMessages({ library(Seurat); library(SeuratObject); library(Matrix) })
   nd <- slot(sc, "ndata")
@@ -200,8 +233,22 @@ raceid_to_seurat <- function(sc) {
   # version; only the sparse one has an @x slot to transform in place.
   if (methods::is(dat, "sparseMatrix")) dat@x <- log1p(dat@x) else dat <- log1p(dat)
   if (!methods::is(ed, "sparseMatrix")) ed <- methods::as(as.matrix(ed), "dgCMatrix")
+  # Older RaceID versions store ndata as a data.frame. Seurat keeps whatever it
+  # is handed, and stage 2's dense-to-sparse conversion cannot coerce a
+  # data.frame ("invalid type 'list'"), so settle the type here instead.
+  if (!methods::is(dat, "sparseMatrix")) dat <- methods::as(as.matrix(dat), "dgCMatrix")
   log_msg("RaceID: ", nrow(nd), " genes x ", length(cells),
           " cells; ndata rescaled by ", format(round(sf)), " then log1p")
+
+  features <- clean_raceid_features(rownames(nd))
+  if (!identical(features, rownames(nd))) {
+    n_renamed <- sum(features != rownames(nd))
+    log_msg("RaceID: normalised ", n_renamed, "/", length(features), " feature names (e.g. ",
+            rownames(nd)[which(features != rownames(nd))[1]], " -> ",
+            features[which(features != rownames(nd))[1]], ")")
+    rownames(ed) <- features
+    rownames(dat) <- features
+  }
 
   obj <- CreateSeuratObject(counts = ed, project = "raceid")
   obj <- SetAssayData(obj, assay = "RNA", layer = "data", new.data = dat)

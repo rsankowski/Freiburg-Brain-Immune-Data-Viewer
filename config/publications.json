@@ -408,5 +408,87 @@
     "year": 2024,
     "doi": "10.7554/elife.86700",
     "journal_short": "eLife"
+  },
+  "Masuda-et-al-2019": {
+    "journal_csv": "Nature",
+    "paper_url": "https://www.nature.com/articles/s41586-019-0924-x",
+    "graphical_abstract": "data/Graphical-abstracts/Masuda-et-al-2019-GA.jpg",
+    "raw_data": [
+      {
+        "label": "GSE120629",
+        "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120629"
+      },
+      {
+        "label": "GSE120747",
+        "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120747"
+      },
+      {
+        "label": "GSE124335",
+        "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124335"
+      }
+    ],
+    "processed_data": [
+      {
+        "label": "GSE120629",
+        "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120629"
+      },
+      {
+        "label": "GSE120747",
+        "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120747"
+      },
+      {
+        "label": "GSE124336",
+        "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124336"
+      }
+    ],
+    "title": "Spatial and temporal heterogeneity of mouse and human microglia at single-cell resolution",
+    "journal": "Nature",
+    "year": 2019,
+    "doi": "10.1038/s41586-019-0924-x",
+    "journal_short": "Nature"
+  },
+  "Jordao-et-al-2019": {
+    "journal_csv": "Science",
+    "paper_url": "https://www.science.org/doi/10.1126/science.aat7554?referrer=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F",
+    "graphical_abstract": "data/Graphical-abstracts/Jordao-et-al-2019-GA.jpg",
+    "raw_data": [
+      {
+        "label": "GSE118948",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118948"
+      }
+    ],
+    "processed_data": [
+      {
+        "label": "GSE118949",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118949"
+      }
+    ],
+    "title": "Single-cell profiling identifies myeloid cell subsets with distinct fates during neuroinflammation",
+    "journal": "Science",
+    "year": 2019,
+    "doi": "10.1126/science.aat7554",
+    "journal_short": "Science"
+  },
+  "Sankowski-et-al-2019": {
+    "journal_csv": "Nature Neuroscience",
+    "paper_url": "https://www.nature.com/articles/s41593-019-0532-y",
+    "graphical_abstract": "data/Graphical-abstracts/Sankowski-et-al-2019-GA.jpg",
+    "raw_data": [
+      {
+        "label": "GSE135437",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135437"
+      }
+    ],
+    "processed_data": [
+      {
+        "label": "GSE135438",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135438"
+      }
+    ],
+    "title": "Mapping microglia states in the human brain through the integration of high-dimensional techniques",
+    "journal": "Nature Neuroscience",
+    "year": 2019,
+    "doi": "10.1038/s41593-019-0532-y",
+    "journal_short": "Nature Neuroscience"
   }
 }
