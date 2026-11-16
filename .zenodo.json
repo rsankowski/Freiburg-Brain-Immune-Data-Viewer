@@ -1,0 +1,53 @@
+{
+  "upload_type": "software",
+  "title": "Freiburg Brain Immune Data Viewer: a serverless browser for published single-cell and spatial datasets",
+  "description": "<p>A pipeline that converts collections of Seurat and RaceID objects into cloud-optimised AnnData-Zarr stores and generates a static Vitessce viewer over them, so published single-cell and spatial datasets can be browsed from a static file host with no backend server.</p><p>Expression is stored as a dense array chunked along the gene axis, so colouring an embedding by any gene is a single chunk read. Every conversion is verified against its source object before it is accepted, metadata columns are shown under harmonised names, and the pipeline ships an end-to-end self-test on synthetic data (<code>bash scripts/selftest.sh</code>).</p><p>This release accompanies the Application Note describing the tool and was applied to 53 datasets from 16 publications (1,342,207 cells; scRNA-seq, snRNA-seq, CITE-seq, scATAC-seq, Nanostring CosMx and Visium HD, in human, mouse and <i>Drosophila</i>). The archive contains the code, view configurations and static site; the converted data stores are served separately.</p>",
+  "creators": [
+    {
+      "name": "Fang, Jincheng",
+      "orcid": "0000-0002-6736-7064",
+      "affiliation": "Institute of Neuropathology, Faculty of Medicine, University of Freiburg, Freiburg, Germany"
+    },
+    {
+      "name": "Liu, Yun",
+      "orcid": "0009-0003-2865-2692",
+      "affiliation": "Institute of Neuropathology, Faculty of Medicine, University of Freiburg, Freiburg, Germany"
+    },
+    {
+      "name": "Prinz, Marco",
+      "orcid": "0000-0002-0349-1955",
+      "affiliation": "Institute of Neuropathology, Faculty of Medicine, University of Freiburg, Freiburg, Germany"
+    },
+    {
+      "name": "Sankowski, Roman",
+      "orcid": "0000-0001-9215-8021",
+      "affiliation": "Institute of Neuropathology, Faculty of Medicine, University of Freiburg, Freiburg, Germany"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "single-cell RNA-seq",
+    "spatial transcriptomics",
+    "data visualization",
+    "Zarr",
+    "AnnData",
+    "Vitessce",
+    "Seurat",
+    "microglia",
+    "brain immune cells"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/rsankowski/Freiburg-Brain-Immune-Data-Viewer",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://rsankowski.github.io/Freiburg-Brain-Immune-Data-Viewer/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}

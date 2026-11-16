@@ -5,9 +5,10 @@ resolved before submission; the draft carries `_[...]_` placeholders at each spo
 
 ## Blocking — content
 
-- [ ] **Author list, affiliations, ORCIDs.** Who contributed to the software, as
-      distinct from the datasets. Application Notes credit tool authorship.
-- [ ] **Corresponding author email.** The address in the draft is a guess.
+- [x] **Author list, affiliations, ORCIDs.** Author order set: Jincheng Fang,
+      Yun Liu, Marco Prinz, Roman Sankowski (corresponding); ORCIDs for all
+      four; all share the Institute of Neuropathology, University of Freiburg.
+- [x] **Corresponding author email.** roman.sankowski@uniklinik-freiburg.de (confirmed).
 - [ ] **Funding statement** and **Acknowledgements**.
 - [ ] **Ethics.** The collection includes human brain tissue with donor-level
       metadata (diagnosis, sex, age, post-mortem interval, region, donor ID) and
@@ -28,6 +29,8 @@ resolved before submission; the draft carries `_[...]_` placeholders at each spo
 - [ ] **Archived release with a DOI.** Tag a release and archive it on Zenodo,
       then fill the DOI into `CITATION.cff` and the abstract's availability
       statement. Journals require a permanent archive, not just a Git host.
+      `.zenodo.json` is prepared; step-by-step guide and release notes in
+      `paper/ZENODO_RELEASE.md`.
 - [ ] **Licence.** `LICENSE` is MIT (code). Data under CC-BY-4.0
       (`release/LICENSE`). Confirm MIT is what you want.
 - [ ] **Clean-machine test.** Fresh clone → `python3 -m venv .venv` →

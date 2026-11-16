@@ -1,0 +1,4 @@
+# Kept in git, left out of release archives (GitHub source zips and the
+# Zenodo snapshot of each release).
+prompts/ export-ignore
+paper/   export-ignore

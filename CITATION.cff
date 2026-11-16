@@ -2,25 +2,43 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Freiburg Brain Immune Data Viewer"
 abstract: >-
-  A pipeline that converts collections of Seurat objects into cloud-optimised
-  AnnData-Zarr stores and generates a static Vitessce viewer over them, so
-  published single-cell and spatial datasets can be browsed without a backend
-  server.
+  A pipeline that converts collections of Seurat and RaceID objects into
+  cloud-optimised AnnData-Zarr stores and generates a static Vitessce viewer
+  over them, so published single-cell and spatial datasets can be browsed
+  without a backend server.
 type: software
 license: MIT
 repository-code: "https://github.com/rsankowski/Freiburg-Brain-Immune-Data-Viewer"
+url: "https://rsankowski.github.io/Freiburg-Brain-Immune-Data-Viewer/"
 authors:
+  - family-names: Fang
+    given-names: Jincheng
+    orcid: "https://orcid.org/0000-0002-6736-7064"
+    affiliation: "Institute of Neuropathology, Faculty of Medicine, University of Freiburg, Freiburg, Germany"
+  - family-names: Liu
+    given-names: Yun
+    orcid: "https://orcid.org/0009-0003-2865-2692"
+    affiliation: "Institute of Neuropathology, Faculty of Medicine, University of Freiburg, Freiburg, Germany"
+  - family-names: Prinz
+    given-names: Marco
+    orcid: "https://orcid.org/0000-0002-0349-1955"
+    affiliation: "Institute of Neuropathology, Faculty of Medicine, University of Freiburg, Freiburg, Germany"
   - family-names: Sankowski
     given-names: Roman
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
-  # TODO: add co-authors before submission
+    orcid: "https://orcid.org/0000-0001-9215-8021"
+    affiliation: "Institute of Neuropathology, Faculty of Medicine, University of Freiburg, Freiburg, Germany"
 keywords:
   - single-cell RNA-seq
   - spatial transcriptomics
   - data visualization
   - Zarr
+  - AnnData
   - Vitessce
-# TODO after archiving the release on Zenodo:
+  - Seurat
+  - microglia
+  - brain immune cells
+version: 1.0.0
+# TODO after Zenodo mints the DOI for the v1.0.0 release: uncomment both lines
+# and keep this file in sync with .zenodo.json (Zenodo reads that one first).
 # doi: 10.5281/zenodo.XXXXXXX
-# version: 1.0.0
 # date-released: 2026-XX-XX

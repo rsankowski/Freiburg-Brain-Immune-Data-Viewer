@@ -1,10 +1,10 @@
 # A serverless browser for published single-cell and spatial datasets
 
-**Authors:** _[author list — see submission checklist]_
+**Authors:** Jincheng Fang, Yun Liu, Marco Prinz, Roman Sankowski\*
 
-**Affiliations:** _[affiliations]_
+**Affiliations:** Institute of Neuropathology, Faculty of Medicine, University of Freiburg, Freiburg, Germany
 
-**Corresponding author:** Roman Sankowski (roman.sankowski@uniklinik-freiburg.de _[verify]_)
+**Corresponding author:** Roman Sankowski (roman.sankowski@uniklinik-freiburg.de)
 
 ---
 
@@ -29,7 +29,7 @@ synthetic data.
 synthetic self-test are at https://github.com/rsankowski/Freiburg-Brain-Immune-Data-Viewer
 under the MIT licence, archived at _[Zenodo DOI]_. R ≥ 4.4 and Python ≥ 3.11.
 
-**Contact:** _[email]_
+**Contact:** roman.sankowski@uniklinik-freiburg.de
 
 **Supplementary information:** Supplementary data are available at
 *Bioinformatics* online.
